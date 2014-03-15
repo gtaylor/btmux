@@ -1,3 +1,9 @@
+\[autoconf.h\].in
+.project
+.cproject
+*.o
+*.lo
+*.la
 
 # /
 /autom4te.cache

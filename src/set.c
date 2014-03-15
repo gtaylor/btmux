@@ -335,14 +335,6 @@ void do_alias(dbref player, dbref cause, int key, char *name, char *alias)
 	}
 }
 
-void do_pagelock(dbref player, dbref cause, int key, char *name, char *keytext)
-{
-/* So we can do a seperate pagelock command and still keep '@Lock' restricted */
-
-	do_lock(player, cause, A_LPAGE, name, keytext);
-}
-
-
 /*
  * ---------------------------------------------------------------------------
  * * do_lock: Set a lock on an object or attribute.
@@ -422,11 +414,15 @@ void do_lock(dbref player, dbref cause, int key, char *name, char *keytext)
 	free_boolexp(okey);
 }
 
-void do_pageunlock(dbref player, dbref cause, int key, char *name)
-{
-/* Added to get around '@lock' restrictions */
 
-	do_unlock(player, cause, A_LPAGE, name);
+/*
+ * ---------------------------------------------------------------------------
+ * * So we can do a separate @pagelock command and still keep '@Lock' restricted
+ */
+
+void do_pagelock(dbref player, dbref cause, int key, char *name, char *keytext)
+{
+	do_lock(player, cause, A_LPAGE, name, keytext);
 }
 
 /*
@@ -478,6 +474,16 @@ void do_unlock(dbref player, dbref cause, int key, char *name)
 		if(!Quiet(player) && !Quiet(thing))
 			notify_quiet(player, "Unlocked.");
 	}
+}
+
+/*
+ * ---------------------------------------------------------------------------
+ * * Added to get around '@lock' restrictions
+ */
+
+void do_pageunlock(dbref player, dbref cause, int key, char *name)
+{
+	do_unlock(player, cause, A_LPAGE, name);
 }
 
 /*
