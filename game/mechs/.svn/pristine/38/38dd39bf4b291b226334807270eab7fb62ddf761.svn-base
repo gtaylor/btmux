@@ -1,0 +1,27 @@
+Name             { Blizzard }
+Reference        { Blizzard }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 25 }
+Comment          { Saved by: Charlemagne(#4624) at Sun Mar  5 02:10:25 2000 }
+Mech_BV          { 157 }
+Cargo_Space      { 6144 }
+Max_Speed        { 150.50 }
+Specials         { CargoTech ICEEngine_Tech }
+Left_Side
+  Armor            { 10 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 10 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 10 }
+  Internals        { 3 }
+Aft_Side
+  Armor            { 9 }
+  Internals        { 3 }
+Turret
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { IS.LRM-5 - - 3 }
+    CRIT_2		  { Ammo_IS.LRM-5 24 - - }

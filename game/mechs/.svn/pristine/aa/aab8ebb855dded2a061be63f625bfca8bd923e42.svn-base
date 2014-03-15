@@ -1,0 +1,82 @@
+Name             { Marauder II }
+Reference        { MAD-5A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:03:08 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 29 }
+Mech_BV          { 1725 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Specials         { SearchLight }
+Left_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7-9		  { IS.ERPPC - - 3 }
+    CRIT_10		  { IS.MediumLaser - - 3 }
+Right_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7-9		  { IS.ERPPC - - 3 }
+    CRIT_10		  { IS.MediumLaser - - 3 }
+Left_Torso
+  Armor            { 31 }
+  Internals        { 21 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-9		  { HeatSink - - 3 }
+    CRIT_10-11		  { Ammo_IS.LB10-XAC 10 - - }
+    CRIT_12		  { Ammo_IS.LB10-XAC 10 LBX/Cluster - }
+Right_Torso
+  Armor            { 31 }
+  Internals        { 21 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { HeatSink - - 3 }
+    CRIT_6-11		  { IS.LB10-XAC - - 3 }
+    CRIT_12		  { Case - - 3 }
+Center_Torso
+  Armor            { 45 }
+  Internals        { 31 }
+  Rear             { 16 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { JumpJet - - 3 }
+Left_Leg
+  Armor            { 41 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { HeatSink - - 3 }
+    CRIT_6		  { JumpJet - - 3 }
+Right_Leg
+  Armor            { 41 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { HeatSink - - 3 }
+    CRIT_6		  { JumpJet - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { HeatSink - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

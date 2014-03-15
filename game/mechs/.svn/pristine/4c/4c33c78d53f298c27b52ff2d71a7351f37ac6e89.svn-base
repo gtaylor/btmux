@@ -1,0 +1,79 @@
+Name             { Hauptmann }
+Reference        { HA1-OC }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 95 }
+Comment          { Saved by: Spanky(#6784) at Tue Jun 26 07:23:34 2001 }
+Tac_Range        { 25 }
+LRS_Range        { 50 }
+Scan_Range       { 25 }
+Heat_Sinks       { 26 }
+Mech_BV          { 2026 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.MediumPulseLaser - - 3 }
+    CRIT_6-8		  { HeatSink - - 3 }
+Right_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.ERMediumLaser - - 3 }
+    CRIT_6		  { IS.ERMediumLaser - - 3 }
+    CRIT_7-9		  { HeatSink - - 3 }
+Left_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-5		  { IS.LRM-20 - - 3 }
+    CRIT_6		  { ArtemisIV - - 3 }
+    CRIT_7-8		  { Ecm - - 3 }
+    CRIT_9-12		  { Ammo_IS.HeavyGaussRifle 4 - - }
+Right_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-11		  { IS.HeavyGaussRifle - - 3 }
+    CRIT_12		  { Case - - 3 }
+Center_Torso
+  Armor            { 45 }
+  Internals        { 30 }
+  Rear             { 15 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { Ammo_IS.LRM-20 6 - - }
+Left_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.ERSmallLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

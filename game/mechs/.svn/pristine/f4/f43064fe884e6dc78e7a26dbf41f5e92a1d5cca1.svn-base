@@ -1,0 +1,76 @@
+Name             { Gurkha }
+Reference        { GUR-4G }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Heat_Sinks       { 20 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 783 }
+Max_Speed        { 118.25 }
+Specials         { DoubleHS EndoSteel_Tech XLEngine_Tech }
+Left_Arm
+  Armor          { 12 }
+  Internals      { 6 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { IS.ERSmallLaser - - }
+    CRIT_6       { IS.ERSmallLaser - - }
+    CRIT_7       { IS.ERSmallLaser - - }
+    CRIT_8       { IS.ERSmallLaser - - }
+Right_Arm
+  Armor          { 12 }
+  Internals      { 6 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-7     { Sword - - }
+Left_Torso
+  Armor          { 11 }
+  Internals      { 8 }
+  Rear           { 5 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-11    { EndoSteel - - }
+Right_Torso
+  Armor          { 11 }
+  Internals      { 8 }
+  Rear           { 5 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-5     { IS.LargePulseLaser - - }
+    CRIT_6-10    { EndoSteel - - }
+Center_Torso
+  Armor          { 15 }
+  Internals      { 11 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11-12   { C3i - - }
+Left_Leg
+  Armor          { 16 }
+  Internals      { 8 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Right_Leg
+  Armor          { 16 }
+  Internals      { 8 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

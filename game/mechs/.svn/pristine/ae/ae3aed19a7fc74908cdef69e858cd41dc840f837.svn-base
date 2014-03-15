@@ -1,0 +1,31 @@
+Name             { SturmFeur }
+Reference        { SturmFeur }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 85 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:37 2000 }
+Mech_BV          { 763 }
+Max_Speed        { 53.75 }
+Specials         { AntiAircraft ICEEngine_Tech }
+Left_Side
+  Armor            { 66 }
+  Internals        { 9 }
+Right_Side
+  Armor            { 66 }
+  Internals        { 9 }
+Front_Side
+  Armor            { 66 }
+  Internals        { 9 }
+    CRIT_1		  { IS.LRM-20 - - 3 }
+    CRIT_2		  { Ammo_IS.LRM-20 6 - - }
+Aft_Side
+  Armor            { 48 }
+  Internals        { 9 }
+Turret
+  Armor            { 66 }
+  Internals        { 9 }
+    CRIT_1		  { IS.LRM-20 - - 3 }
+    CRIT_2-3		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_4		  { IS.MachineGun - - 3 }
+    CRIT_5		  { IS.MachineGun - - 3 }
+    CRIT_7		  { Ammo_IS.MachineGun 200 - - }

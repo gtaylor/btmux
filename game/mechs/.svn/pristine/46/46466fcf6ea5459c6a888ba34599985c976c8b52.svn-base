@@ -1,0 +1,81 @@
+Name             { Thor }
+Reference        { Thor-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Heat_Sinks       { 40 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials	 { Clan SearchLight }
+Left_Arm
+  Armor            { 17 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-9		  { HeatSink - - }
+    CRIT_10		  { CL.ERLargeLaser - OnTC }
+    CRIT_11		  { CL.ERMediumLaser - OnTC }
+    CRIT_12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 17 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-9		  { HeatSink - - }
+    CRIT_10		  { CL.ERLargeLaser - OnTC }
+    CRIT_11		  { CL.ERMediumLaser - OnTC }
+    CRIT_12		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { CL.MachineGun - OnTC }
+    CRIT_4	  	  { CL.Anti-MissileSystem - - }
+    CRIT_5		  { Ammo_CL.MachineGun 200 - }
+    CRIT_6-7		  { Ammo_CL.Anti-MissileSystem 24 - }
+    CRIT_8-9		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { TargetingComputer - - }
+    CRIT_5	  	  { CL.Anti-MissileSystem - - }
+    CRIT_6		  { CL.MachineGun - OnTC }
+    CRIT_7-8		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 27 }
+  Internals        { 22 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 23 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 23 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,31 @@
+ 
+& @ps
+ 
+  Syntax: @ps[/<switches>] [<object>]
+ 
+  Lists information about the commands you have on each of the queues.
+  Unless the /summary switch is used, this command lists all the
+  commands you have on the queues, optionally along with their
+  enactor and arguments.
+ 
+  Commands scheduled to be executed at a later time (by the @wait
+  command) also show the number of seconds until they will be
+  executed and/or the semaphore on which they are waiting.  If
+  <object> is specified, only commands run by <object> are listed,
+  otherwise all commands run by any of your objects is listed.  A
+  summary of the number of commands listed and the total number of
+  commands in the queues is also displayed.  This command is
+  useful for identifying infinite loops in programs.
+ 
+  The following switches are available:
+     /brief   - (default) Display a brief summary that shows the
+                semaphore number, time-to-wait, object running the
+                command, and the command to be run.
+     /long    - In addition to the information in the /brief report,
+                display the name and number of the object that caused
+                the command to be run (the enactor) and the arguments
+                to the command.
+     /summary - Display just the queue counts.
+ 
+  See also: @notify, @wait
+ 

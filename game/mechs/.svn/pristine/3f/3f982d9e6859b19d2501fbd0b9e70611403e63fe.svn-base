@@ -1,0 +1,31 @@
+Name             { Patton }
+Reference        { Patton }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 65 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:02 2000 }
+Computer         { 3 }
+Heat_Sinks       { 10 }
+Mech_BV          { 513 }
+Max_Speed        { 64.50 }
+Left_Side
+  Armor            { 46 }
+  Internals        { 7 }
+Right_Side
+  Armor            { 46 }
+  Internals        { 7 }
+Front_Side
+  Armor            { 51 }
+  Internals        { 7 }
+    CRIT_1		  { IS.SmallLaser - - 3 }
+    CRIT_2		  { IS.Flamer - - 3 }
+Aft_Side
+  Armor            { 38 }
+  Internals        { 7 }
+Turret
+  Armor            { 51 }
+  Internals        { 7 }
+    CRIT_1		  { IS.AC/10 - - 3 }
+    CRIT_2-3		  { Ammo_IS.AC/10 10 - - }
+    CRIT_4		  { IS.LRM-5 - - 3 }
+    CRIT_5		  { Ammo_IS.LRM-5 24 - - }

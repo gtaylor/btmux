@@ -1,0 +1,8 @@
+ 
+& c3imessage
+
+  RS Command: c3imessage <message>
+  
+  This command sends a message to all others in your C3i network. The 
+  communication cannot be scanned or intercepted.
+.

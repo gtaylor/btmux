@@ -1,0 +1,27 @@
+Name   { Chaparral } 
+Reference        { Chaparral }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 50 }
+Mech_BV          { 467 }
+Computer         { 3 }
+Heat_Sinks       { 10 }
+Max_Speed        { 64.50 }
+Left_Side
+  Armor            { 18 }
+  Internals        { 5 }
+    CRIT_1		  { IS.MediumLaser - - }
+Right_Side
+  Armor            { 18 }
+  Internals        { 5 }
+    CRIT_1		  { IS.MediumLaser - - }
+Front_Side
+  Armor            { 16 }
+  Internals        { 5 }
+    CRIT_1		  { IS.ArrowIVSystem - - }
+    CRIT_2-4		  { Ammo_IS.ArrowIVSystem 5 - }
+Aft_Side
+  Armor            { 36 }
+  Internals        { 5 }
+    CRIT_4		  { IS.SRM-6 - - }
+    CRIT_5		  { Ammo_IS.SRM-6 15 - }

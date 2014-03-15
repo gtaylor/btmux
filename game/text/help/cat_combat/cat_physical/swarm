@@ -1,0 +1,18 @@
+ 
+& swarm
+ 
+  RS Command: swarm [ID | -]
+  
+  This command causes your Battlesuit squad to attempt to mount an 
+  enemy unit. This reduces your BTH for weapon attacks, and the 
+  swarmed unit cannot use it's weapons on you.
+  
+  As with all physical attacks you must be within the same hex as the 
+  unit you are attacking.
+  
+  Arguments:
+  none - attack the locked unit
+  * ID - attack the specified unit
+  
+  See Also: attackleg
+ 

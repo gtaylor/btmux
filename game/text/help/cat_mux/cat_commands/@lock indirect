@@ -1,0 +1,26 @@
+
+& @lock indirect
+
+  INDIRECT LOCKS:
+
+  Key: @<object>
+
+  You may reference the lock on another object and use the result of
+  evaluating that other object's lock.    You pass an indirect lock if
+  you pass the default lock on <object>.  This is especially useful
+  if you have a large number of objects or exits that want to have
+  the same lock, and you want to be able to update one object and
+  have all the other locks change at the same time.
+
+  <object> is searched for when you enter the @lock command and its
+  database number is stored in the lock, so something like
+  '@Lock north=@master.lock' is safe even if you are going to move
+  master.lock to another location.
+
+  Examples:
+    > @lock master.lock = me
+    > @lock north = @master.lock
+    > @lock south = @master.lock
+    North and south all reference the lock on master.lock, so you may
+    change the lock on all three exits by changing master.lock.
+  See also: @lock normal.

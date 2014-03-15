@@ -1,0 +1,24 @@
+ 
+& space()
+ 
+  Syntax: space(<count>)
+ 
+  Returns the number of indicated spaces. If <count> is missing,
+  negative, or cannot be converted to a number, one space is returned.
+  This function is useful when you want to pass a single space (or
+  more than one) as a function to an argument, because normally
+  leading and trailing spaces are stripped from function arguments.
+ 
+  Example:
+  > say space(4)
+  You say "    "
+  > say edit(Foo bar bletch, space(), X)
+  You say "FooXbarXbletch"
+ 
+  Note: Don't use space() when an ljust(), rjust() or center() can
+  do the job better. It's ideal to lay things out so if you ever have
+  to go in and change wording, you won't have to adjust your space
+  functions.
+ 
+  See Also: ljust(), rjust(), center()
+ 

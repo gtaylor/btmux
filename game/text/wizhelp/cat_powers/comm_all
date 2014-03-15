@@ -1,0 +1,9 @@
+ 
+& comm_all
+ 
+  Power: comm_all
+  
+  This power permits the player to all channel related commands.
+  
+  See Also: @power, @list powers, comsys
+ 

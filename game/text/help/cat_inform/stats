@@ -1,0 +1,11 @@
+
+& stats
+ 
+ >> Help: Stats (Informational Command)
+ -----------------------------------------------------------------------------
+ Syntax: Stats
+ 
+ The 'Stats' command shows basic information about your character. Things such
+ as your personal injury level and your mech listing are on here, along with
+ your various skills and XP gained in each.
+ 

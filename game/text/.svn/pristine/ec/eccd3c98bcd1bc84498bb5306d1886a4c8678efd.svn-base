@@ -1,0 +1,14 @@
+ 
+& mechref
+ 
+  xcodevalue: mechref <>
+  XTYPE: MECH
+  
+  This xcode value stores the Unit-Reference for the RS Unit.
+  
+  Example:
+  >@viewxcode
+  mechref                       EXT-4D 
+  
+  See Also: @viewxcode
+ 

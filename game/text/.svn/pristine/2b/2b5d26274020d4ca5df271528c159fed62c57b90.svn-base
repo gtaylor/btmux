@@ -1,0 +1,15 @@
+ 
+& mid()
+ 
+  Syntax: mid(<string>, <first>, <length>)
+ 
+  This function returns a segment of <string>, the <length> characters
+  to the right of the <first> character.
+ 
+  Note: The first character in a string is numbered zero, and not one.
+ 
+  Example:
+ 
+  > say mid(12345678,0,3)
+  123
+ 

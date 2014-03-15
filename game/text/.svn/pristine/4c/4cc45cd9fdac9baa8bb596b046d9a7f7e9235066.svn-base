@@ -1,0 +1,17 @@
+ 
+& TRACE
+ 
+  Flag: TRACE(T)
+ 
+  When a thing is set TRACE, it will report to its owner the result of
+  all substitutions that it performs that change the original 
+  string.  The order for displaying nested evaluations (such as when 
+  evaluating the arguments to a function) is a site-selected 
+  configuration parameter.
+ 
+  When trace output is displayed in top-down order (final evaluation
+  first, followed by the 'smaller' evaluations needed to perform 
+  it), then the total  number of trace ouput lines that may be 
+  produced by an evaluation is limited to 200.  Bottom-up trace 
+  output is not limited.
+ 

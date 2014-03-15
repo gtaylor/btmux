@@ -1,0 +1,12 @@
+ 
+& push()
+ 
+  Syntax: push(<data>)
+  Syntax: push(<object>, <data>)
+ 
+  This function places <data> onto the calling object's stack. If the
+second
+  form is used, it places data onto <object>'s stack.
+ 
+  See Also: lstack(), empty(), items(), peek(), pop(), OBJECT STACK
+ 

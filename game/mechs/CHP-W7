@@ -1,0 +1,46 @@
+Name             { Chippewa }
+Reference        { CHP-W7 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 90 }
+Comment          { Saved by: Celebrimbor(#319) at Fri May 30 18:05:02 1997 }
+Computer         { 3 }
+Heat_Sinks       { 50 }
+Fuel             { 750 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS }
+Nose
+  Armor            { 24 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumPulseLaser - - }
+    CRIT_2		  { IS.MediumPulseLaser - - }
+    CRIT_3		  { IS.LRM-15 - - }
+    CRIT_4		  { IS.LRM-15 - - }
+    CRIT_5		  { IS.SRM-6 - - }
+Left_Wing
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargePulseLaser - - }
+    CRIT_2		  { IS.LargePulseLaser - - }
+Right_Wing
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargePulseLaser - - }
+    CRIT_2		  { IS.LargePulseLaser - - }
+Fuselage
+  Armor            { 30 }
+  Internals        { 10 }
+    CRIT_1-4		  { Ammo_IS.LRM-15 8 - - }
+    CRIT_5		  { Ammo_IS.SRM-6 15 - - }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { IS.SmallPulseLaser - - }

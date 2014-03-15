@@ -1,0 +1,23 @@
+ 
+& bthexinblz()
+ 
+  Syntax: bthexinblz(<MapOBJ>,<x>,<y>)
+ 
+  The function determines if the hex designated by <x>,<y> on <MapOBJ>
+  is within a blocked landingzone
+ 
+  The function returns 1 if the hex is blocked, and 0 otherwise.
+ 
+  Error Messages:
+ 
+  * If <MapObj> is not valid the function returns #-1 INVALID MAP
+  * If <x> or <y> are outside the boundaries of the map the function
+    returns #-1 INVALID COORDS
+ 
+  Example:
+  Given that #62 is a valid MapObj and that hex 10,11 IS within a
+  blocked landingzone:
+ 
+  >think bthexinblz(#62,10,11)
+  1
+ 

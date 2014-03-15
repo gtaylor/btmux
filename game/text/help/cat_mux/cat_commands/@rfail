@@ -1,0 +1,25 @@
+ 
+& @rfail
+ 
+  Syntax: @rfail <object> = <message>
+  Attribute: Rfail
+ 
+  Sets the message that a player sees when he tries to give an object
+  to someone else, but the receiver refuses to accept the object
+  because the object didn't pass its receive lock.
+ 
+  Function references and %-substitutions are allowed in receive
+  failure  messages, and are evaluated when someone tries to give
+  away the object. In function references, 'me' refers to the
+  intended recipient of the object, while %-substitutions that refer
+  to the enactor (such as %n, %#, %p, etc) refer to the (attempted)
+  giver.
+ 
+  This attribute is only meaningful for players and things, and will
+  never be automatically triggered on other object types.
+ 
+  Example:
+  @gfail merchant = The merchant doesn't want your worthless trash.
+ 
+  See also: give, @agfail, @arfail, @gfail, @ogfail, @orfail, @lock
+ 

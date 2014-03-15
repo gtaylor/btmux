@@ -1,0 +1,51 @@
+ 
+& status
+ 
+  xcodevalue: status <bv>
+  XTYPE: MECH
+  
+  This xcode value stores status-flags for the RS Unit.
+  
+  Flags:
+  
+  * a = For VTOL/Aero units this flag indicates that the unit is 
+        landed. It is unused for other unit types.
+  * b = Toso is rotated right
+  * c = Torso is rotated left
+  * d = Unit is started
+  * e = Unit is in partial cover. (used internally, mostly. at least 
+        one of the people who locked this unit has partial cover on 
+        it.)
+  * f = Unit is destroyed.
+  * g = Unit is jumping.
+  * h = Unit is fallen. (skirt/track destroyed for tanks)
+  * i = Unit is attempting DFA.
+  * j = Unit is performing an action. (set via scode if unit is 
+        'doing something'. Prevents turning and speed changes)
+  * k = Unit's arms are flipped.
+  * l = Unit has AMS and it's activated.
+  * m = UNUSED currently.
+  * n = pilot is unconcious.
+  * o = Unit is being towed.
+  * p = Unit has locked a unit ("We mean business")
+  * q = Unit has locked a building (<x> <y> b)
+  * r = Unit has locked a hex (<x> <y>)
+  * s = Unit has locked a hex for ignition (<x> <y> i)
+  * t = Unit has locked a hex for clearing (<x> <y> c)
+  * u = Unit has MASC enabled.
+  * v = Unit is blinded. (la sensors near heat, for instance)
+  * w = Unit is COMBAT_SAFE. (can be hit but wont take damage (will, 
+        however, be forced to do pilot rolls and such.)
+  * x = contacts are reported even if unit is shutdown.
+  * y = Unit has just fired.
+  * z = Unit has SCHARGE enabled (supercharger).
+  * A = Unit has HULLDOWN enabled.
+  * B = Units map is under special rules (one of the following:)
+    * C = abnormal gravity (not 1G)
+    * D = abnormal temperature (enough to adjust heatsinks.) between 
+          -30 and +50 degrees celcius is considered normal* 
+    * E = Unit is in vacuum.
+  * F = UNUSED currently. 
+  
+  See Also: status2, @viewxcode
+ 

@@ -1,0 +1,16 @@
+ 
+& peek()
+ 
+  Syntax: peek([<object>], [<position>])
+ 
+  This function returns an item from the caller's stack without
+  removing it from the stack. If <position> is specified, it returns
+  the item from that position in the stack (items in the stack are
+  numbered with 0 being the most recently push()ed item), otherwise,
+  it returns position 0.
+ 
+  If <object> is specified and you control it, then it returns an item
+  from <object>'s stack.
+ 
+  See Also: lstack(), empty(), items(), pop(), push(), OBJECT STACK
+ 

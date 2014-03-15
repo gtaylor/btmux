@@ -1,0 +1,77 @@
+Name             { Vulture }
+Reference        { Vulture-B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Heat_Sinks       { 24 }
+Max_Speed        { 86.00 }
+Specials         { Clan ArtemisIV }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERLargeLaser - - }
+    CRIT_6		  { CL.ERLargeLaser - - }
+    CRIT_7		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.MediumPulseLaser - - }
+    CRIT_6		  { CL.MediumPulseLaser - - }
+    CRIT_7		  { CL.MediumPulseLaser - - }
+    CRIT_8		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 16 }
+  Internals        { 14 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-6		  { CL.LRM-20 - - }
+    CRIT_7		  { ArtemisIV - - }
+    CRIT_8		  { Ammo_CL.LRM-20 6 Artemis/Mine }
+    CRIT_9-10		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 16 }
+  Internals        { 14 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { CL.StreakSRM-6 - - }
+    CRIT_5-6		  { CL.StreakSRM-6 - - }
+    CRIT_7		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_8-9		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 20 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

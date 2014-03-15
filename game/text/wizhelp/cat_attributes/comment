@@ -1,0 +1,9 @@
+
+& comment
+
+  Syntax: @comment <object> = <text>
+  Attribute: comment
+ 
+  This attribute can only be set by wizards. It is used to contain any
+  comments about the player which the wizard may wish to set.
+ 

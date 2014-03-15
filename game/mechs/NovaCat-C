@@ -1,0 +1,69 @@
+Name             { Nova Cat }
+Reference        { NovaCat-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Heat_Sinks       { 24 }
+Max_Speed        { 64.5 }
+Specials         { Clan FlipArms }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-6		  { CL.LargePulseLaser - - }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-5		  { CL.UltraAC/5 - - }
+    CRIT_6-8		  { CL.UltraAC/5 - - }
+    CRIT_9-12		  { CL.LB5-XAC - - }
+Left_Torso
+  Armor            { 23 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+Right_Torso
+  Armor            { 23 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { Ammo_CL.UltraAC/5 20 - }
+    CRIT_5		  { Ammo_CL.LB5-XAC 20 - }
+    CRIT_6		  { Ammo_CL.LB5-XAC 20 LBX/Cluster }
+    CRIT_7-8		  { HeatSink - - }
+Center_Torso
+  Armor            { 35 }
+  Internals        { 22 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,82 @@
+Name             { Scarabus }
+Reference        { SCB-9T }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Comment          { Saved by: Charlemagne(#4624) at Fri Feb 25 18:52:31 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 749 }
+Max_Speed        { 161.25 }
+Left_Arm
+  Armor            { 9 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { IS.MediumLaser - - 3 }
+    CRIT_4		  { IS.MediumLaser - - 3 }
+    CRIT_5		  { IS.SmallLaser - - 3 }
+    CRIT_6		  { IS.SmallLaser - - 3 }
+    CRIT_7-10		  { FerroFibrous - - 3 }
+    CRIT_11		  { EndoSteel - - 3 }
+    CRIT_12		  { TripleStrengthMyomer - - 3 }
+Right_Arm
+  Armor            { 9 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { Axe - - 3 }
+    CRIT_7-10		  { FerroFibrous - - 3 }
+    CRIT_11		  { EndoSteel - - 3 }
+    CRIT_12		  { TripleStrengthMyomer - - 3 }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { FerroFibrous - - 3 }
+    CRIT_7-10		  { EndoSteel - - 3 }
+    CRIT_11-12		  { TripleStrengthMyomer - - 3 }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { FerroFibrous - - 3 }
+    CRIT_7-10		  { EndoSteel - - 3 }
+    CRIT_11-12		  { TripleStrengthMyomer - - 3 }
+Center_Torso
+  Armor            { 12 }
+  Internals        { 10 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { Ecm - - 3 }
+Left_Leg
+  Armor            { 13 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 13 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { TAG - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

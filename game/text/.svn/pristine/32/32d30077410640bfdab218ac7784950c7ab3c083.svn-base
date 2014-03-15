@@ -1,0 +1,28 @@
+ 
+& btsetpartcost()
+ 
+  Syntax: btsetpartcost(<partname>,<cost>)
+ 
+  This function sets the cost of the specified part.
+ 
+  The function returns the value that the cost was set to.
+  
+  Note: <cost> must be numeric. If a non-numeric argument is used the
+  cost is set to 0.
+  
+  Note: The information manipulated by this function requires the bt-
+  advanced-econ compile-time directive.
+ 
+  Error Messages:
+ 
+  * If <partname> is not valid the function returns #-1 INVALID PART
+     NAME
+  * If the mux was compiled without the bt-advanced-econ directive
+    the function returns #-1 NO ECONDB SUPPORT
+ 
+  Example:
+  Given that VTOL_FUEL is a valid part
+ 
+  > think btsetpartcost(vtol_fuel,500)
+  500
+ 

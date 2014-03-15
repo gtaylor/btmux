@@ -1,0 +1,18 @@
+ 
+& reverse()
+ 
+  Syntax: reverse(<string>)
+ 
+  Reverses the order of the characters of <string>.
+ 
+  Example:
+ 
+  > say reverse(This is a test)
+  You say "tset a si sihT"
+  > say reverse(This is a test, Really...)
+  You say "...yllaeR ,tset a si sihT"
+  > say reverse(A man, a plan, a canal -- Panama!)
+  You say "!amanaP -- lanac a ,nalp a ,nam A"
+ 
+  See Also: revwords()
+ 

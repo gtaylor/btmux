@@ -1,0 +1,29 @@
+Name   { Scimitar } 
+Reference        { Scimitar }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 35 }
+Mech_BV          { 323 }
+Computer         { 3 }
+Max_Speed        { 129.00 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 18 }
+  Internals        { 4 }
+Right_Side
+  Armor            { 18 }
+  Internals        { 4 }
+Front_Side
+  Armor            { 21 }
+  Internals        { 4 }
+Aft_Side
+  Armor            { 18 }
+  Internals        { 4 }
+Turret
+  Armor            { 21 }
+  Internals        { 4 }
+    CRIT_1		  { IS.AC/5 - - }
+    CRIT_2		  { IS.SRM-2 - - }
+    CRIT_3		  { IS.SRM-2 - - }
+    CRIT_4		  { Ammo_IS.AC/5 20 - }
+    CRIT_5		  { Ammo_IS.SRM-2 50 - }

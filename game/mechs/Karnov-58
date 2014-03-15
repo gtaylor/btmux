@@ -1,0 +1,28 @@
+Name             { Karnov UR }
+Reference        { Karnov-58 }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 30 }
+Comment          { Saved by: Charlemagne(#4624) at Sat Mar  4 15:04:58 2000 }
+Mech_BV          { 69 }
+Cargo_Space      { 7168 }
+Max_Speed        { 161.25 }
+Specials         { CargoTech ICEEngine_Tech }
+Left_Side
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+Right_Side
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+Front_Side
+  Armor            { 7 }
+  Internals        { 3 }
+    CRIT_1		  { Ammo_IS.MachineGun 200 - - }
+Aft_Side
+  Armor            { 6 }
+  Internals        { 3 }
+Rotor
+  Armor            { 2 }
+  Internals        { 3 }

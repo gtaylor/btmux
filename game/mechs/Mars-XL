@@ -1,0 +1,44 @@
+Name		 { Mars } 
+Reference        { Mars-XL }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 100 }
+Max_Speed        { 53.75 }
+Heat_Sinks	 { 12 }
+Specials	 { Clan XLEngine_Tech FerroFibrous_Tech ArtemisIV }
+Left_Side
+  Armor            { 41 }
+  Internals        { 10 }
+    CRIT_1		  { CL.StreakSRM-6 - - }
+    CRIT_2		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 41 }
+  Internals        { 10 }
+    CRIT_1		  { CL.StreakSRM-6 - - }
+    CRIT_2		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 48 }
+  Internals        { 10 }
+    CRIT_1		  { CL.LB10-XAC - - }
+    CRIT_2		  { CL.LRM-15 - - }
+    CRIT_3		  { ArtemisIV - - }
+    CRIT_4		  { CL.LRM-15 - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6		  { CL.LRM-15 - - }
+    CRIT_7		  { ArtemisIV - - }
+    CRIT_8		  { Ammo_CL.LB10-XAC 10 - }
+    CRIT_9		  { Ammo_CL.LB10-XAC 10 LBX/Cluster }
+    CRIT_10-12		  { Ammo_CL.LRM-15 8 Artemis/Mine }
+Aft_Side
+  Armor            { 35 }
+  Internals        { 10 }
+    CRIT_1		  { Ecm - - }
+Turret
+  Armor            { 46 }
+  Internals        { 10 }
+    CRIT_1		  { CL.ERLargeLaser - - }
+    CRIT_2		  { CL.GaussRifle - - }
+    CRIT_3-4		  { Ammo_CL.GaussRifle 8 - }
+

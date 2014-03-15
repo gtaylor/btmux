@@ -1,0 +1,33 @@
+Name             { Pilum }
+Reference        { Pilum }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 70 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:02 2000 }
+Mech_BV          { 624 }
+Max_Speed        { 64.50 }
+Left_Side
+  Armor            { 33 }
+  Internals        { 7 }
+Right_Side
+  Armor            { 33 }
+  Internals        { 7 }
+Front_Side
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_1		  { IS.MediumPulseLaser - - 3 }
+    CRIT_2		  { IS.MediumPulseLaser - - 3 }
+Aft_Side
+  Armor            { 33 }
+  Internals        { 7 }
+Turret
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_1		  { IS.LRM-15 - - 3 }
+    CRIT_2		  { ArtemisIV - - 3 }
+    CRIT_3		  { IS.LRM-15 - - 3 }
+    CRIT_4		  { ArtemisIV - - 3 }
+    CRIT_5		  { IS.StreakSRM-2 - - 3 }
+    CRIT_6		  { IS.StreakSRM-2 - - 3 }
+    CRIT_7-9		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+    CRIT_10		  { Ammo_IS.StreakSRM-2 50 - - }

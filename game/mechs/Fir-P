@@ -1,0 +1,73 @@
+Name             { Fire Falcon }
+Reference        { Fir-P }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 25 }
+Computer         { 4 }
+Radio            { 5 }
+Heat_Sinks       { 20 }
+Max_Speed        { 129.00 }
+Specials         { Clan FlipArms }
+Left_Arm
+  Armor            { 6 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { CL.MediumPulseLaser - - 5 }
+    CRIT_9-12		  { FerroFibrous - - 0 }
+Right_Arm
+  Armor            { 6 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { CL.ERMediumLaser - - 5 }
+    CRIT_4		  { CL.ERMediumLaser - - 5 }
+    CRIT_5		  { CL.ERSmallLaser - - 0 }
+    CRIT_6		  { CL.ERSmallLaser - - 0 }
+    CRIT_9-12		  { EndoSteel - - 0 }
+Left_Torso
+  Armor            { 9 }
+  Internals        { 6 }
+  Rear             { 2 }
+    CRIT_1-2		  { Engine - - 5 }
+    CRIT_3		  { CL.StreakSRM-4 - - 0 }
+    CRIT_4		  { CL.StreakSRM-4 - - 0 }
+    CRIT_5		  { Ammo_CL.StreakSRM-4 25 - - }
+    CRIT_10-12		  { FerroFibrous - - 0 }
+Right_Torso
+  Armor            { 9 }
+  Internals        { 6 }
+  Rear             { 2 }
+    CRIT_1-2		  { Engine - - 5 }
+    CRIT_10-12		  { EndoSteel - - 0 }
+Center_Torso
+  Armor            { 11 }
+  Internals        { 8 }
+  Rear             { 3 }
+    CRIT_1-3		  { Engine - - 5 }
+    CRIT_4-7		  { Gyro - - 5 }
+    CRIT_8-10		  { Engine - - 5 }
+Left_Leg
+  Armor            { 10 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { HeatSink - - 0 }
+Right_Leg
+  Armor            { 10 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { HeatSink - - 0 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 5 }
+    CRIT_2		  { Sensors - - 5 }
+    CRIT_3		  { Cockpit - - 5 }
+    CRIT_5		  { Sensors - - 5 }
+    CRIT_6		  { LifeSupport - - 5 }

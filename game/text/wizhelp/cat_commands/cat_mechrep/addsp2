@@ -1,0 +1,24 @@
+ 
+& addsp2
+ 
+  Special Items
+ 
+ShoulderOrHip             UpperActuator             LowerActuator
+HandOrFootActuator        LifeSupport               Sensors
+Cockpit                   Engine                    Gyro
+HeatSink                  JumpJet                   Case
+FerroFibrous              EndoSteel                 TripleStrengthMyomer
+TargetingComputer         Masc                      C3Master
+C3Slave                   BeagleProbe               ArtemisIV
+Ecm                       Axe                       Sword
+Mace                      Claw                      DSAeroDoor
+DSMechDoor                Fuel_Tank                 TAG
+DSVehicleDoor             DSCargoDoor               LAM_Equipment
+CaseII                    StealthArmor              NullSig_Device
+C3i                       AngelEcm                  HvyFerroFibrous
+LtFerroFibrous            BloodhoundProbe           PurifierArmor
+KageStealthUnit           AchileusStealthUnit       InfiltratorStealthUnit
+InfiltratorIIStealthUnit  SuperCharger              Dual_Saw
+ 
+  Continued in addsp3
+ 

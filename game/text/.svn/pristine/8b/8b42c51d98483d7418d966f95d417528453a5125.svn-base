@@ -1,0 +1,15 @@
+ 
+& alias
+ 
+  Syntax: <channel alias> <on|off|who|message|:pose|;pose>
+ 
+  'on' allows you to turn an alias on.
+  'off' lets you temporarily leave that channel.
+  'who' shows you who is on that channel.
+ 
+  You may send a message over the channel with <alias> <text>, where
+  <text> is the message to be sent, or you can pose on a channel
+  with <alias> :<text> or <alias> ;<text>
+ 
+  See also: allcom, comlist, addcom, delcom.
+ 

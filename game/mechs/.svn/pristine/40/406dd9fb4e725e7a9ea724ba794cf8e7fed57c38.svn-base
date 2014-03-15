@@ -1,0 +1,31 @@
+Name             { AC2_Carrier }
+Reference        { AC2_Carrier-LBX }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 60 }
+Comment          { Saved by: Genitrix(#1511) at Mon Feb 26 02:17:37 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 0 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 22 }
+  Internals        { 6 }
+Right_Side
+  Armor            { 22 }
+  Internals        { 6 }
+Front_Side
+  Armor            { 22 }
+  Internals        { 6 }
+    CRIT_1		  { IS.LB2-XAC - - }
+    CRIT_2		  { IS.LB2-XAC - - }
+    CRIT_3		  { IS.LB2-XAC - - }
+    CRIT_4		  { IS.LB2-XAC - - }
+    CRIT_5		  { IS.LB2-XAC - - }
+    CRIT_6-7		  { Ammo_IS.LB2-XAC 45 - - }
+    CRIT_8-9		  { Ammo_IS.LB2-XAC 45 LBX/Cluster - }
+Aft_Side
+  Armor            { 22 }
+  Internals        { 6 }
+    CRIT_1		  { C3Slave - - }

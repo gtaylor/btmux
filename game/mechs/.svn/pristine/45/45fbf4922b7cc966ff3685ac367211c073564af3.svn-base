@@ -1,0 +1,32 @@
+Name             { Badger }
+Reference        { Badger-A }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 30 }
+Comment          { Saved by: Kelvin McCorvin(#2) at Sun Dec 23 01:02:38 2007 }
+Mech_BV          { 221 }
+Cargo_Space      { 400 }
+Max_Ton          { 4 }
+Max_Suits        { 0 }
+Max_Speed        { 96.75 }
+Specials         { CargoTech }
+Left_Side
+  Armor            { 18 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 18 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 20 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-2 - - }
+Aft_Side
+  Armor            { 16 }
+  Internals        { 3 }
+Turret
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-2 - - }
+    CRIT_2		  { IS.SRM-2 - - }
+    CRIT_3		  { IS.SRM-2 - - }
+    CRIT_5		  { Ammo_IS.SRM-2 50 - - }

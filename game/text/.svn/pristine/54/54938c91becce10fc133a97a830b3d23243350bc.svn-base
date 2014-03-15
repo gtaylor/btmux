@@ -1,0 +1,23 @@
+ 
+&  btcharlist()
+ 
+  Syntax:
+  btcharlist(<skills|advantages|attributes>[,<playername>|playerDB>])
+ 
+  This function returns the a space delimited list of all the
+  specified criteria (ie skills, advantages or attributes). The
+  function accepts an optional argument of a playername or #dbref,
+  which case it returns only those which that character possesses.
+ 
+  Note: If the initial argument is attributes, all players will return
+  the full list as characters all have them
+ 
+  Error Messages:
+ 
+    * If the initial argument is not one of skills, advantages or
+      attributes the function will return #-1 INVALID VALUE
+    * If the optional argument specified is not a valid player name or
+      #dbref the function returns #-1 INVALID TARGET
+ 
+  Continued in btcharlist()2
+ 

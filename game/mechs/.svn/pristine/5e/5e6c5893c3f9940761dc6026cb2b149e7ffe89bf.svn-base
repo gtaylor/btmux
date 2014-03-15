@@ -1,0 +1,68 @@
+Name             { Catapult }
+Reference        { CPLT-K2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Mech_BV          { 1052 }
+Heat_Sinks       { 20 }
+Max_Speed        { 64.50 }
+Specials         { FlipArms }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-5		  { IS.PPC - - }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-5		  { IS.PPC - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MachineGun - - }
+    CRIT_3-4		  { HeatSink - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MachineGun - - }
+    CRIT_3-5		  { HeatSink - - }
+Center_Torso
+  Armor            { 24 }
+  Internals        { 21 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_IS.MachineGun 200 - }
+    CRIT_12		  { HeatSink - - }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

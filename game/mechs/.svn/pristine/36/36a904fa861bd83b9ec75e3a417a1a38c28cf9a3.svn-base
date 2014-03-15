@@ -1,0 +1,26 @@
+Name   { Gabriel } 
+Reference        { Gabriel }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 5 }
+Mech_BV          { 175 }
+Computer         { 3 }
+Max_Speed        { 247.25 }
+Specials         { FerroFibrous_Tech }
+Left_Side
+  Armor            { 3 }
+  Internals        { 1 }
+Right_Side
+  Armor            { 3 }
+  Internals        { 1 }
+Front_Side
+  Armor            { 5 }
+  Internals        { 1 }
+Aft_Side
+  Armor            { 3 }
+  Internals        { 1 }
+Turret
+  Armor            { 4 }
+  Internals        { 1 }
+    CRIT_1		  { IS.MediumLaser - - }
+

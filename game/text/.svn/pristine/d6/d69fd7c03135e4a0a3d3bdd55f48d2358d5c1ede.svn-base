@@ -1,0 +1,13 @@
+ 
+& bay1
+ 
+  xcodevalue: bay1 <DBref>
+  XTYPE: MECH
+  
+  This xcode value is used to store the #DBREF for Bay 1 on a 
+  Dropship.
+  
+  Note - the value is entered without the preceding hash (#)
+  
+  See also: createbays, @viewxcode
+ 

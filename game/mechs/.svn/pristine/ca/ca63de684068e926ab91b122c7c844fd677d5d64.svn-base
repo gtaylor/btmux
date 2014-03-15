@@ -1,0 +1,26 @@
+Name		 { Hawk Moth } 
+Reference        { Hawk_Moth }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 25 }
+Mech_BV          { 734 }
+Max_Speed        { 129.00 }
+Left_Side
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { IS.LightGaussRifle - - }
+    CRIT_2-3		  { Ammo_IS.LightGaussRifle 16 - }
+Aft_Side
+  Armor            { 4 }
+  Internals        { 3 }
+Rotor
+  Armor            { 2 }
+  Internals        { 3 }

@@ -1,0 +1,10 @@
+ 
+& builder
+ 
+  Power: builder
+  
+  This power permits the player to use the building-related commands 
+  such as @dig and @open.
+  
+  See Also: @power, @list powers
+ 

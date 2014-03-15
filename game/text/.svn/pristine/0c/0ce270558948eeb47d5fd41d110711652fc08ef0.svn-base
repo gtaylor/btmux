@@ -1,0 +1,21 @@
+ 
+& @list_file2
+ 
+
+     guest_motd       - shown to guest characters immediately after 
+                        they connect.
+     motd             - shown to all players immediately after they 
+                        connect. (except guests and players connecting 
+                        for the first time)
+     newuser          - shown to players the first time they connect 
+                        in place of the motd file.
+     quit             - shown to players when they disconnect from the 
+                        game. 
+     register_connect - shown when a connection is opened from a site 
+                        for which registration is enforced.
+     wizard_motd      - shown to wizards when they connect in addition 
+                        to the motd file.
+ 
+  See also: @readcache, badsite_file, connect_file, connect_reg_file,
+            down_file, guest_file, motd_file, newuser_file, quit_file,
+            register_create_file, wizard_motd_file.

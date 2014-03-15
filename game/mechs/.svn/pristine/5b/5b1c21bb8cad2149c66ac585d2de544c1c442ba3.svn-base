@@ -1,0 +1,21 @@
+Name   { Flatbed Truck } 
+Reference        { Flatbed_Truck }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 10 }
+Mech_BV          { 9 }
+Computer         { 3 }
+Max_Speed        { 86.00 }
+Specials         { ICEEngine_Tech CargoTech }
+Left_Side
+  Armor            { 2 }
+  Internals        { 1 }
+Right_Side
+  Armor            { 2 }
+  Internals        { 1 }
+Front_Side
+  Armor            { 2 }
+  Internals        { 1 }
+Aft_Side
+  Armor            { 2 }
+  Internals        { 1 }

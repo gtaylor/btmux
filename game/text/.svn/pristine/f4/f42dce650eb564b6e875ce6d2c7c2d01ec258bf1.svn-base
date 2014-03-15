@@ -1,0 +1,11 @@
+
+& factions
+ 
+ >> Help: Factions (Informational Command)
+ -----------------------------------------------------------------------------
+ Syntax: Factions
+ 
+ The 'Factions' command simply displays a list of the factions in the game and
+ some basic information about each such as their names, abbreviations, 
+ leaders, and the number of players in each.
+ 

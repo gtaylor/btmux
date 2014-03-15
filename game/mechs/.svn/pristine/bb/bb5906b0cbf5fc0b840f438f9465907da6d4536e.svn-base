@@ -1,0 +1,82 @@
+Name             { Perseus }
+Reference        { P1D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 24 }
+Mech_BV          { 1358 }
+Cargo_Space      { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 21 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { IS.LRM-20 - Artemis/Mine 3 }
+    CRIT_4-7		  { IS.LRM-20 - - 3 }
+    CRIT_8		  { ArtemisIV - - 3 }
+    CRIT_9-11		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 21 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-8		  { IS.LB10-XAC - - 3 }
+    CRIT_9		  { IS.ERMediumLaser - - 3 }
+    CRIT_10-12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 16 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.ERMediumLaser - - 3 }
+    CRIT_5		  { IS.ERMediumLaser - - 3 }
+    CRIT_6-8		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+    CRIT_9-12		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 16 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.ERSmallLaser - - 3 }
+    CRIT_5		  { Ammo_IS.LB10-XAC 10 - - }
+    CRIT_6		  { Ammo_IS.LB10-XAC 10 LBX/Cluster - }
+    CRIT_7-8		  { Ammo_IS.SRM-6 15 Artemis/Mine - }
+    CRIT_9-12		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 36 }
+  Internals        { 23 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.SRM-6 - Artemis/Mine 3 }
+    CRIT_12		  { IS.SRM-6 - - 3 }
+Left_Leg
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { Ecm - - 3 }
+Right_Leg
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { BeagleProbe - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { ArtemisIV - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

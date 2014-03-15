@@ -1,0 +1,24 @@
+ 
+& get
+ 
+  Syntax: get[/<switch>] <object>
+           get[/<switch>] <exit>
+           get[/<switch>] <object>'s <sub-object>
+ 
+  The first form picks up <object> from your location and adds it to
+  your inventory.  It will fail if the object is locked against you,
+  or if you are inside a player or object that you don't control and
+  which isn't set ENTER_OK.
+ 
+  The second form takes an exit from your location and adds it to you.
+  Anyone inside you may then use the exit to travel to the exit's
+  destination. You may take exits that you own, and exits owned by
+  others in locations that you own.
+ 
+  The third form takes <sub-object> from <object> and adds it to your
+  inventory.  <object> must be ENTER_OK and <sub-object> must not be
+  locked against you for this to work.  The lock on <object> is not
+  checked.
+ 
+  { 'help get2' for more}
+ 

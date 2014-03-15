@@ -1,0 +1,72 @@
+Name             { Men Shen }
+Reference        { MS1-OA }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Radio            { 4 }
+Computer         { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 96.75 }
+Specials         { DoubleHS Masc FlipArms BeagleProbe }
+Left_Arm
+  Armor            { 17 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.ERMediumLaser - - }
+    CRIT_4		  { IS.ERMediumLaser - - }
+    CRIT_5		  { IS.ERMediumLaser - - }
+    CRIT_6-10		  { EndoSteel - - }
+Right_Arm
+  Armor            { 17 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-7		  { EndoSteel - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-6		  { Masc - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-9		  { IS.LB10-XAC - - }
+    CRIT_10		  { Ammo_IS.LB10-XAC 10 - }
+    CRIT_11		  { Ammo_IS.LB10-XAC 10 LBX/Cluster }
+Center_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { BeagleProbe - - }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { TAG - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,75 @@
+Name             { Union }
+Reference        { DS.Union-B }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 3500 }
+Comment          { Saved by: Tony(#8) at Mon Feb 25 23:00:40 2002 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 90 }
+Mech_BV          { 0 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Front_Right_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.PPC - - 3 }
+    CRIT_2		  { IS.LRM-20 - - 3 }
+    CRIT_3		  { IS.LRM-20 - - 3 }
+    CRIT_4-6		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_7		  { IS.AC/5 - - 3 }
+    CRIT_8		  { IS.AC/5 - - 3 }
+    CRIT_9		  { Ammo_IS.AC/5 20 - - }
+    CRIT_10		  { IS.LargeLaser - - 3 }
+    CRIT_11		  { IS.MediumLaser - - 3 }
+    CRIT_12		  { IS.MediumLaser - - 3 }
+Front_Left_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.PPC - - 3 }
+    CRIT_2		  { IS.LRM-20 - - 3 }
+    CRIT_3		  { IS.LRM-20 - - 3 }
+    CRIT_4-6		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_7		  { IS.AC/5 - - 3 }
+    CRIT_8		  { IS.AC/5 - - 3 }
+    CRIT_9		  { Ammo_IS.AC/5 20 - - }
+    CRIT_10		  { IS.LargeLaser - - 3 }
+    CRIT_11		  { IS.MediumLaser - - 3 }
+    CRIT_12		  { IS.MediumLaser - - 3 }
+Rear_Left_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.LargeLaser - - 3 }
+    CRIT_2		  { IS.MediumLaser - - 3 }
+    CRIT_3		  { IS.MediumLaser - - 3 }
+    CRIT_4-7		  { Ammo_IS.AC/5 20 - - }
+    CRIT_8		  { DSMechDoor - - 0 }
+Rear_Right_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.LargeLaser - - 3 }
+    CRIT_2		  { IS.MediumLaser - - 3 }
+    CRIT_3		  { IS.MediumLaser - - 3 }
+    CRIT_4-7		  { Ammo_IS.AC/5 20 - - }
+    CRIT_8		  { DSMechDoor - - 0 }
+Aft
+  Armor            { 40 }
+  Internals        { 60 }
+    CRIT_1		  { IS.LargeLaser - - 3 }
+    CRIT_2		  { IS.MediumLaser - - 3 }
+    CRIT_3		  { IS.MediumLaser - - 3 }
+    CRIT_4		  { DSMechDoor - - 0 }
+Nose
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.PPC - - 3 }
+    CRIT_2		  { IS.LRM-20 - - 3 }
+    CRIT_3		  { IS.LRM-20 - - 3 }
+    CRIT_4-6		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_7		  { IS.AC/5 - - 3 }
+    CRIT_8		  { IS.AC/5 - - 3 }
+    CRIT_9-10		  { Ammo_IS.AC/5 20 - - }
+    CRIT_11		  { IS.MediumLaser - - 3 }
+    CRIT_12		  { IS.MediumLaser - - 3 }

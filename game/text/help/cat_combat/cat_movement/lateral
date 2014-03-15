@@ -1,0 +1,15 @@
+ 
+& lateral
+ 
+  RS Command: lateral [fl|fr|rl|rr|-]
+  
+  This command changes the movement of a quad to a direction 
+  lateral to the heading of the mech.
+  
+  Arguments:
+  fl - front left
+  fr - front right
+  rl - rear left
+  rr - rear right
+  - - disable lateral movement
+ 

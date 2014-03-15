@@ -1,0 +1,73 @@
+Name             { Mercury }
+Reference        { MCY-102 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 20 }
+Comment          { Saved by: Spanky(#6784) at Tue Jun 26 07:24:29 2001 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 408 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 129.00 }
+Left_Arm
+  Armor            { 5 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-11		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 5 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.ERMediumLaser - - 3 }
+    CRIT_6-12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 5 }
+  Rear             { 2 }
+    CRIT_1-2		  { C3i - - 3 }
+    CRIT_3-9		  { FerroFibrous - - 3 }
+Right_Torso
+  Armor            { 6 }
+  Internals        { 5 }
+  Rear             { 2 }
+    CRIT_1-7		  { FerroFibrous - - 3 }
+Center_Torso
+  Armor            { 7 }
+  Internals        { 6 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_12		  { Masc - - 3 }
+Left_Leg
+  Armor            { 6 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { HeatSink - - 3 }
+Right_Leg
+  Armor            { 6 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { HeatSink - - 3 }
+Head
+  Armor            { 5 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.ERSmallLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

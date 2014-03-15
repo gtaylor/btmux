@@ -1,0 +1,30 @@
+ 
+& attachcables
+ 
+  RS Command: attachcables <tow-UnitID> <towed-UnitID>
+  
+  This command permits an RS Unit without hands to tow another RS 
+  Unit.
+  
+  NOTE - To use this command you must exit the RS Unit and execute the 
+  command from the RS map.
+  
+  Example:
+  Given that UnitID: OE is the unit you wish to tow with UnitID: DD
+  
+  >shutdown
+  Mech has been shutdown!
+  >disembark
+  MechWarrior - Fred
+  You climb out of the unit.
+  attachcables DD OE
+  You attach Exterminator [DD]'s tow lines to Falcon [OE].
+  >embark
+  You climb into Exterminator [DD].
+  startup
+  
+  Once the RS Unit has started up, you are ready to tow the attached 
+  unit.
+ 
+  See Also: pickup, dropoff, detachcables
+ 

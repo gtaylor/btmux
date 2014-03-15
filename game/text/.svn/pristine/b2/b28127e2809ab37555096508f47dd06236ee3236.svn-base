@@ -1,0 +1,19 @@
+ 
+& comsys
+ 
+  This is the help for the MUX comsystem. Note that the channel
+  names and aliases are case-sensitive. Upon creation, new players
+  automatically join the "Public" channel, while guest characters join
+  channel "Guests" when they connect.
+ 
+  Note: <alias> is the alias you choose for the channel.
+  The "Public" channel for new players is aliased to "pub".
+  The "Guests" channel for guests is aliases to "g".
+ 
+  Aliases are the most common way to manipulate channels, and may be
+  used in 2 different ways:
+        <alias> <who|on|off>
+        <alias> <message>
+ 
+  { 'help comsys2' for more}
+ 

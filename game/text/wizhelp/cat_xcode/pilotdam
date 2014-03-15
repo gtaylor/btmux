@@ -1,0 +1,13 @@
+ 
+& pilotdam
+ 
+  xcodevalue: pilotdam <char>
+  XTYPE: MECH
+  
+  This xcode value stores the bruise/lethal damage that the pilot of 
+  the RS Unit is suffering.
+  
+  NOTE - <char> <=5 is bruise damage, >5 is lethal damage.
+  
+  See Also: @viewxcode
+ 

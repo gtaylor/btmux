@@ -1,0 +1,27 @@
+Name   { Harasser } 
+Reference        { Harasser }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 25 }
+Mech_BV          { 336 }
+Computer         { 3 }
+Max_Speed        { 161.25 }
+Specials         { ICEEngine_Tech Searchlight }
+Left_Side
+  Armor            { 6 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 6 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 7 }
+  Internals        { 3 }
+Aft_Side
+  Armor            { 7 }
+  Internals        { 3 }
+Turret
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1  		  { IS.SRM-6 - - }
+    CRIT_2                { IS.SRM-6 - - }
+    CRIT_3-4		  { Ammo_IS.SRM-6 15 - }

@@ -1,0 +1,9 @@
+
+& unloadcargo
+
+  RS Command: unloadcargo <name> <amount>
+ 
+  This command unloads <amount> of <name> from the RS Unit.
+  
+  See Also: loadcargo, stores, manifest
+ 

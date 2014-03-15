@@ -1,0 +1,31 @@
+Name             { Bulldog }
+Reference        { Bulldog-LRM }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 60 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:02 2000 }
+Mech_BV          { 499 }
+Max_Speed        { 64.50 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 20 }
+  Internals        { 6 }
+Right_Side
+  Armor            { 20 }
+  Internals        { 6 }
+Front_Side
+  Armor            { 24 }
+  Internals        { 6 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { Ammo_IS.MachineGun 100 Hotload - }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 6 }
+Turret
+  Armor            { 20 }
+  Internals        { 6 }
+    CRIT_1		  { IS.LRM-20 - - 3 }
+    CRIT_2		  { IS.SRM-4 - - 3 }
+    CRIT_3		  { IS.SRM-4 - - 3 }
+    CRIT_4-5		  { Ammo_IS.SRM-4 25 - - }
+    CRIT_6-8		  { Ammo_IS.LRM-20 6 - - }

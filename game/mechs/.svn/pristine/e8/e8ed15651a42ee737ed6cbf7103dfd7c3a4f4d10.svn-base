@@ -1,0 +1,67 @@
+Name             { Loki }
+Reference        { Loki-B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Heat_Sinks       { 26 }
+Max_Speed        { 86.00 }
+Specials         { Clan Searchlight ArtemisIV FlipArms }
+Left_Arm
+  Armor            { 11 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-6		  { CL.LB5-XAC - - }
+    CRIT_7		  { Ammo_CL.LB5-XAC 20 - }
+Right_Arm
+  Armor            { 11 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-8		  { CL.GaussRifle - - }
+    CRIT_9		  { Ammo_CL.GaussRifle 8 - }
+Left_Torso
+  Armor            { 14 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { CL.ERSmallLaser - - }
+Right_Torso
+  Armor            { 14 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { CL.SRM-6 - - }
+    CRIT_4		  { ArtemisIV - - }
+    CRIT_5		  { CL.SRM-6 - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7-8		  { Ammo_CL.SRM-6 15 Artemis/Mine }
+Center_Torso
+  Armor            { 17 }
+  Internals        { 21 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 15 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 15 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

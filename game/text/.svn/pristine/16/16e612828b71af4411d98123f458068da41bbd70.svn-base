@@ -1,0 +1,11 @@
+ 
+& cocoon
+ 
+  xcodevalue: cocoon <int_ro>
+  XTYPE: MECH
+  
+  This xcode value stores a 1 if the Unit is in a coccon (ie 
+  performing an OOD) or a 0 if it is not.
+  
+  See Also: @viewxcode, @ood
+ 

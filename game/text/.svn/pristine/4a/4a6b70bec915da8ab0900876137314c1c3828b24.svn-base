@@ -1,0 +1,13 @@
+ 
+& ENTER_OK
+ 
+  Flag: ENTER_OK (e)
+ 
+  If an object or person is ENTER_OK, other players may
+  enter the object or person by using 'enter <object/person>'. Players
+  must also have the ENTER_OK set if they wish to be able to receive
+  things given to them by other players via 'give <player> =
+  <object>'.
+ 
+  See also: give, enter
+ 

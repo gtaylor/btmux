@@ -1,0 +1,20 @@
+ 
+& @delcommand
+ 
+  Syntax: @delcommand <name>[=<thing>/<attribute>]
+  
+  This command deletes a command which has been added to the MUX's 
+  built-in command table using the @addcommand command.
+  
+  Arguments:
+  * name - deletes all commands under <name>
+  * 
+  
+   . When you specify 
+  <thing> and <attribute>, it only deletes that specific entry. If the 
+  command or commands you are deleting had replaced a built-in 
+  command, the built-in command and all
+  aliases are restored to their normal names and actions.
+ 
+  See also: @addcommand, @listcommands.
+  

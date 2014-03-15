@@ -1,0 +1,24 @@
+ 
+& btsetcharvalue()
+ 
+  Syntax: btsetcharvalue(<ObjectDB>,<skill/attribute>,<value>,<mode>)
+ 
+  This function sets the value of the specified skill or attribute on
+  the specified object (player). The mode argument indicates which
+  aspect of the skill/attribute to set:
+  
+  Note: When setting the value of an attribute, <mode> MUST be set to
+  0
+  
+  Note: If <value> is set to a non-numeric argument the
+  <skill/attribute> will be set to 0
+ 
+  Arguments:
+  <mode>
+  * 0 - set the actual value of <skill/attribute> to <value>
+  * 1 - set the BTH of <skill> to <value> (increasing the skill level
+    to the necessary extent)
+  * 2 - adds <value> to the XP amount of <skill/attribute>
+ 
+  Continued in btsetcharvalue()2
+ 

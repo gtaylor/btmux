@@ -1,0 +1,75 @@
+Name             { Catapult }
+Reference        { CPLT-H2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Heat_Sinks       { 26 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1021 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor          { 13 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-5     { IS.PPC - - }
+    CRIT_6-8     { IS.RL-20 - OneShot }
+    CRIT_9-11    { HeatSink - - }
+Right_Arm
+  Armor          { 13 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-5     { IS.RL-20 - OneShot }
+    CRIT_6-8     { IS.RL-20 - OneShot }
+    CRIT_9-11    { IS.RL-20 - OneShot }
+Left_Torso
+  Armor          { 22 }
+  Internals      { 15 }
+  Rear           { 8 }
+    CRIT_1-2     { JumpJet - - }
+    CRIT_3-5     { IS.RL-20 - OneShot }
+    CRIT_6-8     { IS.RL-20 - OneShot }
+    CRIT_9-11    { HeatSink - - }
+Right_Torso
+  Armor          { 22 }
+  Internals      { 15 }
+  Rear           { 8 }
+    CRIT_1-2     { JumpJet - - }
+    CRIT_3-5     { IS.RL-20 - OneShot }
+    CRIT_6-8     { IS.RL-20 - OneShot }
+    CRIT_9-11    { HeatSink - - }
+Center_Torso
+  Armor          { 26 }
+  Internals      { 21 }
+  Rear           { 11 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { IS.MediumLaser - - }
+    CRIT_12      { IS.MediumLaser - - }
+Left_Leg
+  Armor          { 22 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Right_Leg
+  Armor          { 22 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

@@ -1,0 +1,26 @@
+ 
+& fold()
+ 
+  Syntax: fold([<obj>/]<attr>, <list>[, <base-case>[, <delim>])
+ 
+  This function iteratively processes a list through a function,
+  feeding the result of one step into the next step as %0, passing in
+  the next element from the list as %1. If a base case is provided, it
+  is used as the initial %0. If not, the first list element is passed
+  as %0 and the second is passed as %1, and subsequent iterations
+  proceed normally.
+ 
+  <delimiter> may be used to specify a delimiter other than space, but
+  you must specify a base case in order to specify the delimiter.
+ 
+  Example:
+ 
+  > &REP_NUM object=[%0][repeat(%1,%1)]
+  > say fold(object/rep_num,1 2 3 4 5,->)
+  You say "->122333444455555"
+  > &ADD_NUMS object=add(%0,%1)
+  > say fold(object/add_nums,1 2 3 4 5)
+  You say "15"
+ 
+  See Also: u(), iter(), map(), filter()
+ 

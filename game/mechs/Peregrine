@@ -1,0 +1,28 @@
+Name   { Peregrine } 
+Reference        { Peregrine }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 30 }
+Mech_BV          { 520 }
+Max_Speed        { 193.50 }
+Left_Side
+  Armor            { 2 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-4 - - }
+Right_Side
+  Armor            { 2 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-4 - - }
+Front_Side
+  Armor            { 2 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { IS.MachineGun - - }
+    CRIT_3		  { Ammo_IS.MachineGun 200 - - }
+    CRIT_4		  { Ammo_IS.SRM-4 25 - - }
+Aft_Side
+  Armor            { 1 }
+  Internals        { 3 }
+Rotor
+  Armor            { 1 }
+  Internals        { 3 }

@@ -1,0 +1,39 @@
+Name             { Transgressor AC }
+Reference        { TR-14 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 75 }
+Comment          { Saved by: Celebrimbor(#319) at Tue Jun  3 18:49:59 1997 }
+Computer         { 3 }
+Heat_Sinks       { 25 }
+Fuel             { 750 }
+Max_Speed        { 96.75 }
+Nose
+  Armor            { 60 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.AC/20 - - }
+    CRIT_3-4		  { Ammo_IS.AC/20 5 - - }
+Left_Wing
+  Armor            { 35 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 35 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 64 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 24 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }

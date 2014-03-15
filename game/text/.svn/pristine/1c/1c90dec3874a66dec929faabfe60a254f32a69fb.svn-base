@@ -1,0 +1,15 @@
+ 
+& turret
+ 
+  RS Command: turret <degrees>
+  
+  This command sets the direction in which the turret on a vehcile
+  faces.
+  
+  Note - The turret is not locked in that direction. Changing the 
+  heading of the unit will rotate the entire unit, including the 
+  turret which consequently will change the direction the turret is 
+  facing.
+  
+  See Also: autoturret
+ 

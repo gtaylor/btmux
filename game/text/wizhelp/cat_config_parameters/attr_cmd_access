@@ -1,0 +1,15 @@
+
+& attr_cmd_access
+
+  Config parameter: attr_cmd_access [!]<privilege> [[!]<privilege>]...
+
+  Changes the access rights on all attribute-setting commands in
+  parallel.
+
+  Use this parameter to allow or deny access to the attribute-setting
+  commands as a group.  This directive should normally be followed
+  by access directives to properly set access to restricted
+  attributes.
+
+  See also: access, PERMISSIONS.
+ 

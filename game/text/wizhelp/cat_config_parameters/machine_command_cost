@@ -1,0 +1,10 @@
+
+& machine_command_cost
+
+  Config parameter: machine_command_cost <number>
+  Default: 64
+
+  Sets the cost for running a command from a machine, as opposed to
+  running it interactively.  Each command run has a one in <number>
+  chance of being charged one coin for machine overhead.
+ 

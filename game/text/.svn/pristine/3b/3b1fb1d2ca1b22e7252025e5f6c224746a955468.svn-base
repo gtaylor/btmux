@@ -1,0 +1,13 @@
+ 
+& CHOWN_OK
+ 
+  Flag: CHOWN_OK (C)
+ 
+  This flag, when set, allows you to transfer ownership to
+  another player. To set it, you must be carrying the object. You
+  also have to be in the room if you want to set this flag on rooms
+  or exits.  After this flag is set, the new player may gain
+  ownership of the object by using the @chown command.
+ 
+  See also: @chown, owner()
+ 

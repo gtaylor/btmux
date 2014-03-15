@@ -1,0 +1,21 @@
+
+& max_players
+
+  Config parameter: max_players <num>
+  Default: -1 (unlimited)
+
+  Sets the maximum number of players that may be connected at any one
+  time.
+
+  Note that wizards are allowed to login even if they would
+  exceed the limit, and that this limit does not override any limits
+  imposed by the system running the MUX (such as the maximum number
+  of net connections a process may have).
+
+  Players connecting when there are max_players players connected
+  receive the contents of the file named by the full_file directive,
+  and the full_motd_message (also settable via @motd/full), and are
+  disconnected.
+
+  See also: @motd, full_file, full_motd_message.
+ 

@@ -1,0 +1,10 @@
+ 
+& @last
+ 
+  Syntax: @last <player>
+ 
+  This command displays a short 'connection history' for <player>,
+  showing recent successful and failed connection attempts, as well
+  as the total number of successful and failed connections.
+  You can only display information about yourself.
+ 

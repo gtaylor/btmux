@@ -1,0 +1,21 @@
+ 
+& btengrate()
+ 
+  Syntax: btengrate(<UnitDB>)
+ 
+  This function returns a space delimited string detailing the
+  enginesize and susp_factor for <UnitDB>.
+ 
+  Error Messages:
+ 
+  * If the object specified in <UnitDB> is not an RS unit the
+   function returns #-1 NOT A MECH
+ 
+  Example:
+  Given that #dbref 1234 is a valid RS unit (an EXT-4D)
+ 
+  > think btengrate(#1234)
+  390 0
+ 
+  See Also: btengrate_ref()
+ 

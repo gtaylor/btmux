@@ -1,0 +1,61 @@
+
+& contacts2
+
+  The string returned is comprised of the following:
+ 
+  * Sensor Flags:
+     P - 'visible' to primary sensors
+     S - 'visible' to secondary sensors
+     * - located in front arc
+     v - located in rear arc
+     l - located in left arc
+     r - located in right arc
+  * UnitID
+  * Unit Type:
+     B - Biped
+     F - Aerospace (including Dropships)
+     H - Hover
+     N - None
+     Q - Quad
+     T - Tracked
+     V - VTOL
+     W - Wheeled
+  * Unit name
+    (normally the first 2 characters of this are the faction ID)
+  * X coordinate
+  * Y coordinate
+  * Range from your current location
+  * Bearing from your current location
+  * Speed of the unit
+  * Heading of the unit
+  * Unit status flags:
+** D - Destroyed
+** F - Fallen or prone
+** f - standing
+** J - Jumping
+** S - Shutdown
+** s - starting up
+** T - Being towed
+** t - Towing a unit
+** H - unit is hulldown
+** h - unit is raising or lowering
+** L - unit's spotlight is on
+** l - unit is lit by a spotlight
+** E - Unit's ECM is active
+** e - Unit is effected by ECM
+** P - Unit's ECCM is active
+** p - Unit is eccm protected
+** + - Unit is Overheating
+** M - Unit is using Special Movment - sprint
+** m - Unit is using Special Movement - evade
+** W - Battlesuits' with this flag are Mounted on another unit
+** C - Unit is carrying a club
+** O - Unit is OODing
+** X - Unit is spinning
+** I - Unit is infernoed
+** B - Unit is burning
+** G - Unit is staggered
+** N - Unit is narc'ed
+  
+    See Also: report, view, scan, brief
+ 

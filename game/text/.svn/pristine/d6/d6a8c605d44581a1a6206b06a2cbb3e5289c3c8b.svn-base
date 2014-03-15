@@ -1,0 +1,11 @@
+ 
+& MaxSuits
+ 
+  xcodevalue: MaxSuits <int>
+  XTYPE: MECH
+  
+  This xcode value stores the templated number of Battlesuits in a 
+  squad.
+  
+  See Also: @viewxcode
+ 

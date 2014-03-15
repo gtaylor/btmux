@@ -1,0 +1,29 @@
+Name             { Long Tom }
+Reference        { LT-MOB-25 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 95 }
+Mech_BV          { 532 }
+Computer         { 2 }
+Radio		 { 2 }
+Heat_Sinks       { 0 }
+Max_Speed        { 32.25 }
+Left_Side
+  Armor            { 64 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { IS.MachineGun - - }
+Right_Side
+  Armor            { 64 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { IS.MachineGun - - }
+Front_Side
+  Armor            { 64 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LongTom - - }
+    CRIT_2-6		  { Ammo_IS.LongTom 5 - - }
+    CRIT_7		  { Ammo_IS.MachineGun 200 - - }
+Aft_Side
+  Armor            { 64 }
+  Internals        { 10 }

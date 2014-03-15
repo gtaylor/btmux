@@ -1,0 +1,14 @@
+ 
+& dec()
+ 
+  Syntax: dec(<number>)
+ 
+  Decrements <number> - ie returns <number> minus 1. Much faster and
+  more efficient than sub(<number>,1).
+ 
+  Example:
+  >Say dec(9)
+  You say "8"
+ 
+  See also: sub(), add(), inc().
+ 

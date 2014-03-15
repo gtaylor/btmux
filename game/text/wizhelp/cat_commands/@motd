@@ -1,0 +1,22 @@
+ 
+& @motd
+ 
+  Syntax: @motd[/<switches>] <message>
+ 
+  This command sets or lists short messages that are displayed to 
+  players after they successfully log in to the game (or after they 
+  fail because logins are not allowed).  These messages are displayed 
+  in addition to the contents of the motd.txt and wizmotd.txt files.
+ 
+  The following switches are available:
+     (No switches)   - Sets the message that all players see when they connect.
+     /wizard         - Sets the message that wizards see when they connect.
+     /down           - Sets the message the players see when they try to
+                       connect, but fail because logins are disabled.
+     /full           - Sets the message that players see when they try to
+                       connect, but fail because there are too many players
+                       already connected.
+     /list           - Lists the current messages.
+
+  See also: @listmotd
+ 

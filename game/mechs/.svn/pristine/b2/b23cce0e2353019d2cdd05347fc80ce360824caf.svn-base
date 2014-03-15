@@ -1,0 +1,36 @@
+Name             { Sholagar }
+Reference        { SL-21A }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 35 }
+Computer         { 3 }
+Heat_Sinks       { 11 }
+Fuel             { 750 }
+Max_Speed        { 161.25 }
+Nose
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Left_Wing
+  Armor            { 17 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 17 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 24 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 0 }
+    CRIT_3		  { Cockpit - - 0 }
+    CRIT_4		  { Sensors - - 0 }
+    CRIT_5		  { LifeSupport - - 0 }
+Engine
+  Armor 	   { 14 }
+  Internals        { 10 }

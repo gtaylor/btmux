@@ -1,0 +1,12 @@
+ 
+& display
+ 
+  Mechrep Command: display <loc>
+  
+  This command displays all the items in the specified location on the 
+  targetted RS Unit.
+  
+  This command is equivalent to 'critstatus'
+  
+  See Also: settarget, critstatus
+ 

@@ -1,0 +1,76 @@
+Name             { Marauder }
+Reference        { MAD-5R }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Heat_Sinks       { 34 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1674 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS XLEngine_Tech ECM C3SlaveTech Searchlight }
+Left_Arm
+  Armor          { 23 }
+  Internals      { 12 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-9     { IS.ERPPC - - }
+    CRIT_10      { IS.MediumLaser - - }
+Right_Arm
+  Armor          { 23 }
+  Internals      { 12 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-9     { IS.ERPPC - - }
+    CRIT_10      { IS.MediumLaser - - }
+Left_Torso
+  Armor          { 24 }
+  Internals      { 16 }
+  Rear           { 8 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-9     { HeatSink - - }
+    CRIT_10      { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_11      { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_12      { Case - - }
+Right_Torso
+  Armor          { 24 }
+  Internals      { 16 }
+  Rear           { 8 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-12    { IS.RotaryAC/5 - - }
+Center_Torso
+  Armor          { 35 }
+  Internals      { 23 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11-12   { Ecm - - }
+Left_Leg
+  Armor          { 30 }
+  Internals      { 16 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Right_Leg
+  Armor          { 30 }
+  Internals      { 16 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { C3Slave - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

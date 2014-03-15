@@ -1,0 +1,17 @@
+ 
+& @adisconnect
+ 
+  Syntax: @adisconnect <object> = <command-list>
+  Attribute: Adisconnect
+ 
+  Sets the actions to be taken by a player right after disconnecting
+  from the game.
+ 
+  This attribute is only meaningful for players, and will never be
+  automatically triggered on other object types.
+ 
+  Example:
+  @adisconnect me = home
+ 
+  See also: @aconnect
+ 

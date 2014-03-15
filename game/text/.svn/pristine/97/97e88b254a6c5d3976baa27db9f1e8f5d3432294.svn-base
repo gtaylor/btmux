@@ -1,0 +1,14 @@
+ 
+& @trigger
+ 
+  Syntax: @trigger[/<switch>] <object>/<attr> [=<param>[, <param>]...]
+ 
+  Invokes an action list stored in an attribute on an object.  The
+  triggering object becomes the enactor and the positional
+  parameters %0 through %9 are set to the supplied parameters.
+ 
+  The @trigger command supports the following switch:
+     quiet      - Inhibit 'Triggered.' acknowledgement messages.
+ 
+  See also: LOOPING
+ 

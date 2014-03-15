@@ -1,0 +1,10 @@
+ 
+& inferno
+ 
+  RS Command: inferno <weapnum>
+  
+  This command toggles the state of <weapnum>, causing it to fire 
+  Inferno ammunition or normal ammunition.
+  
+  Inferno ammo is only used for missile launchers.
+ 

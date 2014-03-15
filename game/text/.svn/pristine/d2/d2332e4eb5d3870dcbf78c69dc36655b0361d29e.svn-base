@@ -1,0 +1,24 @@
+ 
+& lte()
+ 
+  Syntax: lte(<integer1>,<integer2>)
+ 
+  Takes two integers, and returns 1 if and only if <integer1> is less
+  than or equal to <integer2>, and 0 otherwise.
+ 
+  Warning: Passing anything but integers will produce unexpected
+  results, as non-numeric strings are usuallly treated as numeric 0.
+ 
+  Example:
+ 
+  > say lte(4,5)
+  You say "1"
+  > say lte(5,5)
+  You say "1"
+  > say lte(6,5)
+  You say "0"
+  > say lte(foo, bar)
+  You say "1"
+ 
+  See Also: lt(), gte(), gt(), eq(), neq()
+ 

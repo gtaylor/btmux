@@ -1,0 +1,16 @@
+ 
+& delete()
+
+  Syntax: delete(<string>,<first>,<len>)
+
+  Returns <string>, but with <len> characters starting after the
+  character at position <first> removed.  In other words, this
+  function copies <first> characters, skips <len> characters, and
+  then copies the remainder of the string.
+
+  Example:
+    > say delete(abcdefgh, 3, 2)
+    You say "abcfgh"
+    > say delete(Would you like coffee or perhaps tea?, 15, 18)
+    You say "Would you like tea?"
+ 

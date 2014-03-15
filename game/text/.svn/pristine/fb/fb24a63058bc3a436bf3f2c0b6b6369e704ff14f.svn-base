@@ -1,0 +1,19 @@
+ 
+& btgetxcodevalue()
+ 
+  Syntax: btgetxcodevalue(<ObjectDB>,<xcodevalue>)
+ 
+  This function returns the value stored in <xcodevalue> on the
+  specified object.
+ 
+  Error Messages:
+ 
+  * If <ObjectDB> is not valid the function returns #-1
+  * If <xcodevalue> is not valid the function returns #-1
+ 
+  Example:
+  Given a map #dbref 62:
+ 
+  > think btgetxcodevalue(#62, mapvis)
+  30
+ 

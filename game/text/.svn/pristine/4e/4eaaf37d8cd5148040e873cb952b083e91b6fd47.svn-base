@@ -1,0 +1,19 @@
+ 
+& @idle
+ 
+  Syntax: @idle <object> = <message>
+  Attribute: Idle
+ 
+  This attribute is sent as a message to anyone who successfully pages
+  you.
+ 
+  It can be used to tell someone who pages you when you will return
+  (if you are going to be away for a while).
+ 
+  This attribute is only meaningful for players, and will never be
+  automatically referenced on other object types.
+ 
+  Example: @idle me = At dinner.  Back about 7PM.
+ 
+  See also: @away, @reject, page
+ 

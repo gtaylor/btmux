@@ -1,0 +1,71 @@
+Name             { Thor }
+Reference        { Thor-Prime }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Heat_Sinks       { 28 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials	 { Clan SearchLight FlipArms }
+Left_Arm
+  Armor            { 17 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-7		  { CL.LB10-XAC - - }
+    CRIT_8		  { Ammo_CL.LB10-XAC 10 - }
+    CRIT_9		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 17 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.ERPPC - - }
+    CRIT_5		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { CL.LRM-15 - - }
+    CRIT_5-6		  { Ammo_CL.LRM-15 8 - }
+    CRIT_7-8		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 27 }
+  Internals        { 22 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 23 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 23 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

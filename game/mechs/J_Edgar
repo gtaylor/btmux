@@ -1,0 +1,27 @@
+Name		 { J Edgar } 
+Reference        { J_Edgar }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 25 }
+Mech_BV          { 328 }
+Max_Speed        { 182.75 }
+Left_Side
+  Armor            { 19 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 19 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 30 }
+  Internals        { 3 }
+Aft_Side
+  Armor            { 12 }
+  Internals        { 3 }
+Turret
+  Armor            { 24 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SRM-2 - - }
+    CRIT_3		  { IS.SRM-2 - - }
+    CRIT_4		  { Ammo_IS.SRM-2 50 - }
+

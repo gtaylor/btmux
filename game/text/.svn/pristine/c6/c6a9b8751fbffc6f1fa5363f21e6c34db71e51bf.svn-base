@@ -1,0 +1,32 @@
+
+& @lock locks
+
+  You can set the following locks:
+
+     DefaultLock:  Exits:          controls who may traverse the exit
+                                   to its destination.
+                   Rooms:          controls whether the player sees
+                                   the SUCC or FAIL message for the
+                                   room following the room
+                                   description when looking at the
+                                   room.
+                   Players/Things: controls who may GET the object.
+     EnterLock:    Players/Things: controls who may ENTER the object
+                                   if the object is ENTER_OK. Also,
+                                   the enter lock of an object being
+                                   used as a Zone Master Object
+                                   determines control of that zone.
+     GiveLock:     Players/Things: controls who may give the object.
+     LeaveLock:    Players/Things: controls who may LEAVE the object.
+ 
+     LinkLock:     All but Exits:  controls who may link to the
+                                   location if the location is LINK_OK
+                                   (for linking exits or setting drop-
+                                   tos) or ABODE (for setting homes)
+     PageLock:     Players:        controls who may page the player.
+     ParentLock:   All:            controls who may make @parent links
+                                   to the object.
+     ReceiveLock:  Players/Things: controls who may give things to the
+                                   object.
+{ 'help @lock locks2' for more}
+ 

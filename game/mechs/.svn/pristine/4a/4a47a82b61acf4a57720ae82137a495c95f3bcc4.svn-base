@@ -1,0 +1,78 @@
+Name             { JagerMech }
+Reference        { JM7-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Mar 22 01:19:24 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 26 }
+Mech_BV          { 1171 }
+Cargo_Space      { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS FlipArms AntiAircraft }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-7		  { IS.UltraAC/5 - - 3 }
+    CRIT_8-9		  { IS.ERLargeLaser - - 3 }
+    CRIT_10-12		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-7		  { IS.UltraAC/5 - - 3 }
+    CRIT_8-9		  { IS.ERLargeLaser - - 3 }
+    CRIT_10-12		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7		  { Ammo_IS.UltraAC/5 20 - - }
+    CRIT_8-11		  { FerroFibrous - - 3 }
+    CRIT_12		  { Case - - 3 }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7		  { Ammo_IS.UltraAC/5 20 - - }
+    CRIT_8-11		  { FerroFibrous - - 3 }
+    CRIT_12		  { Case - - 3 }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 22 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.MediumPulseLaser - - 3 }
+    CRIT_12		  { IS.MediumPulseLaser - - 3 }
+Left_Leg
+  Armor            { 22 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 22 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

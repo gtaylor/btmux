@@ -1,0 +1,9 @@
+ 
+& @listmotd
+ 
+  Syntax: @listmotd
+ 
+  Displays the current message-of-the-day.  Note that it is displayed
+  when you connect to your character. This will also display the
+  "motd.txt" file.
+ 

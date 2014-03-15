@@ -1,0 +1,10 @@
+.
+& prog
+ 
+  Power: prog
+  
+  This power permits the player to use the @prog command on any 
+  player.
+  
+  See Also: @power, @list powers, @prog
+ 

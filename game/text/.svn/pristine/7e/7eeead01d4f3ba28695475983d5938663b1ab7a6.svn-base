@@ -1,0 +1,21 @@
+ 
+& @ogfail
+ 
+  Syntax: @ogfail <object> = <message>
+  Attribute: Ogfail
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in the same room when someone tries to give away <object>
+  but fails because they didn't pass the object's give lock.
+ 
+  Function references and %-substitutions are allowed in give failure
+  messages, and are evaluated when someone tries to give away the
+  object. In function references, 'me' refers to the object being
+  given away, while %-substitutions that refer to the enactor (such
+  as %n, %#, %p, etc) refer to the (attempted) giver.
+ 
+  Example:
+  @ogfail blob = tries to give away a sticky blob of goo.
+ 
+  See also: give, @agfail, @gfail, @lock
+ 

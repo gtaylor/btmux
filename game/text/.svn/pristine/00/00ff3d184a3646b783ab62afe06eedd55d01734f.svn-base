@@ -1,0 +1,10 @@
+ 
+& narc
+ 
+  RS Command: narc <weapnum>
+  
+  This command toggles the state of <weapnum>, causing it to fire NARC 
+  compatible ammunition or normal ammunition.
+  
+  NARC applies only to missile type ammuntion.
+ 

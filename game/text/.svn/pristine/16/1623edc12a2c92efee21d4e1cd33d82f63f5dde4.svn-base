@@ -1,0 +1,29 @@
+ 
+& btmakemechs()2
+ 
+  Error Messages:
+ 
+  * If the number of arguments is < 2 the function returns #-1
+    Insufficient arguments!
+  * If the number of arguments is > 5 the function returns #-1 Too
+     many arguments!
+  * If <Faction> is not a valid faction the function returns #-1
+    Invalid faction name!
+  * if <type> is a null string the function returns #-1 Invalid type
+    bitvector!
+  * if <type> is not a valid <type> the function returns #-1 NO
+    UNITS WITH FLAG <type> FOUND
+  * If <tonnage> is > 4000 the function returns #-1 Max of 4000 tons
+    of mecha at once! Sowwy!
+  * if <opttonnage> is < 20 the function returns #-1 Invalid
+    tonnage!
+  * if <maxvariation> is < 5 the function returns #-1 Invalid
+    MaxDifference!
+ 
+  Example:
+  Given that Draconis Combine is a valid faction with a short name of
+  DC
+ 
+  > think btmakemechs(dc,500,1,60,10)
+  CRD-3R DRG-1C DRG-1C DRG-1N DV-6M HBK-4J SHD-2K TBT-5J
+ 

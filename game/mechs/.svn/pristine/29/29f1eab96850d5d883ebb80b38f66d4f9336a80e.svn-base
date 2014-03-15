@@ -1,0 +1,72 @@
+Name             { Strider }
+Reference        { SR1-OF }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Computer	 { 4 }
+Radio            { 4 }
+Max_Speed        { 96.75 }
+Specials         { FlipArms }
+Left_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Right_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Left_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 5 }
+  Config	   { Case }
+    CRIT_1-3		  { JumpJet - - }
+    CRIT_4		  { IS.StreakSRM-4 - - }
+    CRIT_5-10		  { EndoSteel - - }
+    CRIT_11		  { Case - - }
+Right_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 5 }
+  Config	   { Case }
+    CRIT_1-3		  { JumpJet - - }
+    CRIT_4		  { IS.StreakSRM-4 - - }
+    CRIT_5		  { Ammo_IS.StreakSRM-4 25 - }
+    CRIT_6-11		  { EndoSteel - - }
+    CRIT_12		  { Case - - }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+    CRIT_6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

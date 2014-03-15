@@ -1,0 +1,80 @@
+Name             { Thunder }
+Reference        { THR-2L }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Comment          { Saved by: Captain QB(#198) at Mon Sep  8 17:48:52 2008 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 22 }
+Mech_BV          { 1227 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_9-12		  { StealthArmor - - }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2-12		  { IS.LB20-XAC - - }
+Left_Torso
+  Armor            { 23 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-5		  { IS.StreakSRM-6 - - }
+    CRIT_6		  { IS.ERMediumLaser - - }
+    CRIT_7		  { Ammo_IS.StreakSRM-6 15 - - }
+    CRIT_10-11		  { StealthArmor - - }
+    CRIT_12		  { Case - - }
+Right_Torso
+  Armor            { 23 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4		  { IS.ERMediumLaser - - }
+    CRIT_5-6		  { Ecm - - }
+    CRIT_7		  { Ammo_IS.LB20-XAC 5 - - }
+    CRIT_8		  { Ammo_IS.LB20-XAC 5 LBX/Cluster - }
+    CRIT_10-11		  { StealthArmor - - }
+    CRIT_12		  { Case - - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 22 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_12		  { IS.ERSmallLaser - - }
+Left_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { StealthArmor - - }
+Right_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { StealthArmor - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,79 @@
+Name             { Orion }
+Reference        { ON1-M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Comment          { Saved by: Captain QB(#198) at Wed Nov 23 13:16:37 2005 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 22 }
+Mech_BV          { 1192 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS AntiAircraft }
+Left_Arm
+  Armor            { 21 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_7		  { IS.LRM-20 - Narc/Smoke }
+    CRIT_8-11		  { IS.LRM-20 - - }
+Right_Arm
+  Armor            { 21 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4		  { IS.SRM-4 - Narc/Smoke }
+    CRIT_5-6		  { Ammo_IS.LRM-20 6 Narc/Smoke - }
+    CRIT_7-8		  { Ammo_IS.SRM-4 25 Narc/Smoke - }
+    CRIT_9-10		  { Ammo_IS.NarcBeacon 6 - - }
+    CRIT_11		  { Case - - }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-9		  { IS.LB10-XAC - - }
+    CRIT_10		  { Ammo_IS.LB10-XAC 10 - - }
+    CRIT_11		  { Ammo_IS.LB10-XAC 10 LBX/Cluster - }
+    CRIT_12		  { Case - - }
+Center_Torso
+  Armor            { 36 }
+  Internals        { 23 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { IS.NarcBeacon - - }
+Left_Leg
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,12 @@
+
+& function_recursion_limit
+
+  Config parameter: function_recursion_limit <num>
+  Default: 50
+
+  This directive sets the maximum number of nested function calls that
+  may be made before the function call is aborted and the string
+  '#-1 FUNCTION RECURSION LIMIT EXCEEDED' is returned.  Normally this
+  is not a problem, but the u() function can be used to cause
+  infinite recursion (unless blocked by a recursion limit)
+ 

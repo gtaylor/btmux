@@ -1,0 +1,9 @@
+ 
+& cleartic
+ 
+  RS Command: cleartic <num>
+  
+  This command removes all weapons from the specified TIC.
+  
+  See Also: addtic, deltic, listtic
+ 

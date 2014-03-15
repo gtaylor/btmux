@@ -1,0 +1,81 @@
+Name             { Kodiak }
+Reference        { Kodiak-1 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Heat_Sinks       { 40 }
+Max_Speed        { 64.50 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 32 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+    CRIT_6		  { CL.ERMediumLaser - - }
+    CRIT_7		  { CL.ERMediumLaser - - }
+    CRIT_8		  { CL.ERMediumLaser - - }
+    CRIT_9-11		  { EndoSteel - - }
+Right_Arm
+  Armor            { 32 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+    CRIT_6		  { CL.ERMediumLaser - - }
+    CRIT_7		  { CL.ERMediumLaser - - }
+    CRIT_8		  { CL.ERMediumLaser - - }
+    CRIT_9-11		  { EndoSteel - - }
+Left_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7-8		  { CL.StreakSRM-6 - - }
+    CRIT_9-10		  { CL.StreakSRM-6 - - }
+    CRIT_11-12		  { Ammo_CL.StreakSRM-6 15 - }
+Right_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-10		  { CL.UltraAC/20 - - }
+    CRIT_11-12		  { Ammo_CL.UltraAC/20 5 - }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 31 }
+  Rear             { 15 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.ERLargeLaser - - }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 34 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 34 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

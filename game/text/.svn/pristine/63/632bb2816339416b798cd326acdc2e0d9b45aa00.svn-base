@@ -1,0 +1,23 @@
+ 
+& page
+ 
+  Syntax: page <player-list> [=[<control>]<message>]
+ 
+  This command sends <message> to <player-list>.  If you do not
+  specify a name, it defaults to the players you last paged.  You
+  may use either the player's name or alias, a list of names and/or
+  aliases, and you may also give a string that uniquely matches the
+  start of a player's name on the WHO list.
+ 
+  You can format the message one of several ways by specifying ':',
+  ';', or '"' as the first character of the message.  ':' and ';'
+  format the message as 'From afar, <player> <message>', with ';'
+  omitting the space between <player> and <message>.  '"' formats
+  the message in normal page format (this is the default).
+ 
+  If your Idle attribute is set to something, then it is sent to
+  anyone who successfully pages you.  This is useful for when you
+  are away from your terminal for a short while.
+ 
+  { 'help page2' for more}
+ 

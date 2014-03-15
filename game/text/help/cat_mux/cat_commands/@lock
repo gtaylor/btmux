@@ -1,0 +1,25 @@
+ 
+& @lock
+ 
+  Syntax: @lock[/<whichlock>] <object>=<key>
+           @lock <object>/<attrib>
+ 
+  The first form locks <object> to a specific key(s).  Type 'help
+  @lock keys' for a list of the keys you may use.
+ 
+  <whichlock> indicates which lock you want to set on the object.
+  If you don't specify one, you set the Default lock. Type 'help
+  @lock locks' for a list of the locks you may set and what they are
+  used for.
+ 
+  The second form locks the indicated attribute of the named object,
+  so that when the object is @chowned, the attribute will remain
+  owned by you. It may also be used when you own an attribute on an
+  object that you do not own, in this case it prevents the object's
+  owner from @chowning the attribute to himself, and prevents anyone
+  from modifying or removing the attribute.
+ 
+  See also: @chown, @unlock, @lock locks, @lock keys, @lock attribute,
+  @lock evaluation, @lock indirect, @lock normal, @lock is,
+  @lock carry, @lock ownership, @lock compound
+ 

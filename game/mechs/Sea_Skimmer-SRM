@@ -1,0 +1,29 @@
+Name		 { Sea_Skimmer } 
+Reference        { Sea_Skimmer-SRM }
+Type             { Naval }
+Move_Type        { Foil }
+Tons             { 25 }
+Mech_BV          { 270 }
+Computer         { 3 }
+Max_Speed        { 193.50 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-2 - - }
+Right_Side
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-2 - - }
+Front_Side
+  Armor            { 10 }
+  Internals        { 3 }
+Aft_Side
+  Armor            { 6 }
+  Internals        { 3 }
+Turret
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-2 - - }
+    CRIT_2		  { IS.SRM-2 - - }
+    CRIT_3-4		  { Ammo_IS.SRM-2 50 - }

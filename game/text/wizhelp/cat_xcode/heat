@@ -1,0 +1,14 @@
+ 
+& heat
+ 
+  xcodevalue: heat <float>
+  XTYPE: MECH
+  
+  This xcode value stores the total heat for the RS Unit.
+  
+  NOTE - The amount displayed must be multiplied by 10 to return 
+  degrees. eg a temp of 168 degrees will show as 16.80 in @viewxcode 
+  and btgetxcodevalue().
+  
+  See Also: overheat, @viewxcode
+ 

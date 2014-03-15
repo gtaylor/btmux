@@ -1,0 +1,83 @@
+Name             { Axeman }
+Reference        { AXM-3S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:03:21 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1499 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 17 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { IS.ERMediumLaser - - 3 }
+    CRIT_5		  { IS.ERMediumLaser - - 3 }
+    CRIT_6		  { IS.ERMediumLaser - - 3 }
+    CRIT_7-12		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 17 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-9		  { Axe - - 3 }
+    CRIT_10-12		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-2		  { Engine - - 3 }
+    CRIT_3-4		  { Ammo_IS.LB20-XAC 5 - - }
+    CRIT_5-6		  { Ammo_IS.LB20-XAC 5 LBX/Cluster - }
+    CRIT_7-8		  { Ecm - - 3 }
+    CRIT_9		  { Case - - 3 }
+    CRIT_10-12		  { FerroFibrous - - 3 }
+Right_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1		  { Engine - - 3 }
+    CRIT_2-12		  { IS.LB20-XAC - - 3 }
+Center_Torso
+  Armor            { 28 }
+  Internals        { 21 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-11		  { Engine - - 3 }
+    CRIT_12		  { FerroFibrous - - 3 }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { FerroFibrous - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

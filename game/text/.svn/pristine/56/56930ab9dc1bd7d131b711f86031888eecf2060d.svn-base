@@ -1,0 +1,13 @@
+ 
+& connrecord()
+ 
+  syntax: connrecord()
+ 
+  This function returns the record number of connections to the game
+  since the database was created.
+ 
+  Example:
+ 
+  >say connrecord()
+  You say "85"
+ 

@@ -1,0 +1,34 @@
+Name		 { Svantovit } 
+Reference        { Svantovit }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 35 }
+Max_Speed        { 161.25 }
+Specials         { Clan CargoTech FerroFibrous_Tech }
+Left_Side
+  Armor            { 11 }
+  Internals        { 4 }
+    CRIT_1		  { CL.MachineGun - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 11 }
+  Internals        { 4 }
+    CRIT_1		  { CL.MachineGun - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 14 }
+  Internals        { 4 }
+    CRIT_1		  { CL.LRM-5 - - }
+    CRIT_2		  { CL.LRM-5 - - }
+    CRIT_3		  { Ammo_CL.LRM-5 24 - }
+    CRIT_4		  { Ammo_CL.MachineGun 100 Hotload }
+Aft_Side
+  Armor            { 10 }
+  Internals        { 4 }
+Turret
+  Armor            { 12 }
+  Internals        { 4 }
+    CRIT_1		  { CL.StreakSRM-2 - - }
+    CRIT_2		  { CL.StreakSRM-2 - - }
+    CRIT_3		  { Ammo_CL.StreakSRM-2 50 - }
+

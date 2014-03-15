@@ -1,0 +1,10 @@
+ 
+& allowance
+ 
+  Attribute: allowance
+  
+  This attribute, when set on a player, overrides the default config 
+  paramenter 'paycheck', therefore determining the amount of money 
+  that player receives each day he connects.
+  
+  See Also: @allowance

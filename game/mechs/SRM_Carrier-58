@@ -1,0 +1,35 @@
+Name             { SRM Carrier }
+Reference        { SRM_Carrier-58 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 60 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:02 2000 }
+Mech_BV          { 645 }
+Max_Speed        { 53.75 }
+Specials         { SearchLight ICEEngine_Tech }
+Left_Side
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { Ammo_IS.SRM-6 15 Narc/Smoke - }
+Right_Side
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { Ammo_IS.SRM-6 15 Narc/Smoke - }
+Front_Side
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { IS.NarcBeacon - - 3 }
+    CRIT_2		  { IS.SRM-6 - - 3 }
+    CRIT_3		  { IS.SRM-6 - - 3 }
+    CRIT_4		  { IS.SRM-6 - - 3 }
+    CRIT_5		  { IS.SRM-6 - - 3 }
+    CRIT_6		  { IS.SRM-6 - - 3 }
+    CRIT_7		  { IS.SRM-6 - - 3 }
+    CRIT_8		  { IS.SRM-6 - - 3 }
+    CRIT_9		  { IS.SRM-6 - - 3 }
+    CRIT_10		  { IS.SRM-6 - - 3 }
+    CRIT_11		  { Ammo_IS.NarcBeacon 6 - - }
+    CRIT_12		  { Ammo_IS.SRM-6 15 Narc/Smoke - }
+Aft_Side
+  Armor            { 12 }
+  Internals        { 6 }

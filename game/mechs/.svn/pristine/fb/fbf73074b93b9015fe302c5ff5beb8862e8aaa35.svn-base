@@ -1,0 +1,77 @@
+Name             { JagerMech }
+Reference        { JM7-F }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Comment          { Saved by: Spanky(#6784) at Tue Jun 26 07:24:17 2001 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 24 }
+Mech_BV          { 1514 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS FlipArms AntiAircraft }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-8		  { IS.RotaryAC/5 - OnTC 3 }
+    CRIT_9-12		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-8		  { IS.RotaryAC/5 - OnTC 3 }
+    CRIT_9-12		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { Ecm - - 3 }
+    CRIT_6-9		  { Ammo_IS.RotaryAC/5 20 - - }
+    CRIT_10-11		  { FerroFibrous - - 3 }
+    CRIT_12		  { Case - - 3 }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7-12		  { TargetingComputer - - 3 }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 22 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.MediumPulseLaser - OnTC 3 }
+    CRIT_12		  { IS.MediumPulseLaser - OnTC 3 }
+Left_Leg
+  Armor            { 22 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { FerroFibrous - - 3 }
+Right_Leg
+  Armor            { 22 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { FerroFibrous - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

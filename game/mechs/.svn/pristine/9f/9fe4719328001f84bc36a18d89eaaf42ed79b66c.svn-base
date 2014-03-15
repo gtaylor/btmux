@@ -1,0 +1,74 @@
+Name             { Rifleman }
+Reference        { RFL-IIC_SJ }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Computer         { 4 }
+Radio            { 5 }
+Heat_Sinks       { 20 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { DoubleHS Clan FlipArms }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2-3		  { CL.UltraAC/2 - - 5 }
+    CRIT_4		  { CL.UltraAC/2 - - 5 }
+    CRIT_5		  { CL.UltraAC/2 - - 0 }
+    CRIT_6-8		  { FerroFibrous - - 0 }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2-3		  { CL.UltraAC/2 - - 5 }
+    CRIT_4		  { CL.UltraAC/2 - - 5 }
+    CRIT_5		  { CL.UltraAC/2 - - 0 }
+    CRIT_6-8		  { FerroFibrous - - 0 }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 10 }
+    CRIT_1-3		  { Ammo_CL.UltraAC/2 45 - - }
+    CRIT_4-6		  { EndoSteel - - 0 }
+    CRIT_7-8		  { JumpJet - - 0 }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 10 }
+    CRIT_1-3		  { Ammo_CL.UltraAC/2 45 - - }
+    CRIT_4-6		  { EndoSteel - - 0 }
+    CRIT_7-8		  { JumpJet - - 0 }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 21 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - 5 }
+    CRIT_4-7		  { Gyro - - 5 }
+    CRIT_8-10		  { Engine - - 5 }
+    CRIT_11		  { CL.ERSmallLaser - - 0 }
+    CRIT_12		  { CL.ERSmallLaser - - 0 }
+Left_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5		  { FerroFibrous - - 0 }
+Right_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5		  { EndoSteel - - 0 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 5 }
+    CRIT_2		  { Sensors - - 5 }
+    CRIT_3		  { Cockpit - - 5 }
+    CRIT_5		  { Sensors - - 5 }
+    CRIT_6		  { LifeSupport - - 5 }

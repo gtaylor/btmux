@@ -1,0 +1,76 @@
+Name             { Watchman }
+Reference        { WTC-4M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:02:46 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 12 }
+Mech_BV          { 865 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Left_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { IS.LargeLaser - - 3 }
+    CRIT_7		  { IS.MachineGun - - 3 }
+    CRIT_8		  { IS.MachineGun - - 3 }
+Right_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+    CRIT_6		  { IS.MediumLaser - - 3 }
+Left_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 6 }
+    CRIT_1		  { Ammo_IS.MachineGun 200 - - }
+    CRIT_2		  { Case - - 3 }
+Right_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 6 }
+    CRIT_1-2		  { HeatSink - - 3 }
+Center_Torso
+  Armor            { 16 }
+  Internals        { 12 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { HeatSink - - 3 }
+    CRIT_12		  { JumpJet - - 3 }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { HeatSink - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

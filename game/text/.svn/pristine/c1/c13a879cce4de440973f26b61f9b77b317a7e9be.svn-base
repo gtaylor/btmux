@@ -1,0 +1,20 @@
+ 
+& @chzone
+ 
+  Syntax: @chzone <object>=<zone object>.
+ 
+  Changes the zone of <object> to <zone object>. If <zone object> is
+  "none", the zone is reset to NOTHING.
+ 
+  @chzone'ing a player does not automatically change the zone of their
+  objects. Anyone may reset the zone of an object they own; <zone
+  object> must either be "none", or must be owned by them. Only
+  wizards may @chzone an object to an arbitrary zone object. Players
+  may @chzone themselves to an object they own; otherwise, only
+  wizards may @chzone players.
+ 
+  @chzone'ing resets the WIZARD, ROYALTY, and INHERIT flags on
+  non-player objects.
+ 
+  See also: ZONE OBJECTS
+ 

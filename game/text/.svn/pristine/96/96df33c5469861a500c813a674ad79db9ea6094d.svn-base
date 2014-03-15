@@ -1,0 +1,22 @@
+ 
+& list()
+ 
+  Syntax: list(<list>, <eval>[, <delim>])
+ 
+  This function is exactly like iter() but serves a specialized
+  purpose: MUX has a buffer limit, and for things like lists of
+  players, iter() can quickly become inadequate, since the output is
+  cut off before the listing is finished. The normal way to handle
+  this is to use a @dolist/@pemit combination, but that takes many
+  queue cycles. list() takes <list>, <eval>, and an optional
+  delimiter, and evaluates them exactly like iter(). The difference
+  is the output: iter() produces a space seperated list, while list()
+  outputs each  list item on a new row of the screen.
+ 
+  Note: This is a side effect function. It does not return anything,
+  instead, it prints its output directly to the screen of the player
+  causing the function to be evaluated. Since it does this, it is not
+  hampered by the buffer limit.
+ 
+  See Also: iter(), @dolist, parse()
+ 

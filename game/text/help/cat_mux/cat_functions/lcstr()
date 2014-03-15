@@ -1,0 +1,14 @@
+ 
+& lcstr()
+ 
+  Syntax: lcstr(<string>)
+ 
+  Returns <string> with all letters converted to lowercase.
+ 
+  Example:
+ 
+  > say lcstr(This is something I want to TEST)                                     
+  You say "this is something i want to test"
+ 
+  See Also: capstr(), ucstr()
+ 

@@ -1,0 +1,14 @@
+
+& default_home
+
+  Config parameter: default_home <location>
+  Default (player_starting_home)
+
+  Sets the home location for objects which have an invalid home
+  (whether because the home location was deleted, or is owned by
+  another player and is not set ABODE) and the home of their owner
+  is also invalid.  If this parameter is not set, the value of
+  player_starting_home is used instead.
+
+  See also: player_starting_home.
+ 

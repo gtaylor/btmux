@@ -1,0 +1,79 @@
+Name             { Templar }
+Reference        { TLR1-OB }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Comment          { Saved by: Spanky(#6784) at Tue Jun 26 07:25:17 2001 }
+Heat_Sinks       { 34 }
+Mech_BV          { 1427 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { HeatSink - - 3 }
+    CRIT_6-8		  { IS.ERPPC - - 3 }
+    CRIT_9-12		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { IS.RotaryAC/2 - - 3 }
+    CRIT_6-8		  { IS.RotaryAC/2 - - 3 }
+    CRIT_9-11		  { IS.RotaryAC/2 - - 3 }
+    CRIT_12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-9		  { HeatSink - - 3 }
+    CRIT_10-11		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7-9		  { Ammo_IS.RotaryAC/2 45 - - }
+    CRIT_10-11		  { EndoSteel - - 3 }
+    CRIT_12		  { Case - - 3 }
+Center_Torso
+  Armor            { 44 }
+  Internals        { 27 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.ERMediumLaser - - 3 }
+    CRIT_12		  { IS.ERMediumLaser - - 3 }
+Left_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { EndoSteel - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

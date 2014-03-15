@@ -1,0 +1,10 @@
+ 
+& idle
+ 
+  Power: idle
+  
+  This power prevents the player from being subject to the idle 
+  timeout.
+ 
+  See Also: @power, @list powers
+ 

@@ -1,0 +1,34 @@
+Name             { Swift }
+Reference        { SWF-606 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 25 }
+Comment          { Saved by: Celebrimbor(#319) at Thu May 15 02:41:56 1997 }
+Computer         { 3 }
+Fuel             { 450 }
+Max_Speed        { 215.00 }
+Nose
+  Armor            { 10 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Left_Wing
+  Armor            { 8 }
+  Internals        { 10 }
+Right_Wing
+  Armor            { 8 }
+  Internals        { 10 }
+Fuselage
+  Armor            { 6 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 10 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 4 }
+  Internals        { 10 }

@@ -1,0 +1,73 @@
+Name             { Gallowglas }
+Reference        { Gallowglas-WD }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Heat_Sinks       { 30 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 43.00 }
+Specials         { Clan }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+    CRIT_6		  { CL.ERMediumLaser - - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.ERPPC - - }
+Left_Torso
+  Armor            { 23 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1		  { JumpJet - - }
+Right_Torso
+  Armor            { 23 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_3		  { JumpJet - - }
+    CRIT_4		  { CL.ERSmallLaser - - }
+    CRIT_5-8		  { EndoSteel - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 22 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+Left_Leg
+  Armor            { 22 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 22 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.ERSmallLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

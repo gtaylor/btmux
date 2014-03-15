@@ -1,0 +1,64 @@
+Name             { Trebuchet }
+Reference        { TBT-5N }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Mech_BV          { 864 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumLaser - - 4 }
+    CRIT_6-8		  { IS.LRM-15 - - }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - 4 }
+    CRIT_5		  { IS.MediumLaser - - 4 }
+Left_Torso
+  Armor            { 11 }
+  Internals        { 12 }
+  Rear             { 5 }
+    CRIT_1		  { Ammo_IS.LRM-15 8 - }
+Right_Torso
+  Armor            { 11 }
+  Internals        { 12 }
+  Rear             { 5 }
+    CRIT_1-3		  { IS.LRM-15 - - }
+    CRIT_4		  { Ammo_IS.LRM-15 8 - }
+Center_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 15 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 15 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

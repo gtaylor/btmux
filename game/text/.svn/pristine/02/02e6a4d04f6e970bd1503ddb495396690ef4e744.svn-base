@@ -1,0 +1,22 @@
+ 
+& remove()
+ 
+  Syntax: remove(<list>, <word>[, <delim>])
+ 
+  Remove takes a list and a word, and returns the list, with the word
+  deleted from it. <delim> may be used to specify a delimiter other
+  than a space.
+ 
+  Example:
+ 
+  > say remove(this is a test, is)
+  You say "this a test"
+  > say remove(You can't remove, this)
+  You say "You can't remove"
+  > say remove(You can't remove multiple words, You can't)
+  You say "#-1 CAN ONLY DELETE ONE ELEMENT"
+  > say remove(How about an o-separated list, w ab, o)
+  You say "Hout an o-separated list"
+ 
+  See Also: delete(), ldelete()
+ 

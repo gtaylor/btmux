@@ -1,0 +1,28 @@
+ 
+& bttechstatus()
+ 
+  Syntax: bttechstatus(<UnitDB>)
+ 
+  This function returns a space delimited list of any 'special
+  technologies' installed on <UnitDB>
+ 
+  Special Technologies:
+ 
+    * AntiAircraft        * ArtemisV_Tech       * BeagleProbe
+    * C3I_Tech            * C3MasterTech        * C3SlaveTech
+    * CargoTech           * CL_AMS              * Clan
+    * CompactEngine_Tech  * CritProof_Tech      * DoubleHS
+    * ECM                 * EndoSteel_Tech  
+    * FerroFibrous_Tech   * FlipArms            * ICEEngine_Tech
+    * IS_AMS              * LightEngine_Tech    * Masc
+    * OmniMech_Tech       * SalvageTech         * SearchLight
+    * StealthArmor_Tech   * TAG_Tech            * TripleMyomerTech
+    * XLEngine_Tech       * XXL_Tech
+ 
+  Note: The above list is not comprehensive. It details the special
+  technologies which are most frequently implemented within BT mux.
+  For a detailed list of all special technologies see
+  src/hcode/btech/template.c
+ 
+  Continued in bttechstatus()2
+ 

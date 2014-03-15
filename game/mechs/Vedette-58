@@ -1,0 +1,28 @@
+Name             { Vedette }
+Reference        { Vedette-58 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 50 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:54 2000 }
+Mech_BV          { 308 }
+Max_Speed        { 86.00 }
+Specials         { SearchLight ICEEngine_Tech }
+Left_Side
+  Armor            { 21 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 21 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 25 }
+  Internals        { 5 }
+    CRIT_1		  { Ammo_IS.UltraAC/5 20 - - }
+Aft_Side
+  Armor            { 24 }
+  Internals        { 5 }
+Turret
+  Armor            { 25 }
+  Internals        { 5 }
+    CRIT_1		  { IS.UltraAC/5 - - 3 }

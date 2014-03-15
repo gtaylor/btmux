@@ -1,0 +1,15 @@
+
+& clone_copies_cost
+
+  Config parameter: clone_copies_cost <yes/no>
+  Default: NO
+
+  Indicates whether or not @cloned objects inherit the cost of the
+  original.
+
+  If disabled, @cloned objects cost the same as a @create that doesn't
+  specify the object cost.  The new owner is charged the correct
+  amount in either case.
+
+  See also: @clone.
+ 

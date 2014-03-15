@@ -1,0 +1,83 @@
+Name             { WhiteFlame }
+Reference        { WHF-3B }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 70 }
+Heat_Sinks       { 22 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1341 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials         { DoubleHS EndoSteel_Tech LightEngine_Tech IS_AMS }
+Front_Left_Leg
+  Armor          { 30 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+    CRIT_6       { EndoSteel - - }
+Front_Right_Leg
+  Armor          { 30 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+Left_Torso
+  Armor          { 23 }
+  Internals      { 15 }
+  Rear           { 7 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3       { IS.ERMediumLaser - - }
+    CRIT_4       { IS.ERMediumLaser - - }
+    CRIT_5       { Ammo_IS.Anti-MissileSystem 12 - }
+    CRIT_6       { Ammo_IS.Anti-MissileSystem 12 - }
+    CRIT_7-8     { C3i - - }
+    CRIT_9-12    { EndoSteel - - }
+Right_Torso
+  Armor          { 23 }
+  Internals      { 15 }
+  Rear           { 7 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3-4     { IS.LargePulseLaser - - }
+    CRIT_5       { IS.MediumPulseLaser - - }
+    CRIT_6-12    { EndoSteel - - }
+Center_Torso
+  Armor          { 34 }
+  Internals      { 22 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { JumpJet - - }
+Rear_Left_Leg
+  Armor          { 30 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+    CRIT_6       { EndoSteel - - }
+Rear_Right_Leg
+  Armor          { 30 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+    CRIT_6       { EndoSteel - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { IS.Anti-MissileSystem - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

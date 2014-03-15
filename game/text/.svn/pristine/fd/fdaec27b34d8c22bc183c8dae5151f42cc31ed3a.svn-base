@@ -1,0 +1,19 @@
+ 
+& index()
+ 
+  Syntax: index(<list>,<character>,<first>,<length>)
+ 
+  This function is similar to extract(), except that an item in the
+  list may be more than one word; instead of a space being used to
+  separate items in the list, <character> is used. The function
+  returns <length> items starting from that in the <first> position.
+  Trailing spaces are trimmed. The comma cannot be used as the
+  <character> separator.
+ 
+  Example:
+ 
+  > say [index(Cup of Tea | Mug of Beer | Glass of Wine, |, 2, 1)]
+  You say, "Mug of Beer"
+ 
+  See Also: extract()
+ 

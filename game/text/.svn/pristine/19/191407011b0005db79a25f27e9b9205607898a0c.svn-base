@@ -1,0 +1,30 @@
+ 
+& power()
+ 
+  Syntax: power(<number>, <power>)
+ 
+  Returns the result of raising <number> to the <power>th power.
+<number> may
+  not be negative. <number> and <power> may be floating point numbers,
+and a
+  floating point result is returned.
+ 
+  Example:
+ 
+  > say power(2,3)
+  You say "8"
+  > say power(9, 0.5)
+  You say "3"
+  > say power(100,pi())
+  You say "1919487.587204"
+  > say power(5, 0)
+  You say "1"
+  > say power(0, 0)
+  You say "1"
+  > say power(2,-3)
+  You say "0.125"
+  > say power(-2,3)
+  You say "#-1 POWER OF NEGATIVE"
+ 
+  See Also: exp(), ln(), log(), sqrt()
+ 

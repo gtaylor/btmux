@@ -1,0 +1,20 @@
+ 
+& @boot
+ 
+  Syntax: @boot[/switches] <name|portnum> 
+  
+  This command permits you to forcibly disconnect a player from the 
+  MUX.
+  
+  The following switches are available:
+     /port  - permits you to specifiy the port that the player you 
+              wish to @boot is connected to, rather than the player 
+              name.
+     /quiet - does not display to the booted player than the reason 
+              for the disconnection was a @boot
+  
+  Arguments:
+  * <name> - specifies the name of the player to be booted
+  * <port> - when using the /port switch specifies the port the player 
+             is connected to.
+ 

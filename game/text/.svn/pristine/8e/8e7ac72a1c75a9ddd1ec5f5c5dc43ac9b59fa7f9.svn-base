@@ -1,0 +1,20 @@
+ 
+& grab()
+ 
+  Syntax: grab(<list>, <pattern>[, <delim>])
+ 
+  This function matches <pattern> against each word in <list>,
+  returning the first word that matches. If no words match, then an
+  empty string is returned. The match is not case-sensitive, and
+  wildcard characters are permitted. <delim> may be used to specify a
+  list delimiter other than a space.
+ 
+  Example:
+ 
+  > say grab(This is a new test,?e*)
+  You say "new"
+  > say grab(Holodeck:#10~Airlock:#58~Dorm:#12~Brig:#83,Airlock:*,~)
+  You say "Airlock:#58"
+ 
+  See Also: LISTS, match(), member()
+ 

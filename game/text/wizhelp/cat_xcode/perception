@@ -1,0 +1,11 @@
+ 
+& perception
+ 
+  xcodevalue: perception <char>
+  XTYPE: MECH
+  
+  This xcode value stores the preception skill of the pilot of the RS 
+  Unit.
+  
+  See Also: perception, @viewxcode
+ 

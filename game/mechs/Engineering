@@ -1,0 +1,21 @@
+Name		 { Engineering } 
+Reference        { Engineering }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 40 }
+Mech_BV          { 42 }
+Max_Speed        { 96.75 }
+Computer         { 4 }
+Specials         { ICEEngine_Tech CargoTech }
+Left_Side
+  Armor            { 8 }
+  Internals        { 4 }
+Right_Side
+  Armor            { 8 }
+  Internals        { 4 }
+Front_Side
+  Armor            { 8 }
+  Internals        { 4 }
+Aft_Side
+  Armor            { 8 }
+  Internals        { 4 }

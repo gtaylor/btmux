@@ -1,0 +1,74 @@
+Name             { Zeus }
+Reference        { ZEU-6SCL }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Computer         { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 64.50 }
+Specials         { ArtemisIV }
+Left_Arm
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-9		  { CL.GaussRifle - - }
+    CRIT_10-12		  { Ammo_CL.GaussRifle 8 - }
+Right_Arm
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { FerroFibrous - - }
+    CRIT_6		  { CL.LRM-15 - - }
+    CRIT_7		  { CL.LRM-15 - - }
+    CRIT_8		  { ArtemisIV - - }
+    CRIT_9-11		  { Ammo_CL.LRM-15 8 Artemis/Mine }
+Left_Torso
+  Armor            { 27 }
+  Internals        { 17 }
+  Rear             { 7 }
+    CRIT_1		  { FerroFibrous - - }
+    CRIT_2-3		  { CL.ERPPC - - }
+    CRIT_4		  { CL.ERMediumLaser - RearMount }
+Right_Torso
+  Armor            { 27 }
+  Internals        { 17 }
+  Rear             { 7 }
+    CRIT_1		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 33 }
+  Internals        { 25 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.ERMediumLaser - - }
+Left_Leg
+  Armor            { 30 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { FerroFibrous - - }
+Right_Leg
+  Armor            { 30 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { FerroFibrous - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

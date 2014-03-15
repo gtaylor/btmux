@@ -1,0 +1,82 @@
+Name             { Sha Yu }
+Reference        { SYU-2B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Comment          { Saved by: Spectre(#4628) at Fri Jun  8 11:49:22 2001 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 26 }
+Mech_BV          { 1034 }
+Cargo_Space      { 0 }
+Max_Speed        { 118.25 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 9 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-5		  { IS.ERLargeLaser - - 3 }
+    CRIT_6-9		  { EndoSteel - - 3 }
+    CRIT_11-12		  { StealthArmor - - 0 }
+Right_Arm
+  Armor            { 9 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-5		  { IS.ERLargeLaser - - 3 }
+    CRIT_6-9		  { EndoSteel - - 3 }
+    CRIT_11-12		  { StealthArmor - - 0 }
+Left_Torso
+  Armor            { 13 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7		  { IS.ERMediumLaser - - 3 }
+    CRIT_8-10		  { EndoSteel - - 3 }
+    CRIT_11-12		  { StealthArmor - - 0 }
+Right_Torso
+  Armor            { 13 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7		  { IS.ERMediumLaser - - 3 }
+    CRIT_8-10		  { EndoSteel - - 3 }
+    CRIT_11-12		  { StealthArmor - - 0 }
+Center_Torso
+  Armor            { 14 }
+  Internals        { 12 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { Ecm - - 3 }
+Left_Leg
+  Armor            { 11 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { StealthArmor - - 0 }
+Right_Leg
+  Armor            { 11 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { StealthArmor - - 0 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { TAG - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

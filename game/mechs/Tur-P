@@ -1,0 +1,80 @@
+Name             { Turkina }
+Reference        { Tur-P }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 95 }
+Computer         { 5 }
+Radio            { 5 }
+Heat_Sinks       { 38 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Specials         { DoubleHS Clan FlipArms }
+Left_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { Ammo_CL.LB5-XAC 20 - - }
+    CRIT_4-7		  { CL.LB5-XAC - - }
+    CRIT_8-11		  { CL.LB5-XAC - - }
+    CRIT_12		  { Ammo_CL.LB5-XAC 20 LBX/Cluster - }
+Right_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.ERPPC - - }
+    CRIT_5-6		  { CL.ERPPC - - }
+    CRIT_7-10		  { HeatSink - - }
+Left_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7		  { JumpJet - - }
+    CRIT_8		  { CL.LRM-15 - - }
+    CRIT_9		  { CL.LRM-15 - - 0 }
+    CRIT_10-11		  { Ammo_CL.LRM-15 8 - - }
+Right_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7		  { JumpJet - - }
+    CRIT_8		  { CL.LRM-15 - - }
+    CRIT_9		  { CL.LRM-15 - - 0 }
+    CRIT_10		  { Ammo_CL.LRM-15 8 - - }
+Center_Torso
+  Armor            { 45 }
+  Internals        { 30 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

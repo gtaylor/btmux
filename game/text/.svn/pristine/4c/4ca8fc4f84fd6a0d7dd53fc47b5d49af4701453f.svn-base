@@ -1,0 +1,25 @@
+
+& buildentrance
+
+  Attribute: buildentrance [x,y] [x,y] [x,y] [x,y]
+
+  This attribute is set on an object holding a sub-map and details
+  the coordinates on that map that a unit will be placed at when
+  entering.
+
+  The attribute is a space delimited list of the coordinates in the
+  order north, east, south, west
+
+  Example:
+  Given that #87 is a 10x10 hangar with entrances at the north (5,0),
+  east (9,5), south (5,9) and west (0,5).
+
+  >ex #87/buildentrance
+  Buildentrance: 5,0 9,5 5,9 0,5
+ 
+  A unit issuing the 'enterbase n' command would arrive on the hangar
+  map at 5,0
+
+
+  See Also: buildcoord, buildlinks, updatelinks.
+ 

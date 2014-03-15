@@ -1,0 +1,82 @@
+Name             { Akuma }
+Reference        { AKU-1XJ }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 90 }
+Heat_Sinks       { 20 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1649 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Specials         { DoubleHS EndoSteel_Tech }
+Left_Arm
+  Armor          { 30 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-5     { IS.ERLargeLaser - - }
+    CRIT_6       { IS.MediumPulseLaser - - }
+    CRIT_7       { IS.MediumPulseLaser - - }
+    CRIT_8-11    { EndoSteel - - }
+Right_Arm
+  Armor          { 30 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { Ammo_IS.LB20-XAC 5 - }
+    CRIT_6-11    { EndoSteel - - }
+Left_Torso
+  Armor          { 28 }
+  Internals      { 19 }
+  Rear           { 10 }
+    CRIT_1-7     { IS.MRM-40 - - }
+    CRIT_8       { Ammo_IS.MRM-40 6 - }
+    CRIT_9       { Ammo_IS.MRM-40 6 - }
+    CRIT_10      { Ammo_IS.MRM-40 6 - }
+    CRIT_11-12   { EndoSteel - - }
+Right_Torso
+  Armor          { 28 }
+  Internals      { 19 }
+  Rear           { 10 }
+    CRIT_1-11    { IS.LB20-XAC - - }
+    CRIT_12      { Ammo_IS.LB20-XAC 5 - }
+Center_Torso
+  Armor          { 43 }
+  Internals      { 29 }
+  Rear           { 15 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { IS.ERSmallLaser - - }
+    CRIT_12      { JumpJet - - }
+Left_Leg
+  Armor          { 38 }
+  Internals      { 19 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { EndoSteel - - }
+    CRIT_6       { JumpJet - - }
+Right_Leg
+  Armor          { 38 }
+  Internals      { 19 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { Ammo_IS.LB20-XAC 5 LBX/Cluster }
+    CRIT_6       { JumpJet - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { EndoSteel - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

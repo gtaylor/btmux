@@ -1,0 +1,31 @@
+Name             { Asshur } 
+Reference        { Asshur }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 20 }
+Heat_Sinks       { 10 }
+Max_Speed        { 150.50 }
+Specials         { FerroFibrous_Tech }
+Left_Side
+  Armor            { 11 }
+  Internals        { 2 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 11 }
+  Internals        { 2 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 13 }
+  Internals        { 2 }
+    CRIT_1		  { TAG - - }
+Aft_Side
+  Armor            { 10 }
+  Internals        { 2 }
+Turret
+  Armor            { 13 }
+  Internals        { 2 }
+    CRIT_1		  { CL.ERMediumLaser - - }
+    CRIT_2		  { CL.ERMediumLaser - - }
+    CRIT_3		  { CL.StreakSRM-6 - - }
+    CRIT_4		  { Ammo_CL.StreakSRM-6 15 - }
+

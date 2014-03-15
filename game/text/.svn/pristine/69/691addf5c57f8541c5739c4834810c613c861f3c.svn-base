@@ -1,0 +1,18 @@
+ 
+& @reject
+ 
+  Syntax: @reject <object> = <message>
+  Attribute: Reject
+ 
+  This attribute is sent as a message to anyone who tries to page you
+  but   you have prevented them from paging you via your page lock
+  (@lock/page).
+ 
+  This attribute is only meaningful for players, and will never be
+  automatically referenced on other object types.
+ 
+  Example:
+  @reject me = I _told_ you not to page me anymore...
+ 
+  See also: @away, @idle, page.
+ 

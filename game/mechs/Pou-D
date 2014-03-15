@@ -1,0 +1,90 @@
+Name             { Pouncer }
+Reference        { Pou-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Computer         { 4 }
+Heat_Sinks       { 24 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 53.75 }
+Left_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { FerroFibrous - - }
+    CRIT_6		  { CL.ERMediumLaser - OnTC }
+    CRIT_7		  { CL.ERMediumLaser - OnTC }
+    CRIT_8		  { CL.ERMediumLaser - OnTC }
+Right_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { FerroFibrous - - }
+    CRIT_6		  { CL.ERMediumLaser - OnTC }
+    CRIT_7		  { CL.ERMediumLaser - OnTC }
+    CRIT_8		  { CL.ERMediumLaser - OnTC }
+    CRIT_9-12		  { HeatSink - - }
+Left_Torso
+  Armor            { 11 }
+  Internals        { 10 }
+  Rear             { 7 }
+    CRIT_1		  { EndoSteel - - }
+    CRIT_2-3		  { FerroFibrous - - }
+    CRIT_4-5		  { Engine - - }
+    CRIT_6-7		  { JumpJet - - }
+    CRIT_8		  { TargetingComputer - - }
+    CRIT_9-10		  { CL.StreakSRM-6 - - }
+    CRIT_11		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_12		  { CL.ERSmallLaser - RearMount }
+Right_Torso
+  Armor            { 11 }
+  Internals        { 10 }
+  Rear             { 7 }
+    CRIT_1		  { EndoSteel - - }
+    CRIT_2-3		  { FerroFibrous - - }
+    CRIT_4-5		  { Engine - - }
+    CRIT_6-7		  { JumpJet - - }
+    CRIT_8-9		  { CL.StreakSRM-6 - - }
+    CRIT_10		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_11-12		  { HeatSink - - }
+Center_Torso
+  Armor            { 12 }
+  Internals        { 12 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+    CRIT_12		  { JumpJet - - }
+Left_Leg
+  Armor            { 13 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 13 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

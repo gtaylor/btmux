@@ -1,0 +1,43 @@
+Name             { Slayer }
+Reference        { SL-15B }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 80 }
+Comment          { Saved by: Celebrimbor(#319) at Tue Jun  3 18:57:51 1997 }
+Computer         { 3 }
+Heat_Sinks       { 20 }
+Fuel             { 1500 }
+Max_Speed        { 96.75 }
+Nose
+  Armor            { 62 }
+  Internals        { 10 }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.LRM-15 - - }
+Left_Wing
+  Armor            { 34 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 34 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 64 }
+  Internals        { 10 }
+    CRIT_1-3		  { Ammo_IS.LRM-15 8 - - }
+    CRIT_4		  { Ammo_IS.SRM-6 15 - - }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SRM-6 - - }

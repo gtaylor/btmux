@@ -1,0 +1,70 @@
+Name             { Daishi }
+Reference        { Daishi-Hohiro }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Heat_Sinks       { 46 }
+Max_Speed        { 53.75 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-10		  { HeatSink - - }
+    CRIT_11-12		  { CL.ERPPC - - }
+Right_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7-12		  { CL.GaussRifle - - }
+Left_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { HeatSink - - }
+    CRIT_5-10		  { CL.LargePulseLaser - - }
+Right_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7-8		  { CL.StreakSRM-6 - - }
+    CRIT_9-10		  { Ammo_CL.GaussRifle 8 - }
+    CRIT_11		  { Ammo_CL.StreakSRM-6 15 - }
+Center_Torso
+  Armor            { 47 }
+  Internals        { 31 }
+  Rear             { 14 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 41 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 41 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.ERSmallLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

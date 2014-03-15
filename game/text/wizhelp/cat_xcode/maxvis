@@ -1,0 +1,11 @@
+ 
+& maxvis
+ 
+  xcodevalue: maxvis <short>
+  XTYPE: MAP
+  
+  This xcode value stores a limiter on the maximum visible range. 
+  The only sensor that may exceed this range is radar.
+  
+  See Also: @viewxcode
+ 

@@ -1,0 +1,63 @@
+Name             { Clint }
+Reference        { CLNT-1-2R }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Mech_BV          { 621 }
+Computer 	 { 5 }
+Radio 		 { 4 }
+Max_Speed        { 96.75 }
+Left_Arm
+  Armor            { 6 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 6 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-10		  { IS.AC/10 - - 4 }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 10 }
+  Rear             { 4 }
+    CRIT_1		  { HeatSink - - }
+Right_Torso
+  Armor            { 6 }
+  Internals        { 10 }
+  Rear             { 4 }
+    CRIT_1		  { Ammo_IS.AC/10 10 - }
+Center_Torso
+  Armor            { 11 }
+  Internals        { 12 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MediumLaser - - }
+Left_Leg
+  Armor            { 8 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 8 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,38 @@
+Name             { Cavalry }
+Reference        { Cavalry-Inf }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 25 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:04:31 2002 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 744 }
+Cargo_Space      { 2048 }
+Max_Suits        { 0 }
+Max_Speed        { 161.25 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 20 }
+  Internals        { 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 20 }
+  Internals        { 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 26 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MediumLaser - - 3 }
+    CRIT_2		  { IS.MediumLaser - - 3 }
+    CRIT_3		  { IS.MediumLaser - - 3 }
+    CRIT_4		  { IS.MachineGun - - 3 }
+    CRIT_5		  { IS.MachineGun - - 3 }
+    CRIT_6		  { IS.MachineGun - - 3 }
+    CRIT_7		  { Ammo_IS.MachineGun 100 Halfton - }
+Aft_Side
+  Armor            { 13 }
+  Internals        { 3 }
+Rotor
+  Armor            { 2 }
+  Internals        { 3 }

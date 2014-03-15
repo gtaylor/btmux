@@ -1,0 +1,10 @@
+ 
+& SLAVE
+ 
+  Flag: SLAVE (x)
+ 
+  If set on a player, neither the player nor any of his objects may
+  perform any commands that change the database.  Some sites may 
+  restrict additional commands.  This flag may only be set or 
+  cleared by wizards.
+ 

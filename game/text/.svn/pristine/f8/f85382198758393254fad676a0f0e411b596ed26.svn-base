@@ -1,0 +1,15 @@
+ 
+& @arfail
+ 
+  Syntax: @arfail <object> = <command-list>
+  Attribute: Arfail
+ 
+  Sets the action to be taken by an object when someone tries to give
+  it something that fails its give lock.
+ 
+  Example:
+  @arfail merchant = "I don't buy junk.  Begone!; @tel
+  %#=cheater_exit
+ 
+  See also: give, @agfail, @gfail, @ogfail, @orfail, @rfail, @lock
+ 

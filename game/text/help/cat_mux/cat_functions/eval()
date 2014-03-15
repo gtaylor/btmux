@@ -1,0 +1,17 @@
+ 
+& eval()
+ 
+  Syntax: eval(<object>,<attribute>)
+  Syntax: eval(<string>)
+ 
+  The first form of the eval function works exactly like the
+  get_eval() function, but takes the object and attribute in two
+  seperate arguments instead of an obj/attr pair. It is mainly used
+  for compatibility with PennMUSH 1.50.
+ 
+  The second form simply evaluates <string>. This is normally done
+  when a function is called, however, it is useful in evaluating %q
+  and %v substitutions.
+ 
+  See Also: get_eval(), get(), xget()
+ 

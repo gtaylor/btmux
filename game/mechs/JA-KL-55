@@ -1,0 +1,80 @@
+Name             { Jackal }
+Reference        { JA-KL-55 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Comment          { Saved by: Spanky(#6784) at Tue Jun 26 07:24:11 2001 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 902 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 118.25 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.StreakSRM-2 - - 3 }
+    CRIT_6-7		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { Ammo_IS.StreakSRM-2 50 - - }
+    CRIT_5-7		  { HeatSink - - 3 }
+    CRIT_8-11		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { IS.ERPPC - OnTC 3 }
+    CRIT_7-9		  { HeatSink - - 3 }
+    CRIT_10-12		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { TargetingComputer - - 3 }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_6		  { EndoSteel - - 3 }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { EndoSteel - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

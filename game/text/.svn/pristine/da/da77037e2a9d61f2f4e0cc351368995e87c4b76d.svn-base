@@ -1,0 +1,10 @@
+
+& logout_cmd_access
+
+  Config parameter: logout_cmd_access <command> <permlist>
+
+  Specifies permission for logged-out commands, like WHO, DOING,
+  SESSION, QUIT, OUTPUTPREFIX, and OUTPUTSUFFIX.
+
+  See also: access.
+ 

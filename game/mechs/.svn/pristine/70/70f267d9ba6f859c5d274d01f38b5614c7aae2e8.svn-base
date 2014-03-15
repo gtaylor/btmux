@@ -1,0 +1,79 @@
+Name             { Viking }
+Reference        { VKG-2G }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 90 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:03:00 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 24 }
+Mech_BV          { 1878 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { IS.MediumPulseLaser - - 3 }
+    CRIT_4		  { IS.MediumPulseLaser - - 3 }
+    CRIT_5		  { IS.MediumPulseLaser - - 3 }
+    CRIT_6-8		  { HeatSink - - 3 }
+    CRIT_9-12		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-4		  { IS.LargePulseLaser - - 3 }
+    CRIT_5-7		  { HeatSink - - 3 }
+    CRIT_8-11		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 31 }
+  Internals        { 19 }
+  Rear             { 7 }
+    CRIT_1-6		  { IS.LB10-XAC - - 3 }
+    CRIT_7-8		  { Ecm - - 3 }
+    CRIT_9		  { Ammo_IS.LB10-XAC 10 - - }
+    CRIT_10		  { Ammo_IS.LB10-XAC 10 LBX/Cluster - }
+    CRIT_11		  { EndoSteel - - 3 }
+    CRIT_12		  { Case - - 3 }
+Right_Torso
+  Armor            { 31 }
+  Internals        { 19 }
+  Rear             { 7 }
+    CRIT_1-7		  { IS.GaussRifle - - 3 }
+    CRIT_8-9		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_10-11		  { EndoSteel - - 3 }
+    CRIT_12		  { Case - - 3 }
+Center_Torso
+  Armor            { 48 }
+  Internals        { 29 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { EndoSteel - - 3 }
+Left_Leg
+  Armor            { 38 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 38 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { EndoSteel - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

@@ -1,0 +1,40 @@
+Name             { Manteuffel }
+Reference        { Manteuffel }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 70 }
+Comment          { Saved by: Spectre(#4628) at Thu Jul 11 07:16:55 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 15 }
+Mech_BV          { 1017 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Specials         { XLEngine_Tech }
+Left_Side
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_1-2		  { HeatSink - - 0 }
+Right_Side
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_1-2		  { HeatSink - - 0 }
+Front_Side
+  Armor            { 56 }
+  Internals        { 7 }
+    CRIT_1		  { HeatSink - - 3 }
+Aft_Side
+  Armor            { 25 }
+  Internals        { 7 }
+    CRIT_1-3		  { Ammo_IS.RotaryAC/5 20 - - }
+    CRIT_4		  { FerroFibrous - - 0 }
+    CRIT_5		  { Ecm - - 0 }
+    CRIT_12		  { Case - - 3 }
+Turret
+  Armor            { 45 }
+  Internals        { 7 }
+    CRIT_1		  { IS.RotaryAC/5 - - 3 }
+    CRIT_2		  { IS.ERMediumLaser - - 0 }
+    CRIT_3		  { IS.ERMediumLaser - - 0 }
+    CRIT_4		  { IS.ERMediumLaser - - 0 }

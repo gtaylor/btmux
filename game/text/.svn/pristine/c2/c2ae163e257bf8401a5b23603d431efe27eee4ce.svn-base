@@ -1,0 +1,32 @@
+ 
+& @dolist
+ 
+  Syntax: @dolist[/<switch>] [<delimiter>] <list>=<action>
+ 
+  <list> is a list of strings, which can be object numbers,
+  attributes, or arbitrary words.  <action> is a command to perform
+  once for each item in <list>, replacing the special symbol ## with
+  the corresponding item from <list>, and the symbol #@ with the
+  position in the list, starting with one. By default, @dolist
+  considers each item in <list> to be separated with spaces. If you
+  specify the /delimit switch, then each item is considered to be
+  separated by <delimiter>. <delimiter> must be a single character.
+ 
+  If present, <switch> can be any of:
+    /space   - (Default) List elements are separated by spaces.
+    /delimit - List elements are separated by <delimiter>.
+ 
+  This command is particularly handy with lcon() and lexits(). A few
+  examples:
+ 
+    @dolist [lcon(here)] = "[name(##)](##)
+    @dolist [lcon(here)] = @switch [get(##/last)]=*1990*,"[name(##)]
+    @va me = va vb vc
+    @dolist [get(me/va)] = @emit [get(me/##)]
+    @dolist Frodo Bilbo Gandalf = page ## = HELP!!!!  I've fallen into
+    a pit.
+    @dolist/delimit , {Frodo, Bilbo Baggins, Gandalf} = page ## =
+    HELP!!!!
+ 
+  See also: iter(), parse()
+ 

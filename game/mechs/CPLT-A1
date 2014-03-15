@@ -1,0 +1,66 @@
+Name             { Catapult }
+Reference        { CPLT-A1 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Mech_BV          { 1184 }
+Heat_Sinks       { 15 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials	 { FlipArms }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-5		  { IS.LRM-15 - - 4 }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-5		  { IS.LRM-15 - - 4 }
+Left_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 9 }
+    CRIT_1-2		  { Ammo_IS.LRM-15 8 - }
+    CRIT_3-4		  { JumpJet - - }
+Right_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 9 }
+    CRIT_1-2		  { Ammo_IS.LRM-15 8 - }
+    CRIT_3-4		  { JumpJet - - }
+Center_Torso
+  Armor            { 24 }
+  Internals        { 21 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { HeatSink - - }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

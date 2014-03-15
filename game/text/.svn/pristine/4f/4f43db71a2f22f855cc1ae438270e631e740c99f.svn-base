@@ -1,0 +1,10 @@
+ 
+& incendiary
+ 
+  RS Command: incendiary <weapnum>
+  
+  This command toggles the state of <weapnum>, causing it to fire 
+  Incendiary ammunition or normal ammunition.
+  
+  Incendiary ammo is available for AutoCannons only.
+ 

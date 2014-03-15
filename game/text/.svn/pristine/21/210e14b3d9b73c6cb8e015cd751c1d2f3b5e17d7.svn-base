@@ -1,0 +1,16 @@
+ 
+& @cstatus
+ 
+  Syntax: @cstatus[/full] <channel>
+  
+  Returns status details of the specified channel.
+  
+  With the /full switch it will display the various statistics.
+  
+  Example
+  >@cstatus Public
+  ** Channel       Owner           Description
+  P- Public        World           General discussion
+  -- End of list of Channels --
+  
+  See Also: comsys

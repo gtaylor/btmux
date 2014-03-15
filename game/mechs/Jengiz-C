@@ -1,0 +1,47 @@
+Name             { Jengiz }
+Reference        { Jengiz-C }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 80 }
+Heat_Sinks       { 54 }
+Fuel             { 600 }
+Max_Speed        { 86.00 }
+Specials	 { Clan CargoTech FerroFibrous_Tech }
+Nose
+  Armor            { 65 }
+  Internals        { 8 }
+    CRIT_1		  { CL.StreakSRM-6 - - }
+    CRIT_2		  { CL.StreakSRM-6 - - }
+    CRIT_3		  { CL.StreakSRM-6 - - }
+    CRIT_4-6		  { Ammo_CL.StreakSRM-6 15 - }
+Left_Wing
+  Armor            { 47 }
+  Internals        { 8 }
+    CRIT_1		  { CL.LB20-XAC - - }
+    CRIT_2		  { Ammo_CL.LB20-XAC 5 - }
+    CRIT_3		  { Ammo_CL.LB20-XAC 5 LBX/Cluster }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 47 }
+  Internals        { 8 }
+    CRIT_1		  { CL.LB20-XAC - - }
+    CRIT_2		  { Ammo_CL.LB20-XAC 5 - }
+    CRIT_3		  { Ammo_CL.LB20-XAC 5 LBX/Cluster }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 62 }
+  Internals        { 8 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 8 }
+    CRIT_1		  { CL.StreakSRM-4 - - }
+    CRIT_2		  { CL.StreakSRM-4 25 - }
+

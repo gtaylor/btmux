@@ -1,0 +1,16 @@
+
+& listrefs
+ 
+ >> Help: Listrefs (Template Command)
+ -----------------------------------------------------------------------------
+ Syntax: Listrefs
+ Syntax: Listrefs <era>
+ 
+ The 'Listrefs' command displays a list of references requested by passing
+ arguments to the command.
+ 
+ - The first syntax listed will show the 'listrefs' help display.
+ - The second syntax will list all refs in a particular era (2750, 3025, etc.) 
+ 
+ See also: listeras, viewref
+ 

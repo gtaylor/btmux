@@ -1,0 +1,20 @@
+ 
+& @opay
+ 
+  @opay <object> = <message>
+  Attribute: Opay
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in the room when someone pays <object> enough to satisfy
+  its Cost attribute.
+ 
+  This attribute is only meaningful for players and things, and will
+  never be automatically triggered on other object types.
+ 
+  Example:
+  @opay Coke machine = slips some change into the coin slot on the
+  Coke machine.  You hear some rumbling from inside the machine and a
+  can of Coke appears in the tray at the bottom of the machine.
+ 
+  See also: give, @cost, @apay, @pay
+ 

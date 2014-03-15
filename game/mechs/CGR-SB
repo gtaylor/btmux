@@ -1,0 +1,70 @@
+Name             { Challenger }
+Reference        { CGR-SB }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Comment          { Saved by: Spectre(#4628) at Fri Oct 27 09:28:17 2000 }
+Heat_Sinks       { 28 }
+Mech_BV          { 772 }
+Cargo_Space      { 0 }
+Max_Speed        { 53.75 }
+Left_Arm
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-5		  { IS.LargeLaser - - 2 }
+    CRIT_6		  { HeatSink - - 3 }
+Right_Arm
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { IS.LargeLaser - - 2 }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { IS.LargeLaser - - 2 }
+    CRIT_3-9		  { HeatSink - - 3 }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { IS.LargeLaser - - 2 }
+    CRIT_3-9		  { HeatSink - - 3 }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 25 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+Left_Leg
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { HeatSink - - 3 }
+Right_Leg
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { HeatSink - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.MediumLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

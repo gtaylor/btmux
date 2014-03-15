@@ -1,0 +1,28 @@
+Name             { Alacorn }
+Reference        { Alacorn }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 95 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:37 2000 }
+Mech_BV          { 1372 }
+Max_Speed        { 53.75 }
+Specials         { SearchLight XLEngine_Tech }
+Left_Side
+  Armor            { 40 }
+  Internals        { 10 }
+Right_Side
+  Armor            { 40 }
+  Internals        { 10 }
+Front_Side
+  Armor            { 50 }
+  Internals        { 10 }
+Aft_Side
+  Armor            { 28 }
+  Internals        { 10 }
+Turret
+  Armor            { 50 }
+  Internals        { 10 }
+    CRIT_1		  { IS.GaussRifle - - 3 }
+    CRIT_2		  { IS.GaussRifle - - 3 }
+    CRIT_3		  { IS.GaussRifle - - 3 }
+    CRIT_4-8		  { Ammo_IS.GaussRifle 8 - - }

@@ -1,0 +1,10 @@
+ 
+& @oemit
+ 
+  Syntax: @oemit <player>=<message>
+ 
+  Emits <message> to everyone in the current location of <player>
+  except <player>.
+ 
+  See also:  @remit, @emit, @pemit, @npemit, SPOOFING
+ 

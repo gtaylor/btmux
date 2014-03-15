@@ -1,0 +1,10 @@
+ 
+& encrypt()
+ 
+  Syntax: encrypt(<text>,<key>)
+ 
+  Encrypts <text> using <key>. The text can only be unlocked with
+  <key>, and <key> is case-sensitive.
+ 
+  See Also: decrypt()
+ 

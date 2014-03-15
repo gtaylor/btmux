@@ -1,0 +1,32 @@
+Name             { Odin } 
+Reference        { Odin }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 20 }
+Heat_Sinks       { 10 }
+Max_Speed        { 129.00 }
+Specials         { Clan FerroFibrous_Tech }
+Left_Side
+  Armor            { 6 }
+  Internals        { 2 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 6 }
+  Internals        { 2 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 7 }
+  Internals        { 2 }
+    CRIT_1		  { CL.ERSmallLaser - - }
+    CRIT_2		  { BeagleProbe - - }
+Aft_Side
+  Armor            { 4 }
+  Internals        { 2 }
+Turret
+  Armor            { 6 }
+  Internals        { 2 }
+    CRIT_1		  { CL.MediumPulseLaser - - }
+    CRIT_2		  { CL.MediumPulseLaser - - }
+    CRIT_3		  { CL.StreakSRM-2 - - }
+    CRIT_4		  { Ammo_CL.StreakSRM-2 50 - }
+

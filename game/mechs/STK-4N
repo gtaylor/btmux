@@ -1,0 +1,75 @@
+Name             { Stalker }
+Reference        { STK-4N }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Mech_BV          { 1128 }
+Computer         { 4 }
+Heat_Sinks       { 26 }
+Max_Speed        { 53.75 }
+Specials         { Fliparms }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.MediumLaser - - 4 }
+    CRIT_4		  { IS.MediumLaser - - 4 }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.MediumLaser - - 4 }
+    CRIT_4		  { IS.MediumLaser - - 4 }
+    CRIT_5-6		  { IS.LRM-10 - - }
+    CRIT_7		  { Ammo_IS.LRM-10 12 - }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 5 }
+    CRIT_1-5		  { HeatSink - - }
+    CRIT_6-7		  { IS.LargeLaser - - 4 }
+    CRIT_8-9		  { IS.SRM-6 - - }
+    CRIT_10		  { Ammo_IS.SRM-6 15 - - }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 5 }
+    CRIT_1-4		  { HeatSink - - }
+    CRIT_5-6		  { IS.LargeLaser - - 4 }
+    CRIT_7-8		  { IS.SRM-6 - - }
+    CRIT_9		  { Ammo_IS.SRM-6 15 - - }
+Center_Torso
+  Armor            { 36 }
+  Internals        { 27 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { HeatSink - - }
+Left_Leg
+  Armor            { 29 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 29 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { HeatSink - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

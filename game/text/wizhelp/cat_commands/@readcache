@@ -1,0 +1,15 @@
+ 
+& @readcache
+ 
+  Syntax: @readcache
+  
+  This command reads the commonly-used text files and help indexes on 
+  the game directory into an internal cache, destroying the prior 
+  contents of the cache.
+  
+  Use this command whenever you change one of the text of index files 
+  in the game directory. 
+  
+  NOTE - Be sure and run mkindx to produce new index files before 
+  running @readcache.
+ 

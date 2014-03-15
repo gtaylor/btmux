@@ -1,0 +1,37 @@
+Name		 { Schiltron }
+Reference        { Schiltron }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 80 }
+Mech_BV          { 776 }
+Max_Speed        { 53.75 }
+Specials         { XLEngine_Tech }
+Left_Side
+  Armor            { 34 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 34 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 46 }
+  Internals        { 8 }
+    CRIT_1		  { IS.ArrowIVSystem - - }
+    CRIT_2		  { IS.ArrowIVSystem - - }
+    CRIT_3-10		  { Ammo_IS.ArrowIVSystem 5 - }
+Aft_Side
+  Armor            { 25 }
+  Internals        { 8 }
+    CRIT_1		  { C3Master - - }
+    CRIT_2		  { Ecm - - }
+Turret
+  Armor            { 40 }
+  Internals        { 8 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.SmallLaser - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5		  { IS.SmallLaser - - }
+    CRIT_6		  { IS.SmallLaser - - }
+

@@ -1,0 +1,78 @@
+Name             { Wolverine }
+Reference        { WVR-9D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Heat_Sinks       { 24 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1285 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS Masc EndoSteel_Tech XLEngine_Tech }
+Left_Arm
+  Armor          { 18 }
+  Internals      { 9 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-12    { EndoSteel - - }
+Right_Arm
+  Armor          { 18 }
+  Internals      { 9 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-7     { IS.RotaryAC/2 - - }
+Left_Torso
+  Armor          { 20 }
+  Internals      { 13 }
+  Rear           { 6 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-5     { IS.StreakSRM-6 - - }
+    CRIT_6-8     { Masc - - }
+    CRIT_9-12    { EndoSteel - - }
+Right_Torso
+  Armor          { 20 }
+  Internals      { 13 }
+  Rear           { 6 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7       { Ammo_IS.StreakSRM-6 15 - }
+    CRIT_8       { Ammo_IS.RotaryAC/2 45 - }
+    CRIT_9       { Ammo_IS.RotaryAC/2 45 - }
+    CRIT_12      { Case - - }
+Center_Torso
+  Armor          { 27 }
+  Internals      { 18 }
+  Rear           { 9 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { IS.MediumPulseLaser - - }
+    CRIT_12      { IS.MediumPulseLaser - - }
+Left_Leg
+  Armor          { 26 }
+  Internals      { 13 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Right_Leg
+  Armor          { 26 }
+  Internals      { 13 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { TAG - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

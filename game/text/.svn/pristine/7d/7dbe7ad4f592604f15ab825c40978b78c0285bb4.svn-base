@@ -1,0 +1,19 @@
+ 
+& AUDIBLE
+ 
+  Flag: AUDIBLE (a)
+ 
+  When set on an object, player, or room, everything from a say, pose,
+  or emit inside the object will be sent to every object in the 
+  location of that object (except for rooms which have no location) 
+  as well as to all objects mentioned in the object's Forwardlist 
+  attribute.  When set on an exit, everything from a say, pose, or 
+  emit in the room the exit is in will be forwarded to the room the 
+  exit points to.  In both cases the @prefix attribute will be 
+  inserted in front of the text, or a default prefix if no @prefix 
+  attribute is set.  If the @filter attribute is present, it
+  will be used to suppress those messages matching any of the 
+  patterns specified.
+ 
+  See also: @filter, @forwardlist, @prefix
+ 

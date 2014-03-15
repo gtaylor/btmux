@@ -1,0 +1,11 @@
+
+& search_cost
+
+  Config parameter: search_cost <amount>
+  Default: 100
+
+  Specifies how much commands that scan the entire database (such as
+  @find, @search, and stats with a playername) cost.
+
+  See also: stats, @find, @search.
+ 

@@ -1,0 +1,82 @@
+Name             { Nobori-nin }
+Reference        { NoboriNin-B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Computer         { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials         { FlipArms Clan }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { FerroFibrous - - }
+    CRIT_4-5		  { EndoSteel - - }
+    CRIT_6-10		  { CL.LB10-XAC - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { EndoSteel - - }
+    CRIT_5-6		  { CL.ERPPC - - }
+    CRIT_7		  { CL.MediumPulseLaser - - }
+    CRIT_8		  { CL.MediumPulseLaser - - }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { EndoSteel - - }
+    CRIT_4-6		  { FerroFibrous - - }
+    CRIT_7		  { JumpJet - - }
+    CRIT_8		  { Ammo_CL.LB10-XAC 10 - }
+    CRIT_9		  { Ammo_CL.LB10-XAC 10 LBX/Cluster }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { EndoSteel - - }
+    CRIT_4-5		  { FerroFibrous - - }
+    CRIT_6		  { JumpJet - - }
+    CRIT_7		  { CL.MachineGun - - }
+    CRIT_8		  { CL.MachineGun - - }
+    CRIT_9		  { Ammo_CL.MachineGun 200 - }
+Center_Torso
+  Armor            { 25 }
+  Internals        { 16 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

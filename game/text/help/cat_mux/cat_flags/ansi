@@ -1,0 +1,17 @@
+ 
+& ANSI
+ 
+  Flag: ANSI (X)
+ 
+  When set on a player, it will enable the player to see ANSI color.
+ 
+  If you have TinyFugue and you do not wish to see ANSI color, please
+  leave this flag set and /set catch_ctrls=ansi. The reason for this
+  is when the ANSI flag is unset, the server must go through every 
+  line of text you see and strip the ANSI codes from it. With the 
+  ANSI flag set and /set catch_ctrls=ansi, TinyFugue will strip the 
+  ANSI and save the MUX from having to do it, resulting in less lag 
+  for everyone.
+ 
+  See also: ansi()
+ 

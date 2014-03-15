@@ -1,0 +1,8 @@
+
+& btech_fasaadvvhlcrit
+
+  Config parameter: btech_fasaadvvhlcrit <0/1>
+  Default: 0
+
+  Enables FASA Level 3 ground vehicle crits and hit locations.
+ 

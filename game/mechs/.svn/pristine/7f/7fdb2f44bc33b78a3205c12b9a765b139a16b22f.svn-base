@@ -1,0 +1,76 @@
+Name             { Hellion }
+Reference        { Hellion-Prime }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Heat_Sinks       { 20 }
+Max_Speed        { 118.25 }
+Specials         { Clan Masc }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+    CRIT_7-8		  { FerroFibrous - - }
+    CRIT_9                { Cl.ERMediumLaser - - }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-9		  { FerroFibrous - - }
+    CRIT_10-11            { Cl.ERMediumLaser - - }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-5		  { EndoSteel - - }
+    CRIT_6-7              { Cl.StreakSRM-2 - - }
+    CRIT_8                { Ammo_CL.StreakSRM-2 50 - }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { EndoSteel - - }
+    CRIT_5		  { Masc - - }
+    CRIT_6                { Cl.LRM-10 - - }
+    CRIT_7                { Cl.StreakSRM-2 - - }
+    CRIT_8                { Ammo_CL.LRM-10 12 - }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

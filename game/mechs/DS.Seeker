@@ -1,0 +1,45 @@
+Name             { Seeker }
+Reference        { DS.Seeker }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 3700 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 88 }
+Max_Speed        { 86.00 }
+Front_Right_Side
+  Armor            { 80 }
+  Internals        { 73 }
+    CRIT_1		  { IS.PPC - - }
+Front_Left_Side
+  Armor            { 80 }
+  Internals        { 73 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { DSMechDoor - - }
+Rear_Left_Side
+  Armor            { 80 }
+  Internals        { 73 }
+    CRIT_1		  { IS.LRM-10 - - }
+    CRIT_2		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_3		  { IS.LargeLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+Rear_Right_Side
+  Armor            { 80 }
+  Internals        { 73 }
+    CRIT_1		  { IS.LRM-10 - - }
+    CRIT_2		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_3		  { IS.LargeLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+Aft
+  Armor            { 70 }
+  Internals        { 37 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_6		  { Ammo_IS.LRM-10 12 - - }
+Nose
+  Armor            { 100 }
+  Internals        { 37 }

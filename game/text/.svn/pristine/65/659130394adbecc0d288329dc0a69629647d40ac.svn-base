@@ -1,0 +1,11 @@
+
+& sweep_dark
+
+  Config parameter: sweep_dark <yes/no>
+  Default: no
+
+  Indicates whether or not players are allowed to @sweep dark places
+  they do not control.
+
+  See also: @sweep.
+ 

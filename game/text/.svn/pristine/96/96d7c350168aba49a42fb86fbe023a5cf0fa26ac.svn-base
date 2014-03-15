@@ -1,0 +1,18 @@
+ 
+& atan()
+ 
+  Syntax: atan(<number>)
+ 
+  Returns the arctangent of <number>, expressed in radians.
+ 
+  Example:
+ 
+  > say atan(0)
+  You say "0"
+  > say atan(1)
+  You say "0.785398"
+  > say atan(1.557408)
+  You say "1"
+  
+  See Also: acos(), asin(), cos(), pi(), sin(), tan().
+ 

@@ -1,0 +1,29 @@
+ 
+& sensor2
+ 
+  Example:
+  
+  To display the brief report showing your current sensors:
+  >sensor
+  Sensors
+  -------
+  Primary:   Electromagnetic (R:16-24)
+  Secondary: Infrared (R:15)
+  
+  To display the details report showing your current sensors:
+  >sensor long
+  Sensors
+  -------
+  Primary:   Electromagnetic 
+          Range:      16-24
+          Blocked by: Mountains/Obstacles, 8 pt woods
+          Notes:      Easy to hit heavies, good in forests (BTH), 
+          overall unreliable (chances of detection/BTH)
+  Secondary: Infrared 
+          Range:      15
+          Blocked by: Fire/Obstacles, 6 pt woods
+          Notes:      Easy to hit 'hot' targets, not very efficient in 
+          forests (BTH)
+  
+  Continued in sensor3
+ 

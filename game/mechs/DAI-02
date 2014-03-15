@@ -1,0 +1,89 @@
+Name             { Daikyu }
+Reference        { DAI-02 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:04:43 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 32 }
+Mech_BV          { 1714 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 19 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-7		  { IS.ERPPC - - 3 }
+    CRIT_8-10		  { HeatSink - - 3 }
+    CRIT_11		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 19 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-7		  { HeatSink - - 3 }
+    CRIT_8-10		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { IS.StreakSRM-6 - - 3 }
+    CRIT_6-7		  { JumpJet - - 3 }
+    CRIT_8		  { IS.ERMediumLaser - - 3 }
+    CRIT_9		  { IS.ERMediumLaser - - 3 }
+    CRIT_10-12		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { IS.StreakSRM-6 - - 3 }
+    CRIT_6-7		  { JumpJet - - 3 }
+    CRIT_8		  { C3Slave - - 3 }
+    CRIT_9-10		  { Ammo_IS.StreakSRM-6 15 - - }
+    CRIT_11		  { Case - - 3 }
+    CRIT_12		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 27 }
+  Internals        { 22 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { JumpJet - - 3 }
+    CRIT_12		  { EndoSteel - - 3 }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { EndoSteel - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

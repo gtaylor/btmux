@@ -1,0 +1,15 @@
+ 
+& sub()
+ 
+  Syntax: sub(<number1>,<number2>)
+ 
+  Returns the result of subtracting <number2> from <number1>. The
+  numbers may be floating point numbers, and a floating point result
+  is returned.
+ 
+  Example:
+  > say sub(5,2)
+  You say "3"
+ 
+  See Also: inc(), dec(), add(), div(), mod(), mul()
+ 

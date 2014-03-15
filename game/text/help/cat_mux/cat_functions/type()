@@ -1,0 +1,17 @@
+ 
+& type()
+ 
+  Syntax: type(<object>)
+ 
+  Returns a string indicating the object type of <object>, either
+  EXIT, PLAYER, ROOM, or THING.
+ 
+  Example:
+ 
+  > say type(me)
+  You say "PLAYER"
+  > say type(here)
+  You say "ROOM"
+ 
+  See Also: hastype()
+ 

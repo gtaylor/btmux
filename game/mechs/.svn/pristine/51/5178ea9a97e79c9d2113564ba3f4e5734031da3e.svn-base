@@ -1,0 +1,83 @@
+Name             { Zeus }
+Reference        { ZEU-9T }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Comment          { Saved by: Spanky(#6784) at Tue Jun 26 07:26:10 2001 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 34 }
+Mech_BV          { 1485 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { IS.ERPPC - - 3 }
+    CRIT_7-12		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { IS.LRM-15 - - 3 }
+    CRIT_7		  { ArtemisIV - - 3 }
+    CRIT_8-10		  { HeatSink - - 3 }
+    CRIT_11-12		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 17 }
+  Rear             { 8 }
+    CRIT_1-2		  { Engine - - 3 }
+    CRIT_3-8		  { HeatSink - - 3 }
+    CRIT_9-10		  { IS.ERLargeLaser - - 3 }
+    CRIT_11		  { IS.MediumPulseLaser - - 3 }
+    CRIT_12		  { FerroFibrous - - 3 }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 17 }
+  Rear             { 8 }
+    CRIT_1-2		  { Engine - - 3 }
+    CRIT_3-8		  { HeatSink - - 3 }
+    CRIT_9		  { IS.ERMediumLaser - - 3 }
+    CRIT_10-11		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+    CRIT_12		  { Case - - 3 }
+Center_Torso
+  Armor            { 37 }
+  Internals        { 25 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.MediumPulseLaser - - 3 }
+Left_Leg
+  Armor            { 33 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { FerroFibrous - - 3 }
+Right_Leg
+  Armor            { 33 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { FerroFibrous - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { FerroFibrous - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

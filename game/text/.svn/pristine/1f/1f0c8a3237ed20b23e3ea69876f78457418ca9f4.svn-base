@@ -1,0 +1,13 @@
+ 
+& nearby()
+ 
+  Syntax: nearby(<obj1>,<obj2>)
+ 
+  Tests if <obj1> is near <obj2> (if it is in the same location, in
+  <obj2>'s inventory, or is <obj2>'s location). You must control
+  either <obj1> or <obj2>, or be near either one of them, if both of
+  these tests fail then 0 is returned. This function returns 1 if the
+  two objects are nearby and 0 if not.
+ 
+  See Also: loc()
+ 

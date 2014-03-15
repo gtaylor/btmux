@@ -1,0 +1,76 @@
+Name             { Crusader }
+Reference        { CRD-3L }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Mech_BV          { 1032 }
+Heat_Sinks       { 12 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { IS.LRM-10 - - }
+    CRIT_7		  { IS.MediumLaser - - }
+    CRIT_8		  { IS.MachineGun - - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { IS.LRM-10 - - }
+    CRIT_7		  { IS.MediumLaser - - }
+    CRIT_8		  { IS.MachineGun - - }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1		  { Ammo_IS.LRM-10 12 - }
+    CRIT_2-3		  { JumpJet - - }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1		  { Ammo_IS.LRM-10 12 - }
+    CRIT_2-3		  { JumpJet - - }
+Center_Torso
+  Armor            { 33 }
+  Internals        { 21 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_IS.SRM-4 25 - }
+    CRIT_12		  { Ammo_IS.MachineGun 200 - }
+Left_Leg
+  Armor            { 21 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.SRM-4 - - }
+    CRIT_6		  { HeatSink - - }
+Right_Leg
+  Armor            { 21 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.SRM-4 - - }
+    CRIT_6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

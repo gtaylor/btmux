@@ -1,0 +1,66 @@
+Name             { Striker }
+Reference        { STC-2C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Mech_BV          { 1154 }
+Heat_Sinks       { 15 }
+Max_Speed        { 64.50 }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-7		  { IS.AC/5 - - }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 17 }
+  Rear             { 8 }
+    CRIT_1-2              { HeatSink - - }
+    CRIT_3-4		  { IS.LargeLaser - - }
+    CRIT_5		  { Ammo_IS.AC/5 20 - - }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 17 }
+  Rear             { 8 }
+    CRIT_1                { HeatSink - - }
+    CRIT_2-4		  { IS.PPC - - }
+Center_Torso
+  Armor            { 35 }
+  Internals        { 25 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

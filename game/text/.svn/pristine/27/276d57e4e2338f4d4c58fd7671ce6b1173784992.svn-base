@@ -1,0 +1,17 @@
+ 
+& @cpflags
+ 
+  Syntax: @cpflags <channel>=[!]flag
+ 
+  Sets player flags for that channel. The flag can be one of: join,
+  transmit, or receive.
+ 
+  Transmit: Whether a player can broadcast things over the channel.
+  Join: Whether a player can join the channel.
+  Receive: Whether a player can receive messages over the channel.
+ 
+  If it is !flag, then that flag is reset. Note that channel flags
+  ALWAYS override locks on channel objects.
+ 
+  See also: @coflags, @clist, CHANNEL OBJECT
+ 

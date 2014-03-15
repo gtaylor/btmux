@@ -1,0 +1,22 @@
+ 
+& btloadmap()
+ 
+  Syntax: btloadmap(<MapOBJ>,<mapname>[,<clear>])
+ 
+  This function loads <mapname> on <MapOBJ> and optionally clears the
+  map of RS units.
+ 
+  The function returns 1 if successful.
+ 
+  Arguments:
+ 
+  * If <clear> > 0 the function will clear the map of units.
+  * If <clear> = 0 the function will not clear the map of units.
+ 
+  Note: The <clear> argument is optional, and if not stated the
+  default is to not clear the map.
+ 
+  Note: The argument for <mapname> is case sensitive.
+ 
+  Continued in btloadmap()2
+ 

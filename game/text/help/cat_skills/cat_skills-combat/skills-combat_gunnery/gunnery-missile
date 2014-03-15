@@ -1,0 +1,12 @@
+ 
+& gunnery-missile
+ 
+ >> Help: Gunnery-Missile (Skills-Combat, Gunnery)
+ -----------------------------------------------------------------------------
+ Used for firing missile weapons
+ 
+ Example:
+  * SRM (Short Range Missile)
+  * MRM (Medium Range Missile)
+  * LRM (Long Range Missile)
+ 

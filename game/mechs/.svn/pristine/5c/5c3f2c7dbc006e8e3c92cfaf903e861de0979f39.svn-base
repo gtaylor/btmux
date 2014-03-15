@@ -1,0 +1,74 @@
+Name             { Night Gyr }
+Reference        { Nig-B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Computer         { 4 }
+Radio            { 5 }
+Heat_Sinks       { 24 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { Clan FlipArms }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3-8		  { CL.GaussRifle - - 5 }
+    CRIT_10		  { HeatSink - - 5 }
+    CRIT_11-12		  { FerroFibrous - - 5 }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3-8		  { CL.GaussRifle - - 5 }
+    CRIT_11-12		  { EndoSteel - - 5 }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - 5 }
+    CRIT_3-5		  { CL.LB2-XAC - - 5 }
+    CRIT_6		  { Ammo_CL.LB2-XAC 45 - - }
+    CRIT_7		  { Ammo_CL.GaussRifle 8 - - }
+    CRIT_8-12		  { FerroFibrous - - 5 }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - 5 }
+    CRIT_3-5		  { CL.LB2-XAC - - 5 }
+    CRIT_6-7		  { Ammo_CL.GaussRifle 8 - - }
+    CRIT_8-12		  { EndoSteel - - 5 }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 23 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 5 }
+    CRIT_4-7		  { Gyro - - 5 }
+    CRIT_8-10		  { Engine - - 5 }
+Left_Leg
+  Armor            { 28 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { JumpJet - - 5 }
+Right_Leg
+  Armor            { 28 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { JumpJet - - 5 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 5 }
+    CRIT_2		  { Sensors - - 5 }
+    CRIT_3		  { Cockpit - - 5 }
+    CRIT_5		  { Sensors - - 5 }
+    CRIT_6		  { LifeSupport - - 5 }

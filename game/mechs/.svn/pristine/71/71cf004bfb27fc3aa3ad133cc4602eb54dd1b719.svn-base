@@ -1,0 +1,42 @@
+Name             { Typhoon }
+Reference        { Typhoon-RAC }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 70 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:08:54 2002 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 1056 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Specials         { SearchLight }
+Left_Side
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 43 }
+  Internals        { 7 }
+    CRIT_1		  { IS.StreakSRM-2 - - 3 }
+    CRIT_2		  { IS.StreakSRM-2 - - 3 }
+    CRIT_3		  { Ammo_IS.StreakSRM-2 50 - - }
+Aft_Side
+  Armor            { 32 }
+  Internals        { 7 }
+    CRIT_1		  { BeagleProbe - - 3 }
+Turret
+  Armor            { 42 }
+  Internals        { 7 }
+    CRIT_1		  { IS.RotaryAC/5 - - 3 }
+    CRIT_2		  { IS.RotaryAC/5 - - 3 }
+    CRIT_3		  { IS.ERMediumLaser - - 3 }
+    CRIT_4		  { IS.ERMediumLaser - - 3 }
+    CRIT_5		  { IS.StreakSRM-2 - - 3 }
+    CRIT_6		  { IS.StreakSRM-2 - - 3 }
+    CRIT_7-10		  { Ammo_IS.RotaryAC/5 20 - - }

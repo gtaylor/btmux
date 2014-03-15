@@ -1,0 +1,11 @@
+ 
+& x
+ 
+  xcodevalue:x <short>
+  XTYPE: MECH
+  
+  This xcode value stores the x coordinate of the hex the RS Unit is 
+  currently in.
+  
+  See also: y, z, fx, fy, fz, @viewxcode
+ 

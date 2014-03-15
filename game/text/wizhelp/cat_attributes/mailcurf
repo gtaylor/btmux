@@ -1,0 +1,10 @@
+
+& mailcurf
+ 
+  Attribute: mailcurf
+  
+  This attribute lists the current @mail folder. The attribute is 
+  visible to wizards only.
+  
+  See Also: @mail
+  

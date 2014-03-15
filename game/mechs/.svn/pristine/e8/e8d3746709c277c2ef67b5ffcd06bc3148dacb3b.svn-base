@@ -1,0 +1,73 @@
+Name             { Grasshopper }
+Reference        { GHR-5H }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Mech_BV          { 1268 }
+Heat_Sinks       { 22 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6		  { HeatSink - - }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6		  { HeatSink - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2-6		  { HeatSink - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { Ammo_IS.LRM-5 24 - }
+    CRIT_3-6		  { HeatSink - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 22 }
+  Rear             { 13 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { IS.LargeLaser - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.LRM-5 - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

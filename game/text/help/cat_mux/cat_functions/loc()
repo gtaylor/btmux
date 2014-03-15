@@ -1,0 +1,30 @@
+ 
+& loc()
+ 
+  Syntax: loc(<object>)
+ 
+  Returns the number of the location where <object> is. You must
+  either control the object or be nearby for it to work. When used on
+  an exit it returns the destination of the exit. You can also use
+  loc() to find the location of players that are not set UNFINDABLE.
+ 
+  Example:
+ 
+  > look
+  Mortal's Room(#367R)
+  A bare room with nothing in it but a bed and a chair.
+  Contents:
+  hat(#368)
+  > say loc(me)
+  You say "#367"
+  > enter hat
+  hat(#368)
+  Contents:
+  cat(#325)
+  > say loc(me)
+  You say "#368"
+  > say loc(here)
+  You say "#367"
+ 
+  See Also: rloc(), room(), where()
+  

@@ -1,0 +1,21 @@
+ 
+& btgetrealmaxspeed()
+ 
+  Syntax: btgetrealmaxspeed(<UnitDB>)
+ 
+  This function returns the maximum speed of the specified unit.
+ 
+  Note: The function returns a dynamically calculated value, taking
+  into account damage and cargo weight.
+ 
+  Error Messages:
+ 
+  * If <UnitDB> is not a valid RS unit the function returns #-1 NOT A
+    MECH
+ 
+  Example:
+  Given that #1234 is a valid unit
+ 
+  > think btgetrealmaxspeed(#1234)
+  86.000000
+ 

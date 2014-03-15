@@ -1,0 +1,9 @@
+ 
+& mechrep
+ 
+  Power: mechrep
+  
+  This gives the player access to the mechrep command set
+  
+  See Also: @power, @list powers
+ 

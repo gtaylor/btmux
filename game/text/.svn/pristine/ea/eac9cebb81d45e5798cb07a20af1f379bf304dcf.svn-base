@@ -1,0 +1,22 @@
+ 
+& @pemit
+ 
+  Syntax: @pemit[/switches] <what>=<message>
+ 
+  Emits <message> only to <what>, or to <what>'s contents of the
+  /contents switch is given.  <what> must be either in the same
+  location as you or be something you own.  You can also @pemit to
+  distant players if pagelocks allow you to page them, and this
+  costs as much as a page <This feature is not present in all
+  MUXes>.  You cannot @pemit to the contents of something you don't
+  own.
+ 
+  The following switches are available:
+    /contents - Send the message to the contents of the named object.
+    /object   - Send the message to the named object.
+    /list     - Send the message to a list of objects.
+ 
+  You may specify any combination of these switches.
+ 
+  See also: page, @remit, @emit, @oemit, SPOOFING
+ 

@@ -1,0 +1,37 @@
+Name             { Dropshuttle }
+Reference        { K-1 }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 200 }
+Comment          { Saved by: Celebrimbor(#319) at Wed Jun  4 19:16:43 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Max_Speed        { 64.50 }
+Front_Right_Side
+  Armor            { 30 }
+  Internals        { 9 }
+    CRIT_1		  { IS.MediumLaser - - }
+Front_Left_Side
+  Armor            { 30 }
+  Internals        { 9 }
+    CRIT_1		  { IS.MediumLaser - - }
+Rear_Left_Side
+  Armor            { 30 }
+  Internals        { 9 }
+Rear_Right_Side
+  Armor            { 30 }
+  Internals        { 9 }
+Aft
+  Armor            { 30 }
+  Internals        { 9 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Nose
+  Armor            { 40 }
+  Internals        { 9 }
+    CRIT_1		  { IS.LRM-5 - - }
+    CRIT_2-3		  { Ammo_IS.LRM-5 24 - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.SmallLaser - - }
+    CRIT_6		  { IS.SmallLaser - - }

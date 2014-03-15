@@ -1,0 +1,72 @@
+Name             { Ninja-To }
+Reference        { NJT-2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Heat_Sinks       { 24 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1171 }
+Max_Speed        { 96.75 }
+Specials         { DoubleHS EndoSteel_Tech XLEngine_Tech C3SlaveTech }
+Left_Arm
+  Armor          { 18 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-5     { IS.ERLargeLaser - - }
+    CRIT_6-12    { EndoSteel - - }
+Right_Arm
+  Armor          { 18 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-5     { IS.ERLargeLaser - - }
+Left_Torso
+  Armor          { 20 }
+  Internals      { 15 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-10    { EndoSteel - - }
+Right_Torso
+  Armor          { 20 }
+  Internals      { 15 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-5     { IS.MRM-10 - - }
+    CRIT_6       { Ammo_IS.MRM-10 24 - }
+    CRIT_12      { Case - - }
+Center_Torso
+  Armor          { 29 }
+  Internals      { 21 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { IS.ERMediumLaser - - }
+    CRIT_12      { IS.ERMediumLaser - - }
+Left_Leg
+  Armor          { 27 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Right_Leg
+  Armor          { 27 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { C3Slave - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

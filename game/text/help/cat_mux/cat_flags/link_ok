@@ -1,0 +1,10 @@
+& LINK_OK
+ 
+  Flag: LINK_OK (L)
+ 
+  If a room is LINK_OK, anyone can link exits TO it, though not FROM
+  it.
+  It has no meaning for people, things, or exits.
+ 
+  See also: @link
+ 

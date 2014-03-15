@@ -1,0 +1,35 @@
+Name             { Goblin }
+Reference        { Goblin-58 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 45 }
+Comment          { Saved by: Charlemagne(#4624) at Sat Mar  4 14:56:14 2000 }
+Mech_BV          { 436 }
+Cargo_Space      { 300 }
+Max_Speed        { 64.50 }
+Specials         { CargoTech }
+Left_Side
+  Armor            { 32 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 32 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 40 }
+  Internals        { 5 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { IS.MachineGun - - 3 }
+    CRIT_3		  { Ammo_IS.MachineGun 100 Hotload - }
+    CRIT_4		  { IS.Anti-MissileSystem - - 3 }
+    CRIT_5		  { Ammo_IS.Anti-MissileSystem 12 - - }
+Aft_Side
+  Armor            { 26 }
+  Internals        { 5 }
+Turret
+  Armor            { 40 }
+  Internals        { 5 }
+    CRIT_1		  { IS.LargePulseLaser - - 3 }
+    CRIT_2		  { IS.SRM-6 - - 3 }
+    CRIT_3		  { Ammo_IS.SRM-6 15 - - }

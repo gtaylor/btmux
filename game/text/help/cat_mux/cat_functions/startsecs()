@@ -1,0 +1,14 @@
+ 
+& startsecs()
+ 
+  Syntax: startsecs()
+ 
+  Returns a string which is the time the MUX last rebooted, expressed
+  in seconds.
+ 
+  Example:
+  > say startsecs()
+  You say "1144296532"
+ 
+  See Also: starttime()
+ 

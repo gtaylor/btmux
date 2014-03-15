@@ -1,0 +1,36 @@
+Name             { Musketeer }
+Reference        { Musketeer }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 50 }
+Comment          { Saved by: Spectre(#4628) at Thu Jul 11 06:48:00 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 834 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 118.25 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 27 }
+  Internals        { 5 }
+Right_Side
+  Armor            { 27 }
+  Internals        { 5 }
+Front_Side
+  Armor            { 36 }
+  Internals        { 5 }
+    CRIT_1		  { TAG - - 0 }
+Aft_Side
+  Armor            { 18 }
+  Internals        { 5 }
+    CRIT_1-3		  { Ammo_IS.RotaryAC/5 20 - - }
+    CRIT_4		  { Ammo_IS.StreakSRM-2 50 - - }
+    CRIT_11		  { FerroFibrous - - 0 }
+    CRIT_12		  { Case - - 0 }
+Turret
+  Armor            { 26 }
+  Internals        { 5 }
+    CRIT_1		  { IS.RotaryAC/5 - - 0 }
+    CRIT_2		  { IS.StreakSRM-2 - - 0 }
+    CRIT_3		  { IS.StreakSRM-2 - - 0 }

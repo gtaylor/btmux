@@ -1,0 +1,77 @@
+Name             { Vulture }
+Reference        { Vul-A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Computer         { 4 }
+Heat_Sinks       { 24 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-7		  { CL.LB5-XAC - - }
+    CRIT_8		  { Ammo_CL.LB5-XAC 20 - }
+    CRIT_9		  { Ammo_CL.LB5-XAC 20 LBX/Cluster }
+    CRIT_12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.ERPPC - - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 16 }
+  Internals        { 14 }
+  Rear             { 7 }
+    CRIT_1		  { CL.SRM-6 - - }
+    CRIT_2		  { CL.SRM-6 - - }
+    CRIT_3		  { CL.SRM-6 - - }
+    CRIT_4-5		  { Ammo_CL.SRM-6 15 - }
+    CRIT_6-7		  { Engine - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 16 }
+  Internals        { 14 }
+  Rear             { 7 }
+    CRIT_1		  { CL.SRM-6 - - }
+    CRIT_2		  { CL.SRM-6 - - }
+    CRIT_3		  { CL.SRM-6 - - }
+    CRIT_4-5		  { Ammo_CL.SRM-6 15 - }
+    CRIT_6-7		  { Engine - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 20 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

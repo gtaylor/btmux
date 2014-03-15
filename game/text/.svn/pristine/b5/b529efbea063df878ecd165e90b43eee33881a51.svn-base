@@ -1,0 +1,9 @@
+ 
+& loadcargo
+ 
+  RS Command: loadcargo <name> <amount>
+  
+  This command loads <amount> of <name> into the RS Unit.
+  
+  See Also: unloadcargo, manifest, stores
+ 

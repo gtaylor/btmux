@@ -1,0 +1,25 @@
+Name             { Hunter }
+Reference        { Hunter }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 35 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:10 2000 }
+Computer         { 3 }
+Mech_BV          { 423 }
+Max_Speed        { 86.00 }
+Specials         { SearchLight }
+Left_Side
+  Armor            { 22 }
+  Internals        { 4 }
+Right_Side
+  Armor            { 22 }
+  Internals        { 4 }
+Front_Side
+  Armor            { 32 }
+  Internals        { 4 }
+    CRIT_1		  { IS.LRM-20 - - 3 }
+    CRIT_2-3		  { Ammo_IS.LRM-20 6 - - }
+Aft_Side
+  Armor            { 16 }
+  Internals        { 4 }
+    CRIT_1		  { IS.Flamer - - 3 }

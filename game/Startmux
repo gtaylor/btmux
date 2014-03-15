@@ -1,0 +1,86 @@
+#!/bin/sh
+#
+#	Startmux - Kick off the netmux process.
+#
+export LD_LIBRARY_PATH=/usr/local/lib
+PATH=/usr/ucb:/bin:/usr/bin:.; export PATH
+#
+. mux.config
+#
+#	Make sure there isn't aready a MUX running.
+#
+
+#nmux=`ps -C netmux l | egrep "netmux netmux.conf"`
+numx=`ps ax | sed -e '/grep/d' | grep "netmux netmux.conf"`
+if [ "$?" -ne 1 ]; then
+    echo "Another copy of netmux is running"
+    echo "Check ps ax"
+	exit 0
+fi
+
+#
+#	Make sure the indexes are up-to-date.
+#
+if [ -x $BIN/mkindx.debug ]; then
+	MKINDX=$BIN/mkindx.debug
+elif [ -x $BIN/mkindx ]; then
+	MKINDX=$BIN/mkindx
+else
+	echo "No mkindx or mkindx.debug. Did you forget to make install ?"
+	exit 1
+fi
+
+$MKINDX $TEXT/news.txt $TEXT/news.indx
+$MKINDX $TEXT/help.txt $TEXT/help.indx
+$MKINDX $TEXT/wizhelp.txt $TEXT/wizhelp.indx
+$MKINDX $TEXT/plushelp.txt $TEXT/plushelp.indx
+$MKINDX $TEXT/wiznews.txt $TEXT/wiznews.indx
+
+#
+#	Save a copy of the previous input database and log.
+#
+if [ -r $DATA/$INPUT_DB ]; then
+	mv -f $DATA/$INPUT_DB $DATA/$SAVE_DB
+fi
+mv -f $LOGNAME $LOGNAME.old
+#
+#	If we have a good checkpoint database, make it the input database.
+#	If not, use the backup of the input database.
+#
+if [ -r $DATA/$NEW_DB ]; then
+	mv $DATA/$NEW_DB $DATA/$INPUT_DB
+else
+	cp $DATA/$SAVE_DB $DATA/$INPUT_DB
+fi
+#
+#	Remove the restart db if there is one.
+#
+if [ -r restart.db ]; then
+	rm restart.db
+fi
+
+#
+#	Refuse to start if CORRUPT or KILLED databases are present.
+#
+if [ -r $DATA/$INPUT_DB.KILLED -o -r $DATA/$INPUT_DB.CORRUPT -o -r $DATA/$INPUT_DB.CRASH ]; then
+	echo "There is a CORRUPT, KILLED or CRASH database present." 
+	echo "You should salvage what you can before continuing."
+	exit 1
+fi
+
+#
+#	Kick off MUX
+#
+ulimit -c unlimited
+if [ -x $BIN/netmux.debug ]; then
+	echo Starting debug binary.
+	(nohup $BIN/netmux.debug $GAMENAME.conf >$LOGNAME 2>&1 &)
+elif [ -x $BIN/netmux ]; then
+	echo Starting release binary.
+	(nohup $BIN/netmux $GAMENAME.conf >$LOGNAME 2>&1 &)
+else
+	echo No binary found!
+	exit 1
+fi
+	
+

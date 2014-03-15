@@ -1,0 +1,17 @@
+
+& radio colors
+
+  setchannelmode <channel>=<modes><color code>
+
+  You can set the color of transmissions for a channel by using one of
+  the following arguments:
+  
+  b - blue              B - bright blue
+  c - cyan              C - bright cyan
+  g - green             G - bright green
+  m - magenta           M - bright magenta
+  r - red               R - bright red
+  w - white             W - bright white
+  x - black             X - bright black
+  y - yellow            Y - bright yellow
+ 

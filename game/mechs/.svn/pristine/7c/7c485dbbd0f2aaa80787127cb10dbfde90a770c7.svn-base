@@ -1,0 +1,93 @@
+Name             { Grand Titan }
+Reference        { T-IT-N10M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Comment          { Saved by: Stringfellow Hawke(#988) at Mon Jun  5 08:51:30 2006 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 24 }
+Mech_BV          { 1364 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 29 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.LRM-15 - Artemis/Mine }
+    CRIT_6-7		  { IS.LRM-15 - - }
+    CRIT_8		  { ArtemisIV - - }
+    CRIT_9		  { IS.MediumPulseLaser - - }
+    CRIT_10-12		  { EndoSteel - - }
+Right_Arm
+  Armor            { 29 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { IS.LargePulseLaser - - }
+    CRIT_7-8		  { IS.LargePulseLaser - - }
+    CRIT_9		  { IS.MediumPulseLaser - - }
+    CRIT_10-12		  { EndoSteel - - }
+Left_Torso
+  Armor            { 31 }
+  Internals        { 21 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4		  { IS.SRM-6 - Artemis/Mine }
+    CRIT_5		  { IS.SRM-6 - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7		  { IS.SmallPulseLaser - RearMount }
+    CRIT_8-9		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+    CRIT_10		  { Ammo_IS.SRM-6 15 Artemis/Mine - }
+    CRIT_11		  { EndoSteel - - }
+Right_Torso
+  Armor            { 31 }
+  Internals        { 21 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4		  { IS.SRM-6 - Artemis/Mine }
+    CRIT_5		  { IS.SRM-6 - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7		  { IS.SmallPulseLaser - RearMount }
+    CRIT_8		  { Ammo_IS.SRM-6 15 Artemis/Mine - }
+    CRIT_9-12		  { EndoSteel - - }
+Center_Torso
+  Armor            { 42 }
+  Internals        { 31 }
+  Rear             { 19 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_IS.Anti-MissileSystem 12 - - }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 38 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 38 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.Anti-MissileSystem - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

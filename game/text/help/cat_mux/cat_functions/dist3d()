@@ -1,0 +1,14 @@
+ 
+& dist3d()
+
+  Syntax: dist3d(x1, y1, z1, x2, y2, z2)
+
+  This function returns the integer distance between the Cartesian
+  points in three dimensions (x1,y1,z1) and (x2,y2,z2).
+
+  Example:
+    > say dist3d(0,0,0,10,15,20)
+    You say "27"
+
+  See also: dist2d()
+ 

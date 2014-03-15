@@ -1,0 +1,16 @@
+ 
+& controls()
+
+  Syntax: controls(<object>,<victim>)
+
+  Returns 1 if <object> controls <victim>, 0 otherwise.
+
+  Examples:
+
+  > say controls(me,me)
+  You say "1"
+  > say controls(me,#1)
+  You say "0"
+  > say controls(#1,me)
+  You say "1"
+ 

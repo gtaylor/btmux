@@ -1,0 +1,10 @@
+ 
+& fy
+ 
+  xcodevalue: fy <float>
+  XTYPE: MECH
+  
+  This xcode valuse stores the exact y coordinate of the RS Unit.
+  
+  See Also: fx, fz, x, y, z, @viewxcode
+ 

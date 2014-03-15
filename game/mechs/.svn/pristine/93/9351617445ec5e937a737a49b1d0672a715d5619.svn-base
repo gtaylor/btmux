@@ -1,0 +1,47 @@
+Name             { Mule }
+Reference        { DS.Mule }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 11200 }
+Comment          { Saved by: Celebrimbor(#319) at Wed Jun  4 18:40:34 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 58 }
+Max_Speed        { 64.00 }
+Front_Right_Side
+  Armor            { 55 }
+  Internals        { 112 }
+    CRIT_1		  { IS.SRM-6 - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Front_Left_Side
+  Armor            { 55 }
+  Internals        { 112 }
+    CRIT_1		  { IS.SRM-6 - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Rear_Left_Side
+  Armor            { 45 }
+  Internals        { 112 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Rear_Right_Side
+  Armor            { 45 }
+  Internals        { 112 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Aft
+  Armor            { 35 }
+  Internals        { 112 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_6-7		  { Ammo_IS.AC/5 20 - - }
+Nose
+  Armor            { 45 }
+  Internals        { 112 }
+    CRIT_1		  { IS.AC/5 - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.SmallLaser - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5-7		  { Ammo_IS.SRM-6 15 - - }

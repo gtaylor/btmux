@@ -1,0 +1,10 @@
+ 
+& basewalkspeed
+ 
+  xcodevalue: basewalkspeed <int>
+  XTYPE: MECH
+  
+  This xcode value is currently not in use.
+  
+  See Also: @viewxcode
+ 

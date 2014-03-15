@@ -1,0 +1,70 @@
+Name             { Dervish }
+Reference        { DV-6M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Mech_BV          { 868 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - 4 }
+    CRIT_5		  { IS.SRM-2 - - 2 }
+    CRIT_6		  { Ammo_IS.SRM-2 50 - }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - 4 }
+    CRIT_5		  { IS.SRM-2 - - 2 }
+    CRIT_6		  { Ammo_IS.SRM-2 50 - }
+Left_Torso
+  Armor            { 15 }
+  Internals        { 13 }
+  Rear             { 4 }
+    CRIT_1-2		  { IS.LRM-10 - - }
+    CRIT_3		  { Ammo_IS.LRM-10 12 - }
+Right_Torso
+  Armor            { 15 }
+  Internals        { 13 }
+  Rear             { 4 }
+    CRIT_1-2		  { IS.LRM-10 - - }
+    CRIT_3		  { Ammo_IS.LRM-10 12 - }
+Center_Torso
+  Armor            { 20 }
+  Internals        { 18 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 15 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 15 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,34 @@
+Name             { Manteuffel }
+Reference        { Manteuffel-B }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 70 }
+Comment          { Saved by: Spectre(#4628) at Thu Jul 11 15:23:57 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1028 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Specials         { XLEngine_Tech }
+Left_Side
+  Armor            { 40 }
+  Internals        { 7 }
+Right_Side
+  Armor            { 40 }
+  Internals        { 7 }
+Front_Side
+  Armor            { 56 }
+  Internals        { 7 }
+    CRIT_1		  { IS.ERSmallLaser - - 3 }
+    CRIT_2		  { IS.HeavyGaussRifle - - 0 }
+Aft_Side
+  Armor            { 25 }
+  Internals        { 7 }
+    CRIT_1-4		  { Ammo_IS.HeavyGaussRifle 4 - - }
+    CRIT_5		  { FerroFibrous - - 3 }
+    CRIT_12		  { Case - - 3 }
+Turret
+  Armor            { 45 }
+  Internals        { 7 }
+    CRIT_1		  { IS.MediumLaser - - 3 }

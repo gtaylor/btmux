@@ -1,0 +1,33 @@
+Name             { Drillson }
+Reference        { Drillson-SSRM }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 50 }
+Comment          { Saved by: Genitrix(#1511) at Thu Feb 15 11:56:13 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 0 }
+Max_Speed        { 150.50 }
+Left_Side
+  Armor            { 21 }
+  Internals        { 5 }
+Right_Side
+  Armor            { 21 }
+  Internals        { 5 }
+Front_Side
+  Armor            { 25 }
+  Internals        { 5 }
+    CRIT_1		  { IS.StreakSRM-2 - - }
+    CRIT_2		  { IS.StreakSRM-2 - - }
+    CRIT_3		  { Ammo_IS.StreakSRM-2 50 - - }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 5 }
+Turret
+  Armor            { 25 }
+  Internals        { 5 }
+    CRIT_1		  { IS.LargePulseLaser - - }
+    CRIT_2		  { IS.StreakSRM-2 - - }
+    CRIT_3		  { IS.StreakSRM-2 - - }
+    CRIT_4		  { Ammo_IS.StreakSRM-2 50 - - }

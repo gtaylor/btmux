@@ -1,0 +1,41 @@
+Name             { Avar }
+Reference        { Avar-P }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 35 }
+Heat_Sinks       { 20 }
+Fuel             { 450 }
+Max_Speed        { 161.25 }
+Specials	 { Clan FerroFibrous_Tech }
+Nose
+  Armor            { 30 }
+  Internals        { 10 }
+    CRIT_1		  { CL.StreakSRM-6 - - }
+    CRIT_2		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_3		  { CL.MediumPulseLaser - - }
+    CRIT_4		  { CL.ERLargeLaser - - }
+Left_Wing
+  Armor            { 24 }
+  Internals        { 10 }
+    CRIT_1		  { CL.MediumPulseLaser - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 24 }
+  Internals        { 10 }
+    CRIT_1		  { CL.MediumPulseLaser - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 30 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 20 }
+  Internals        { 10 }
+

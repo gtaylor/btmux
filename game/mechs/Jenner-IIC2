@@ -1,0 +1,74 @@
+Name             { Jenner }
+Reference        { Jenner-IIC2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Heat_Sinks       { 20 }
+Max_Speed        { 150.50 }
+Jump_Speed       { 96.75 }
+Specials         { Clan }
+Left_Arm
+  Armor            { 3 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { CL.SmallPulseLaser - - }
+    CRIT_4		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 3 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { CL.ERLargeLaser - - }
+    CRIT_4		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 8 }
+  Rear             { 3 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { JumpJet - - }
+    CRIT_5-8		  { EndoSteel - - }
+    CRIT_9-10		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 8 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { JumpJet - - }
+    CRIT_5		  { Ammo_CL.LRM-5 24 - }
+    CRIT_6-9		  { EndoSteel - - }
+    CRIT_10-11		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 13 }
+  Internals        { 11 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { CL.LRM-5 - - }
+Left_Leg
+  Armor            { 8 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 8 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 7 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

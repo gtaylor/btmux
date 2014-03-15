@@ -1,0 +1,19 @@
+ 
+& @fpose
+ 
+  Syntax: @fpose[/<switches>] <object>=<message>
+ 
+  Forces <object> to pose <message>.  This command is similar to the
+  command '@force <object> = :<message>', except that it will work
+  so long as you own the object, whereas @force may fail if the
+  object has its INHERIT flag set and the object performing the
+  @force does not.
+ 
+  The following switches are available:
+     /default - (default) Put a space between the name of the object
+                and the message (ie, send '<name> <message>').
+     /nospace - Don't put a space between the name of the object and
+               the message (ie, send '<name><message>').
+ 
+  See also: @femit, @fsay, pose, :, ;, INHERIT
+ 

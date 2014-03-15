@@ -1,0 +1,12 @@
+ 
+& btarmorstatus_ref()2
+ 
+  Example:
+ 
+  Given that EXT-4D is valid mech reference
+ 
+  > think btarmorstatus_ref(EXT-4D,ct)
+  21/21|21/21|8/8
+  > think btarmorstatus_ref(EXT-4D,all)
+  168/168|104/104
+ 

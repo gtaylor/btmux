@@ -1,0 +1,33 @@
+Name   { Monitor } 
+Reference        { Monitor }
+Type             { Naval }
+Move_Type        { Hull }
+Tons             { 75 }
+Mech_BV          { 560 }
+Computer         { 3 }
+Max_Speed        { 53.75 }
+Comment         { ICEEngine_Tech CargoTech }
+Left_Side
+  Armor            { 22 }
+  Internals        { 8 }
+    CRIT_1		  { IS.SRM-2 - - }
+Right_Side
+  Armor            { 22 }
+  Internals        { 8 }
+    CRIT_1		  { IS.SRM-2 - - }
+Front_Side
+  Armor            { 22 }
+  Internals        { 8 }
+  Rear             { 6 }
+Aft_Side
+  Armor            { 22 }
+  Internals        { 8 }
+  Rear             { 6 }
+    CRIT_1		  { IS.SRM-2 - - }
+    CRIT_2		  { Ammo_IS.SRM-2 50 - - }
+Turret
+  Armor            { 40 }
+  Internals        { 8 }
+    CRIT_1		  { IS.AC/20 - - }
+    CRIT_2		  { IS.AC/20 - - }
+    CRIT_3-5		  { Ammo_IS.AC/20 5 - - }

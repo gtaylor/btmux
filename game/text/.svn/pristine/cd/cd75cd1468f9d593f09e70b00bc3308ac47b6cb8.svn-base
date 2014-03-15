@@ -1,0 +1,17 @@
+ 
+& @pay
+ 
+  Syntax: @pay <object> = <message>
+  Attribute: Pay
+ 
+  Sets the message that is shown to the player who gives <object>
+  enough money to satisfy its Cost attribute.
+ 
+  This attribute is only meaningful for things, and will never be
+  automatically triggered on other object types.
+ 
+  Example:
+  @pay Coke machine = You slip some change into the slot.
+ 
+  See also: give, @apay, @cost, @opay
+ 

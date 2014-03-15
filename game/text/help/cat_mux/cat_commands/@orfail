@@ -1,0 +1,22 @@
+ 
+& @orfail
+ 
+  Syntax: @orfail <object> = <message>
+  Attribute: Orfail
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in the same room when someone tries to give <object> a
+  thing that does not pass <object>'s receive lock.
+ 
+  Function references and %-substitutions are allowed in receive
+  failure messages, and are evaluated when someone tries to give
+  away the object. In function references, 'me' refers to the
+  intended recipient of the object, while %-substitutions that refer
+  to the enactor (such as %n, %#, %p, etc) refer to the (attempted)
+  giver.
+ 
+  Example:
+  @orfail merchant = tries to unload some worthless trash on Astinous.
+ 
+  See also: give, @agfail, @arfail, @gfail, @ogfail, @rfail, @lock
+ 

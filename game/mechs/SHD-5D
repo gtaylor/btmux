@@ -1,0 +1,80 @@
+Name             { ShadowHawk }
+Reference        { SHD-5D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Heat_Sinks       { 20 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1629 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials         { DoubleHS FerroFibrous_Tech EndoSteel_Tech }
+Left_Arm
+  Armor          { 18 }
+  Internals      { 9 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { IS.MediumLaser - - }
+    CRIT_6-12    { FerroFibrous - - }
+Right_Arm
+  Armor          { 18 }
+  Internals      { 9 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { IS.MediumLaser - - }
+    CRIT_6-12    { EndoSteel - - }
+Left_Torso
+  Armor          { 19 }
+  Internals      { 13 }
+  Rear           { 7 }
+    CRIT_1-2     { JumpJet - - }
+    CRIT_3-8     { IS.RotaryAC/5 - - }
+    CRIT_9       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_10      { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_11      { Ammo_IS.StreakSRM-4 25 - }
+    CRIT_12      { Case - - }
+Right_Torso
+  Armor          { 19 }
+  Internals      { 13 }
+  Rear           { 7 }
+    CRIT_1-2     { JumpJet - - }
+    CRIT_3-5     { FerroFibrous - - }
+    CRIT_6-12    { EndoSteel - - }
+Center_Torso
+  Armor          { 23 }
+  Internals      { 18 }
+  Rear           { 8 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { JumpJet - - }
+Left_Leg
+  Armor          { 20 }
+  Internals      { 13 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { FerroFibrous - - }
+Right_Leg
+  Armor          { 20 }
+  Internals      { 13 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { FerroFibrous - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { IS.StreakSRM-4 - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

@@ -1,0 +1,30 @@
+Name             { Badger }
+Reference        { Badger-F }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 30 }
+Comment          { Saved by: Genitrix(#1511) at Thu Feb 15 14:28:17 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 0 }
+Max_Speed        { 96.75 }
+Cargo_Space      { 4096 }
+Specials         { CargoTech }
+Left_Side
+  Armor            { 18 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 18 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 20 }
+  Internals        { 3 }
+Aft_Side
+  Armor            { 16 }
+  Internals        { 3 }
+Turret
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { IS.ERMediumLaser - - }
+    CRIT_2		  { IS.ERSmallLaser - - }

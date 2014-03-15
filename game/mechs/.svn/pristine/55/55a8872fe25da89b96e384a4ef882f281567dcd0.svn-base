@@ -1,0 +1,73 @@
+Name             { Galahad }
+Reference        { Gal-P }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Computer         { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-8		  { CL.GaussRifle - - }
+    CRIT_9-10		  { Ammo_CL.GaussRifle 8 - }
+    CRIT_12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-8		  { CL.GaussRifle - - }
+    CRIT_9-10		  { Ammo_CL.GaussRifle 8 - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 14 }
+  Rear             { 8 }
+    CRIT_10-11		  { FerroFibrous - - }
+    CRIT_12		  { EndoSteel - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 14 }
+  Rear             { 8 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_10-11		  { FerroFibrous - - }
+    CRIT_12		  { EndoSteel - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_CL.GaussRifle 8 - }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

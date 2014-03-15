@@ -1,0 +1,18 @@
+ 
+& cat()
+ 
+  Syntax: cat(<string>[,<stringN>])
+ 
+  This function returns a string made up of the contents of <string1>
+  through <stringN>, with each string separated from its neighbors by
+  a space.
+ 
+  Example:
+ 
+  > say cat(this is, a test)
+  You say "this is a test"
+  > say cat(This is,another,test of the,CAT function)
+  You say "This is another test of the CAT function"
+ 
+  See Also: setunion(), setdiff(), setinter().
+ 

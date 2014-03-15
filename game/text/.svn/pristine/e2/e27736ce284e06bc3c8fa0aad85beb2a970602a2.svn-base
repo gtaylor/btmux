@@ -1,0 +1,10 @@
+
+& concentrator_port
+
+  Config parameter: concentrator_port <port number>
+  Default: 6251
+
+  Specifies the port number that the MUX will expect the concentrator
+  to use when it is active. This parameter is meaningless if you do
+  not have concentrator support compiled into the server.
+ 

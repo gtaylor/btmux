@@ -1,0 +1,32 @@
+Name             { ObservationVTOL }
+Reference        { ObservationVTOL }
+Type             { VTOL }
+Move_Type        { None }
+Tons             { 20 }
+Comment          { Saved by: Focus(#2997) at Thu Mar 23 02:01:02 2000 }
+Tac_Range        { 127 }
+LRS_Range        { 127 }
+Scan_Range       { 127 }
+Radio_Range      { 1000 }
+Computer         { 3 }
+Mech_BV          { 0 }
+Cargo_Space      { 0 }
+Max_Speed        { 0.00 }
+Specials         { SalvageTech }
+Left_Side
+  Armor            { 1 }
+  Internals        { 2 }
+Right_Side
+  Armor            { 1 }
+  Internals        { 2 }
+Front_Side
+  Armor            { 1 }
+  Internals        { 2 }
+  Rear             { 1 }
+Aft_Side
+  Armor            { 1 }
+  Internals        { 2 }
+  Rear             { 1 }
+Rotor
+  Armor            { 1 }
+  Internals        { 2 }

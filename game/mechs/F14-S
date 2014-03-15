@@ -1,0 +1,38 @@
+Name             { Cheetah }
+Reference        { F14-S }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 25 }
+Comment          { Saved by: Celebrimbor(#319) at Tue Jun  3 18:21:19 1997 }
+Computer         { 3 }
+Fuel             { 900 }
+Max_Speed        { 193.50 }
+Nose
+  Armor            { 18 }
+  Internals        { 10 }
+    CRIT_1		  { IS.StreakSRM-2 - - }
+    CRIT_2		  { IS.StreakSRM-2 - - }
+Left_Wing
+  Armor            { 14 }
+  Internals        { 10 }
+Right_Wing
+  Armor            { 14 }
+  Internals        { 10 }
+Fuselage
+  Armor            { 18 }
+  Internals        { 10 }
+    CRIT_1		  { Ammo_IS.StreakSRM-2 50 - - }
+Cockpit
+  Armor            { 10 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_4-10		  { HeatSink - - }
+    CRIT_12		  { HeatSink - - }

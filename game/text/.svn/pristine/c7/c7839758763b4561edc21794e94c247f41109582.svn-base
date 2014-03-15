@@ -1,0 +1,15 @@
+ 
+& bttechtime()
+ 
+  Syntax: bttechtime()
+ 
+  This function returns the techtime (ie the amount of time to
+  complete current repairs) for the invoker.
+ 
+  Example:
+  Given that #1234 is player who has 27 minutes and 14 seconds of
+  techtime remaining
+ 
+  > think bttechtime(#1234)
+  00:27:14
+ 

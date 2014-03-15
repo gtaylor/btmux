@@ -1,0 +1,8 @@
+ 
+& bt-movement-modes
+
+  Config option: --disable-bt-movement-modes
+  Default: enabled
+ 
+  Disabled advanced movement modes such as spring, dodge, and evade
+ 

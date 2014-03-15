@@ -1,0 +1,74 @@
+Name             { Strider }
+Reference        { SR1-OD }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Comment          { Saved by: Charlemagne(#4624) at Fri Feb 25 18:46:20 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 770 }
+Max_Speed        { 96.75 }
+Specials         { FlipArms }
+Left_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { IS.StreakSRM-2 - - 3 }
+    CRIT_4		  { IS.MediumPulseLaser - - 3 }
+Right_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { IS.StreakSRM-2 - - 3 }
+    CRIT_4		  { IS.MediumPulseLaser - - 3 }
+Left_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1		  { Ammo_IS.StreakSRM-2 50 - - }
+    CRIT_2-7		  { EndoSteel - - 3 }
+    CRIT_8		  { Case - - 3 }
+Right_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1		  { TAG - - 3 }
+    CRIT_2		  { C3Slave - - 3 }
+    CRIT_3-8		  { EndoSteel - - 3 }
+    CRIT_9		  { Case - - 3 }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { BeagleProbe - - 3 }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { HeatSink - - 3 }
+    CRIT_6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.SmallLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

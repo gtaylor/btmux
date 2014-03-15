@@ -1,0 +1,34 @@
+Name             { Seydlitz }
+Reference        { SYD-Z3 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 20 }
+Computer         { 3 }
+Heat_Sinks       { 10 }
+Fuel             { 450 }
+Max_Speed        { 182.75 }
+Nose
+  Armor            { 18 }
+  Internals        { 10 }
+Left_Wing
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 16 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 12 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 0 }
+    CRIT_3		  { Cockpit - - 0 }
+    CRIT_4		  { Sensors - - 0 }
+    CRIT_5		  { LifeSupport - - 0 }
+Engine
+  Armor 	   { 16 }
+  Internals        { 10 }

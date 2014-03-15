@@ -1,0 +1,21 @@
+ 
+& shutdown
+ 
+  Debug command: shutdown <map>
+  
+  This command will shutdown all RS Units on a map and clear it by 
+  setting the mapindex xcodevalue to -1.
+  
+  Example:
+  Given that #62 is a valid map object with RS Units on it.
+  
+  >shutdown 62
+  Shutting down Mech #159 and restting map index to -1....
+  Shutting down Mech #1798 and restting map index to -1....
+  Shutting down Mech #1800 and restting map index to -1....
+  Shutting down Mech #1805 and restting map index to -1....
+  Shutting down Mech #36 and restting map index to -1....
+  Map Cleared
+  
+  See Also: @viewxcode
+ 

@@ -1,0 +1,12 @@
+ 
+& @@()
+ 
+  FUNCTION: @@(<text>)
+
+  The <text> is not evaluated and returns nothing.
+
+  Example:
+    > think @@(pemit(me,Hello))
+    > think @@(abc)
+
+  Related Topics: @@ 

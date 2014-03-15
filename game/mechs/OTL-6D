@@ -1,0 +1,80 @@
+Name             { Ostsol }
+Reference        { OTL-6D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Heat_Sinks       { 28 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1379 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS TripleMyomerTech FerroFibrous_Tech XLEngine_Tech }
+Left_Arm
+  Armor          { 20 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { TripleStrengthMyomer - - }
+    CRIT_6-12    { FerroFibrous - - }
+Right_Arm
+  Armor          { 20 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { TripleStrengthMyomer - - }
+    CRIT_6-12    { FerroFibrous - - }
+Left_Torso
+  Armor          { 21 }
+  Internals      { 14 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-5     { IS.ERLargeLaser - OnTC }
+    CRIT_6       { IS.ERMediumLaser - OnTC }
+    CRIT_7-12    { HeatSink - - }
+Right_Torso
+  Armor          { 21 }
+  Internals      { 14 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-5     { IS.ERLargeLaser - OnTC }
+    CRIT_6       { IS.ERMediumLaser - OnTC }
+    CRIT_7       { IS.MediumPulseLaser - OnTC }
+    CRIT_8-12    { TargetingComputer - - }
+Center_Torso
+  Armor          { 30 }
+  Internals      { 20 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { IS.SmallPulseLaser - OnTC }
+    CRIT_12      { IS.SmallPulseLaser - OnTC }
+Left_Leg
+  Armor          { 28 }
+  Internals      { 14 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { TripleStrengthMyomer - - }
+Right_Leg
+  Armor          { 28 }
+  Internals      { 14 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { TripleStrengthMyomer - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { IS.MediumPulseLaser - OnTC }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

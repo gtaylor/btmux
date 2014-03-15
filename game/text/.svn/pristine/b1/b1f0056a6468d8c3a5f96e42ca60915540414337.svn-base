@@ -1,0 +1,15 @@
+ 
+& convuptime()
+
+  Syntax: Convuptime(<Number of seconds to be converted>)
+
+  This function converts the passed value from seconds to a worded
+  representation of said time.
+
+  Example:
+
+  say convuptime(100)
+  >You say "1 minute and 40 seconds"
+  
+  See Also: secs(), starttime().
+ 

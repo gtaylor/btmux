@@ -1,0 +1,49 @@
+Name             { Ahab }
+Reference        { AHB-X }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 90 }
+Comment          { Saved by: Celebrimbor(#319) at Tue Jun  3 19:03:24 1997 }
+Computer         { 3 }
+Heat_Sinks       { 18 }
+Fuel             { 750 }
+Max_Speed        { 86.00 }
+Nose
+  Armor            { 62 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+Left_Wing
+  Armor            { 43 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LRM-20 - - }
+    CRIT_2-4		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_5		  { IS.SRM-6 - - }
+    CRIT_6		  { Ammo_IS.SRM-6 15 - - }
+Right_Wing
+  Armor            { 43 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LRM-20 - - }
+    CRIT_2-4		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_5		  { IS.SRM-6 - - }
+    CRIT_6		  { Ammo_IS.SRM-6 15 - - }
+Fuselage
+  Armor            { 64 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 30 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_4-10		  { HeatSink - - }
+    CRIT_12		  { HeatSink - - }

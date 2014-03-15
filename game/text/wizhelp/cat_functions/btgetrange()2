@@ -1,0 +1,30 @@
+ 
+& btgetrange()2
+ 
+  Error Messages:
+  * If insufficient arguments are provided the function will return #
+    -1 FUNCTION (BTGETRANGE) EXPECTS BETWEEN 3 AND 7 ARGUMENTS
+  * If <MapObj> is not a object with the XCODE flag the function
+    will return #-1 INVALID MAPDB
+  * If <MapObj> is an object with the XCODE flag but not a map
+    object the function will return #-1 OBJECT NOT HCODE
+  * If an argument of xy[z] sets is outside the boundaries of the
+    map the function will return #-1 INVALID COORDS
+  * If an argument of a UnitDB is invalid the function will return #
+    -1 INVALID MECHDBREF
+  * If an argyment of a UnitDB is not on the map specified in
+    <MapObj> the function will return #-1 MECH NOT ON MAP
+  * If one xy[z] set specifies the z argument, but the other does
+    not the function will return #-1 INVALID ARGUMENTS
+  * Any other error will return #-1 GENERAL ERROR
+ 
+  Example:
+  Given that #1234 and #2345 are valid units. Given that both units
+  are on MapObj #62, located at 0,0 and 10,10.
+   > think btgetrange(#217,#1234,#2345)
+  13.228762
+   > think btgetrange(#217,#1234,7,12)
+  13.000007
+   > think btgetrange(#62,14,1,10,10)
+  9.643657
+ 

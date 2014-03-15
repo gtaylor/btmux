@@ -1,0 +1,64 @@
+Name             { Crossbow }
+Reference        { Crossbow-B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Computer         { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.StreakSRM-6 - - }
+    CRIT_6-7		  { CL.StreakSRM-6 - - }
+    CRIT_8-9		  { Ammo_CL.StreakSRM-6 15 - }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.StreakSRM-6 - - }
+    CRIT_6-7		  { CL.StreakSRM-6 - - }
+    CRIT_8-9		  { Ammo_CL.StreakSRM-6 15 - }
+Left_Torso
+  Armor            { 19 }
+  Internals        { 15 }
+  Rear             { 9 }
+Right_Torso
+  Armor            { 19 }
+  Internals        { 15 }
+  Rear             { 9 }
+Center_Torso
+  Armor            { 26 }
+  Internals        { 21 }
+  Rear             { 13 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

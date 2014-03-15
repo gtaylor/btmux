@@ -1,0 +1,12 @@
+
+& kill_min_cost
+
+  Config parameter: kill_min_cost <amount>
+  Default: 10
+
+  Specifies the minimum (and default) cost for attempting to kill
+  someone or something.
+
+  See also: kill, kill_guarantee_cost, kill_max_cost, HAVEN, IMMORTAL,
+            KILLING.
+ 

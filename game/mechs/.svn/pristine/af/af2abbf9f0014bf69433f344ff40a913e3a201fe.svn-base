@@ -1,0 +1,35 @@
+Name             { Battle Taxi }
+Reference        { NL-42 }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 200 }
+Comment          { Saved by: Celebrimbor(#319) at Wed Jun  4 19:09:40 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 14 }
+Max_Speed        { 96.75 }
+Front_Right_Side
+  Armor            { 90 }
+  Internals        { 9 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumPulseLaser - - }
+    CRIT_3		  { IS.MediumPulseLaser - - }
+Front_Left_Side
+  Armor            { 90 }
+  Internals        { 9 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumPulseLaser - - }
+    CRIT_3		  { IS.MediumPulseLaser - - }
+Rear_Left_Side
+  Armor            { 90 }
+  Internals        { 9 }
+Rear_Right_Side
+  Armor            { 90 }
+  Internals        { 9 }
+Aft
+  Armor            { 80 }
+  Internals        { 9 }
+Nose
+  Armor            { 90 }
+  Internals        { 9 }

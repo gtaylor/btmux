@@ -1,0 +1,33 @@
+Name             { Brutus }
+Reference        { Brutus }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 75 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:03 2000 }
+Heat_Sinks       { 16 }
+Mech_BV          { 797 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 27 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 27 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 34 }
+  Internals        { 8 }
+    CRIT_1		  { IS.SRM-2 - - 3 }
+    CRIT_2		  { IS.SRM-6 - - 3 }
+    CRIT_3		  { IS.SRM-6 - - 3 }
+    CRIT_4		  { Ammo_IS.SRM-2 50 - - }
+    CRIT_5		  { Ammo_IS.SRM-6 15 - - }
+Aft_Side
+  Armor            { 21 }
+  Internals        { 8 }
+Turret
+  Armor            { 27 }
+  Internals        { 8 }
+    CRIT_1		  { IS.LargeLaser - - 3 }
+    CRIT_2		  { IS.LargeLaser - - 3 }
+    CRIT_3		  { IS.LRM-20 - - 3 }
+    CRIT_4-6		  { Ammo_IS.LRM-20 6 - - }

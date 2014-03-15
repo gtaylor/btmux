@@ -1,0 +1,82 @@
+Name             { Viper }
+Reference        { Vip-P }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Computer         { 4 }
+Heat_Sinks       { 26 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-7		  { FerroFibrous - - }
+    CRIT_8-10		  { EndoSteel - - }
+    CRIT_11		  { CL.MachineGun - - }
+    CRIT_12		  { Ammo_CL.MachineGun 200 - }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-7		  { FerroFibrous - - }
+    CRIT_8-10		  { EndoSteel - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { CL.LargePulseLaser - OnTC }
+    CRIT_5		  { CL.MediumPulseLaser - OnTC }
+    CRIT_6		  { CL.SmallPulseLaser - OnTC }
+    CRIT_7		  { CL.SmallPulseLaser - OnTC }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { CL.LargePulseLaser - OnTC }
+    CRIT_5		  { CL.MediumPulseLaser - OnTC }
+    CRIT_6		  { CL.SmallPulseLaser - OnTC }
+    CRIT_7		  { CL.SmallPulseLaser - OnTC }
+    CRIT_8-12		  { TargetingComputer - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 23 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+    CRIT_12		  { JumpJet - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

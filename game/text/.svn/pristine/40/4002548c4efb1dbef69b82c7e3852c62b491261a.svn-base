@@ -1,0 +1,14 @@
+ 
+& starttime()
+ 
+  Syntax: starttime()
+ 
+  Returns a string which is the time the MUX last rebooted. The time
+  is in the same format as the time() function returns.
+ 
+  Example:
+  > say starttime()
+  You say "Sat Dec  7 00:09:13 1991
+ 
+  See Also: convtime(), time()
+ 

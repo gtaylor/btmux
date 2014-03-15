@@ -1,0 +1,11 @@
+
+& initial_size
+
+  Config parameter: initial_size <number>
+  Default: 1000
+
+  This is the number of objects that can be created before the
+  database structure has to be reallocated again. This is needed
+  since MUX allocates space for the database in large chunks, the
+  size of which depends on this parameter.
+ 

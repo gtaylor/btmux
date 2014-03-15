@@ -1,0 +1,11 @@
+ 
+& lstack()
+ 
+  Syntax: lstack([<object>])
+ 
+  This function returns the contents of an object's stack as a list.
+  If <object> is not specified, then it returns the stack of the
+  executing object.
+ 
+  See Also: push(), pop(), peek(), empty(), items(), OBJECT STACK
+ 

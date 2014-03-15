@@ -1,0 +1,38 @@
+Name             { Sparrowhawk }
+Reference        { SPR-K5 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 30 }
+Computer         { 3 }
+Heat_Sinks       { 10 }
+Fuel             { 750 }
+Max_Speed        { 157.50 }
+Nose
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Left_Wing
+  Armor            { 12 }
+  Internals        { 10 }
+    CRIT_1                { IS.SmallLaser - - }
+    CRIT_2                { IS.SmallLaser - - }
+Right_Wing
+  Armor            { 12 }
+  Internals        { 10 }
+    CRIT_1                { IS.SmallLaser - - }
+    CRIT_2                { IS.SmallLaser - - }
+Fuselage
+  Armor            { 21 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 0 }
+    CRIT_3		  { Cockpit - - 0 }
+    CRIT_4		  { Sensors - - 0 }
+    CRIT_5		  { LifeSupport - - 0 }
+Engine
+  Armor 	   { 17 }
+  Internals        { 10 }

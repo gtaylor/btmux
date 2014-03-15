@@ -1,0 +1,69 @@
+Name             { Lineholder }
+Reference        { KW1-LH3 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:02:47 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 14 }
+Mech_BV          { 935 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-5		  { IS.ERLargeLaser - - 3 }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { IS.LRM-5 - - 3 }
+    CRIT_5		  { IS.LRM-5 - - 3 }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1		  { HeatSink - - 3 }
+    CRIT_2		  { IS.MediumPulseLaser - - 3 }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1		  { HeatSink - - 3 }
+    CRIT_2		  { IS.MediumPulseLaser - - 3 }
+    CRIT_3		  { Ammo_IS.LRM-5 24 - - }
+Center_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { HeatSink - - 3 }
+Left_Leg
+  Armor            { 19 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 19 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

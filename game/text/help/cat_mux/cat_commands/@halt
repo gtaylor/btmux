@@ -1,0 +1,21 @@
+ 
+& @halt
+ 
+  Syntax: @halt [<object>]
+ 
+  Halts all commands being run by <object>, or by the object running
+  the command if no <object> is given.  If the object to be halted
+  is a player, then all commands being run by objects owned by that
+  player are halted.
+ 
+  Use this command to stop runaway objects and infinite loops.
+ 
+  The process of halting an object involves removing all commands
+  waiting to be run by the object from the queue and refunding the
+  queue deposit.
+ 
+  Halting an object does not affect commands waiting on it as a
+  semaphore.
+ 
+  See also: @drain, @notify, kill, HALTED, SEMAPHORES
+ 

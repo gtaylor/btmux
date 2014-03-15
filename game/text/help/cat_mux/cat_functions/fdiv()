@@ -1,0 +1,26 @@
+ 
+& fdiv()
+ 
+  Syntax: fdiv(<number1>,<number2>)
+ 
+  Returns the floating point quotient from dividing <number1> by
+  <number2>. <number> may be a floating point number, and a floating
+  point result is returned.
+ 
+  Example:
+ 
+  > say fdiv(15,3)
+  You say "5"
+  > say fdiv(16,3)
+  You say "5.333333"
+  > say fdiv(17,3)
+  You say "5.666667"
+  > say fdiv(18,3)
+  You say "6"
+  > say fdiv(-17,3)
+  You say "-5.666667"
+  > say fdiv(10,3.5)
+  You say "2.857143"
+ 
+  See Also: add(), div(), mod(), mul(), round(), sub(), trunc()
+ 

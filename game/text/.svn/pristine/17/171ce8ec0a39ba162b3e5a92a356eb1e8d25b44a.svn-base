@@ -1,0 +1,20 @@
+ 
+& showtech
+ 
+  Mechrep Command: showtech
+  
+  This command displays a list of the advanced techologies installed 
+  on the targetted RS Unit.
+  
+  Example:
+  Given that the targetted RS Unit is an EXT-4D
+  
+  >showtech
+  --------Advanced Technology--------
+  Mech uses Double Heat Sinks
+  Inner Sphere style Anti-Missile System
+  Brief version (May have something previous hadn't):
+  IS_AMS DoubleHS XLEngine_Tech
+  
+  See Also: settarget
+ 

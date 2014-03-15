@@ -1,0 +1,8 @@
+ 
+& c3message
+
+  RS Command: c3message <message>
+  
+  This command sends a message to all others in your C3 network. The 
+  communication cannot be scanned or intercepted.
+.

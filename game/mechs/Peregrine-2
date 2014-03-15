@@ -1,0 +1,82 @@
+Name             { Peregrine }
+Reference        { Peregrine-2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Heat_Sinks       { 20 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 64.50 }
+Specials         { Clan }
+Left_Arm
+  Armor            { 9 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6-7		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 9 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+    CRIT_7		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_3		  { JumpJet - - }
+    CRIT_4		  { CL.LRM-5 - - }
+    CRIT_5		  { CL.LRM-5 - - }
+    CRIT_6		  { CL.LRM-5 - - }
+    CRIT_7-8		  { Ammo_CL.LRM-5 24 - }
+    CRIT_9-10		  { EndoSteel - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_3		  { JumpJet - - }
+    CRIT_4		  { CL.LRM-5 - - }
+    CRIT_5		  { CL.LRM-5 - - }
+    CRIT_6		  { CL.LRM-5 - - }
+    CRIT_7-8		  { Ammo_CL.LRM-5 24 - }
+    CRIT_9-10		  { EndoSteel - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 13 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 11 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 11 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

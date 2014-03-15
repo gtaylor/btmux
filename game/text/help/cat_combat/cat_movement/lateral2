@@ -1,0 +1,25 @@
+ 
+& lateral2
+ 
+  '''Effective Headings:'''<br>
+  Given that the mech is represented by the * and has a heading of 0
+  * A represents the actual direction of movement resulting from 
+    'lateral fl'
+  * B represents the actual direction of movement resulting from 
+    'lateral fr'
+  * C represents the actual direction of movement resulting from 
+    'lateral rl'
+  * D represents the actual direction of movement resulting from 
+    'lateral rr'
+ 
+ 
+     A     0     B
+       300 ^  60  
+         \ | /   
+          \|/    
+  270 <----*----> 90
+          /|\   
+         / | \  
+       240 v 120
+      C   180   D
+ 

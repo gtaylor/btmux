@@ -1,0 +1,20 @@
+ 
+& targcomp
+ 
+  xcodevalue: targcomp <char>
+  XTYPE: MECH
+  
+  This xcode value stores the 'tweaked mode' for the RS Unit's 
+  targetting computer.
+  
+  Flags:
+  
+  *  0 = Normal - Standard BTMux locking rules. 
+  * 1 = Short Range - -1 BTH at Short Range, +1 BTH at Long Range. 
+  * 2 = Long Range - -1 BTH at Longe Range, +1 BTH at Short Range. 
+  * 3 = Multi-Track  - +1 BTH if the target is not in forward 
+        arc, no unstable lock BTH penalties. 
+  * 4 = Anti-Aircraft - -2 BTH to aircraft, +1 to ground units. 
+  
+  See Also: @viewxcode
+ 

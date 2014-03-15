@@ -1,0 +1,10 @@
+ 
+& AUDITORIUM
+ 
+  Flag: AUDITORIUM (b)
+ 
+  When set on a room, object, or player, it enables the checking
+  of speechlocks.
+ 
+  See also: @lock, say
+ 

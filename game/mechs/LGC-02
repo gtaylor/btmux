@@ -1,0 +1,91 @@
+Name             { Legacy }
+Reference        { LGC-02 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Heat_Sinks       { 20 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1668 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Specials         { DoubleHS EndoSteel_Tech }
+Left_Arm
+  Armor          { 26 }
+  Internals      { 13 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-7     { HeatSink - - }
+    CRIT_8       { IS.ERSmallLaser - - }
+    CRIT_9-12    { EndoSteel - - }
+Right_Arm
+  Armor          { 26 }
+  Internals      { 13 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { IS.ERMediumLaser - - }
+    CRIT_6       { IS.ERMediumLaser - - }
+    CRIT_7-12    { EndoSteel - - }
+Left_Torso
+  Armor          { 27 }
+  Internals      { 17 }
+  Rear           { 7 }
+    CRIT_1-5     { IS.LRM-20 - - }
+    CRIT_6       { Ammo_IS.LRM-20 6 - }
+    CRIT_7       { Ammo_IS.LRM-20 6 - }
+    CRIT_8       { Ammo_IS.LRM-20 6 - }
+    CRIT_9       { IS.MediumPulseLaser - - }
+    CRIT_10-11   { C3i - - }
+    CRIT_12      { Case - - }
+Right_Torso
+  Armor          { 27 }
+  Internals      { 17 }
+  Rear           { 7 }
+    CRIT_1-5     { IS.LRM-20 - - }
+    CRIT_6       { Ammo_IS.LRM-20 6 - }
+    CRIT_7       { Ammo_IS.LRM-20 6 - }
+    CRIT_8       { Ammo_IS.LRM-20 6 - }
+    CRIT_9       { IS.StreakSRM-4 - - }
+    CRIT_10      { Ammo_IS.StreakSRM-4 25 - }
+    CRIT_11      { IS.MediumPulseLaser - - }
+    CRIT_12      { Case - - }
+Center_Torso
+  Armor          { 40 }
+  Internals      { 25 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { JumpJet - - }
+    CRIT_12      { EndoSteel - - }
+Left_Leg
+  Armor          { 34 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+    CRIT_6       { EndoSteel - - }
+Right_Leg
+  Armor          { 34 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+    CRIT_6       { EndoSteel - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { EndoSteel - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

@@ -1,0 +1,46 @@
+Name             { Behmeoth }
+Reference        { DS.Behemoth }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 100000 }
+Comment          { Saved by: Celebrimbor(#319) at Thu Jun 26 17:42:33 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 127 }
+Max_Speed        { 32.25 }
+Front_Right_Side
+  Armor            { 33 }
+  Internals        { 100 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Front_Left_Side
+  Armor            { 33 }
+  Internals        { 100 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Rear_Left_Side
+  Armor            { 33 }
+  Internals        { 100 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Rear_Right_Side
+  Armor            { 33 }
+  Internals        { 100 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Aft
+  Armor            { 45 }
+  Internals        { 100 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Nose
+  Armor            { 33 }
+  Internals        { 100 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }

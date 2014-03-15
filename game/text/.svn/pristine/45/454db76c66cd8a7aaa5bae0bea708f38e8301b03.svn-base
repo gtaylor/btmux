@@ -1,0 +1,22 @@
+ 
+& edefault()
+ 
+  Syntax: edefault(<obj>/<attr>,<default case>)
+ 
+  This function returns the evaluated value of <obj>/<attr>, as if
+  retrieved via the get_eval() function, if the attribute exists and
+  is readable by you. Otherwise, it evaluates the default case, and
+  returns that. The default case is only evaluated if the attribute
+  does not exist or cannot be read.
+ 
+  Example:
+ 
+  > &TEST me=You have lost [rand(10)] marbles.
+  > say edefault(me/Test,You have no marbles.)
+  You say "You have lost 6 marbles."
+  > &TEST me
+  > say edefault(me/Test,You have no marbles.)
+  You say "You have no marbles."
+ 
+  See Also: get(), get_eval(), u(), default(), udefault()
+ 

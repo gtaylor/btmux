@@ -1,0 +1,24 @@
+ 
+& @osuccess
+ 
+  Syntax: @osuccess <object> = <message>]
+  Attribute: Osucc
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in the room when someone picks up the named player or
+  thing, goes through the named exit, or looks at the room and
+  passes the room's lock.
+ 
+  Setting Osuccess messages on all takeable objects and usable exits
+  is considered good building practice.
+ 
+  Examples:
+  <object>
+  @osucc vase = carefully picks up the vase.
+ 
+  <exit>
+  @osucc doorway = opens the door and leaves the room. The door closes
+  behind %o with a click.
+ 
+  See also: get, look, @asuccess, @success, SUCCESS
+ 

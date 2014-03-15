@@ -1,0 +1,27 @@
+Name             { Sprint }
+Reference        { Sprint-T }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 10 }
+Comment          { Saved by: Tantrum(#4394) at Mon May  8 11:31:55 2000 }
+Mech_BV          { 11 }
+Cargo_Space      { 0 }
+Max_Speed        { 215.00 }
+Specials         { CargoTech }
+Left_Side
+  Armor            { 3 }
+  Internals        { 1 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 3 }
+  Internals        { 1 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 7 }
+  Internals        { 1 }
+Aft_Side
+  Armor            { 3 }
+  Internals        { 1 }
+Rotor
+  Armor            { 2 }
+  Internals        { 1 }

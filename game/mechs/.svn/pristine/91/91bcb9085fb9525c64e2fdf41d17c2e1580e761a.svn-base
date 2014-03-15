@@ -1,0 +1,44 @@
+Name             { Ironsides }
+Reference        { IRN-SD1 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 65 }
+Comment          { Saved by: Celebrimbor(#319) at Thu May 15 03:45:02 1997 }
+Computer         { 3 }
+Heat_Sinks       { 20 }
+Fuel             { 750 }
+Max_Speed        { 96.75 }
+Specials         { DoubleHS }
+Nose
+  Armor            { 40 }
+  Internals        { 10 }
+    CRIT_1		  { IS.SRM-6 - - }
+    CRIT_2		  { IS.PPC - - }
+    CRIT_3		  { IS.PPC - - }
+    CRIT_4		  { Ammo_IS.SRM-6 15 - - }
+Left_Wing
+  Armor            { 25 }
+  Internals        { 10 }
+    CRIT_1		  { IS.SRM-6 - - }
+    CRIT_2		  { IS.SRM-6 - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 25 }
+  Internals        { 10 }
+    CRIT_1		  { IS.SRM-6 - - }
+    CRIT_2		  { IS.SRM-6 - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 41 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 40 }
+  Internals        { 10 }

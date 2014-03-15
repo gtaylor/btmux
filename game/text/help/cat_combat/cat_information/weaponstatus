@@ -1,0 +1,22 @@
+ 
+& weaponstatus
+ 
+  RS Command: weaponstatus
+  
+  This command displays the status of all the weapons in the RS Unit, 
+  indicating if each weapon is DESTROYED, DISABLED, JAMMED, SHORTED, 
+  EMPTY, DUD, AMMOJAM, DAMAGED, or OPERATIONAL.
+  
+  Example:
+=========================WEAPON SYSTEMS STATUS=========================
+[##] -------- Weapon Name -------- || Location -------- || Status -----
+[ 0] MediumLaser                   || Left Arm          || OPERATIONAL
+[ 1] MediumLaser                   || Left Arm          || OPERATIONAL
+[ 2] MediumLaser                   || Right Arm         || OPERATIONAL
+[ 3] MediumLaser                   || Right Arm         || OPERATIONAL
+[ 4] LRM-10                        || Left Torso        || OPERATIONAL
+[ 5] Anti-MissileSystem            || Right Torso       || OPERATIONAL
+[ 6] SmallLaser                    || Head              || OPERATIONAL
+
+  See Also: status, weaponspecs
+ 

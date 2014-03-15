@@ -1,0 +1,72 @@
+Name             { Overlord }
+Reference        { DS.Overlord-58 }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 9700 }
+Comment          { Saved by: Celebrimbor(#319) at Wed Jun  4 18:37:29 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 120 }
+Max_Speed        { 53.75 }
+Front_Right_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.GaussRifle - - }
+    CRIT_2-3		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_4		  { IS.LRM-20 - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6-9		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+    CRIT_10		  { IS.ERLargeLaser - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Front_Left_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.GaussRifle - - }
+    CRIT_2-3		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_4		  { IS.LRM-20 - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6-9		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+    CRIT_10		  { IS.ERLargeLaser - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Rear_Left_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.ERLargeLaser - - }
+    CRIT_3		  { IS.MediumPulseLaser - - }
+    CRIT_4		  { IS.MediumPulseLaser - - }
+    CRIT_10-11		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_12		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+Rear_Right_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.ERLargeLaser - - }
+    CRIT_3		  { IS.MediumPulseLaser - - }
+    CRIT_4		  { IS.MediumPulseLaser - - }
+    CRIT_10-11		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_12		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+Aft
+  Armor            { 100 }
+  Internals        { 97 }
+    CRIT_1		  { IS.GaussRifle - - }
+    CRIT_2-3		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_4		  { IS.LRM-20 - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6-7		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+    CRIT_9		  { IS.ERLargeLaser - - }
+    CRIT_10		  { IS.ERLargeLaser - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Nose
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.ERPPC - - }
+    CRIT_3		  { IS.GaussRifle - - }
+    CRIT_4		  { IS.GaussRifle - - }
+    CRIT_5		  { IS.GaussRifle - - }
+    CRIT_7-12		  { Ammo_IS.GaussRifle 8 - - }

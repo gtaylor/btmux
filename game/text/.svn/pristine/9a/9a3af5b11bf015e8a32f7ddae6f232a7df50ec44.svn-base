@@ -1,0 +1,8 @@
+
+& btech_afterlife_dbref
+
+  Config parameter: btech_afterlife_dbref <#dbref>
+  Default: 220
+
+  The room to which a player is moved after suffering death
+ 

@@ -1,0 +1,72 @@
+Name             { Victor }
+Reference        { VTR-9A1 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Mech_BV          { 1110 }
+Heat_Sinks       { 15 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 15 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6		  { IS.MediumLaser - - }
+Right_Arm
+  Armor            { 15 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-12		  { IS.AC/20 - - }
+Left_Torso
+  Armor            { 15 }
+  Internals        { 17 }
+  Rear             { 7 }
+    CRIT_1		  { IS.SRM-4 - - 4 }
+    CRIT_2		  { Ammo_IS.SRM-4 25 - }
+    CRIT_3		  { Ammo_IS.MachineGun 100 Hotload }
+    CRIT_4-5		  { HeatSink - - }
+Right_Torso
+  Armor            { 15 }
+  Internals        { 17 }
+  Rear             { 7 }
+    CRIT_1-3		  { Ammo_IS.AC/20 5 - }
+    CRIT_4		  { HeatSink - - }
+Center_Torso
+  Armor            { 25 }
+  Internals        { 25 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { JumpJet - - }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6		  { IS.MachineGun - - }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6		  { IS.MachineGun - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

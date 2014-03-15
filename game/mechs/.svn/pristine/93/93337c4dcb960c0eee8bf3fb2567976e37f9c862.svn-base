@@ -1,0 +1,69 @@
+Name             { Thorn }
+Reference        { THE-N }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 20 }
+Mech_BV          { 484 }
+Radio            { 4 }
+Computer         { 4 }
+Max_Speed        { 96.75 }
+Left_Arm
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumLaser - - }
+Right_Arm
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3         	  { IS.LRM-5 - - }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 5 }
+  Rear             { 4 }
+    CRIT_1-7		  { EndoSteel - - }
+    CRIT_8		  { HeatSink - - }
+Right_Torso
+  Armor            { 6 }
+  Internals        { 5 }
+  Rear             { 4 }
+    CRIT_1		  { Ammo_IS.LRM-5 24 - - }
+    CRIT_2		  { Case - - }
+    CRIT_3-9		  { EndoSteel - - }
+    CRIT_10		  { HeatSink - - }
+Center_Torso
+  Armor            { 8 }
+  Internals        { 6 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 8 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 8 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

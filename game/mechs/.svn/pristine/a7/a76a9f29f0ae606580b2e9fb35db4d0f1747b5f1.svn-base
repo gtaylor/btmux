@@ -1,0 +1,33 @@
+Name             { Demolisher }
+Reference        { Demolisher-Arrow }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Comment          { Saved by: Genitrix(#1511) at Thu Feb  8 15:51:03 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 0 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 28 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 28 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 38 }
+  Internals        { 8 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 8 }
+Turret
+  Armor            { 38 }
+  Internals        { 8 }
+    CRIT_1		  { IS.ArrowIVSystem - - }
+    CRIT_2		  { IS.ArrowIVSystem - - }
+    CRIT_3-9		  { Ammo_IS.ArrowIVSystem 5 - - }

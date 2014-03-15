@@ -1,0 +1,75 @@
+Name             { Battlemaster }
+Reference        { BLR-1S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Mech_BV          { 1227 }
+Heat_Sinks       { 20 }
+Max_Speed        { 64.50 }
+Specials         { Searchlight }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.SRM-2 - - }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-7		  { IS.LRM-15 - - }
+    CRIT_8		  { IS.LRM-5 - - }
+Left_Torso
+  Armor            { 28 }
+  Internals        { 18 }
+  Rear             { 8 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.SRM-2 - - }
+    CRIT_4		  { Ammo_IS.SRM-2 50 - - }
+    CRIT_5		  { HeatSink - - }
+Right_Torso
+  Armor            { 28 }
+  Internals        { 18 }
+  Rear             { 8 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { Ammo_IS.LRM-15 8 - - }
+    CRIT_4		  { Ammo_IS.LRM-5 24 - - }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 27 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { HeatSink - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

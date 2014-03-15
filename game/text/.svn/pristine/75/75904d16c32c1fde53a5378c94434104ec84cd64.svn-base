@@ -1,0 +1,24 @@
+ 
+& money()
+ 
+  Syntax: money(<object>)
+ 
+  Returns an integer equal to the amount of money <object> has (if it
+  is a player). If the specified object isn't a player, the value of
+  the target is returned.
+ 
+  Example:
+ 
+  > score
+  You have 1052 clams.
+  > say money(me)
+  You say "1052"
+  > exam sac test
+  Sac Test(#287V)
+  Type: THING Flags: VISUAL
+  Owner: Beaker  Key: *UNLOCKED* Clams: 20
+  Home: Limbo(#0RLDAJ)
+  Location: The Town Square
+  > say money(sac test)
+  You say "20"
+ 

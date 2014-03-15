@@ -1,0 +1,13 @@
+
+& exit_flags
+
+  Config parameter: exit_flags <flags>
+  Default: none
+
+  Modifies the set of flags that an exit receives when it is created
+  via the @open command or via the optional exit creation parameters
+  of the @dig or @link commands.  Flags prefixed by a ! remove the
+  indicated flag from the set.
+
+  See also: @list, player_flags, robot_flags, room_flags, thing_flags.
+ 

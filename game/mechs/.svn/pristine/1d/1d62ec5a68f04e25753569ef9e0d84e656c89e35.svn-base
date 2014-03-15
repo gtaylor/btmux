@@ -1,0 +1,26 @@
+Name   { Kestrel } 
+Reference        { Kestrel }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 25 }
+Mech_BV          { 75 }
+Max_Speed        { 193.50 }
+Specials         { CargoTech ICEEngine_Tech }
+Left_Side
+  Armor            { 5 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 5 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { IS.MachineGun - - }
+    CRIT_3		  { Ammo_IS.MachineGun 100 Hotload - }
+Aft_Side
+  Armor            { 4 }
+  Internals        { 3 }
+Rotor
+  Armor            { 2 }
+  Internals        { 3 }

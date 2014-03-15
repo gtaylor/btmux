@@ -1,0 +1,68 @@
+Name             { Hermes }
+Reference        { HER-3S1 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Comment          { Saved by: Charlemagne(#4624) at Thu Feb 24 17:47:15 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 598 }
+Max_Speed        { 150.50 }
+Left_Arm
+  Armor            { 4 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { IS.MediumLaser - - 3 }
+    CRIT_5-11		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 4 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1-2		  { Masc - - 3 }
+    CRIT_3-9		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 6 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1-2		  { Ecm - - 3 }
+    CRIT_3-9		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 6 }
+  Internals        { 10 }
+  Rear             { 2 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+Left_Leg
+  Armor            { 4 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 4 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 5 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

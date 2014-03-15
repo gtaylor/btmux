@@ -1,0 +1,25 @@
+ 
+& skills
+ 
+ >> Help: Skills
+ -----------------------------------------------------------------------------
+  Skills are what determine how good your character is at doing certain
+  things, on and off the battlefield. You may see your list of skills by
+  typing 'skills', the lower the + number is, the better you are at that
+  particular skill. For example, 3+ is better than 4+. You may see what
+  each of your skills does by reading on.  Keep in mind that not all skills
+  are always used.
+ 
+  For the sake of organization, we will break the skill listing up into
+  different categories for easier browsing. Please choose one of the
+  topics listed below to view the associated skills.
+ 
+  Skill Categories
+  ================
+   * Skills-Combat
+   * Skills-Econ
+   * Skills-Technician
+   * Skills-Misc
+ -----------------------------------------------------------------------------
+ To view a skill category, use 'help <category>' without the <>'s.
+ 

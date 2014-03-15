@@ -1,0 +1,17 @@
+ 
+& @move
+ 
+  Syntax: @move <object> = <command-list>
+  Attribute: Move
+ 
+  Sets the message that an object sees after it moves from one
+  location to another, whether by using an exit, entering or leaving
+  an object, teleporting, or going home.
+ 
+  This attribute is meaningful for players, and things and will never
+  be automatically triggered on other object types.
+ 
+  Example: @move bopper = OK.  You're there now.
+ 
+  See also: @amove, @omove
+ 

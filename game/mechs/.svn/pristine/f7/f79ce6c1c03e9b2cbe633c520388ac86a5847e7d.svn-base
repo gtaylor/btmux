@@ -1,0 +1,69 @@
+Name             { Warhammer }
+Reference        { WHM-6D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Mech_BV          { 1169 }
+Heat_Sinks       { 20 }
+Max_Speed        { 64.50 }
+Specials         { SearchLight }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-6		  { IS.PPC - - }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-6		  { IS.PPC - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SmallLaser - - 4 }
+    CRIT_3-4		  { HeatSink - - }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SmallLaser - - 4 }
+    CRIT_3		  { HeatSink - - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 22 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { HeatSink - - }
+Left_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - 3 }
+Right_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,82 @@
+Name             { Ostroc }
+Reference        { OSR-4L }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Heat_Sinks       { 26 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1333 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials         { DoubleHS StealthArmor_Tech EndoSteel_Tech ECM }
+Left_Arm
+  Armor          { 18 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-10    { EndoSteel - - }
+    CRIT_11-12   { StealthArmor - - }
+Right_Arm
+  Armor          { 18 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-7     { EndoSteel - - }
+    CRIT_11-12   { StealthArmor - - }
+Left_Torso
+  Armor          { 20 }
+  Internals      { 14 }
+  Rear           { 6 }
+    CRIT_1-2     { Ecm - - }
+    CRIT_3-4     { IS.ERLargeLaser - - }
+    CRIT_5       { IS.ERMediumLaser - - }
+    CRIT_6-7     { JumpJet - - }
+    CRIT_8-10    { EndoSteel - - }
+    CRIT_11-12   { StealthArmor - - }
+Right_Torso
+  Armor          { 20 }
+  Internals      { 14 }
+  Rear           { 6 }
+    CRIT_1-3     { HeatSink - - }
+    CRIT_4-5     { JumpJet - - }
+    CRIT_6-7     { IS.ERLargeLaser - - }
+    CRIT_8       { IS.ERMediumLaser - - }
+    CRIT_9-10    { EndoSteel - - }
+    CRIT_11-12   { StealthArmor - - }
+Center_Torso
+  Armor          { 22 }
+  Internals      { 20 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { JumpJet - - }
+Left_Leg
+  Armor          { 21 }
+  Internals      { 14 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { StealthArmor - - }
+Right_Leg
+  Armor          { 21 }
+  Internals      { 14 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { StealthArmor - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

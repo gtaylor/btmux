@@ -1,0 +1,15 @@
+ 
+& settarget
+ 
+  Mechrep command: settarget <#DBref>
+  
+  This command sets the unit to which all other mechrep commands will 
+  apply.
+  
+  Example:
+  Given that you wish to carry out one ore more mechrep commands on 
+  dbref #1234
+  
+  >settarget #1234
+  Mech to repair changed to #1234
+ 

@@ -1,0 +1,34 @@
+Name             { Glaive }
+Reference        { Glaive }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 45 }
+Comment          { Saved by: Spectre(#4628) at Thu Jul 11 08:03:08 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 599 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Left_Side
+  Armor            { 17 }
+  Internals        { 5 }
+Right_Side
+  Armor            { 17 }
+  Internals        { 5 }
+Front_Side
+  Armor            { 27 }
+  Internals        { 5 }
+    CRIT_1		  { IS.LRM-15 - - 0 }
+    CRIT_2		  { ArtemisIV - - 0 }
+Aft_Side
+  Armor            { 12 }
+  Internals        { 5 }
+    CRIT_1		  { Ammo_IS.MachineGun 200 - - }
+    CRIT_2-3		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+Turret
+  Armor            { 15 }
+  Internals        { 5 }
+    CRIT_1		  { IS.ERLargeLaser - - 0 }
+    CRIT_2		  { IS.MachineGun - - 0 }
+    CRIT_3		  { IS.MachineGun - - 0 }

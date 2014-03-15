@@ -1,0 +1,13 @@
+
+& connect_file
+
+  Config parameter: connect_file <path>
+  Default: text/connect.txt
+
+  Specifies the name of the file that a user sees immediately after
+  connecting to the MUX if registration is not enabled.  This file
+  normally contains help on how to connect to or create a character,
+  as well as the WHO and QUIT commands.
+
+  See also: connect_reg_file
+ 

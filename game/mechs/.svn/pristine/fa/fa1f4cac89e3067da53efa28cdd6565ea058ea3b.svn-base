@@ -1,0 +1,70 @@
+Name             { Blackjack }
+Reference        { BJ-3 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 45 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:05:04 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1099 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 12 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { IS.PPC - - 3 }
+    CRIT_6		  { IS.MediumLaser - - 3 }
+Right_Arm
+  Armor            { 12 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { IS.PPC - - 3 }
+    CRIT_6		  { IS.MediumLaser - - 3 }
+Left_Torso
+  Armor            { 15 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-3		  { HeatSink - - 3 }
+    CRIT_4		  { IS.MediumLaser - - 3 }
+Right_Torso
+  Armor            { 15 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-6		  { HeatSink - - 3 }
+    CRIT_7		  { IS.MediumLaser - - 3 }
+Center_Torso
+  Armor            { 18 }
+  Internals        { 14 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+Left_Leg
+  Armor            { 17 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Right_Leg
+  Armor            { 17 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

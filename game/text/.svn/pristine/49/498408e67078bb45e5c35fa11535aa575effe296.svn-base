@@ -1,0 +1,18 @@
+ 
+& btdamages()3
+ 
+  Example:
+ 
+  Given that #1234 is a THE-N which has been cored
+ 
+  >think btdamages(#1234) 1|RA|16|Shoulder|0,2|RA|16|Upper
+  Actuator|0,3|RA|17|LRM-5|0,4|LA|16|Shoulder|0,5|LA|16|Upper
+  Actuator|0,6|LA|16|Lower Actuator|0,7|LA|16|Hand
+  Actuator|0,8|LA|17|MediumLaser|0,9|RL|16|Hip|0,10|RL|16|Upper
+  Actuator|0,11|RL|16|Lower Actuator|0,12|RL|16|Foot
+  Actuator|0,13|RL|16|HeatSink|0,14|RL|16|HeatSink|0,15|LL|16|Hip|
+  0,16|LL|16|Upper Actuator|0,17|LL|16|Lower Actuator|0,18|LL|16|Foot
+  Actuator|0,19|LL|16|HeatSink|0,20|LL|16|HeatSink|0,21|H|16|Life
+  Support|0,22|H|16|Sensors|0,23|H|16|Cockpit|0,24|H|17|MediumLaser|
+  0,25|H|16|Sensors|0,26|H|16|Life Support|0
+ 

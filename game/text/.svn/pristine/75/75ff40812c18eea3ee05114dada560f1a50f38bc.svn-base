@@ -1,0 +1,8 @@
+ 
+& snipe
+ 
+  RS Command: snipe <UnitID> <weapon>
+  
+  This command lets you fire artillery weapons with movment 
+  predicition.
+ 

@@ -1,0 +1,9 @@
+& comsys commands
+ 
+  These are the topics for the MUX comsystem:
+  
+  addcom       allcom       alias        comlist      comtitle     clearcom
+  delcom
+ 
+  @ccreate     @cboot       @ccharge     @cchown      @cdestroy    @clist
+  @coflags     @cpflags     @cset        @cwho

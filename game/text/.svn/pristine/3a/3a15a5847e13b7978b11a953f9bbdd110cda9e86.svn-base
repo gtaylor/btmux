@@ -1,0 +1,23 @@
+ 
+& replace()
+ 
+  Syntax: replace(<list>, <pos>, <word>[, <sep>])
+ 
+  This function inserts a word into <list> so that the word becomes
+  the <pos>'th element of the list, and the word previously in that
+  position is removed. This means that it appears between the
+  <pos-1>'th and <pos+1>'th elements of the original list, replacing
+  the word at that position. This function may not be used to append
+  a word to a list.
+ 
+  <delim> may be used to specify a delimiter other than a space.
+ 
+  Example:
+ 
+  > say replace(This is a test, 4, quiz)
+  You say "This is a quiz"
+  > say replace(Yet@Another@Mundane@List, 3, Funky, @)
+  You say "Yet@Another@Funky@List"
+ 
+  See Also: extract(), insert(), ldelete()
+ 

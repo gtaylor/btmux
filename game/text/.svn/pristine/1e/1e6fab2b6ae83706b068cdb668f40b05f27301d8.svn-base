@@ -1,0 +1,13 @@
+ 
+& maneuvering_ace
+ 
+ >> Help: Maneuvering Ace (Advantages)
+ -----------------------------------------------------------------------------
+ Syntax: turnmode <tight/normal>
+ 
+ Better BTH on lateral movements in non-VTOL units
+ 
+ Result: You can move easier laterally in non-VTOL units, and you can change
+ your turning style to make sharper turns - at the cost of losing more speed
+ whilst doing so.
+ 

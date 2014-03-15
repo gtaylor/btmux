@@ -1,0 +1,10 @@
+ 
+& xget()
+ 
+  Syntax: xget(<object>,<attribute>)
+ 
+  This function works exactly like get(), but uses the object and
+  attribute separated into two arguments.
+ 
+  See Also: get(), eval(), get_eval()
+ 

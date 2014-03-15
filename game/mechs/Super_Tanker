@@ -1,0 +1,29 @@
+Name             { Monitor }
+Reference        { Super_Tanker }
+Type             { Naval }
+Move_Type        { Hull }
+Tons             { 200 }
+Comment          { Saved by: Tony(#8) at Wed Mar  6 11:28:35 2002 }
+Computer         { 3 }
+Mech_BV          { 560 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 32.25 }
+Left_Side
+  Armor            { 40 }
+  Internals        { 20 }
+Right_Side
+  Armor            { 40 }
+  Internals        { 20 }
+Front_Side
+  Armor            { 40 }
+  Internals        { 20 }
+Aft_Side
+  Armor            { 40 }
+  Internals        { 20 }
+Turret
+  Armor            { 40 }
+  Internals        { 20 }
+Rotor
+  Armor            { 40 }
+  Internals        { 200 }

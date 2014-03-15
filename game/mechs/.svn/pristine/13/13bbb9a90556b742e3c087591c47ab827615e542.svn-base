@@ -1,0 +1,45 @@
+Name             { Visigoth }
+Reference        { Visigoth-A }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 60 }
+Heat_Sinks       { 32 }
+Fuel             { 750 }
+Max_Speed        { 118.25 }
+Specials	 { Clan ArtemisIV FerroFibrous_Tech }
+Nose
+  Armor            { 50 }
+  Internals        { 7 }
+    CRIT_1		  { CL.ERPPC - - }
+    CRIT_2		  { CL.ERMediumLaser - - }
+    CRIT_3		  { CL.ERMediumLaser - - }
+Left_Wing
+  Armor            { 36 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LRM-20 - - }
+    CRIT_2		  { ArtemisIV - - }
+    CRIT_3-4		  { Ammo_CL.LRM-20 6 Artemis/Mine }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 36 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LRM-20 - - }
+    CRIT_2		  { ArtemisIV - - }
+    CRIT_3-4		  { Ammo_CL.LRM-20 6 Artemis/Mine }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 42 }
+  Internals        { 7 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 7 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 7 }
+    CRIT_1		  { CL.ERMediumLaser - - }
+    CRIT_2		  { CL.ERMediumLaser - - }

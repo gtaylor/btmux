@@ -1,0 +1,13 @@
+ 
+& rottorso
+ 
+  RS Commmand: <l|c|r>
+  
+  This command rotates the torso on a bidped mech in the direction 
+  specified.
+  
+  Arguments:
+  l - rotate the torso left
+  c - center the torso
+  r - rotate the torso right
+ 

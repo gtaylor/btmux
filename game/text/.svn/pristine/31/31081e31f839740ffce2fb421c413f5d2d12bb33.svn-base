@@ -1,0 +1,12 @@
+
+& selfboot
+ 
+ >> Help: Selfboot (Misc Command)
+ -----------------------------------------------------------------------------
+ Syntax: Selfboot
+ 
+ The 'Selfboot' command removes any of your multiple connections that may be
+ leftover from being disconnected or having more than one window open. You
+ have multiple connections open if your name appears more than once on the
+ WHO list.
+ 

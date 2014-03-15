@@ -1,0 +1,12 @@
+ 
+& PUEBLO
+ 
+  Details on Pueblo support in TinyMUX:
+ 
+  @VRML_URL is the URL of a VRML scene for a particular room.
+  @HTDesc is an alternate description for players who are logged in
+  using Pueblo.
+  @pemit/html and @emit/html allow outputting unescaped HTML strings.
+  Please see http://www.chaco.com/pueblo/doc/enhancing.html for more
+  details.
+ 

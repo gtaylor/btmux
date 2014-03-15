@@ -1,0 +1,77 @@
+Name             { Hermes }
+Reference        { HER-5C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Comment          { Saved by: Spectre(#4628) at Wed Jun 19 19:05:00 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 920 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 96.75 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 11 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-7		  { IS.iNarcBeacon - - 0 }
+    CRIT_8-10		  { HeatSink - - 0 }
+    CRIT_11-12		  { Ammo_IS.iNarcBeacon 4 - - }
+Right_Arm
+  Armor            { 11 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.ERMediumLaser - - 0 }
+    CRIT_6		  { IS.ERMediumLaser - - 0 }
+    CRIT_7		  { IS.ERMediumLaser - - 0 }
+Left_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-10		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { IS.ERLargeLaser - - 0 }
+    CRIT_6-12		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 17 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { C3i - - 0 }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

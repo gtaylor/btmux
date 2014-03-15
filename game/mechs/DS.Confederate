@@ -1,0 +1,68 @@
+Name             { Confederate }
+Reference        { DS.Confederate }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 1860 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 92 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS }
+Front_Right_Side
+  Armor            { 125 }
+  Internals        { 19 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LargeLaser - - }
+    CRIT_3		  { IS.LargeLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6		  { IS.MediumLaser - - }
+    CRIT_7		  { IS.MediumLaser - - }
+    CRIT_8		  { DSMechDoor - - }
+Front_Left_Side
+  Armor            { 125 }
+  Internals        { 19 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LargeLaser - - }
+    CRIT_3		  { IS.LargeLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6		  { IS.MediumLaser - - }
+    CRIT_7		  { IS.MediumLaser - - }
+    CRIT_8		  { DSMechDoor - - }
+Rear_Left_Side
+  Armor            { 125 }
+  Internals        { 19 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LargeLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6		  { DSMechDoor - - }
+Rear_Right_Side
+  Armor            { 125 }
+  Internals        { 19 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LargeLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6		  { DSMechDoor - - }
+Aft
+  Armor            { 70 }
+  Internals        { 19 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LargeLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { DSAeroDoor - - }
+Nose
+  Armor            { 127 }
+  Internals        { 19 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LargeLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { DSAeroDoor - - }
+

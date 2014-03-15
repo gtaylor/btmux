@@ -1,0 +1,25 @@
+ 
+& div()
+
+  Syntax: div(<number1>,<number2>)
+
+  This function returns the integer quotient from dividing <number1>
+  by <number2>. <numberN> may be a floating point number, and an
+  integer result is  returned.
+
+  Example:
+    > say div(15,3)
+    You say "5"
+    > say div(16,3)
+    You say "5"
+    > say div(15.9,2)
+    You say "7"
+    > say div(18,3)
+    You say "6"
+    > say div(-17,3)
+    You say -5
+ 
+  This function may also be called as idiv().
+
+  See also: add(), fdiv(), mod(), mul(), round(), sub(), trunc().
+ 

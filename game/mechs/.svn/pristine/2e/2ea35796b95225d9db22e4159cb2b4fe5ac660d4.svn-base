@@ -1,0 +1,31 @@
+Name		 { Partisan } 
+Reference        { Partisan-58 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Mech_BV          { 588 }
+Max_Speed        { 53.75 }
+Specials         { AntiAircraft }
+Left_Side
+  Armor            { 26 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 26 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 35 }
+  Internals        { 8 }
+    CRIT_1		  { C3Slave - - }
+Aft_Side
+  Armor            { 21 }
+  Internals        { 8 }
+Turret
+  Armor            { 35 }
+  Internals        { 8 }
+    CRIT_1		  { IS.LB10-XAC - - }
+    CRIT_2		  { IS.LB10-XAC - - }
+    CRIT_3		  { IS.AC/2 - - }
+    CRIT_4		  { IS.AC/2 - - }
+    CRIT_5		  { Ammo_IS.LB10-XAC 10 - - }
+    CRIT_6-7		  { Ammo_IS.LB10-XAC 10 LBX/Cluster - }
+    CRIT_8		  { Ammo_IS.AC/2 45 - - }

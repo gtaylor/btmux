@@ -1,0 +1,79 @@
+Name             { Puma }
+Reference        { Puma-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Heat_Sinks       { 20 }
+Max_Speed        { 96.75 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERLargeLaser - - }
+    CRIT_6		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-5		  { CL.UltraAC/5 - - }
+    CRIT_6		  { Ammo_CL.UltraAC/5 20 - }
+    CRIT_7		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 12 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { HeatSink - - }
+    CRIT_5		  { CL.SRM-2 - - }
+    CRIT_6		  { Ammo_CL.SRM-2 50 - }
+    CRIT_7		  { EndoSteel - - }
+    CRIT_8-9		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 12 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { HeatSink - - }
+    CRIT_5		  { CL.SRM-2 - - }
+    CRIT_6		  { Ammo_CL.SRM-2 50 - }
+    CRIT_7		  { EndoSteel - - }
+    CRIT_8-9		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.Flamer - - }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

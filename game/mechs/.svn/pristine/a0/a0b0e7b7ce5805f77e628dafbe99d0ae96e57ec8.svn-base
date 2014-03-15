@@ -1,0 +1,83 @@
+Name             { Thug }
+Reference        { THG-11E }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Mech_BV          { 1450 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 36 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-7		  { IS.PPC - - }
+    CRIT_8-10		  { HeatSink - - }
+    CRIT_11-12            { EndoSteel - - }
+Right_Arm
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-7		  { IS.PPC - - }
+    CRIT_8-10		  { HeatSink - - }
+    CRIT_11-12            { EndoSteel - - }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 17 }
+  Rear             { 9 }
+  Config           { Case }
+    CRIT_1-2		  { IS.SRM-6 - - }
+    CRIT_3		  { Ammo_IS.SRM-6 15 - }
+    CRIT_4		  { Case - - }
+    CRIT_5-10		  { HeatSink - - }
+    CRIT_11-12            { EndoSteel - - }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 17 }
+  Rear             { 9 }
+  Config           { Case }
+    CRIT_1-2		  { IS.SRM-6 - - }
+    CRIT_3		  { Ammo_IS.SRM-6 15 - }
+    CRIT_4		  { Case - - }
+    CRIT_5-10		  { HeatSink - - }
+    CRIT_11-12            { EndoSteel - - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 25 }
+  Rear             { 16 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12            { EndoSteel - - }
+Left_Leg
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6              { EndoSteel - - }
+Right_Leg
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6              { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

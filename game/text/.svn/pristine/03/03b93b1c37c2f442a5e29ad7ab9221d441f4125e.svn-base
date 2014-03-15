@@ -1,0 +1,106 @@
+#!/usr/bin/python
+
+#----------------------------------------------------------------------------
+# Script to compile monolithic help .txt files from individual, categorized
+# files. Run with no args to see details on usage.
+#
+# This script is very inefficient. If you know of a better, iterative
+# way to do it, please be my guest.
+#
+# - Greg
+#----------------------------------------------------------------------------
+
+import os, fnmatch, sys, shutil, fileinput
+
+# Code from ActiveState Recipe 499305: Locating files throughout a directory tree
+# http://code.activestate.com/recipes/499305/
+#----------------------------------------------------------------------------
+def locate(pattern, root=os.curdir):
+    '''Locate all files matching supplied filename pattern in and below
+    supplied root directory.'''
+    for path, dirs, files in os.walk(os.path.abspath(root)):
+        for filename in fnmatch.filter(files, pattern):
+        	if ".svn" not in path: # modified from recipe - exclude .svn directories 
+        		yield [path, filename]
+
+
+# Top level function that calls recurse_dir() on the build target.
+#----------------------------------------------------------------------------
+def build_help(build_targ):
+	# build_targ is without the .txt, IE: 'wizhelp', 'help', etc. Tack
+	# the .txt on the end and this is our target file.
+	buildfile = build_targ + '.txt'
+
+	# Clean up the build target file and build dir.
+	try:
+		os.remove(buildfile)
+	except OSError:
+		pass
+	
+	print 'Building ' + buildfile + '...'
+	
+	f = open(buildfile, 'w')
+	
+	files = list(locate('*', build_targ))	
+	files.sort(lambda x,y:cmp(x[1],y[1])) # sort list by filename independent of path
+	
+	# transform file list back into a regular list
+	file_list = list()
+	for file in files:
+		file_list.append(os.path.join(file[0], file[1]))
+		
+	for line in fileinput.input(file_list):	
+		if line[-2:] == "\r\n": # if we have a windows line ending...
+			line = line[:-2] + "\n" # fix it 
+		f.write(line)
+    
+	f.close()
+	
+	print 'Finished building ' + buildfile + '.'
+
+# Run mkindx on whatever we just built.
+#----------------------------------------------------------------------------
+def mkindx(targ):
+	os.popen('../bin/mkindx ' + targ + '.txt ' + targ + '.indx')
+	
+#----------------------------------------------------------------------------
+# Begin Main Program Logic
+#----------------------------------------------------------------------------
+
+# List of targets. Safe to add on to without further modification.
+valid_targets = ['help', 'wizhelp', 'news', 'wiznews', 'plushelp']
+other_files = ['connect', 'down', 'newuser']
+mkindx_note = "Don't forget to @readcache if your game is still running!"
+
+# Show this if no arguments are given.
+if len(sys.argv) < 2:
+	print '-'*78
+	print ' Syntax: makehelp <helptarget>\n'
+	print ' Input desired helpfile to build. May be any of the following:'
+	for target in valid_targets:
+		print '  ' + target
+	print '  all (Builds all of the above targets)'
+	print '-'*78
+	print ' NOTE: You will need @readcache if your game is running.'
+	print '-'*78
+	sys.exit(2)
+
+# Grab the first argument and check against it.
+build_targ = sys.argv[1]
+
+if build_targ == 'all':
+# ----> Build everything from valid_targets.
+	for buildfile in valid_targets:
+		build_help(buildfile)
+		mkindx(buildfile)
+	print mkindx_note
+elif build_targ in valid_targets:
+# ----> Build only the specified target.
+	build_help(build_targ)
+	mkindx(build_targ)
+	print mkindx_note
+else:
+# ----> Invalid argument.
+	print 'Invalid build target! Issue the command with no arguments for syntax.'
+	sys.exit(2)
+

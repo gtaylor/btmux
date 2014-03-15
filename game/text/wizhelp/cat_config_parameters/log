@@ -1,0 +1,28 @@
+
+& log
+
+  Config parameter: log [!]<logoption> [[!]<logoption>]...
+
+  Specifies what types of events are to be logged to the logfile.
+
+    accounting     - Write an accounting record to the log for each
+                     player who disconnects.
+    all_commands   - Record all commands executed.
+    bad_commands   - Record commands entered that did not match
+                     anything.
+    buffer_alloc   - Record buffer allocates and frees.
+    bugs           - Record internal inconsistencies found.
+    checkpoints    - Record automatic database dumps.
+    config_changes - Record uses of the @admin command.
+    create         - Record creation of new players.
+    killing        - Record uses of the kill and slay commands.
+    logins         - Record connects to characters.
+    network        - Record new and broken net connections.
+    problems       - Record problems found with the database.
+    security       - Record security-related events.
+    shouts         - Record uses of the @wall command.
+    startup        - Record information about game startup.
+    wizard         - Record uses of dangerous commands like @toad.
+
+  See also: log_options.
+ 

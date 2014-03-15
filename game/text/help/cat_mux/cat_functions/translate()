@@ -1,0 +1,12 @@
+ 
+& translate()
+ 
+  Syntax: translate(<string>, <type>)
+ 
+  This function takes <string>, and converts all raw ANSI color codes
+  and carriage returns to either MUX substitutions, or to spaces. If
+  <type> is 0 or 's', the raw codes are converted to spaces, if it is
+  1 or 'p', the codes are converted to MUX %c and %r substitutions.
+ 
+  See Also: stripansi(), secure()
+ 

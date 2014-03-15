@@ -1,0 +1,67 @@
+Name             { Hunchback }
+Reference        { HBK-4H }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Mech_BV          { 850 }
+Heat_Sinks       { 13 }
+Max_Speed        { 64.50 }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumLaser - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumLaser - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 12 }
+  Rear             { 4 }
+    CRIT_1-2		  { Ammo_IS.AC/10 10 - }
+    CRIT_3-7		  { HeatSink - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 12 }
+  Rear             { 4 }
+    CRIT_1-7		  { IS.AC/10 - - }
+    CRIT_8		  { IS.MediumLaser - - }
+    CRIT_9		  { IS.MediumLaser - - }
+Center_Torso
+  Armor            { 26 }
+  Internals        { 16 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

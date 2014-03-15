@@ -1,0 +1,17 @@
+
+& sacrifice_adjust
+
+  Config parameter: sacrifice_adjust <amount>
+  Default -1
+
+  This parameter is part of the formula that is used to determine an
+  object's value given the amount spent on its creation.  The
+  formula is:
+
+     value = (cost / sacrifice_factor) + sacrifice_adjust.
+
+  The inverse formula is used to determine how much the owner receives
+  when @destroying an object.
+
+  See also: @create, @destroy, SACRIFICING, sacrifice_factor.
+ 

@@ -1,0 +1,31 @@
+ 
+& damages
+ 
+  RS Command: damages
+  
+  This command displays a report listing any damaged components on an RS Unit.
+  
+  As with all tech commands, this command requires a 'techbit'.
+  
+  Example:
+  Given an undamaged unit:
+  
+  >damages
+  The 'mech is in pristine condition!
+  
+  Given a damaged unit:
+  >damages
+  --------------------------------------------------------------------
+                     Damage for Exterminator [SZ]                     
+----------------------------------------------------------------------
+1 :CT Repairs on armor (6 points)                                     
+2 :CT Repairs on Engine                                               
+3 :CT Repairs on Gyro                                                 
+4 :RT Reload of Ammo Anti-MissileSystem (12 rounds)                   
+5 :RA Repairs on armor (1 points)                                     
+6 :RA Repairs on Lower Actuator                                       
+7 :RL Repairs on Foot Actuator                                        
+----------------------------------------------------------------------
+(*) / Green = Job already done. Yellow = To be done.                  
+ 
+  See Also: fix

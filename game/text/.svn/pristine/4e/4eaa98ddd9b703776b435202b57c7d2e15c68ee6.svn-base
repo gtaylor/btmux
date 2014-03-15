@@ -1,0 +1,11 @@
+
+& status_file
+
+  Config parameter: status_file <filename>
+  Default: shutdown.status
+
+  If you give an argument to the @shutdown command, that argument is
+  written out to the file named by this directive.  The file can be
+  used by an auto-restart script to decide whether or not to bring
+  the MUX back up, for instance.
+ 

@@ -1,0 +1,82 @@
+Name             { Turkina }
+Reference        { Turkina-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 95 }
+Comment          { Saved by: Sean(#603) at Mon Apr 14 00:25:09 1997 }
+Computer         { 5 }
+Radio            { 5 }
+Heat_Sinks       { 34 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Specials         { DoubleHS Clan FlipArms }
+Left_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-11		  { CL.LB20-XAC - - }
+    CRIT_12		  { Ammo_CL.LB20-XAC 5 - - }
+Right_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7-8		  { CL.LargePulseLaser - - }
+    CRIT_9-10		  { CL.LargePulseLaser - - }
+Left_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7		  { JumpJet - - }
+    CRIT_8		  { CL.MediumPulseLaser - - }
+    CRIT_9		  { CL.MediumPulseLaser - - }
+    CRIT_10-12		  { Ammo_CL.LB20-XAC 5 LBX/Cluster - }
+Right_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7		  { JumpJet - - }
+    CRIT_8		  { CL.MachineGun - - }
+    CRIT_9		  { CL.MachineGun - - }
+    CRIT_10		  { Ammo_CL.MachineGun 200 - - }
+    CRIT_11-12		  { CL.StreakSRM-6 - - }
+Center_Torso
+  Armor            { 45 }
+  Internals        { 30 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { Ammo_CL.StreakSRM-6 15 - - }
+Left_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_6		  { CL.Flamer - - }
+Right_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_6		  { CL.Flamer - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { BeagleProbe - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,70 @@
+Name             { Sunder }
+Reference        { SD1-OD }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 90 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 30 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 32.25 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+Comment {    CRIT_2                { UpperActuator - - }
+    CRIT_2-12             { IS.LB20-XAC - - }
+Right_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-5              { HeatSink - - }
+    CRIT_6-8              { IS.PPC - - }
+    CRIT_9-11             { IS.PPC - - }
+Left_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4                { JumpJet - - }
+Comment {    CRIT_5                { IS.LB20-XAC - - }
+    CRIT_6                { Ammo_IS.LB20-XAC 5 - }
+    CRIT_7                { Ammo_IS.LB20-XAC 5 LBX/Cluster }
+Right_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4                { JumpJet - - }
+Center_Torso
+  Armor            { 41 }
+  Internals        { 29 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11               { JumpJet - - }
+Left_Leg
+  Armor            { 33 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 33 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

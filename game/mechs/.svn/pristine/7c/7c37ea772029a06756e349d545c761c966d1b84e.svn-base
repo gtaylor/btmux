@@ -1,0 +1,85 @@
+Name             { Highlander }
+Reference        { HGN-736 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 90 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:05:41 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 2118 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.StreakSRM-4 - - 3 }
+    CRIT_6-10		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-10		  { IS.GaussRifle - - 3 }
+Left_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 10 }
+    CRIT_1		  { JumpJet - - 3 }
+    CRIT_2-6		  { IS.LRM-20 - - 3 }
+    CRIT_7		  { ArtemisIV - - 3 }
+    CRIT_8		  { Ammo_IS.StreakSRM-4 25 - - }
+    CRIT_9-10		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+    CRIT_11		  { Case - - 3 }
+Right_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 10 }
+    CRIT_1		  { JumpJet - - 3 }
+    CRIT_2		  { IS.MediumLaser - - 3 }
+    CRIT_3		  { IS.MediumLaser - - 3 }
+    CRIT_4-5		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_6-7		  { C3i - - 3 }
+    CRIT_8-10		  { FerroFibrous - - 3 }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 29 }
+  Rear             { 17 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { JumpJet - - 3 }
+    CRIT_12		  { FerroFibrous - - 3 }
+Left_Leg
+  Armor            { 38 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { FerroFibrous - - 3 }
+Right_Leg
+  Armor            { 38 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { FerroFibrous - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { FerroFibrous - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

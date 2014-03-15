@@ -1,0 +1,11 @@
+ 
+& logf()
+ 
+  Syntax: logf(<logfile>,<text>)
+ 
+  Logs specified text to the specified log file. This only works if
+  the log file already exists in /game/logs. All text passed through
+  logf() is evaluated but all formatting is stripped.
+ 
+  See Also: @log
+ 

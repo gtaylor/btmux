@@ -1,0 +1,74 @@
+Name             { Grasshopper }
+Reference        { GHR-5J }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:04:08 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 22 }
+Mech_BV          { 1201 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 10 }
+    CRIT_1-7		  { HeatSink - - 3 }
+    CRIT_8		  { Ammo_IS.Anti-MissileSystem 12 - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 10 }
+    CRIT_1-4		  { HeatSink - - 3 }
+    CRIT_5		  { IS.Anti-MissileSystem - - 3 }
+    CRIT_6-7		  { Ammo_IS.StreakSRM-2 50 - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 22 }
+  Rear             { 13 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { IS.ERLargeLaser - - 3 }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.StreakSRM-2 - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

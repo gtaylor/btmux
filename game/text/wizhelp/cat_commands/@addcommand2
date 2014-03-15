@@ -1,0 +1,26 @@
+
+& @addcommand2
+ 
+   Example:
+
+  > &LOOK me=$look:say I looked here!
+  > &LOOK_WITH_ARG me=$look *:say I looked at %0!
+  > &LOOK_OUTSIDE me=$look/outside *:say I looked outside at %0!
+  > @addcommand look=me/look
+  > @addcommand look=me/look_with_arg
+  > @addcommand look=me/look_outside
+ 
+  As shown above more than one attribute can be specified with <name>. 
+  When you type 'look' or 'look sofa', the game will execute all 
+  attributes that match what you have typed. Aliases such as 'l' are 
+  expanded to 'look' eliminating the need to deal with such when 
+  taking command matching into consideration. If none of the 
+  attributes attached match (the attribute *must* begin with $<name> 
+  in order to match at all!), no output will be generated.
+ 
+  Another use is to speed up use of a particular global command. 
+  Commands in the built-in table are accessed much more quickly 
+  than otherwise.
+ 
+  See also: @delcommand, @listcommands.
+ 

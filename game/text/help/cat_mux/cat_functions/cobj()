@@ -1,0 +1,15 @@
+ 
+& cobj()
+ 
+  Syntax: cobj(<Channel>)
+ 
+  This function returns the #dbref of the channel object for
+<Channel>.
+ 
+  Example:
+ 
+  > think cobj(FAQ)
+  #103
+  
+  See Also: cwho(), cemit().
+ 

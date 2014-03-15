@@ -1,0 +1,28 @@
+ 
+& @fail
+ 
+  Syntax: @fail <object> = <message>
+  Attribute: Fail
+ 
+  Sets the failure message for <object>.  This message is seen by the
+  actor when one of these events occurs:
+ 
+    - For exits: Someone tries to traverse the exit but cannot because
+      they fail the exit's default lock or the exit is not linked.
+    - For players and things: Someone tries to pick up the object but
+      cannot because they fail the object's default lock.
+    - For rooms, players, and things: Someone looks around inside the
+      room, player, or thing and fails the object's default lock.
+ 
+  Substitution and evaluation is performed on the message before it is
+  shown.
+ 
+  Example:
+    <thing>
+    > @fail table = It's too heavy to lift!                       
+ 
+    <exit>
+    > @fail doorway = The doorknob does not turn.                  
+ 
+  See also: get, @afail, @ofail, FAILURE
+ 

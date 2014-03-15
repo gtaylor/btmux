@@ -1,0 +1,16 @@
+ 
+ & bearing
+ 
+  RS Command: bearing [x y] [x y]
+ 
+  This command returns the bearing to the hex specified.
+ 
+  If only one hex is specified the bearing returned is from your
+  current location.
+ 
+  If two hexes are specified the command returns the bearing from the
+  first hex to the second hex.
+ 
+  The hex argument may be omitted if the unit is locked to the target
+  hex.
+ 

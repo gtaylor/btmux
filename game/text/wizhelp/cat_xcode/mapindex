@@ -1,0 +1,13 @@
+ 
+& mapindex
+ 
+  xcodevalue: mapindex <DBref>
+  XTYPE: MECH
+  
+  This xcode value stores the DBref of the map the RS Unit is 
+  currently linked to.
+  
+  NOTE - if the unit is not 'on' any map the value stores -1
+  
+  See Also: @viewxcode
+ 

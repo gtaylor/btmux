@@ -1,0 +1,13 @@
+
+& full_file
+
+  Config parameter: down_file <pathname>
+  Default: text/full.txt
+
+  Specifies the name of the file that is displayed when players
+  attempt to connect to a non-wizard character when the number of
+  connected players is not less than the number of players allowed
+  by the max_players directive.
+
+  See also: full_motd_message, max_players.
+ 

@@ -1,0 +1,82 @@
+Name             { Cyclops }
+Reference        { CP-11-G }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 90 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:04:08 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 22 }
+RadioType        { 127 }
+Mech_BV          { 1761 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 29 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-10		  { FerroFibrous - - 3 }
+    CRIT_11-12		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 29 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.ERMediumLaser - - 3 }
+    CRIT_6		  { IS.ERMediumLaser - - 3 }
+    CRIT_7-12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 9 }
+    CRIT_1-2		  { IS.LRM-10 - - 3 }
+    CRIT_3-10		  { FerroFibrous - - 3 }
+    CRIT_11-12		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 9 }
+    CRIT_1-7		  { IS.GaussRifle - - 3 }
+    CRIT_8-9		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_10		  { Ammo_IS.StreakSRM-4 25 - - }
+    CRIT_11		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_12		  { Case - - 3 }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 29 }
+  Rear             { 14 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.StreakSRM-4 - - 3 }
+Left_Leg
+  Armor            { 37 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 37 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

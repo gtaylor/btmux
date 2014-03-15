@@ -1,0 +1,9 @@
+ 
+& stand
+ 
+  RS Command: stand
+  
+  This command causes a Mech which is prone (laying on the ground) to 
+  attempt to stand up.
+  
+  See Also: prone

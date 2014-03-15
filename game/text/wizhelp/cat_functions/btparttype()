@@ -1,0 +1,29 @@
+ 
+& btparttype()
+ 
+  Syntax: btparttype(<partname>)
+ 
+  This function returns the type for the specified <partname>.
+ 
+  Arguments:
+  <Parttypes>
+ 
+  * WEAP
+  * AMMO
+  * BOMB
+  * PART
+  * CARG
+  * OTHER
+ 
+  Error Messages:
+ 
+  * If <partname> is not a valid part the function returns #-1
+    INVALID PART NAME
+ 
+  Example:
+ 
+  Given that CL.ERPPC is a valid partname
+ 
+  > think btparttype(cl.erppc)
+  WEAP
+ 

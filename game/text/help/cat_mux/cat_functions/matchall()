@@ -1,0 +1,18 @@
+ 
+& matchall()
+ 
+  Syntax: matchall(<string>,<pattern>[,<delim>])
+ 
+  This function works identically to the match() function, save that
+  it returns all matches, not just the first: It returns the index
+  numbers of all words in the list <string> which match <pattern>.
+ 
+  Example:
+ 
+  > say matchall(This is a test of a test,test)
+  You say "4 7"
+  > say matchall(This is testing a test,tes*)
+  You say "3 5"
+ 
+  See Also: LISTS, match(), strmatch()
+ 

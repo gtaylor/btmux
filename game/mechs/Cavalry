@@ -1,0 +1,29 @@
+Name   { Cavalry } 
+Reference        { Cavalry }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 25 }
+Mech_BV          { 629 }
+Max_Speed        { 161.25 }
+Specials	 { ICEEngine_Tech }
+Left_Side
+  Armor            { 13 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 13 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 20 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-6 - - }
+    CRIT_2		  { IS.SRM-2 - - }
+    CRIT_3		  { IS.SRM-2 - - }
+    CRIT_4		  { IS.SRM-2 - - }
+    CRIT_5		  { Ammo_IS.SRM-6 15 - - }
+    CRIT_6		  { Ammo_IS.SRM-2 50 - - }
+Aft_Side
+  Armor            { 8 }
+  Internals        { 3 }
+Rotor
+  Armor            { 2 }
+  Internals        { 3 }

@@ -1,0 +1,11 @@
+ 
+& destroyer
+ 
+  Attribute: destroyer <#dbref>
+  
+  This attribute is created on a player object when it is being 
+  destroyed (ie has the GOING flag set).
+  
+  The attribute stores the #dbref of the player who @destroy'ed the 
+  player.
+ 

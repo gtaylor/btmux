@@ -1,0 +1,31 @@
+
+& speed
+
+  RS Command: speed [num | walk | run | stop | back | flank | cruise] 
+  
+  With an argument this command sets the speed for the RS Unit.
+  WIthout an argument it returns the speed that the unit is currently
+  doing.
+ 
+  Arguments
+  * walk - sets the unit to it's walking/cruising speed
+  * run - sets the unit to it's run/flank speed (~walk speed * 1.5)
+  * stop - sets the unit to speed 0
+  * back - sets the unit to it's max backwards speed (the same as it's 
+           walk speed)
+  * flank - see run
+  * cruise - see walk
+ 
+  Note - An RS Unit takes time to accelerate or decelerate to the
+  speed set by the command.
+ 
+  Example:
+  Given that you are in an RS unit at speed 0
+ 
+  >speed 60
+  Desired speed changed to 60 KPH
+  >speed
+  Your current speed is 29.68.
+  >speed
+  Your current speed is 60.00.
+ 

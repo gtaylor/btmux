@@ -1,0 +1,12 @@
+
+& public_flags
+
+  Config parameter: public_flags <yes/no>
+  Default: yes
+
+  If enabled, indicates that players may get the flags of any object
+  with the flags() function call.  Otherwise, they may only get the
+  flags for objects that are examinable by them.
+
+  See also: flags().
+ 

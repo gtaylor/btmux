@@ -1,0 +1,85 @@
+Name             { Crusader }
+Reference        { CRD-5M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:04:03 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 26 }
+Mech_BV          { 1336 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7-9		  { IS.LRM-15 - - 3 }
+    CRIT_10		  { IS.MediumLaser - - 3 }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-7		  { IS.LRM-15 - - 3 }
+    CRIT_8		  { IS.Flamer - - 3 }
+    CRIT_9		  { IS.MachineGun - - 3 }
+    CRIT_10		  { IS.MediumLaser - - 3 }
+    CRIT_11		  { Ammo_IS.MachineGun 100 Hotload - }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7-8		  { JumpJet - - 3 }
+    CRIT_9		  { Ammo_IS.StreakSRM-2 50 - - }
+    CRIT_10		  { Case - - 3 }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7-8		  { JumpJet - - 3 }
+    CRIT_9-10		  { Ammo_IS.LRM-15 8 - - }
+    CRIT_11		  { Ammo_IS.Anti-MissileSystem 12 - - }
+    CRIT_12		  { Case - - 3 }
+Center_Torso
+  Armor            { 33 }
+  Internals        { 21 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+Left_Leg
+  Armor            { 21 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.StreakSRM-2 - - 3 }
+Right_Leg
+  Armor            { 21 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.StreakSRM-2 - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.Anti-MissileSystem - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

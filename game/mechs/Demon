@@ -1,0 +1,31 @@
+Name             { Demon }
+Reference        { Demon }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 60 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:03 2000 }
+Computer         { 3 }
+Mech_BV          { 775 }
+Max_Speed        { 64.50 }
+Left_Side
+  Armor            { 30 }
+  Internals        { 6 }
+    CRIT_1		  { IS.MediumLaser - - 3 }
+Right_Side
+  Armor            { 30 }
+  Internals        { 6 }
+    CRIT_1		  { IS.MediumLaser - - 3 }
+Front_Side
+  Armor            { 50 }
+  Internals        { 6 }
+    CRIT_1		  { IS.SRM-6 - - 3 }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 6 }
+    CRIT_1		  { Case - - 3 }
+Turret
+  Armor            { 30 }
+  Internals        { 6 }
+    CRIT_1		  { IS.GaussRifle - - 3 }
+    CRIT_2-3		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_4-5		  { Ammo_IS.SRM-6 15 - - }

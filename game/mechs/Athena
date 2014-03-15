@@ -1,0 +1,35 @@
+Name		 { Athena } 
+Reference        { Athena }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 75 }
+Max_Speed        { 53.75 }
+Specials	 { Clan FerroFibrous_Tech }
+Left_Side
+  Armor            { 26 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 26 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 38 }
+  Internals        { 8 }
+    CRIT_1		  { CL.GaussRifle - OnTC }
+    CRIT_2		  { CL.GaussRifle - OnTC }
+    CRIT_3-6		  { Ammo_CL.GaussRifle 8 - }
+    CRIT_7		  { CL.LRM-10 - - }
+    CRIT_8		  { Ammo_CL.LRM-10 12 - }
+Aft_Side
+  Armor		   { 24 }
+  Internals        { 8 }
+    CRIT_1-6		  { TargetingComputer - - }
+Turret
+  Armor            { 30 }
+  Internals        { 8 }
+    CRIT_1		  { CL.ERMediumLaser - OnTC }
+    CRIT_2		  { CL.ERMediumLaser - OnTC }
+    CRIT_3		  { CL.MachineGun - - }
+    CRIT_4		  { CL.MachineGun - - }
+    CRIT_5		  { Ammo_CL.MachineGun 100 Hotload }

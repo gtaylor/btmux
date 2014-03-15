@@ -1,0 +1,79 @@
+Name             { Sirocco }
+Reference        { SRC-3C }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 95 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:03:36 2000 }
+Computer         { 5 }
+Radio            { 5 }
+Heat_Sinks       { 26 }
+Mech_BV          { 1807 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS }
+Front_Left_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5		  { IS.ERMediumLaser - - 5 }
+    CRIT_6		  { IS.A-Pod - - 5 }
+Front_Right_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5		  { IS.ERMediumLaser - - 5 }
+    CRIT_6		  { IS.A-Pod - - 5 }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 20 }
+  Rear             { 15 }
+    CRIT_1-3		  { HeatSink - - 5 }
+    CRIT_4		  { IS.ERMediumLaser - - 5 }
+    CRIT_5		  { IS.ERMediumLaser - RearMount 5 }
+    CRIT_6-12		  { IS.UltraAC/10 - - 5 }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 20 }
+  Rear             { 15 }
+    CRIT_1-3		  { HeatSink - - 5 }
+    CRIT_4		  { IS.ERMediumLaser - - 5 }
+    CRIT_5		  { IS.ERMediumLaser - RearMount 5 }
+    CRIT_6-12		  { IS.UltraAC/10 - - 5 }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 30 }
+  Rear             { 20 }
+    CRIT_1-3		  { Engine - - 5 }
+    CRIT_4-7		  { Gyro - - 5 }
+    CRIT_8-10		  { Engine - - 5 }
+    CRIT_11-12		  { Ecm - - 5 }
+Rear_Left_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { Ammo_IS.UltraAC/10 10 - - }
+Rear_Right_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { Ammo_IS.UltraAC/10 10 - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 5 }
+    CRIT_2		  { Sensors - - 5 }
+    CRIT_3		  { Cockpit - - 5 }
+    CRIT_4		  { IS.MediumPulseLaser - - 5 }
+    CRIT_5		  { Sensors - - 5 }
+    CRIT_6		  { LifeSupport - - 5 }

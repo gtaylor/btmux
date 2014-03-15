@@ -1,0 +1,27 @@
+ 
+& target
+ 
+  RS Command: target <section | ->
+  
+  This command permits you to target a specific part of the unit you 
+  you have locked.
+  
+  Arguments:
+  * - disable targetting
+  * section - sets the section of the RS Unit to aim at.
+  
+  Example:
+  >lock ia
+  Target set to T1 Mercury [ia].
+  The sensors acquire a stable lock on T1 Mercury [ia].
+  
+  >target h
+  Head targetted.
+  >target ct
+  Center Torso targetted.
+  
+  >target -
+  Targetting disabled.
+  
+  See Also: lock
+ 

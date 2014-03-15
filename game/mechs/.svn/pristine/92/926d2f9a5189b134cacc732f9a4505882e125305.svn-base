@@ -1,0 +1,70 @@
+Name             { Thunder Stallion }
+Reference        { ThunderStallion-1 }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 85 }
+Heat_Sinks	 { 28 }
+Max_Speed        { 53.75 }
+Specials	 { Clan }
+Front_Left_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Front_Right_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 18 }
+  Rear             { 16 }
+    CRIT_1-9		  { CL.LB20-XAC - - }
+    CRIT_10-11		  { CL.LRM-15 - - }
+    CRIT_12		  { Ammo_CL.LB20-XAC 5 LBX/Cluster }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 18 }
+  Rear             { 16 }
+    CRIT_1-4		  { CL.LRM-15 - - }
+    CRIT_5-12		  { Ammo_CL.LRM-15 8 - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 27 }
+  Rear             { 20 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { CL.LRM-15 - - }
+Rear_Left_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Rear_Right_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Ammo_CL.LB20-XAC 5 - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

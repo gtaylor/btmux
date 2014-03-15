@@ -1,0 +1,24 @@
+ 
+& @enter
+ 
+  Syntax: @enter <object> = <message>
+  Attribute: Enter
+ 
+  Sets the message that a player sees when entering an object or room,
+  whether by using an exit, the enter or leave commands, or by
+  teleporting.
+ 
+  Function references and %-substitutions are allowed in enter
+  messages, and are evaluated when someone enters the object.  In
+  function references, 'me' refers to the object being entered, while
+  %-substitutions that refer to the enactor (such as %n, %#, %p,
+  etc) refer to the player entering the object.
+ 
+  This attribute is meaningful for players, things, and rooms, and
+  will never be automatically triggered on exits.
+ 
+  Example:
+  @enter car = You climb into the car and buckle your seatbelt.
+ 
+  See also: enter, @aenter, @oenter, ENTER_OK
+ 

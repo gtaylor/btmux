@@ -1,0 +1,17 @@
+ 
+& @startup
+ 
+  Syntax: @startup <object> = <command list>
+  Attribute: Startup
+ 
+  Sets a list of commands to be performed by <object> when the game is
+  started up.  Typical actions include going home, cleaning visitors
+  out of a room, resetting a puzzle or complex object to its initial
+  state, or starting up an object that wants to run continuously.
+ 
+  Example:
+  @startup me = @vz me=MUX was last restarted at [time()].
+  @startup me = home
+ 
+  See also: @hhourly, @daily
+ 

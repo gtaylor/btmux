@@ -1,0 +1,16 @@
+ 
+& kill
+ 
+  Syntax: kill <player> [=<cost>]
+ 
+  Attempts to kill the specified player. Killing costs <cost> coins,
+  which gives you a <cost>% chance of killing the player. Thus,
+  spending 100 coins always works (except against wizards and
+  immortals, who can never be killed). Players cannot be killed in
+  rooms which have been set HAVEN or which they control.  If you
+  don't specify a cost, the default is 10 (for a 10% chance of
+  success).  The player, if killed, receives <cost>/2 coins in
+  insurance.
+ 
+  See also: @akill, @kill, @okill, BEING KILLED, IMMORTAL, WIZARD
+ 

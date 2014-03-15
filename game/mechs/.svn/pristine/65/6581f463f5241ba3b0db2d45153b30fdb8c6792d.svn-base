@@ -1,0 +1,78 @@
+Name             { MadCat }
+Reference        { Mad-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Computer         { 4 }
+Heat_Sinks       { 30 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.ERPPC - - }
+    CRIT_12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.ERPPC - - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 16 }
+  Rear             { 7 }
+    CRIT_1-2		  { CL.StreakSRM-6 - - }
+    CRIT_3-4		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_5-6		  { CL.StreakSRM-6 - RearMount }
+    CRIT_7-8		  { Engine - - }
+    CRIT_10		  { EndoSteel - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 16 }
+  Rear             { 7 }
+    CRIT_1-2		  { CL.StreakSRM-6 - - }
+    CRIT_3-4		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_5-6		  { CL.StreakSRM-6 - RearMount }
+    CRIT_7-8		  { Engine - - }
+    CRIT_10		  { EndoSteel - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 36 }
+  Internals        { 23 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

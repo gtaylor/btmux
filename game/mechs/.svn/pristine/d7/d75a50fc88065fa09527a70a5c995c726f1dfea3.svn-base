@@ -1,0 +1,40 @@
+Name             { Sparrowhawk }
+Reference        { SPR-6D }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 30 }
+Comment          { Saved by: Celebrimbor(#319) at Fri May 30 19:17:22 1997 }
+Computer         { 3 }
+Fuel             { 750 }
+Max_Speed        { 161.25 }
+Specials         { DoubleHS }
+Nose
+  Armor            { 24 }
+  Internals        { 10 }
+    CRIT_1		  { IS.SmallPulseLaser - - }
+    CRIT_2		  { IS.SmallPulseLaser - - }
+Left_Wing
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumPulseLaser - - }
+Right_Wing
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumPulseLaser - - }
+Fuselage
+  Armor            { 30 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_4-10		  { HeatSink - - }
+    CRIT_12		  { HeatSink - - }

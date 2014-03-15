@@ -1,0 +1,10 @@
+ 
+& lastsite
+ 
+  Attribute: lastsite
+
+  Contains the name of the site from which the player last
+  connected.
+ 
+  See Also: last
+ 

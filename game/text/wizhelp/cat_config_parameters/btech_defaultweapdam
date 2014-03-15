@@ -1,0 +1,8 @@
+
+& btech_defaultweapdam
+
+  Config parameter: btech_defaultweapdam <num>
+  Default: 5
+
+  Modifies the default weapon BV
+ 

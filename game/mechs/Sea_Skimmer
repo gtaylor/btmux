@@ -1,0 +1,30 @@
+Name		 { Sea_Skimmer } 
+Reference        { Sea_Skimmer }
+Type             { Naval }
+Move_Type        { Foil }
+Tons             { 25 }
+Mech_BV          { 188 }
+Computer         { 3 }
+Max_Speed        { 193.50 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - }
+Right_Side
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - }
+Front_Side
+  Armor            { 10 }
+  Internals        { 3 }
+Aft_Side
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { Ammo_IS.MachineGun 100 Hotload }
+Turret
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-4 - - }
+    CRIT_2		  { Ammo_IS.SRM-4 25 - - }

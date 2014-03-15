@@ -1,0 +1,83 @@
+Name             { Jenner }
+Reference        { JR7-IIC_NC1 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Computer         { 4 }
+Radio            { 5 }
+Heat_Sinks       { 20 }
+Max_Speed        { 150.50 }
+Jump_Speed       { 86.00 }
+Specials         { DoubleHS Clan }
+Left_Arm
+  Armor            { 4 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.SmallPulseLaser - - }
+    CRIT_6		  { CL.SmallPulseLaser - - }
+    CRIT_12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 4 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.SmallPulseLaser - - }
+    CRIT_6		  { CL.SmallPulseLaser - - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 8 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_4-5		  { JumpJet - - }
+    CRIT_6		  { EndoSteel - - }
+    CRIT_8-9		  { FerroFibrous - - }
+    CRIT_10-12		  { EndoSteel - - }
+Right_Torso
+  Armor            { 8 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { Ammo_CL.NarcBeacon 6 - - }
+    CRIT_5-6		  { JumpJet - - }
+    CRIT_8-9		  { FerroFibrous - - }
+    CRIT_10-12		  { EndoSteel - - }
+Center_Torso
+  Armor            { 13 }
+  Internals        { 11 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.NarcBeacon - - }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 9 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 9 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 7 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

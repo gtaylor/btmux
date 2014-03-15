@@ -1,0 +1,10 @@
+ 
+& timeout
+ 
+  Attribute: timeout <secs>
+  
+  This attribute sets the disconnect timeout for a specific user.
+  
+  If the user has been idle longer than this figure when the next idle 
+  check is carried out the user will be disconnected.
+ 

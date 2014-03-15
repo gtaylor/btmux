@@ -1,0 +1,7 @@
+
+& btech_critlevel
+
+  Config parameter: btech_critlevel <number>
+  Default: 100
+
+  Specifies the percentage of armor below which TAC's can occur.

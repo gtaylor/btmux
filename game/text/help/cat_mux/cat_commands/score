@@ -1,0 +1,10 @@
+ 
+& score
+ 
+  Syntax: score
+ 
+  Displays how much money you have.  Helpful to see if any machines
+  are looping.
+ 
+  See also: @ps, LOOPING
+ 

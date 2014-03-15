@@ -1,0 +1,45 @@
+ 
+& status2
+ 
+  xcodevalue: status2 <bv>
+  XTYPE: MECH
+  
+  This xcode value stores status flags for the RS Unit.
+  
+  Flags:
+  
+  * a - Unit has ECM enabled.
+  * b - Unit has ECCM enabled.
+  * c - Unit affected by ECM.
+  * d - Unit protected by ECM.
+  * e - Unit has ECM countered by ECCM. Only happens when enemy ECCM is in range.
+  * f - Unit has SLITE enabled.
+  * g - Unit has Stealth Armor enabled.
+  * h - Unit has Nullsig system enabled.
+  * i - Unit has Angel ECM enabled.
+  * j - Unit has Angel ECCM enabled.
+  * k - Unit protected by Angel ECM.
+  * l - Unit affected by Angel ECM.
+  * m - Unit has Personal ECM enabled.
+  * n - Unit has Personal ECCM enabled.
+  * o - Unit has Auto-Turret enabled to locked target.
+  * p - UNUSED currently.
+  * q - Unit is Sprinting.
+  * r - Unit is Evading.
+  * s - Unit is Dodging.
+  * t - Unit has its attacks sent to the 'MechAttackEmits' channel.
+  * u - UNUSED currently.
+  * v - UNUSED currently.
+  * w - UNUSED currently.
+  * x - UNUSED currently.
+  * y - UNUSED currently.
+  * z - UNUSED currently.
+  * A - UNUSED currently.
+  * B - UNUSED currently.
+  * C - UNUSED currently.
+  * D - UNUSED currently.
+  * E - UNUSED currently.
+  * F - UNUSED currently. 
+  
+  See Also: status, @viewxcode
+ 

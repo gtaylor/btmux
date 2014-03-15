@@ -1,0 +1,30 @@
+Name             { Fortune }
+Reference        { Fortune }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 80 }
+Comment          { Saved by: Spectre(#4628) at Thu Jul 11 08:14:36 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 895 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 45 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 45 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 50 }
+  Internals        { 8 }
+Aft_Side
+  Armor            { 35 }
+  Internals        { 8 }
+    CRIT_1-8		  { Ammo_IS.LB20-XAC 5 - - }
+Turret
+  Armor            { 49 }
+  Internals        { 8 }
+    CRIT_1		  { IS.LB20-XAC - - 3 }
+    CRIT_2		  { IS.LB20-XAC - - 3 }

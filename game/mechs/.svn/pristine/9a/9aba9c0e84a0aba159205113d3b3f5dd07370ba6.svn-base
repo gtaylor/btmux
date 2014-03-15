@@ -1,0 +1,76 @@
+Name             { Banshee }
+Reference        { BNC-3S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 95 }
+Mech_BV          { 1323 }
+Heat_Sinks       { 21 }
+Max_Speed        { 53.75 }
+Left_Arm
+  Armor            { 21 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-6		  { IS.PPC - - }
+Right_Arm
+  Armor            { 21 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Left_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-7		  { IS.AC/10 - - }
+    CRIT_9-10		  { Ammo_IS.AC/10 10 - }
+    CRIT_11-12		  { HeatSink - - }
+Right_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-3		  { IS.PPC - - }
+    CRIT_4-5		  { IS.SRM-6 - - }
+    CRIT_6		  { Ammo_IS.SRM-6 15 - }
+    CRIT_7		  { IS.MediumLaser - - }
+    CRIT_8		  { IS.MediumLaser - - }
+    CRIT_9		  { IS.MediumLaser - - }
+    CRIT_10		  { IS.MediumLaser - - }
+    CRIT_11-12		  { HeatSink - - }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 30 }
+  Rear             { 17 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.SmallLaser - - }
+    CRIT_12		  { HeatSink - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

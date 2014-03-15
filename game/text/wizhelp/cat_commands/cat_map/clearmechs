@@ -1,0 +1,12 @@
+ 
+& clearmechs
+ 
+  Map Command: <#db>
+  
+  This command shuts down all RS Units on <#db> and resets their 
+  mapindex xcode value to -1.
+  
+  The MECH objects remain within the MAP object.
+  
+  See Also: @viewxcode
+ 

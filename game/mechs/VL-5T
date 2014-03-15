@@ -1,0 +1,72 @@
+Name             { Vulcan }
+Reference        { VL-5T }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Mech_BV          { 744 }
+Heat_Sinks       { 12 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 64.50 }
+Specials         { Searchlight }
+Left_Arm
+  Armor            { 11 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MachineGun - - }
+Right_Arm
+  Armor            { 11 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.Flamer - - }
+Left_Torso
+  Armor            { 12 }
+  Internals        { 10 }
+  Rear             { 4 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { Ammo_IS.MachineGun 200 - }
+    CRIT_3-4		  { JumpJet - - }
+    CRIT_5		  { HeatSink - - }
+Right_Torso
+  Armor            { 12 }
+  Internals        { 10 }
+  Rear             { 4 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4-5		  { JumpJet - - }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { JumpJet - - }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

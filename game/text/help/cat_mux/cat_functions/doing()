@@ -1,0 +1,20 @@
+ 
+& doing()
+ 
+  Syntax: doing(<player>)
+ 
+  This function returns the value of the specified players doing, as
+  set by the @doing command.
+ 
+  Example:
+  >WHO
+  Player Name        On For Idle
+  Fred                23:16   0s  Stuff
+  Nurks            1d 00:05   0s  Other Stuff
+  2 Players logged in, 85 record, no maximum.
+ 
+  >say doing(Nurks)
+  You say "Other Stuff"
+ 
+  See Also: @doing
+ 

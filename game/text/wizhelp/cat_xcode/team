@@ -1,0 +1,14 @@
+ 
+& team
+ 
+  xcodevalue: team <int>
+  XTYPE: MECH
+  
+  This xcode value stores the number of the Team to which the RS Unit 
+  belongs.
+  
+  Units with the same number are considered friendly, all others are 
+  treated as enemies.
+  
+  See Also: @viewxcode
+ 

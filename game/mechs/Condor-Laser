@@ -1,0 +1,36 @@
+Name             { Condor }
+Reference        { Condor-Laser }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 50 }
+Comment          { Saved by: Genitrix(#1511) at Thu Feb 15 13:03:23 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Computer         { 3 }
+Heat_Sinks       { 20 }
+Mech_BV          { 0 }
+Max_Speed        { 118.25 }
+Left_Side
+  Armor            { 24 }
+  Internals        { 5 }
+Right_Side
+  Armor            { 24 }
+  Internals        { 5 }
+Front_Side
+  Armor            { 36 }
+  Internals        { 5 }
+Aft_Side
+  Armor            { 16 }
+  Internals        { 5 }
+Turret
+  Armor            { 20 }
+  Internals        { 5 }
+    CRIT_1		  { IS.ERMediumLaser - - }
+    CRIT_2		  { IS.ERMediumLaser - - }
+    CRIT_3		  { IS.ERMediumLaser - - }
+    CRIT_4		  { IS.ERMediumLaser - - }
+    CRIT_5		  { IS.SRM-2 - - }
+    CRIT_6		  { IS.SRM-2 - - }
+    CRIT_7		  { IS.SRM-2 - - }
+    CRIT_8-9		  { Ammo_IS.SRM-2 50 - - }

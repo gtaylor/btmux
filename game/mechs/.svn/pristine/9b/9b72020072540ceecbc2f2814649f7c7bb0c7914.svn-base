@@ -1,0 +1,62 @@
+Name             { Cicada }
+Reference        { CDA-3C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Mech_BV          { 656 }
+Heat_Sinks       { 11 }
+Specials         { Fliparms }
+Computer 	 { 4 }
+Radio 		 { 4 }
+Max_Speed        { 118.25 }
+Left_Arm
+  Armor            { 4 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+Right_Arm
+  Armor            { 4 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 10 }
+  Rear             { 3 }
+Right_Torso
+  Armor            { 6 }
+  Internals        { 10 }
+  Rear             { 3 }
+    CRIT_1-3		  { IS.PPC - - }
+Center_Torso
+  Armor            { 11 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_IS.MachineGun 200 - }
+Left_Leg
+  Armor            { 6 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MachineGun - - 2 }
+Right_Leg
+  Armor            { 6 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MachineGun - - 2 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

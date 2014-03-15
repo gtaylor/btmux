@@ -1,0 +1,18 @@
+ 
+& @aconnect
+ 
+  Syntax: @aconnect <object> = <command-list>
+  Attribute: Aconnect
+ 
+  Sets the actions to be taken by a player right after connecting to
+  the game.  This attribute is only meaningful for players, and will
+  never be automatically triggered on other object types.
+ 
+  It is also possible to check the zone object/objects in the zone
+  parent room for an @aconnect. If one is found, it will be executed
+  when a player connects in that zone.
+ 
+  Example: @aconnect me = check.my.mailbox
+ 
+  See also: @adisconnect.
+ 

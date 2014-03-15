@@ -1,0 +1,10 @@
+ 
+& TRANSPARENT
+ 
+  Flag: TRANSPARENT (t)
+ 
+  If an exit is TRANSPARENT, then when you look at it you see the description
+  of the room on the other side of the exit in addition to the description
+  of the exit.  When a room is TRANSPARENT, you see a long listing of
+  exits, including their destinations.
+ 

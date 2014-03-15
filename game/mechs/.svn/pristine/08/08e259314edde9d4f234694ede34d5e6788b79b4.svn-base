@@ -1,0 +1,27 @@
+Name             { Schrek }
+Reference        { Schrek }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:37 2000 }
+Heat_Sinks       { 30 }
+Mech_BV          { 662 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 22 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 22 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 25 }
+  Internals        { 8 }
+Aft_Side
+  Armor            { 21 }
+  Internals        { 8 }
+Turret
+  Armor            { 30 }
+  Internals        { 8 }
+    CRIT_1		  { IS.PPC - - 3 }
+    CRIT_2		  { IS.PPC - - 3 }
+    CRIT_3		  { IS.PPC - - 3 }

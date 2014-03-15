@@ -1,0 +1,11 @@
+ 
+& overheat
+ 
+  xcodevalue: overheat <float>
+  XTYPE: MECH
+  
+  This xcode value stores the units overheat. This is heat over a 
+  certain level, at which point BTH Modifications apply.
+  
+  See Also: @viewxcode
+ 

@@ -1,0 +1,22 @@
+ 
+& @describe
+ 
+  Syntax: @describe <object> = <description>
+  Attribute: Desc
+ 
+  Sets the description for <object>, which others see when they look
+  at the object.  Giving all your objects, rooms, and exits good
+  descriptions is considered to be good building practice.
+ 
+  Function references and %-substitutions are allowed in descriptions,
+  and are evaluated when someone looks at the object.  In function
+  references, 'me' refers to the object being looked at, while %-
+  substitutions that refer to the enactor (such as %n, %#, %p, etc)
+  refer to the looker.
+ 
+  Examples:
+    <object> @desc vase = You see a delicate Ming vase.
+    <exit>   @desc elevator = There is an elevator to the east.
+ 
+  See also: look, @adescribe, @odescribe
+ 

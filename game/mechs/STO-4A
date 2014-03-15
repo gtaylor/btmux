@@ -1,0 +1,74 @@
+Name             { Stilletto }
+Reference        { STO-4A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Heat_Sinks       { 20 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 746 }
+Max_Speed        { 129.00 }
+Specials         { DoubleHS FlipArms FerroFibrous_Tech EndoSteel_Tech LightEngine_Tech ECM }
+Left_Arm
+  Armor          { 10 }
+  Internals      { 6 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { IS.StreakSRM-2 - - }
+    CRIT_4-7     { FerroFibrous - - }
+Right_Arm
+  Armor          { 10 }
+  Internals      { 6 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { IS.StreakSRM-2 - - }
+    CRIT_4-7     { EndoSteel - - }
+Left_Torso
+  Armor          { 11 }
+  Internals      { 8 }
+  Rear           { 4 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3-4     { Ecm - - }
+    CRIT_5-12    { FerroFibrous - - }
+Right_Torso
+  Armor          { 11 }
+  Internals      { 8 }
+  Rear           { 4 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3       { Ammo_IS.LRM-5 24 - }
+    CRIT_4       { Ammo_IS.StreakSRM-2 50 - }
+    CRIT_5       { Case - - }
+    CRIT_6-12    { EndoSteel - - }
+Center_Torso
+  Armor          { 16 }
+  Internals      { 11 }
+  Rear           { 5 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { IS.LRM-5 - - }
+    CRIT_12      { EndoSteel - - }
+Left_Leg
+  Armor          { 14 }
+  Internals      { 8 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { FerroFibrous - - }
+Right_Leg
+  Armor          { 14 }
+  Internals      { 8 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

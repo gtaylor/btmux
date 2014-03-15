@@ -1,0 +1,96 @@
+Name             { Fortress }
+Reference        { DS.Fortress-58 }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 6000 }
+Comment          { Saved by: Celebrimbor(#319) at Wed Jun  4 20:14:46 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 127 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS }
+Front_Right_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.LRM-20 - - }
+    CRIT_3		  { ArtemisIV - - }
+    CRIT_4		  { IS.LRM-20 - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6		  { IS.ERLargeLaser - - }
+    CRIT_7		  { IS.ERLargeLaser - - }
+    CRIT_8		  { IS.MediumPulseLaser - - }
+    CRIT_9		  { IS.MediumPulseLaser - - }
+    CRIT_10		  { IS.MediumPulseLaser - - }
+    CRIT_11-12		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+Front_Left_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.LRM-20 - - }
+    CRIT_3		  { ArtemisIV - - }
+    CRIT_4		  { IS.LRM-20 - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6		  { IS.ERLargeLaser - - }
+    CRIT_7		  { IS.ERLargeLaser - - }
+    CRIT_8		  { IS.MediumPulseLaser - - }
+    CRIT_9		  { IS.MediumPulseLaser - - }
+    CRIT_10		  { IS.MediumPulseLaser - - }
+    CRIT_11-12		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+Rear_Left_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.AC/20 - - }
+    CRIT_3		  { ArtemisIV - - }
+    CRIT_4		  { ArtemisIV - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7		  { IS.AC/5 - - }
+    CRIT_8		  { IS.LRM-10 - - }
+    CRIT_9		  { IS.LRM-10 - - }
+    CRIT_10		  { IS.SRM-6 - - }
+    CRIT_11		  { IS.SRM-6 - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Rear_Right_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.AC/20 - - }
+    CRIT_3		  { ArtemisIV - - }
+    CRIT_4		  { ArtemisIV - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7		  { IS.AC/5 - - }
+    CRIT_8		  { IS.LRM-10 - - }
+    CRIT_9		  { IS.LRM-10 - - }
+    CRIT_10		  { IS.SRM-6 - - }
+    CRIT_11		  { IS.SRM-6 - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Aft
+  Armor            { 80 }
+  Internals        { 80 }
+    CRIT_1		  { IS.AC/5 - - }
+    CRIT_2		  { IS.ERLargeLaser - - }
+    CRIT_3		  { IS.ERLargeLaser - - }
+    CRIT_4		  { IS.MediumPulseLaser - - }
+    CRIT_5		  { IS.MediumPulseLaser - - }
+    CRIT_6		  { Ammo_IS.AC/5 20 - - }
+    CRIT_7-8		  { Ammo_IS.AC/20 5 - - }
+    CRIT_9-10		  { Ammo_IS.LRM-10 12 Artemis/Mine - }
+    CRIT_11-12		  { Ammo_IS.SRM-6 15 Artemis/Mine - }
+Nose
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.ERPPC - - }
+    CRIT_3		  { IS.GaussRifle - - }
+    CRIT_4		  { IS.GaussRifle - - }
+    CRIT_5		  { IS.LongTom - - }
+    CRIT_6		  { IS.ERLargeLaser - - }
+    CRIT_7		  { IS.ERLargeLaser - - }
+    CRIT_8		  { IS.MediumPulseLaser - - }
+    CRIT_9		  { IS.MediumPulseLaser - - }
+    CRIT_10-11		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_12		  { Ammo_IS.LongTom 5 - - }

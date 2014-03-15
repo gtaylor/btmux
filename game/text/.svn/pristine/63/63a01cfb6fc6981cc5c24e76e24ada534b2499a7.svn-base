@@ -1,0 +1,14 @@
+
+& connect_reg_file
+
+  Config parameter: connect_reg_file <path>
+  Default: text/register.txt
+
+  Specifies the name of the file that a user sees immediately after
+  connecting to the MUX if registration is enabled.  This file
+  normally contains help on how to get a character (usually by
+  sending e-mail to one of the wizards), how to connect to an
+  existing character, as well as the WHO and QUIT commands.
+
+  See also: connect_file
+ 

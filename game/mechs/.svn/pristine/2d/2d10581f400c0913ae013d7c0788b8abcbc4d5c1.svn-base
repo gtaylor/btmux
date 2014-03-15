@@ -1,0 +1,31 @@
+Name		 { Epona } 
+Reference        { Epona-B }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 50 }
+Max_Speed        { 150.50 }
+Heat_Sinks	 { 10 }
+Specials	 { Clan FerroFibrous_Tech }
+Left_Side
+  Armor            { 20 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 20 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 21 }
+  Internals        { 5 }
+    CRIT_1		  { CL.StreakSRM-4 - - }
+    CRIT_2		  { CL.StreakSRM-4 - - }
+    CRIT_3		  { Ammo_CL.StreakSRM-4 25 - }
+Aft_Side
+  Armor            { 18 }
+  Internals        { 5 }
+Turret
+  Armor            { 17 }
+  Internals        { 5 }
+    CRIT_1		  { CL.UltraAC/10 - - }
+    CRIT_2-3		  { Ammo_CL.UltraAC/10 10 - }
+

@@ -1,0 +1,16 @@
+
+& wizard_motd_file
+
+  Config parameter: wizard_motd_file <path>
+  Default: text/wizmotd.txt
+
+  Specifies the name of the file that contains the wizard MOTD message
+  that is displayed to wizards when they log in.  This message is
+  displayed in addition to the wizard MOTD message that is set by
+  the @motd/wiz command or the wizard_motd_message config parameter.
+
+  The contents of the file are read in to a cache when the game is
+  started and whenever a @readcache command is executed.
+
+  See also: @readcache, wizard_motd_message.
+ 

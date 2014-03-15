@@ -1,0 +1,72 @@
+Name             { Supernova }
+Reference        { Supernova }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 90 }
+Computer         { 4 }
+Heat_Sinks       { 52 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Left_Arm
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { CL.ERLargeLaser - - }
+    CRIT_5		  { CL.ERLargeLaser - - }
+    CRIT_6		  { CL.ERLargeLaser - - }
+    CRIT_7-10		  { HeatSink - - }
+Right_Arm
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { CL.ERLargeLaser - - }
+    CRIT_5		  { CL.ERLargeLaser - - }
+    CRIT_6		  { CL.ERLargeLaser - - }
+    CRIT_7-10		  { HeatSink - - }
+Left_Torso
+  Armor            { 26 }
+  Internals        { 19 }
+  Rear             { 8 }
+    CRIT_1-12		  { HeatSink - - }
+Right_Torso
+  Armor            { 26 }
+  Internals        { 19 }
+  Rear             { 8 }
+    CRIT_1-12		  { HeatSink - - }
+Center_Torso
+  Armor            { 33 }
+  Internals        { 29 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 30 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+Right_Leg
+  Armor            { 30 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

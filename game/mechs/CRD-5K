@@ -1,0 +1,86 @@
+Name             { Crusader }
+Reference        { CRD-5K }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Heat_Sinks       { 22 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1223 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { DoubleHS EndoSteel_Tech XLEngine_Tech C3SlaveTech }
+Left_Arm
+  Armor          { 20 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-9     { IS.MRM-30 - - }
+    CRIT_10-12   { EndoSteel - - }
+Right_Arm
+  Armor          { 20 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-9     { IS.MRM-30 - - }
+    CRIT_10-12   { EndoSteel - - }
+Left_Torso
+  Armor          { 24 }
+  Internals      { 15 }
+  Rear           { 6 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-5     { JumpJet - - }
+    CRIT_6       { IS.MediumLaser - - }
+    CRIT_7       { Ammo_IS.MRM-30 8 - }
+    CRIT_8       { Ammo_IS.MRM-30 8 - }
+    CRIT_9       { Ammo_IS.MRM-30 8 - }
+    CRIT_10      { Ammo_IS.MRM-30 8 - }
+    CRIT_11      { EndoSteel - - }
+    CRIT_12      { Case - - }
+Right_Torso
+  Armor          { 24 }
+  Internals      { 15 }
+  Rear           { 6 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-5     { JumpJet - - }
+    CRIT_6       { IS.MediumLaser - - }
+    CRIT_7-9     { HeatSink - - }
+    CRIT_10-12   { EndoSteel - - }
+Center_Torso
+  Armor          { 33 }
+  Internals      { 21 }
+  Rear           { 8 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { IS.MediumPulseLaser - - }
+    CRIT_12      { IS.MediumPulseLaser - - }
+Left_Leg
+  Armor          { 21 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Right_Leg
+  Armor          { 21 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { C3Slave - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

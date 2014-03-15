@@ -1,0 +1,85 @@
+Name             { Goshawk }
+Reference        { Goshawk-2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Heat_Sinks       { 20 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 64.50 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.MachineGun - OnTC }
+    CRIT_6		  { CL.MachineGun - OnTC }
+    CRIT_7		  { CL.MachineGun - OnTC }
+    CRIT_8		  { Ammo_CL.MachineGun 100 Hotload }
+    CRIT_9		  { EndoSteel - - }
+    CRIT_10-11		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { CL.MediumPulseLaser - OnTC }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6-7		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { JumpJet - - }
+    CRIT_4		  { Cl.MachineGun - OnTC }
+    CRIT_5-8		  { CL.UltraAC/10 - OnTC }
+    CRIT_9-10		  { EndoSteel - - }
+    CRIT_11		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { JumpJet - - }
+    CRIT_4-6		  { TargetingComputer - - }
+    CRIT_7		  { CL.MediumPulseLaser - OnTC }
+    CRIT_8-9		  { Ammo_CL.UltraAC/10 10 - }
+    CRIT_10-11		  { EndoSteel - - }
+    CRIT_12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 29 }
+  Internals        { 18 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

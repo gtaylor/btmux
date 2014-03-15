@@ -1,0 +1,71 @@
+Name             { Men Shen }
+Reference        { MS1-OC }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Comment          { Saved by: Charlemagne(#4624) at Fri Feb 25 01:46:38 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 22 }
+Mech_BV          { 1151 }
+Max_Speed        { 96.75 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 17 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-4		  { IS.LargePulseLaser - - 3 }
+    CRIT_5-9		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 17 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-4		  { IS.LargePulseLaser - - 3 }
+    CRIT_5-9		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { Masc - - 3 }
+    CRIT_7-8		  { Ecm - - 3 }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+Center_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { BeagleProbe - - 3 }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.ERSmallLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

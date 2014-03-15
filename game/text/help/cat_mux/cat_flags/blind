@@ -1,0 +1,10 @@
+ 
+& BLIND
+ 
+  Flag: BLIND (()
+ 
+  This flag, set on yourself, causes the MUX to send you output
+  intended for use with screen-readers.  BLIND deployment is still 
+  spotty, so if you are a visually-impaired player and encounter 
+  poorly-written commands, please report them to the staff.
+ 

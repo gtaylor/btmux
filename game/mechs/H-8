@@ -1,0 +1,28 @@
+Name		 { Warrior } 
+Reference        { H-8 }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 20 }
+Mech_BV          { 545 }
+Max_Speed        { 161.25 }
+Specials	 { Searchlight }
+Left_Side
+  Armor            { 10 }
+  Internals        { 2 }
+Right_Side
+  Armor            { 10 }
+  Internals        { 2 }
+Front_Side
+  Armor            { 15 }
+  Internals        { 2 }
+    CRIT_1		  { IS.LRM-5 - - }
+    CRIT_2		  { IS.StreakSRM-2 - - }
+    CRIT_3		  { IS.StreakSRM-2 - - }
+    CRIT_4		  { Ammo_IS.LRM-5 24 - - }
+    CRIT_5		  { Ammo_IS.StreakSRM-2 50 - - }
+Aft_Side
+  Armor            { 8 }
+  Internals        { 2 }
+Rotor
+  Armor            { 2 }
+  Internals        { 2 }

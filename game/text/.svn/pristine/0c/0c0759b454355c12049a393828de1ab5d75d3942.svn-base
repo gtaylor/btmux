@@ -1,0 +1,12 @@
+
+& create_max_cost
+
+  Config directive: create_max_cost <amount>
+  Default: 505
+
+  Specifies the maximum amount of money that is used in calculating
+  the value of a created object.  Specifying more than this amount
+  of money in a @create command will cause the excess to be wasted.
+
+  See also: create_min_cost, sacrifice_adjust, sacrifice_factor.
+ 

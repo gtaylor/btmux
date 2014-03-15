@@ -1,0 +1,11 @@
+ 
+& listchannels
+ 
+  RS Command: listchannels
+ 
+  This command displays the frequencies, channel mode, and comtitles
+  set on an RS Unit.
+ 
+  See Also: setchannelfreq, setchanneltitle, setchannelmode, 
+            sendchannel
+ 

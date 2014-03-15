@@ -1,0 +1,18 @@
+ 
+& btpartweight()
+ 
+  Syntax: btpartweight (<partname>)
+ 
+  This function returns the weight of <partname>.
+ 
+  Error Messages:
+ 
+  * If <partname> is not valid the function returns #-1 INVALID PART
+    NAME
+ 
+  Example:
+  Given that XXL_ENGINE is a valid part and weighs 1
+ 
+  > think btgetweight(xxl_engine)
+  1.000
+ 

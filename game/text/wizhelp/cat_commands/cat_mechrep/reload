@@ -1,0 +1,21 @@
+ 
+& reload
+ 
+  Mechrep Command: reload <name> <loc> <critslot> [ammoflag]
+  
+  This command reloads the ammobin in <loc> at <critslot>
+  
+  Arguments:
+  * name - the name of the weapon drawing on that ammobin
+  * loc - the location of the ammobin (eg CT, LA)
+  * critslot - the critical slot where the ammobin is
+  
+  * ammoflag - See reload2
+  
+  Example:
+  
+  >reload IS.LRM-10 ct 11 l
+  Weapon loaded!
+  
+  Continued in reload2
+ 

@@ -1,0 +1,14 @@
+ 
+& @odescribe
+ 
+  Syntax: @odescribe <object> = <message>
+  Attribute: Odesc
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in the room when someone looks at <object>.
+ 
+  Example:
+  @odesc vase = carefully inspects the vase.
+ 
+  See also: look, @adescribe, @describe, @idesc
+ 

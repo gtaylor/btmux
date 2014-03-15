@@ -1,0 +1,18 @@
+ 
+& @dbck
+ 
+  Syntax:  @dbck
+  
+  This command performs a scan of the database looking for 
+  inconsistencies in the object chains, disconnected rooms, rooms 
+  waiting to be destroyed, and problems in the object free list.  
+  
+  Problems that are found are reported to the 
+  log file, disconnected rooms are reported to their owners, and 
+  players are credited for rooms destroyed.  
+  
+  Database checks are automatically run periodically, so there is 
+  usually no need to use this command.
+  
+  See also: @admin, @disable, @enable, @list.
+ 

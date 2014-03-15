@@ -1,0 +1,68 @@
+Name             { Barghest }
+Reference        { BGS-2T }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 70 }
+Comment          { Saved by: Spectre(#4628) at Wed May 30 12:47:27 2001 }
+Heat_Sinks       { 22 }
+Mech_BV          { 1236 }
+Cargo_Space      { 0 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS }
+Front_Left_Leg
+  Armor            { 27 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Front_Right_Leg
+  Armor            { 27 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Left_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-4		  { Engine - - 3 }
+    CRIT_5-7		  { IS.ERPPC - - 3 }
+Right_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-2		  { Engine - - 3 }
+    CRIT_3-12		  { IS.UltraAC/20 - - 3 }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 22 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+Rear_Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { Ammo_IS.UltraAC/20 5 - - }
+Rear_Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { Ammo_IS.UltraAC/20 5 - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

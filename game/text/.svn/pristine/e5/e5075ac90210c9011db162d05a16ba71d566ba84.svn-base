@@ -1,0 +1,12 @@
+
+& open_cost
+
+  Config parameter: open_cost <amount>
+  Default: 1
+
+  Indicates the cost of using the @open command to open a new exit.
+  If a destination for the new exit is specified and the link is
+  successful, then the link_cost is also charged.
+
+  See also: @open, link_cost.
+ 

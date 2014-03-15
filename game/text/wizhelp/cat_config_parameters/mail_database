@@ -1,0 +1,11 @@
+
+& mail_database
+
+  Config parameter: mail_database <path>
+  Default: mail.db
+
+  Sets the file that @mail information is to be stored in. The
+  database is only loaded or saved if have_mailer is set to yes.
+
+  See also: have_mailer.
+ 

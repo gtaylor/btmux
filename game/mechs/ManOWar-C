@@ -1,0 +1,75 @@
+Name             { Man 'O War }
+Reference        { ManOWar-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Heat_Sinks       { 32 }
+Max_Speed        { 86.00 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 23 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-10		  { CL.UltraAC/20 - - }
+    CRIT_11		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 23 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+    CRIT_6		  { CL.ERMediumLaser - - }
+    CRIT_7		  { CL.ERMediumLaser - - }
+    CRIT_8		  { CL.ERMediumLaser - - }
+    CRIT_9		  { CL.ERMediumLaser - - }
+    CRIT_10		  { CL.ERMediumLaser - - }
+    CRIT_11		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { Ammo_CL.UltraAC/20 5 - }
+    CRIT_5-6		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 25 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_6		  { CL.A-Pod - - }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.A-Pod - - }
+    CRIT_6		  { CL.A-Pod - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

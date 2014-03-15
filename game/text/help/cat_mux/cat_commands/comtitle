@@ -1,0 +1,16 @@
+ 
+& comtitle
+ 
+  Syntax: comtitle <alias>=<title>
+ 
+  This command allows you to prefix your name on a channel with a
+  title.
+ 
+  For example:
+  > comtitle pub=The Great and Powerful
+  Title set to 'The Great and Powerful' on channel Public.
+  > pub :waves to everyone.
+  [Public] The Great and Powerful Foobar waves to everyone.
+ 
+  See also: comlist, addcom, alias, delcom
+ 

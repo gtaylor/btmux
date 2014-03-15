@@ -1,0 +1,31 @@
+Name		 { Ku }
+Reference        { Ku }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 50 }
+Max_Speed        { 64.50 }
+Heat_Sinks	 { 14 }
+Specials         { Clan FerroFibrous_Tech }
+Left_Side
+  Armor            { 29 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 29 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 30 }
+  Internals        { 5 }
+    CRIT_1		  { CL.StreakSRM-4 - - }
+    CRIT_2		  { Ammo_CL.StreakSRM-4 25 - }
+Aft_Side
+  Armor            { 26 }
+  Internals        { 5 }
+Turret
+  Armor            { 20 }
+  Internals        { 5 }
+    CRIT_1		  { CL.ERLargeLaser - - }
+    CRIT_2		  { CL.ERSmallLaser - - }
+    CRIT_3		  { CL.UltraAC/10 - - }
+    CRIT_4-5		  { Ammo_CL.UltraAC/10 10 - }

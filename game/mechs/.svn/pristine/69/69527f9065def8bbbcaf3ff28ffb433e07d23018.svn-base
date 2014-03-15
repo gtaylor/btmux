@@ -1,0 +1,41 @@
+Name		 { Schiltron }
+Reference        { Schiltron-B }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 80 }
+Mech_BV          { 1117 }
+Max_Speed        { 53.75 }
+Specials         { XLEngine_Tech ArtemisIV }
+Left_Side
+  Armor            { 34 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 34 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 46 }
+  Internals        { 8 }
+    CRIT_1		  { IS.LRM-15 - - }
+    CRIT_2		  { ArtemisIV - - }
+    CRIT_3		  { IS.LRM-15 - - }
+    CRIT_4		  { ArtemisIV - - }
+    CRIT_5-8		  { Ammo_IS.LRM-15 8 Artemis/Mine }
+Aft_Side
+  Armor            { 25 }
+  Internals        { 8 }
+    CRIT_1		  { C3Master - - }
+    CRIT_2		  { Ecm - - }
+Turret
+  Armor            { 40 }
+  Internals        { 8 }
+    CRIT_1		  { IS.LRM-15 - - }
+    CRIT_2		  { ArtemisIV - - }
+    CRIT_3		  { IS.LRM-15 - - }
+    CRIT_4		  { ArtemisIV - - }
+    CRIT_5-8		  { Ammo_IS.LRM-15 8 Artemis/Mine }
+    CRIT_9		  { IS.MediumLaser - - }
+    CRIT_10		  { IS.SmallLaser - - }
+    CRIT_11		  { IS.SmallLaser - - }
+

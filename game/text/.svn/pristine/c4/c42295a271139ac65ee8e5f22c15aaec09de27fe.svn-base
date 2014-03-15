@@ -1,0 +1,23 @@
+ 
+& mechmovetype
+ 
+  xcodevalue: mechmovetype <>
+  XTYPE: MECH
+  
+  This xcode value stores the movment type of the RS Unit.
+  
+  TYPES:
+  * Biped
+  * Wheel
+  * VTOL
+  * Hull
+  * Foil
+  * Sub
+  * Hover
+  * Quad
+  * Track
+  * Fly
+  * None
+  
+  See Also: @viewxcode
+ 

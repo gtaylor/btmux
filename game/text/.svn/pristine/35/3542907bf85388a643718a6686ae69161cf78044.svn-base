@@ -1,0 +1,19 @@
+ 
+& ;
+ 
+  Syntax: ;<message>
+ 
+  This command is much like the ':' command, except that no space is
+  inserted between your name and the action.
+ 
+  Example:
+  ;'s watch beeps.
+ 
+  produces '<yourname>'s watch beeps.'.
+ 
+  Warning: This command does not work in command lists run from an
+  attribute because the ';' is treated as the command separator.
+  Use pose/nospace  instead.
+ 
+  See also: page, pose, say, whisper, :,"
+ 

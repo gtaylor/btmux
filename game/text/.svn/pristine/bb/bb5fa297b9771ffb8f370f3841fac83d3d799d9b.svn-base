@@ -1,0 +1,9 @@
+ 
+& radio
+ 
+  RS Command: radio <id>=<message>
+ 
+  This command sends <message> to <id>.
+ 
+  Note - <id> must be within Line Of Sight of your unit.
+ 

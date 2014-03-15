@@ -1,0 +1,89 @@
+Name             { Koshi }
+Reference        { Kos-A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 25 }
+Computer         { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 118.25 }
+Jump_Speed       { 64.50 }
+Specials         { CL_AMS DoubleHS BeagleProbe }
+Left_Arm
+  Armor            { 4 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.Anti-MissileSystem - - }
+    CRIT_6		  { CL.Anti-MissileSystem - - }
+    CRIT_8-10		  { Ammo_CL.Anti-MissileSystem 24 - }
+    CRIT_11		  { EndoSteel - - }
+    CRIT_12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 4 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { Ammo_CL.MachineGun 200 - }
+    CRIT_6		  { CL.MachineGun - - }
+    CRIT_7		  { CL.Flamer - - }
+    CRIT_8		  { EndoSteel - - }
+    CRIT_9		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 7 }
+  Internals        { 6 }
+  Rear             { 5 }
+    CRIT_1-3		  { JumpJet - - }
+    CRIT_4-5		  { Engine - - }
+    CRIT_6		  { EndoSteel - - }
+    CRIT_7-10		  { HeatSink - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 7 }
+  Internals        { 6 }
+  Rear             { 5 }
+    CRIT_1-3		  { JumpJet - - }
+    CRIT_4-5		  { Engine - - }
+    CRIT_6		  { EndoSteel - - }
+    CRIT_7-8		  { HeatSink - - }
+    CRIT_9-10		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 10 }
+  Internals        { 8 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Leg
+  Armor            { 5 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.A-Pod - - }
+    CRIT_6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 5 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.A-Pod - - }
+    CRIT_6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { BeagleProbe - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

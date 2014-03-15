@@ -1,0 +1,33 @@
+Name             { Transport }
+Reference        { DROP.Transport }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 3500 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Computer         { 3 }
+Heat_Sinks       { 90 }
+Max_Speed        { 64.50 }
+Front_Right_Side
+  Armor            { 180 }
+  Internals        { 15 }
+Front_Left_Side
+  Armor            { 180 }
+  Internals        { 15 }
+Rear_Left_Side
+  Armor            { 180 }
+  Internals        { 15 }
+    CRIT_1		  { DSMechDoor - - 3 }
+Rear_Right_Side
+  Armor            { 180 }
+  Internals        { 15 }
+    CRIT_1		  { DSMechDoor - - 3 }
+Aft
+  Armor            { 180 }
+  Internals        { 15 }
+Nose
+  Armor            { 180 }
+  Internals        { 15 }
+    CRIT_1		  { DSMechDoor - - 3 }
+

@@ -1,0 +1,9 @@
+ 
+& map
+ 
+  Power: map
+  
+  This gives the user the ability to modify the map
+  
+  See Also: @power, @list powers
+ 

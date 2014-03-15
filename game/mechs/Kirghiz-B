@@ -1,0 +1,45 @@
+Name             { Kirghiz }
+Reference        { Kirghiz-B }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 100 }
+Heat_Sinks       { 52 }
+Fuel             { 750 }
+Max_Speed        { 86.00 }
+Specials	 { Clan }
+Nose
+  Armor            { 65 }
+  Internals        { 10 }
+    CRIT_1		  { CL.ERPPC - - }
+    CRIT_2		  { CL.LRM-20 - - }
+    CRIT_3		  { Ammo_CL.LRM-20 6 - }
+    CRIT_4		  { CL.ERSmallLaser - - }
+Left_Wing
+  Armor            { 46 }
+  Internals        { 10 }
+    CRIT_1		  { CL.LRM-20 - - }
+    CRIT_2		  { CL.LRM-20 - - }
+    CRIT_3-4		  { Ammo_CL.LRM-20 6 - }
+    CRIT_5		  { CL.ERPPC - - }
+Right_Wing
+  Armor            { 46 }
+  Internals        { 10 }
+    CRIT_1		  { CL.LRM-20 - - }
+    CRIT_2		  { CL.LRM-20 - - }
+    CRIT_3-4		  { Ammo_CL.LRM-20 6 - }
+    CRIT_5		  { CL.ERPPC - - }
+Fuselage
+  Armor            { 61 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 10 }
+    CRIT_1		  { CL.MediumPulseLaser - - }

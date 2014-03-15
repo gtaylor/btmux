@@ -1,0 +1,25 @@
+ 
+& btgetxcodevalue_ref()
+ 
+  Syntax: btgetxcodevalue_ref(<UnitRef>,<xcodevalue>)
+ 
+  This function returns the value stored in <xcodevalue> on the
+  specified 'reference' unit - ie the default templated value.
+ 
+  Note: Unlike btgetxcodevalue this function will only work on objects
+  which are set XTYPE:MECH
+ 
+  Error Messages:
+ 
+  * If <UnitDB> is not a valid unit the function returns
+  #-1 NO SUCH MECH
+  * If <xcodevalue> is not valid the function returns #-1
+ 
+  Example:
+  Given that THE-N is a valid unit:
+ 
+  > think btgetxcodevalue_ref(THE-N, maxspeed)
+  96.75
+ 
+  See Also: btgetxcodevalue()
+ 

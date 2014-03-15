@@ -1,0 +1,15 @@
+ 
+& thrust
+ 
+  RS Command: thrust [num]
+  
+  This command controls the thrust for Aero type RS Units.
+  
+  Arguments:
+  none - displays the current thrust
+  num - sets the thrust
+  
+  NOTE - Aero units are currently non-functional within the codebase.
+  
+  See Also: dive, climb
+ 

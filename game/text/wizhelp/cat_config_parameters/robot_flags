@@ -1,0 +1,12 @@
+
+& robot_flags
+
+  Config parameter: robot_flags <flags>
+  Default: ROBOT
+
+  Modifies the set of flags that a robot receives when it is created
+  via the @robot command.  Flags prefixed by a ! remove the
+  indicated flag from the set.
+
+  See also: @list, exit_flags, player_flags, room_flags, thing_flags.
+ 

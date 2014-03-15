@@ -1,0 +1,73 @@
+Name             { Catapult }
+Reference        { CPLT-K2CL }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Computer         { 4 }
+Heat_Sinks       { 40 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.ERPPC - - }
+    CRIT_5-6		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.ERPPC - - }
+    CRIT_5-6		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 9 }
+    CRIT_1		  { CL.ERMediumLaser - - }
+    CRIT_2		  { CL.ERSmallLaser - - }
+    CRIT_3-10		  { HeatSink - - }
+    CRIT_11-12		  { JumpJet - - }
+Right_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 9 }
+    CRIT_1		  { CL.ERMediumLaser - - }
+    CRIT_2		  { CL.ERSmallLaser - - }
+    CRIT_3-10		  { HeatSink - - }
+    CRIT_11-12		  { JumpJet - - }
+Center_Torso
+  Armor            { 25 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

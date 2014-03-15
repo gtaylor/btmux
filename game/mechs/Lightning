@@ -1,0 +1,25 @@
+Name             { Lightning }
+Reference        { Lightning }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 35 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:10 2000 }
+Computer         { 3 }
+Mech_BV          { 348 }
+Max_Speed        { 182.75 }
+Left_Side
+  Armor            { 16 }
+  Internals        { 4 }
+    CRIT_1		  { IS.SRM-4 - OneShot 4 }
+Right_Side
+  Armor            { 16 }
+  Internals        { 4 }
+    CRIT_1		  { IS.SRM-4 - OneShot 4 }
+Front_Side
+  Armor            { 20 }
+  Internals        { 4 }
+    CRIT_1		  { IS.MediumPulseLaser - - 3 }
+    CRIT_2		  { IS.MediumPulseLaser - - 3 }
+Aft_Side
+  Armor            { 11 }
+  Internals        { 4 }

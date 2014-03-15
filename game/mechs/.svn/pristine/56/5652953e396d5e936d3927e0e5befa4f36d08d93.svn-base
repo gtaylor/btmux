@@ -1,0 +1,69 @@
+Name             { Union }
+Reference        { DS.Union }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 3500 }
+Comment          { Saved by: Celebrimbor(#319) at Wed Jun  4 18:41:53 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 90 }
+Max_Speed        { 53.75 }
+Front_Right_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.LRM-20 - - }
+    CRIT_3		  { IS.LRM-20 - - }
+    CRIT_4-6		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_7		  { IS.AC/5 - - }
+    CRIT_8		  { IS.AC/5 - - }
+    CRIT_9		  { Ammo_IS.AC/5 20 - - }
+    CRIT_10		  { IS.LargeLaser - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Front_Left_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.LRM-20 - - }
+    CRIT_3		  { IS.LRM-20 - - }
+    CRIT_4-6		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_7		  { IS.AC/5 - - }
+    CRIT_8		  { IS.AC/5 - - }
+    CRIT_9		  { Ammo_IS.AC/5 20 - - }
+    CRIT_10		  { IS.LargeLaser - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Rear_Left_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4-7		  { Ammo_IS.AC/5 20 - - }
+Rear_Right_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4-7		  { Ammo_IS.AC/5 20 - - }
+Aft
+  Armor            { 40 }
+  Internals        { 60 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Nose
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.LRM-20 - - }
+    CRIT_3		  { IS.LRM-20 - - }
+    CRIT_4-6		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_7		  { IS.AC/5 - - }
+    CRIT_8		  { IS.AC/5 - - }
+    CRIT_9-10		  { Ammo_IS.AC/5 20 - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.MediumLaser - - }

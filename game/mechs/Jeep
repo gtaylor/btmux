@@ -1,0 +1,33 @@
+Name             { Jeep }
+Reference        { Jeep }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 5 }
+Comment          { Saved by: Captain QB(#198) at Tue Nov 15 14:46:46 2005 }
+Tac_Range        { 18 }
+LRS_Range        { 31 }
+Scan_Range       { 12 }
+Radio_Range      { 80 }
+Computer         { 3 }
+Mech_BV          { 131 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 121.00 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 6 }
+  Internals        { 1 }
+Right_Side
+  Armor            { 6 }
+  Internals        { 1 }
+Front_Side
+  Armor            { 6 }
+  Internals        { 1 }
+Aft_Side
+  Armor            { 4 }
+  Internals        { 1 }
+Turret
+  Armor            { 2 }
+  Internals        { 1 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_3		  { Ammo_IS.MachineGun 100 Hotload Halfton - }

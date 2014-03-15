@@ -1,0 +1,9 @@
+ 
+& GAGGED
+ 
+  Flag: GAGGED (G)
+ 
+  When a player is set GAGGED, they cannot speak or pose under any
+  circumstances.  This flag has no meaning for objects, exits, or
+  rooms.
+.

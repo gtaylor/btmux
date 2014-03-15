@@ -1,0 +1,19 @@
+ 
+& btloadmap()2
+ 
+  Error Messages:
+ 
+  * If <MapOBJ> is not a valid map object the function will return #-
+    1 INVALID TARGET
+  * If <mapname> is not a valid map the function will return #-1 MAP
+     NOT FOUND
+ 
+  Example:
+  Given that #100 is a valid Map Object, FAL.hills is a valid map, and
+  2 units #1234 and #2345 are on the map before the command is run:
+ 
+  > think btloadmap(#100,FAL.hills,1)
+  Shutting down Mech #1234 and restting map index to -1....
+  Shutting down Mech #2345 and restting map index to -1....
+  1
+ 

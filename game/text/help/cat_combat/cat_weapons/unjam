@@ -1,0 +1,24 @@
+ 
+& unjam
+ 
+  RS Command: unjam <weapnum>
+ 
+  This command permits the pilot to fix fixes ammo loader jams.
+  
+  Example:
+  
+  The ammo loader mechanism jams on your RotaryAC/2!
+  
+  >status w
+=========================WEAPON SYSTEMS STATUS=========================
+[##] -------- Weapon Name -------- || Location -------- || Status -----
+[ 0] RotaryAC/2                    || Right Arm         || AMMOJAM
+[ 1] StreakSRM-6                   || Left Torso        || OPERATIONAL
+[ 2] ERMediumLaser                 || Head              || OPERATIONAL
+  
+  >unjam 0
+  You begin to shake the jammed ammo loose on weapon #0
+  You make a roll to unjam the weapon!
+  Modified Gunnery Skill: BTH 5   Roll: 9
+  You manage to clear the jam on your RotaryAC/2!
+ 

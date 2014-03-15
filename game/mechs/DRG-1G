@@ -1,0 +1,63 @@
+Name             { Grand Dragon }
+Reference        { DRG-1G }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Mech_BV          { 997 }
+Heat_Sinks       { 12 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+Right_Arm
+  Armor            { 14 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-6		  { IS.PPC - - 1 }
+Left_Torso
+  Armor            { 16 }
+  Internals        { 14 }
+  Rear             { 8 }
+    CRIT_1-2		  { Ammo_IS.LRM-10 12 - }
+    CRIT_3		  { IS.MediumLaser - RearMount }
+Right_Torso
+  Armor            { 16 }
+  Internals        { 14 }
+  Rear             { 8 }
+    CRIT_1		  { IS.MediumLaser - - }
+Center_Torso
+  Armor            { 27 }
+  Internals        { 20 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { IS.LRM-10 - - 5 }
+Left_Leg
+  Armor            { 18 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 18 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

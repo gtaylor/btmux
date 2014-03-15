@@ -1,0 +1,20 @@
+ 
+& @unlock
+ 
+  Syntax: @unlock <object>
+          @unlock <object>/<attrib>
+ 
+  The first form removes the lock on <object>, so that anyone may pass
+  through (if an exit) or pick it up (if a player or an object).
+ 
+  The second form clears the locked flag on the indicated attribute of
+  the named object.  This allows the attribute to change ownership
+  to the new owner automatically when the object is @chowned, and
+  allows the owner of the object to @chown the attribute to themself
+  or to overwrite it.
+ 
+  You must own the attribute to be unlocked, but you do not need to
+  own the object.
+ 
+  See also: @chown, @lock, ATTRIBUTE OWNERSHIP
+ 

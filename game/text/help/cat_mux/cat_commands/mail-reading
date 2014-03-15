@@ -1,0 +1,26 @@
+ 
+& mail-reading
+ 
+  @mail <msg #>
+  @mail/read <msg-list>
+        This displays messages which match the msg# or msg-list from
+        your current folder.
+ 
+  @mail
+  @mail <msg-list, but not a single msg #>
+        This gives a brief list of all mail in the current folder,
+        with sender name, a list of receiving players, subject, and
+        message status.
+  @mail/list [<msg-list>]
+        This gives the same list, but with time sent instead of
+        subject.
+        The status field is a set of characters (ex: NC-UF+) which
+        mean:
+                N = New (unread) message
+                C = Cleared message
+                U = Urgent message
+                F = Forwarded message
+                + = Tagged message
+        The opposites of these (read messages, etc.) are indicated
+        with a '-' in the status field in that position.
+ 

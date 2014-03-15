@@ -1,0 +1,83 @@
+Name             { Night Gyr }
+Reference        { Nig-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Computer         { 4 }
+Radio            { 5 }
+Heat_Sinks       { 24 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { Clan FlipArms }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3-6		  { CL.LRM-20 - - 5 }
+    CRIT_7		  { ArtemisIV - - 5 }
+    CRIT_8		  { Ammo_CL.LRM-20 6 Artemis/Mine - }
+    CRIT_9		  { Ammo_CL.LRM-20 6 Artemis/Mine - }
+    CRIT_10		  { Ammo_CL.LRM-20 6 Artemis/Mine - }
+    CRIT_11-12		  { FerroFibrous - - 5 }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3-6		  { CL.LRM-20 - - 5 }
+    CRIT_7		  { ArtemisIV - - 5 }
+    CRIT_8		  { Ammo_CL.LRM-20 6 Artemis/Mine - }
+    CRIT_9-10		  { Ammo_CL.LRM-20 6 Artemis/Mine - }
+    CRIT_11-12		  { EndoSteel - - 5 }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - 5 }
+    CRIT_3-5		  { CL.LRM-20 - - 5 }
+    CRIT_6		  { CL.LRM-20 - - 0 }
+    CRIT_7		  { ArtemisIV - - 0 }
+    CRIT_8-12		  { FerroFibrous - - 5 }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - 5 }
+    CRIT_3-5		  { CL.LRM-20 - - 5 }
+    CRIT_6		  { CL.LRM-20 - - 0 }
+    CRIT_7		  { ArtemisIV - - 0 }
+    CRIT_8-12		  { EndoSteel - - 5 }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 23 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 5 }
+    CRIT_4-7		  { Gyro - - 5 }
+    CRIT_8-10		  { Engine - - 5 }
+    CRIT_11-12		  { CL.LargePulseLaser - - 0 }
+Left_Leg
+  Armor            { 28 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { JumpJet - - 5 }
+Right_Leg
+  Armor            { 28 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { JumpJet - - 5 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 5 }
+    CRIT_2		  { Sensors - - 5 }
+    CRIT_3		  { Cockpit - - 5 }
+    CRIT_4		  { CL.MediumPulseLaser - - 0 }
+    CRIT_5		  { Sensors - - 5 }
+    CRIT_6		  { LifeSupport - - 5 }

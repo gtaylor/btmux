@@ -1,0 +1,9 @@
+ 
+& sendchannel
+ 
+  RS Command: sendchannel <channel>=<message>
+ 
+  Transmits <message> over <channel>
+  
+  See Also: setchannelmode, setchannelfreq, setchanneltitle 
+            listchannels

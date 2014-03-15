@@ -1,0 +1,14 @@
+ 
+& unusablearcs
+ 
+  xcodevalue: unusablearcs (int_ro)
+  XTYPE: MECH
+  
+  This xcode value is used by a system which permits control over the 
+  weapons on firing arcs for space oriented units.
+  
+  NOTE - The system is not implemented in this codebase and the value 
+  is not in use.
+  
+  See Also: @viewxcode
+ 

@@ -1,0 +1,44 @@
+ 
+& btdamagemech()2
+ 
+  Hit Locations
+ 
+  MECHS
+  * 0 = Left Arm
+  * 1 = Right Arm
+  * 2 = Left Torso
+  * 3 = Right Torso
+  * 4 = Center Torso
+  * 5 = Left Leg
+  * 6 = Right Leg
+  * 7 = Head
+  * 8 = Left Arm (Rear)
+  * 9 = Right Arm (Rear)
+  * 10 = Left Torso (Rear)
+  * 11 = Right Torso (Rear)
+  * 12 = Center Torso (Rear)
+  * 13 = Left Leg (Rear)
+  * 14 = Right Leg (Rear)
+  * 15 = Head (Rear)
+ 
+  VEHICLES
+  * 0 = Left Side
+  * 1 = Right Side
+  * 2 = Front
+  * 3 = Aft
+  * 4 = Turret
+  * 5 = Rotor
+ 
+  BATTLESUITS
+ 
+  * 0 = Suit 1
+  * 1 = Suit 2
+  * 2 = Suit 3
+  * 3 = Suit 4
+  * 4-7 = Random suit
+  * 8 = Suit 1
+  * 9 = Suit 2
+  * 10 = Suit 4
+  * 11 = Suit 4
+  * 12-21 = Random suit 
+ 

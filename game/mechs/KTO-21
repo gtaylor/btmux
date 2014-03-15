@@ -1,0 +1,85 @@
+Name             { Kintaro }
+Reference        { KTO-21 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Comment          { Saved by: Spectre(#4628) at Sun Jun 10 20:37:36 2001 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1144 }
+Cargo_Space      { 0 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 17 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { IS.SRM-6 - - 3 }
+    CRIT_7		  { FerroFibrous - - 3 }
+    CRIT_8-9		  { FerroFibrous - - 0 }
+    CRIT_10-11		  { EndoSteel - - 0 }
+Right_Arm
+  Armor            { 17 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.ERMediumLaser - - 3 }
+    CRIT_6		  { IS.ERMediumLaser - - 3 }
+    CRIT_7-12		  { EndoSteel - - 0 }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-2		  { IS.iNarcBeacon - - 0 }
+    CRIT_3		  { IS.iNarcBeacon - - 3 }
+    CRIT_4-9		  { FerroFibrous - - 3 }
+    CRIT_10-12		  { FerroFibrous - - 0 }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-2		  { IS.SRM-6 - - 3 }
+    CRIT_3		  { Ammo_IS.iNarcBeacon 4 - - }
+    CRIT_4-5		  { Ammo_IS.iNarcBeacon 4 - - }
+    CRIT_6-7		  { Ammo_IS.SRM-6 15 Narc/Smoke - }
+    CRIT_8-10		  { EndoSteel - - 3 }
+    CRIT_11		  { EndoSteel - - 0 }
+    CRIT_12		  { Case - - 0 }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 18 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { C3i - - 3 }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { FerroFibrous - - 0 }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 0 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

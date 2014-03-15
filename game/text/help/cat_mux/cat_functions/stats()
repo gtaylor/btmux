@@ -1,0 +1,30 @@
+ 
+& stats()
+ 
+  Syntax: stats([<player>])
+ 
+  This function returns information about the number of objects on the
+  MUX, much like the @stats command. If the argument is omitted or is
+  'all', then the stats for the entire MUX are returned, otherwise the
+  stats for the named player are returned. You can only get stats for
+  yourself unless you are a WIZARD.
+ 
+  The stats are returned as a set of 6 numbers, in the same order as
+  reported by the @stats command: total objects, rooms, exits, things,
+  players, and garbage. This command costs as much as the equivalent
+  @stats command (ie: '@stats/all' or '@stats <player>', not the free
+  '@stats').
+ 
+  Example:
+  > @stats me
+  6 objects = 0 rooms, 0 exits, 5 things, 1 players. (0 garbage)
+  > say stats(me)
+  You say "6 0 0 5 1 0"
+  > say stats()
+  You say "377 51 165 134 20 7"
+  > @stats/all
+  377 objects = 51 rooms, 165 exits, 134 things, 20 players. (7
+  garbage)
+ 
+  See Also: @stats
+ 

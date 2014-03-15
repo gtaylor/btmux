@@ -1,0 +1,35 @@
+Name		 { Huitzilopochtli } 
+Reference        { Huey }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 85 }
+Max_Speed        { 32.25 }
+Specials	 { ICEEngine_Tech }
+Left_Side
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { CL.MachineGun - - }
+Right_Side
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { CL.MachineGun - - }
+Front_Side
+  Armor            { 20 }
+  Internals        { 9 }
+    CRIT_1		  { CL.UltraAC/5 - - }
+    CRIT_2		  { CL.UltraAC/5 - - }
+    CRIT_3-4		  { Ammo_CL.UltraAC/5 20 - }
+    CRIT_5		  { Ammo_CL.MachineGun 100 Hotload }
+    CRIT_6		  { CL.ArrowIVSystem - - }
+    CRIT_7		  { CL.ArrowIVSystem - - }
+    CRIT_8-11		  { Ammo_CL.ArrowIVSystem 5 - }
+    CRIT_12		  { Ecm }
+Aft_Side
+  Armor            { 16 }
+  Internals        { 9 }
+Turret
+  Armor            { 16 }
+  Internals        { 9 }
+    CRIT_1		  { CL.MediumPulseLaser - - }
+    CRIT_2		  { CL.MediumPulseLaser - - }
+    CRIT_3		  { CL.ERSmallLaser - - }

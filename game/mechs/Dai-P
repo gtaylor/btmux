@@ -1,0 +1,78 @@
+Name             { Daishi }
+Reference        { Dai-P }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Computer         { 4 }
+Heat_Sinks       { 44 }
+Max_Speed        { 53.75 }
+Left_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { CL.ERLargeLaser - - }
+    CRIT_5		  { CL.ERLargeLaser - - }
+    CRIT_7		  { CL.MediumPulseLaser - - }
+    CRIT_8		  { CL.MediumPulseLaser - - }
+    CRIT_9-11		  { CL.UltraAC/5 - - }
+    CRIT_12		  { Ammo_CL.UltraAC/5 20 - }
+Right_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { CL.ERLargeLaser - - }
+    CRIT_5		  { CL.ERLargeLaser - - }
+    CRIT_7		  { CL.MediumPulseLaser - - }
+    CRIT_8		  { CL.MediumPulseLaser - - }
+    CRIT_9-11		  { CL.UltraAC/5 - - }
+    CRIT_12		  { Ammo_CL.UltraAC/5 20 - }
+Left_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1		  { CL.LRM-10 - - }
+    CRIT_2		  { Ammo_CL.LRM-10 12 - }
+    CRIT_3-4		  { Engine - - }
+    CRIT_5-12		  { HeatSink - - }
+Right_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-10		  { HeatSink - - }
+Center_Torso
+  Armor            { 47 }
+  Internals        { 31 }
+  Rear             { 14 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { HeatSink - - }
+Left_Leg
+  Armor            { 41 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 41 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

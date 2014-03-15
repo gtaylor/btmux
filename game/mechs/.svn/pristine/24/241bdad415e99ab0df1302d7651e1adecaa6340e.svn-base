@@ -1,0 +1,68 @@
+Name             { UrbanMech }
+Reference        { UM-R60L }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Mech_BV          { 443 }
+Heat_Sinks       { 11 }
+Computer	 { 3 }
+Radio		 { 3 }
+Max_Speed        { 32.25 }
+Jump_Speed       { 21.50 }
+Specials         { Fliparms }
+Left_Arm
+  Armor            { 6 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.SmallLaser - - }
+Right_Arm
+  Armor            { 6 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-12		  { IS.AC/20 - - }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 7 }
+  Rear             { 3 }
+    CRIT_1-2		  { HeatSink - - }
+Right_Torso
+  Armor            { 6 }
+  Internals        { 7 }
+  Rear             { 3 }
+    CRIT_1		  { Ammo_IS.AC/20 5 - }
+    CRIT_2-3		  { HeatSink - - }
+Center_Torso
+  Armor            { 8 }
+  Internals        { 10 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12            { JumpJet - - }
+Left_Leg
+  Armor            { 8 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 8 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { HeatSink - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,11 @@
+ 
+& winddir
+ 
+  xcodevalue: winddir <short>
+  XTYPE: MAP
+  
+  This xcode value stores the direction of the wind on the map
+  
+  See Also: cloudbase, gravity, maplight, temperature, windspeed, 
+  @viewxcode
+ 

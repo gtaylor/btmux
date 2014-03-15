@@ -1,0 +1,26 @@
+ 
+& brief
+ 
+  RS Command: brief [a <0-6> | c <0-3>]
+  
+  This command sets what is displayed for the 'contacts' command and 
+  what is displayed when your RS Unit gets a contact.
+  
+  Arguments:
+  none - displays the current settings
+  * a - set autocontact option:
+      0 - See enemies and friends, long text, color.
+      1 - See enemies and friends, short text, color.
+      2 - See enemies only, long text, color.
+      3 - See enemies only, short text, color.
+      4 - See enemies and friends, short text, no color.
+      5 - See enemies only, short text, no color.
+      6 - Disabled.
+  * c - set contact option
+       0 - Very verbose.
+       1 - Short form, the usual one.
+       2 - Short form, the usual one, but do not see buildings.
+       3 - Shorter form.
+  
+  See Also: contacts
+ 

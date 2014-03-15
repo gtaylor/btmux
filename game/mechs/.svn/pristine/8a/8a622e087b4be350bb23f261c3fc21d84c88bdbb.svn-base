@@ -1,0 +1,78 @@
+Name             { Bushwhacker }
+Reference        { BSW-X1 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:04:24 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 22 }
+Mech_BV          { 1060 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 11 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { IS.LRM-5 - - 3 }
+    CRIT_4		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 11 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-9		  { IS.AC/10 - - 3 }
+    CRIT_10		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 13 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { Ammo_IS.LRM-5 24 - - }
+    CRIT_5		  { IS.LRM-5 - - 3 }
+    CRIT_6		  { IS.MachineGun - - 3 }
+    CRIT_7-11		  { FerroFibrous - - 3 }
+    CRIT_12		  { Case - - 3 }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 13 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { Ammo_IS.AC/10 10 - - }
+    CRIT_5		  { IS.MachineGun - - 3 }
+    CRIT_6		  { Ammo_IS.MachineGun 100 Hotload - }
+    CRIT_7-11		  { FerroFibrous - - 3 }
+    CRIT_12		  { Case - - 3 }
+Center_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { IS.ERLargeLaser - - 3 }
+Left_Leg
+  Armor            { 22 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { FerroFibrous - - 3 }
+Right_Leg
+  Armor            { 22 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { FerroFibrous - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

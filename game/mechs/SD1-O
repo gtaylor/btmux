@@ -1,0 +1,74 @@
+Name             { Sunder }
+Reference        { SD1-O }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 90 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:03:36 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 30 }
+Mech_BV          { 1381 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-12		  { IS.AC/20 - - 3 }
+Right_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7-8		  { IS.LargeLaser - - 3 }
+    CRIT_9-10		  { IS.LargeLaser - - 3 }
+Left_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.MediumLaser - - 3 }
+    CRIT_5		  { Ammo_IS.AC/20 5 - - }
+    CRIT_6		  { Ammo_IS.SRM-4 25 - - }
+Right_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.MediumLaser - - 3 }
+    CRIT_5		  { Ammo_IS.AC/20 5 - - }
+Center_Torso
+  Armor            { 41 }
+  Internals        { 29 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.SRM-4 - - 3 }
+    CRIT_12		  { IS.SRM-4 - - 3 }
+Left_Leg
+  Armor            { 33 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 33 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.SRM-4 - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

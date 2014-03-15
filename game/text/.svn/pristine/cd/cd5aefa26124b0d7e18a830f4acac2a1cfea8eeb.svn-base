@@ -1,0 +1,14 @@
+ 
+& visible()
+ 
+  Syntax: visible(<object>,<victim>[/<attr>])
+ 
+  Returns 1 if <object> can examine <victim>, or 0 otherwise. If
+  <object> or <victim> do not exist, 0 is returned.
+ 
+  If an object-attribute pair is provided, 1 is returned if <object>
+  can see <attr> on <victim>. If <attr> is not present on <victim>, 1
+  is returned if <object> can examine <victim>.
+ 
+  See Also: DARK, LIGHT
+ 

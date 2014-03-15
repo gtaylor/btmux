@@ -1,0 +1,73 @@
+Name             { Avatar }
+Reference        { AV1-OC }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Comment          { Saved by: Charlemagne(#4624) at Sat May 13 09:48:29 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1290 }
+Cargo_Space      { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { IS.PPC - - 3 }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-7		  { IS.UltraAC/5 - - 3 }
+    CRIT_8		  { Ammo_IS.UltraAC/5 20 - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-8		  { C3Master - - 3 }
+    CRIT_9-10		  { IS.LRM-10 - - 3 }
+    CRIT_11		  { Case - - 3 }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { IS.LRM-10 - - 3 }
+    CRIT_6-7		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_8		  { Case - - 3 }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 22 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.MediumLaser - - 3 }
+    CRIT_12		  { IS.MediumLaser - - 3 }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

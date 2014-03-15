@@ -1,0 +1,25 @@
+ 
+& btsetmaxspeed()
+ 
+  Syntax: btsetmaxspeed(<UnitDB>,<speed>)
+ 
+  This function sets the running or flank speed for an RS unit to the
+  valude specified. Consequently this sets the walk or cruise speed
+  for the unit also.
+ 
+  Note - the speed specified is expressed in kph, not movement points.
+ 
+  Note - if <speed> is not a valid number the units max speed will be
+  set to 0.
+ 
+  Error Messages:
+  * if <UnitDB> is not a valid RS unit the function will return
+    #-1 NOT A MECH
+ 
+  Example:
+  Given that #1111 is a valid RS unit, and the desired speed is 222
+  kph
+ 
+  > think btsetmaxspeed(#1111,222)
+  1
+ 

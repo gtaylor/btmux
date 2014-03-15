@@ -1,0 +1,14 @@
+ 
+& ucstr()
+ 
+  Syntax: ucstr(<string>)
+ 
+  This function returns <string> with all letters converted to
+  uppercase.
+ 
+  Example:
+    > say ucstr(This is a test, really!)
+    You say "THIS IS A TEST, REALLY!"
+ 
+  See also: capstr(), lcstr().
+ 

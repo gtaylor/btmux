@@ -1,0 +1,67 @@
+Name             { Kintaro }
+Reference        { KTO-18 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Mech_BV          { 864 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.LRM-5 - - }
+    CRIT_6-7		  { IS.SRM-6 - - }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6		  { IS.MediumLaser - - }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 7 }
+    CRIT_1		  { Ammo_IS.LRM-5 24 - }
+    CRIT_2		  { Ammo_IS.SRM-6 15 - }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 7 }
+    CRIT_1-2		  { IS.SRM-6 - - }
+    CRIT_3-4		  { Ammo_IS.SRM-6 15 - }
+Center_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { IS.SRM-6 - - }
+Left_Leg
+  Armor            { 23 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 23 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,29 @@
+Name             { Hetzer }
+Reference        { Hetzer-LBX }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 40 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:05:54 2002 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Computer         { 3 }
+Mech_BV          { 524 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Left_Side
+  Armor            { 30 }
+  Internals        { 4 }
+Right_Side
+  Armor            { 30 }
+  Internals        { 4 }
+Front_Side
+  Armor            { 30 }
+  Internals        { 4 }
+    CRIT_1		  { IS.LB20-XAC - - 3 }
+    CRIT_2-3		  { Ammo_IS.LB20-XAC 5 - - }
+    CRIT_4-6		  { Ammo_IS.LB20-XAC 5 LBX/Cluster - }
+Aft_Side
+  Armor            { 30 }
+  Internals        { 4 }

@@ -1,0 +1,13 @@
+
+& btech_fasacrit
+
+  Config parameter: btech_fasacrit <-1/0/1>
+  Default: -1
+
+  Select crit system to use.
+
+  Arguments:
+  Maxtech       -1
+  Semi-FASA      0
+  FASA           1
+ 

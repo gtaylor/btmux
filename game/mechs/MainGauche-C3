@@ -1,0 +1,28 @@
+Name             { Main Gauche }
+Reference        { MainGauche-C3 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 30 }
+Comment          { Saved by: Spectre(#4628) at Thu Jul 11 06:54:52 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 302 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Left_Side
+  Armor            { 19 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 19 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 29 }
+  Internals        { 3 }
+    CRIT_1		  { IS.LightGaussRifle - - 3 }
+    CRIT_2		  { IS.ERSmallLaser - - 3 }
+Aft_Side
+  Armor            { 13 }
+  Internals        { 3 }
+    CRIT_1		  { Ammo_IS.LightGaussRifle 16 - - }
+    CRIT_12		  { C3Slave - - 0 }

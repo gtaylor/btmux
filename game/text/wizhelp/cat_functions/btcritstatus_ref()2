@@ -1,0 +1,29 @@
+ 
+& btcritstatus_ref()2
+ 
+  <crittype> returns a value indicating the type of item stored at
+  that <critslot>
+ 
+    * 1 = Weapon
+    * 2 = Ammo
+    * 3 = Actuator
+    * 4 = Cargo
+    * 5 = Empty
+    * 0 = Other (eg Cockpit, LifeSupport)
+ 
+  Note: if <critslot> refers to a location where missiles are
+  stored, <crittype> will return 4, indicating a cargo crittype
+
+  Error Messages:
+ 
+  * If <UnitRef> is not a valid reference the function returns
+    #-1 NO SUCH MECH
+  * If <location> is a null string or very invalid the function
+    returns #-1 INVALID SECTION
+ 
+  Note: <location> is not checked extensively - eg a 'location' of l
+  will pass error checking. Therefore it is the programmers
+  responsibility to ensure a correct argument
+ 
+  Continued in btcritstatus_ref()3
+ 

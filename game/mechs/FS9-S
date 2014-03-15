@@ -1,0 +1,79 @@
+Name             { Firestarter }
+Reference        { FS9-S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Comment          { Saved by: Captain QB(#198) at Sun Dec 11 13:07:48 2005 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 547 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 64.50 }
+Left_Arm
+  Armor            { 7 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.Flamer - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6-7		  { EndoSteel - - }
+Right_Arm
+  Armor            { 7 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.Flamer - - }
+    CRIT_5		  { IS.MediumLaser - - }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 8 }
+  Rear             { 6 }
+    CRIT_1-3		  { JumpJet - - }
+    CRIT_4		  { IS.Anti-MissileSystem - - }
+    CRIT_5-6		  { BeagleProbe - - }
+    CRIT_7		  { Ammo_IS.Anti-MissileSystem 12 - - }
+    CRIT_8-12		  { EndoSteel - - }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 8 }
+  Rear             { 6 }
+    CRIT_1-3		  { JumpJet - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5-11		  { EndoSteel - - }
+Center_Torso
+  Armor            { 13 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.Flamer - - }
+    CRIT_12		  { IS.Flamer - RearMount }
+Left_Leg
+  Armor            { 7 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Right_Leg
+  Armor            { 7 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

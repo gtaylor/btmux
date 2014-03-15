@@ -1,0 +1,15 @@
+
+& kill_guarantee_cost
+
+  Config parameter: kill_guarantee_cost <amount>
+  Default: 100
+
+  Specifies the amount of money you have to spend (ie. kill target =
+  <amount>) to have a 100% chance of killing them (assuming there
+  are no other factors, such as the victim being immortal or in a
+  HAVEN room, etc).  The chance of a successful kill is <amount
+  spent> / <kill_guarantee_cost>.
+
+  See also: kill, kill_max_cost, kill_min_cost, HAVEN, IMMORTAL,
+            KILLING.
+ 

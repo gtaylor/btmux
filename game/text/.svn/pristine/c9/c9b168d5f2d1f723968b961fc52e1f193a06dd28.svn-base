@@ -1,0 +1,12 @@
+
+& btech_explode_stop
+
+  Config parameter: btech_explode_stop <0/1>
+  Default: 0
+
+  Determines if players are able to use the 'explode stop' command to
+  abort their self-destruct sequences.
+
+  See Also: btech_explode_reactor, btech_explode_ammo,
+            btech_explode_time.
+ 

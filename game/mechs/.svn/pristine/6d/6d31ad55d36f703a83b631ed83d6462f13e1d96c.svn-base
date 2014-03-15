@@ -1,0 +1,84 @@
+Name             { Ostscout }
+Reference        { OTT-9S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Heat_Sinks       { 10 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 723 }
+Max_Speed        { 129.00 }
+Jump_Speed       { 86.00 }
+Specials         { FerroFibrous_Tech EndoSteel_Tech LightEngine_Tech BeagleProbe ECM }
+Left_Arm
+  Armor          { 6 }
+  Internals      { 6 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { IS.ERMediumLaser - - }
+    CRIT_5-7     { EndoSteel - - }
+    CRIT_8-12    { FerroFibrous - - }
+Right_Arm
+  Armor          { 6 }
+  Internals      { 6 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { IS.ERMediumLaser - - }
+    CRIT_5-7     { EndoSteel - - }
+    CRIT_8-12    { FerroFibrous - - }
+Left_Torso
+  Armor          { 9 }
+  Internals      { 8 }
+  Rear           { 2 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3-6     { JumpJet - - }
+    CRIT_7-8     { Ecm - - }
+    CRIT_9-10    { EndoSteel - - }
+    CRIT_11-12   { FerroFibrous - - }
+Right_Torso
+  Armor          { 9 }
+  Internals      { 8 }
+  Rear           { 2 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3-6     { JumpJet - - }
+    CRIT_7-8     { BeagleProbe - - }
+    CRIT_9-10    { EndoSteel - - }
+    CRIT_11-12   { FerroFibrous - - }
+Center_Torso
+  Armor          { 11 }
+  Internals      { 11 }
+  Rear           { 4 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { TAG - - }
+    CRIT_12      { EndoSteel - - }
+Left_Leg
+  Armor          { 8 }
+  Internals      { 8 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { IS.A-Pod - - }
+    CRIT_6       { EndoSteel - - }
+Right_Leg
+  Armor          { 8 }
+  Internals      { 8 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { EndoSteel - - }
+    CRIT_6       { IS.A-Pod - - }
+Head
+  Armor          { 7 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { EndoSteel - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

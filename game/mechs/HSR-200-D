@@ -1,0 +1,67 @@
+Name             { Hussar }
+Reference        { HSR-200-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Mech_BV          { 577 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 150.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 2 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 2 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Left_Torso
+  Armor            { 3 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1-5              { FerroFibrous - - }
+Right_Torso
+  Armor            { 3 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1-5              { FerroFibrous - - }
+Center_Torso
+  Armor            { 4 }
+  Internals        { 10 }
+  Rear             { 2 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { IS.ERLargeLaser - - }
+Left_Leg
+  Armor            { 2 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6              { FerroFibrous - - }
+Right_Leg
+  Armor            { 2 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6              { FerroFibrous - - }
+Head
+  Armor            { 3 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

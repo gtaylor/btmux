@@ -1,0 +1,37 @@
+Name             { Badger }
+Reference        { Badger-E }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 30 }
+Comment          { Saved by: Kelvin McCorvin(#2) at Sun Dec 23 01:03:52 2007 }
+Mech_BV          { 219 }
+Cargo_Space      { 400 }
+Max_Ton          { 4 }
+Max_Suits        { 0 }
+Max_Speed        { 96.75 }
+Specials         { CargoTech }
+Left_Side
+  Armor            { 18 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SmallLaser - - }
+Right_Side
+  Armor            { 18 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SmallLaser - - }
+Front_Side
+  Armor            { 20 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SmallLaser - - }
+Aft_Side
+  Armor            { 16 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SmallLaser - - }
+Turret
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+    CRIT_3		  { IS.SmallLaser - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5		  { IS.SmallLaser - - }
+    CRIT_6		  { IS.SmallLaser - - }

@@ -1,0 +1,38 @@
+Name             { Vandal }
+Reference        { Vandal-P }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 30 }
+Heat_Sinks       { 20 }
+Fuel             { 600 }
+Max_Speed        { 225.75 }
+Specials	 { Clan FerroFibrous_Tech }
+Nose
+  Armor            { 20 }
+  Internals        { 14 }
+    CRIT_1		  { CL.ERSmallLaser - - }
+    CRIT_2		  { CL.ERSmallLaser - - }
+    CRIT_3		  { BeagleProbe - - }
+Left_Wing
+  Armor            { 15 }
+  Internals        { 14 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 15 }
+  Internals        { 14 }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 18 }
+  Internals        { 14 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 14 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 12 }
+  Internals        { 14 }
+

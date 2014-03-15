@@ -1,0 +1,13 @@
+
+& crash_database
+
+  Config parameter: crash_database <path>
+  Default: none
+
+  Specifies the name of the database file that should be written when
+  MUX detects an internal error and is about to crash.  Note that
+  the database may contain corrupted links of the error occurs in
+  the middle of moving links about.
+
+  Dumping a crash database is currently not implemented.
+ 

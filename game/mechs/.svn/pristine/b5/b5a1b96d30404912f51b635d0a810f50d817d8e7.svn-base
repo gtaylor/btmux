@@ -1,0 +1,76 @@
+Name             { Stooping Hawk }
+Reference        { StoopingHawk-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Heat_Sinks       { 34 }
+Max_Speed        { 86.00 }
+Jump_Speed	 { 53.75 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERMediumLaser - OnTC }
+    CRIT_6-8		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_7-9		  { EndoSteel - - }
+Left_Torso
+  Armor            { 21 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1-2		  { JumpJet - - }
+    CRIT_3-4		  { TargetingComputer - - }
+    CRIT_5-10		  { HeatSink - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 21 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1-2		  { JumpJet - - }
+    CRIT_3		  { CL.ERMediumLaser - OnTC }
+    CRIT_4-9		  { HeatSink - - }
+    CRIT_10-11		  { EndoSteel - - }
+Center_Torso
+  Armor            { 29 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { CL.ERLargeLaser - OnTC }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { FerroFibrous - - }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.ERLargeLaser - OnTC }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

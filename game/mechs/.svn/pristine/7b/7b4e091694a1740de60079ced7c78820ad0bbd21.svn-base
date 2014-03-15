@@ -1,0 +1,82 @@
+Name             { Night Gyr }
+Reference        { NightGyr-A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Comment          { Saved by: Captain QB(#198) at Tue Nov 15 14:42:15 2005 }
+Computer         { 5 }
+Radio            { 5 }
+Heat_Sinks       { 32 }
+Mech_BV          { 0 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { Clan FlipArms LaserHS_Tech }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.LargePulseLaser - - }
+    CRIT_5		  { CL.MediumPulseLaser - - }
+    CRIT_6		  { CL.MediumPulseLaser - - }
+    CRIT_7-10		  { HeatSink - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-10		  { CL.UltraAC/20 - - }
+    CRIT_11-12		  { EndoSteel - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { CL.StreakSRM-6 - - }
+    CRIT_5		  { Ammo_CL.StreakSRM-6 15 - - }
+    CRIT_6-7		  { HeatSink - - }
+    CRIT_8-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { CL.StreakSRM-6 - - }
+    CRIT_5-7		  { Ammo_CL.UltraAC/20 5 - - }
+    CRIT_8-12		  { EndoSteel - - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 23 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { HeatSink - - }
+Left_Leg
+  Armor            { 28 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 28 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.MediumPulseLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,11 @@
+ 
+& allcom
+ 
+  Syntax: allcom <on|off|who>
+     
+  This works like using a single alias, except it does an action for
+  every alias you have. You can turn every alias on, or off, or see
+  who is on every channel you subscribe to.
+ 
+  See also: alias, comtitle, delcom, addcom
+ 

@@ -1,0 +1,8 @@
+ 
+& XCODE
+ 
+  Flag: XCODE (X)
+ 
+  The XCODE flag, in conjunction with @xtype, designates an XCODE
+  object.
+ 

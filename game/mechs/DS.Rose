@@ -1,0 +1,63 @@
+Name             { Rose }
+Reference        { DS.Rose }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 16000 }
+Comment          { Saved by: Celebrimbor(#319) at Wed Jun  4 18:41:23 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 127 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Front_Right_Side
+  Armor            { 80 }
+  Internals        { 127 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.LargePulseLaser - - }
+    CRIT_4		  { IS.MediumPulseLaser - - }
+Front_Left_Side
+  Armor            { 80 }
+  Internals        { 127 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.LargePulseLaser - - }
+    CRIT_4		  { IS.MediumPulseLaser - - }
+Rear_Left_Side
+  Armor            { 80 }
+  Internals        { 127 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.LRM-15 - - }
+    CRIT_3		  { ArtemisIV - - }
+    CRIT_4-5		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+Rear_Right_Side
+  Armor            { 80 }
+  Internals        { 127 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.LRM-15 - - }
+    CRIT_3		  { ArtemisIV - - }
+    CRIT_4-5		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+Aft
+  Armor            { 60 }
+  Internals        { 127 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.LRM-15 - - }
+    CRIT_3		  { ArtemisIV - - }
+    CRIT_4-6		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+    CRIT_7		  { IS.ERPPC - - }
+    CRIT_8		  { IS.MediumPulseLaser - - }
+Nose
+  Armor            { 110 }
+  Internals        { 127 }
+    CRIT_1		  { IS.GaussRifle - - }
+    CRIT_2-3		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_4		  { IS.LRM-15 - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+    CRIT_7		  { IS.ERPPC - - }
+    CRIT_8		  { IS.ERPPC - - }
+    CRIT_9		  { IS.ERLargeLaser - - }
+    CRIT_10		  { IS.MediumLaser - - }
+    CRIT_11		  { IS.LargePulseLaser - - }
+    CRIT_12		  { IS.MediumPulseLaser - - }

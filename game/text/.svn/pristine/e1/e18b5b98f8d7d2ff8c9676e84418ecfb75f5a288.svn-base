@@ -1,0 +1,17 @@
+ 
+& setlock()
+ 
+  Syntax: setlock(<locktype>,<object>,<key>)
+ 
+  This function carries out the same action as the @lock command.
+ 
+  Example:
+  >say setlock(default,testobject,me)
+  You say "1"
+ 
+  This is the equivalent of @lock testobject=me
+ 
+  See also: lock(), @chown, @unlock, @lock locks, @lock keys,
+  @lock attribute, @lock evaluation, @lock indirect, @lock normal,
+  @lock is, @lock carry, @lock ownership, @lock compound
+ 

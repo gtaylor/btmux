@@ -1,0 +1,25 @@
+ 
+& replacegun2
+ 
+  Example:
+  Given a Pinto which has a destroyed medium laser
+  
+  status w
+Vehicle Name:                  ID:[FV]   Vehicle Reference: Pinto
+Tonnage:    30      FlankSpeed: 161       Movement Type: VTOL
+Pilot: NONE
+SHUTDOWN
+AdvSensors: BeagleProbe
+==================WEAPON SYSTEMS===========================AMMUNITION========
+------ Weapon --------- [##] Location ---- Status ||--- Ammo Type ---- Rounds
+ MediumLaser            [ 0] Front Side    *****  || LRM-5            A   24
+ MediumLaser            [ 1] Front Side    Ready  ||    
+ MediumLaser            [ 2] Front Side    Ready  ||    
+ LRM-5                  [ 3] Front Side    Ready  ||    
+ 
+      You can use either:
+      replacegun 0
+      OR
+      replacegun fs 1
+      to install the new weapon.
+ 

@@ -1,0 +1,19 @@
+ 
+& lcon()
+ 
+  Syntax: lcon(<object>)
+ 
+  Returns a space-separated list of the contents of <object>.
+ 
+  Example:
+ 
+  > i
+  t1(#366)
+  radio(#223)
+  The Wizard's Pointy Hat(#188SO)
+  You have 42463 clams.
+  > say lcon(me)
+  You say "#366 #223 #188"
+ 
+  See Also: lexits(), lplayers(), lvplayers(), @dolist
+ 

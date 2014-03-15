@@ -1,0 +1,9 @@
+ 
+& hudinfo-support
+
+  Compile option: --disable-hudinfo-support
+  Default: enabled
+
+  Disables the HUDINFO protocol which supports clients using graphical
+  HUDs
+ 

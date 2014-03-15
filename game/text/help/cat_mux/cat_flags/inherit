@@ -1,0 +1,17 @@
+ 
+& INHERIT
+ 
+  Flag: INHERIT (I)
+ 
+  Previously, Wizard-owned objects had wizard powers.  This was
+  a problem in many cases, so that behavior has changed.  Now, only
+  Wizard objects or Wizard-owned Inherit-set objects have wizard 
+  powers.
+ 
+  Only players can set the Inherit flag, and the Inherit flag is 
+  reset during @chown.  If a player is set Inherit, all his stuff is 
+  assumed to be inherit, so his objects can control him.  If a 
+  player is NOT Inherit, his stuff does NOT control him.  (i.e. 
+  cannot @force him.)  This flag is not especially useful for non-
+  wizards.
+ 

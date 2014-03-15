@@ -1,0 +1,79 @@
+Name             { Perseus }
+Reference        { P1C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Mar 22 01:40:54 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 28 }
+Mech_BV          { 1463 }
+Cargo_Space      { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 21 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-7		  { IS.LightGaussRifle - - 3 }
+    CRIT_8-9		  { Ammo_IS.LightGaussRifle 16 - - }
+    CRIT_10-12		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 21 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-9		  { IS.UltraAC/10 - - 3 }
+    CRIT_10-12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 16 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { Ammo_IS.UltraAC/10 10 - - }
+    CRIT_5		  { Ammo_IS.StreakSRM-2 50 - - }
+    CRIT_6-8		  { HeatSink - - 3 }
+    CRIT_9-12		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 16 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { Ammo_IS.UltraAC/10 10 - - }
+    CRIT_6-8		  { HeatSink - - 3 }
+    CRIT_9-12		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 36 }
+  Internals        { 23 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.MediumPulseLaser - RearMount 3 }
+Left_Leg
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.ERMediumLaser - - 3 }
+Right_Leg
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.ERMediumLaser - - 3 }
+    CRIT_6		  { IS.ERMediumLaser - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.StreakSRM-2 - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

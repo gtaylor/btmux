@@ -1,0 +1,76 @@
+Name             { Galahad }
+Reference        { Gal-W }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Computer         { 4 }
+Heat_Sinks       { 32 }
+Max_Speed        { 64.50 }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { CL.LargePulseLaser - OnTC }
+    CRIT_7-12		  { EndoSteel - - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { CL.LargePulseLaser - OnTC }
+    CRIT_7-12		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 14 }
+  Rear             { 8 }
+    CRIT_1		  { CL.MediumPulseLaser - OnTC }
+    CRIT_2		  { CL.MediumPulseLaser - OnTC }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7		  { EndoSteel - - }
+    CRIT_8-11		  { HeatSink - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 14 }
+  Rear             { 8 }
+    CRIT_1-4		  { TargetingComputer - - }
+    CRIT_5		  { CL.SmallPulseLaser - OnTC }
+    CRIT_6		  { CL.SmallPulseLaser - OnTC }
+    CRIT_7		  { CL.SmallPulseLaser - OnTC }
+    CRIT_8		  { FerroFibrous - - }
+    CRIT_9-12		  { HeatSink - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { HeatSink - - }
+Left_Leg
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

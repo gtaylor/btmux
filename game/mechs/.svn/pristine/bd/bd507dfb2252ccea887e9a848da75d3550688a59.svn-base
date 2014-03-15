@@ -1,0 +1,44 @@
+Name             { Transgressor }
+Reference        { TR-13A }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 75 }
+Comment          { Saved by: Celebrimbor(#319) at Fri May 30 13:37:20 1997 }
+Computer         { 3 }
+Heat_Sinks       { 50 }
+Fuel             { 750 }
+Max_Speed        { 96.75 }
+Specials         { DoubleHS }
+Nose
+  Armor            { 60 }
+  Internals        { 10 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Left_Wing
+  Armor            { 35 }
+  Internals        { 10 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 35 }
+  Internals        { 10 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 64 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 24 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { HeatSink - - }
+    CRIT_4-10		  { HeatSink - - }
+    CRIT_12		  { HeatSink - - }

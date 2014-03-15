@@ -1,0 +1,76 @@
+Name             { Awesome }
+Reference        { AWS-8QCL }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Computer         { 4 }
+Heat_Sinks       { 48 }
+Max_Speed        { 53.75 }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5-12		  { HeatSink - - }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.ERPPC - - }
+    CRIT_5-6		  { FerroFibrous - - }
+    CRIT_7-12		  { HeatSink - - }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { CL.ERPPC - - }
+    CRIT_3-4		  { CL.StreakSRM-6 - - }
+    CRIT_5		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_6-11		  { HeatSink - - }
+    CRIT_12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { CL.ERPPC - - }
+    CRIT_3-4		  { CL.StreakSRM-6 - - }
+    CRIT_5		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_6-11		  { HeatSink - - }
+    CRIT_12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 25 }
+  Rear             { 19 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Left_Leg
+  Armor            { 33 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 33 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.MediumPulseLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

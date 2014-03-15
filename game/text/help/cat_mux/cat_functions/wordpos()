@@ -1,0 +1,26 @@
+ 
+& wordpos()
+ 
+  Syntax: wordpos(<string>, <charpos>[, <delim>)
+ 
+  Returns the number of the word within <string> where the character
+  position <charpos> falls. Spaces between words are treated as
+  belonging to the word that follows them. If <charpos> is not within
+  the string, the value #-1 is returned. Both words and characters are
+  numbered starting at 1.
+ 
+  <delim> may be used to specify a delimiter other than a space.
+ 
+  Example:
+ 
+  > say wordpos(This is a test, 4)
+  You say "1"
+  > say wordpos(This is a test, 5)
+  You say "2"
+  > say wordpos(This is a test, 6)
+  You say "2"
+  > say wordpos(This is a test, 20)
+  You say "#-1"
+ 
+  See Also: extract()
+ 

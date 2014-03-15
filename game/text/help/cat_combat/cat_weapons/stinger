@@ -1,0 +1,10 @@
+ 
+& stinger
+ 
+  RS Command: stinger <weaponum
+  
+  This command toggles the state of <weapnum>, causing it to fire 
+  Stinger ammunition or normal ammunition.
+  
+  Stinger ammo is only used for missile launchers.
+ 

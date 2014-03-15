@@ -1,0 +1,83 @@
+Name             { Linebacker }
+Reference        { Lin-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Computer         { 4 }
+Heat_Sinks       { 28 }
+Max_Speed        { 96.75 }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5		  { FerroFibrous - - }
+    CRIT_6-7		  { CL.StreakSRM-6 - - }
+    CRIT_8-9		  { CL.StreakSRM-6 - - }
+    CRIT_10-11		  { Ammo_CL.StreakSRM-6 15 - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5		  { FerroFibrous - - }
+    CRIT_6-7		  { CL.StreakSRM-6 - - }
+    CRIT_8-9		  { CL.StreakSRM-6 - - }
+    CRIT_10		  { Ammo_CL.StreakSRM-6 15 - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1		  { EndoSteel - - }
+    CRIT_2		  { FerroFibrous - - }
+    CRIT_3-4		  { Engine - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+    CRIT_6		  { CL.ERSmallLaser - RearMount }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1		  { EndoSteel - - }
+    CRIT_2		  { FerroFibrous - - }
+    CRIT_3-4		  { Engine - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+Left_Leg
+  Armor            { 25 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6		  { FerroFibrous - - }
+Right_Leg
+  Armor            { 25 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6		  { FerroFibrous - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

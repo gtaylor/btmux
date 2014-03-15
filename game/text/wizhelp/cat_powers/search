@@ -1,0 +1,10 @@
+ 
+& search
+ 
+  Power: search
+  
+  This power permits the player to use the @search command on any 
+  player.
+  
+  See Also: @power, @list powers, @search
+ 

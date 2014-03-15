@@ -1,0 +1,11 @@
+
+& guest_file
+
+  Config parameter: guest_file <path>
+  Default: text/guest.txt
+
+  Specifies the file that is to be shown to people connecting to the
+  guest character in place of the motd file.
+
+  See also: guest_char_num.
+ 

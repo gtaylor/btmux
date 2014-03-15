@@ -1,0 +1,50 @@
+Name             { Stuka }
+Reference        { STU-K15 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 100 }
+Comment          { Saved by: Celebrimbor(#319) at Fri May 30 18:14:56 1997 }
+Computer         { 3 }
+Heat_Sinks       { 30 }
+Fuel             { 750 }
+Max_Speed        { 86.00 }
+Nose
+  Armor            { 45 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.LRM-20 - - }
+    CRIT_3-4		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_6		  { IS.SRM-4 - - }
+    CRIT_7		  { Ammo_IS.SRM-4 25 - - }
+Left_Wing
+  Armor            { 27 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LargeLaser - - }
+    CRIT_3		  { IS.SmallLaser - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5		  { IS.SmallLaser - - }
+Right_Wing
+  Armor            { 27 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LargeLaser - - }
+    CRIT_3		  { IS.SmallLaser - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5		  { IS.SmallLaser - - }
+Fuselage
+  Armor            { 52 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 36 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }

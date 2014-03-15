@@ -1,0 +1,11 @@
+ 
+& artemis
+ 
+  RS Command: artemis <weapnum>
+  
+  This command toggles the state of <weapnum>, causing it to fire 
+  ArtemisIV ammunition or normal ammunition 
+  
+  Artemis ammo is only used for missile launchers and requires an 
+  ArtemisIV fire control system be installed on the RS Unit.
+ 

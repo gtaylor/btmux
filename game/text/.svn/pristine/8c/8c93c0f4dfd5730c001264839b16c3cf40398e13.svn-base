@@ -1,0 +1,11 @@
+ 
+ & eta
+ 
+  RS Command: eta [x y]
+ 
+  This command returns the range and estimated amount of time to reach
+  the specified hex.
+ 
+  The hex argument may be omitted if the unit is locked to the target
+  hex.
+ 

@@ -1,0 +1,10 @@
+
+& switch_default_all
+
+  Config parameter: switch_default_all <yes/no>
+  Default: yes
+
+  Indicates whether the @switch command should perform the commands
+  for all targets that match or just the first one that matches if
+  you don't specify either /all or /first as a command switch.
+ 

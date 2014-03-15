@@ -1,0 +1,14 @@
+ 
+& @clist
+ 
+  Syntax: @clist[/full]
+ 
+  Without any switches, it will display the list of public channels
+  with their owner, and description. It will also display all
+  channels you own.
+ 
+  With the /full switch, it will display the various channel
+  statistics.
+ 
+  See also: @ccreate, @cdestroy, @cchown
+ 

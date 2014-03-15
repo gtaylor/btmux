@@ -1,0 +1,25 @@
+Name		 { Yellow Jacket } 
+Reference        { Yellow_Jacket-Ammo }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 30 }
+Mech_BV          { 1200 }
+Max_Speed        { 96.75 }
+Specials	 { Searchlight }
+Left_Side
+  Armor            { 9 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 9 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 15 }
+  Internals        { 3 }
+    CRIT_1		  { IS.GaussRifle - - }
+    CRIT_2-5		  { Ammo_IS.GaussRifle 8 - - }
+Aft_Side
+  Armor            { 5 }
+  Internals        { 3 }
+Rotor
+  Armor            { 2 }
+  Internals        { 3 }

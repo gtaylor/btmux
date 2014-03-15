@@ -1,0 +1,9 @@
+ 
+& free_money
+ 
+  Power: free_money
+  
+  This power provides the player with infinite money.
+  
+  See Also: @power, @list powers
+ 

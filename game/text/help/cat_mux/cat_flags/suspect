@@ -1,0 +1,11 @@
+ 
+& SUSPECT
+ 
+  Flag: SUSPECT (u)
+ 
+  The SUSPECT flag is a marker used to denote players that are to be
+  watched. Any player with this flag set will have every command 
+  they type sent to the SuspectsLog channel for monitoring. Players 
+  can't see the flag set on themselves and don't know they are 
+  suspected.
+ 

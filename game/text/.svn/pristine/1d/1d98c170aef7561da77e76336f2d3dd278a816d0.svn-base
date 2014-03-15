@@ -1,0 +1,12 @@
+
+& btech_moddamagewithrange
+
+  Config parameter: btech_moddamagewithrange <0/1>
+  Default: 0
+ 
+  Enables a modifier which varies damage from energy weapons by
+  range.
+
+  When enabled damage is increased by +1 for ranges <=1 hex and
+  reduced by -1 for ranges which are 'long' for that weapon.
+ 

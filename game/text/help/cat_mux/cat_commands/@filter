@@ -1,0 +1,24 @@
+ 
+& @filter
+ 
+  Syntax: @filter <object> = <pattern>[, <pattern>...]
+  Attribute: Filter
+ 
+  This attribute specifies a series of patterns to be used to suppress
+  text normally forwarded by the AUDIBLE flag.  If the desired pattern
+  contains a comma, the pattern may be enclosed in curly braces {}.
+ 
+  Example:
+    > @fo test=out
+    > @set #378=puppet
+    test> test grows ears and can now hear.
+    > @filter out = {* has arrived.},{* has left.}
+    Set.
+    > :has not arrived.
+    Wizard has not arrived.
+    test> From a distance, Wizard has not arrived.
+    > :has arrived.
+    Wizard has arrived.
+ 
+  See also:  AUDIBLE, @forwardlist, @infilter, @inprefix, @prefix
+ 

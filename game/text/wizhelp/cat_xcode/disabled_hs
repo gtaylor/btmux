@@ -1,0 +1,11 @@
+ 
+& disabled_hs
+ 
+  xcodevalue: disabled_hs <int_ro>
+  XTYPE: MECH
+  
+  This xcode value stores the number of heatsinks which have been 
+  disabled, as distinct from destroyed.
+  
+  See Also: @viewxcode
+ 

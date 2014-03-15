@@ -1,0 +1,87 @@
+Name             { Trebuchet }
+Reference        { TBT-7M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Comment          { Saved by: Stringfellow Hawke(#988) at Mon Jun  5 08:55:52 2006 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1206 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.LRM-15 - Narc/Smoke }
+    CRIT_6-7		  { IS.LRM-15 - - }
+    CRIT_8		  { IS.MediumLaser - - }
+    CRIT_9-12		  { EndoSteel - - }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6-9		  { EndoSteel - - }
+Left_Torso
+  Armor            { 11 }
+  Internals        { 12 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-5		  { IS.NarcBeacon - - }
+    CRIT_6		  { Ammo_IS.LRM-15 8 Narc/Smoke - }
+    CRIT_7-8		  { Ammo_IS.NarcBeacon 6 - - }
+    CRIT_9		  { Case - - }
+    CRIT_10-12		  { EndoSteel - - }
+Right_Torso
+  Armor            { 11 }
+  Internals        { 12 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4		  { IS.LRM-15 - Narc/Smoke }
+    CRIT_5-6		  { IS.LRM-15 - - }
+    CRIT_7		  { Ammo_IS.LRM-15 8 Narc/Smoke - }
+    CRIT_8		  { Case - - }
+    CRIT_9-11		  { EndoSteel - - }
+Center_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 15 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 15 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

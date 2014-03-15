@@ -1,0 +1,10 @@
+ 
+& decrypt()
+ 
+  Syntax: decrypt(<text>,<key>)
+ 
+  Decrypts <text> using <key>. <key> should be the same one used to
+  encrypt the text, and is case sensitive.
+ 
+  See also encrypt()
+ 

@@ -1,0 +1,10 @@
+ 
+& mailfrom()
+ 
+  Syntax: mailfrom(<msg #>)
+ 
+  Returns the dbref # of the player who sent you <msg #>. Wizards may
+  specify mailfrom(<player>,<msg #>).
+ 
+  See Also: mail(), @mail
+ 

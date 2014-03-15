@@ -1,0 +1,29 @@
+ 
+& mechprefs2
+ 
+  Settings:
+  
+  * MWSafety - determines if the unit will fire on a Mechwarrior on 
+               the map. When set ON the unit will NOT fire on a 
+               mechwarrior.
+  
+  * SLWarn - determine if the unit will warn you when it is lit by a 
+             spotlight. When set ON the unit will warn when lit.
+  
+  * AutoFall - determines if the unit will attempt to avoid running 
+               off  cliffs. When set ON the unit will NOT attempt to 
+               avoid cliffing. 
+  
+  * ArmorWarn - determines if the unit will warn when a section has 
+                low armor. When set ON the unit will report low armor.
+  
+  * AmmoWarn - determines if the unit will warn when running low on 
+               ammunition. When set ON the unit will warn of low ammo.
+  
+  * AutoconShutdown - determines if the unit will report contacts on 
+                      units which are shutdown. When set ON the unit 
+                      will report on contacts which are shutdown.
+  
+  * FFSafety - determines if the unit will fire on friendly units. 
+               When set ON the unit will NOT fire on friendly units.
+ 

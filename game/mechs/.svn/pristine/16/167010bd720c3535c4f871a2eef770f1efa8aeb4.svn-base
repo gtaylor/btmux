@@ -1,0 +1,71 @@
+Name             { Longbow }
+Reference        { LGB-7Q }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Mech_BV          { 1376 }
+Radio            { 4 }
+Computer         { 4 }
+Heat_Sinks       { 22 }
+Max_Speed        { 53.75 }
+Specials         { FlipArms AntiAircraft }
+Left_Arm
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-7		  { IS.LRM-20 - - }
+Right_Arm
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-7		  { IS.LRM-20 - - }
+Left_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-4		  { HeatSink - - }
+    CRIT_5		  { IS.LRM-5 - - }
+    CRIT_6		  { IS.MediumLaser - - }
+    CRIT_7-8		  { Ammo_IS.LRM-20 6 - - }
+Right_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-4		  { HeatSink - - }
+    CRIT_5		  { IS.LRM-5 - - }
+    CRIT_6		  { IS.MediumLaser - - }
+    CRIT_7-8		  { Ammo_IS.LRM-20 6 - - }
+Center_Torso
+  Armor            { 37 }
+  Internals        { 27 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_IS.LRM-5 24 - - }
+Left_Leg
+  Armor            { 28 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 28 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

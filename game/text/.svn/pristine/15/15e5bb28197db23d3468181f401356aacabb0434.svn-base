@@ -1,0 +1,28 @@
+ 
+& PARENT OBJECTS
+ 
+  Topic: PARENT OBJECTS
+ 
+  Parent objects provide a way for several objects to inherit common
+  attributes, exits, and $-commands from a single object, so that
+  changing the parent object affects all of its children.  When 
+  searching for attributes or exits, first the object itself is 
+  checked, then the parent is checked only if the object does not 
+  have what was searched for.
+ 
+  Any attribute the parent object has will be passed down to its
+  children, if they don't already have one. For instance, if the 
+  child object has no description, it will inherit the description 
+  of its parent.
+ 
+  Any exits the parent object has will show up in the exit list of the
+  child, and may be used as normal exits.
+ 
+  The parent is searched for $-commands as well as the child, and only
+  attributes that are unique to the parent are checked, so that
+  conflicting attribute names are skipped.  If both have an 
+  attribute named "cmd1", only the child's "cmd1" attributes is 
+  checked for a $-command.
+ 
+{ 'help parent2' for more }
+ 

@@ -1,0 +1,14 @@
+ 
+& @mailsucc
+ 
+  Syntax: @mailsucc <player> = <message>
+  Attribute: Mailsucc
+ 
+  Sets a message to be displayed to the sender whenever <player>
+  receives mail.
+ 
+  Example:
+  @mailsucc me=Thanks for the mail.
+ 
+  See also: @amail, @signature, @mail
+ 

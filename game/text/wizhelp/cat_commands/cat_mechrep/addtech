@@ -1,0 +1,10 @@
+ 
+& addtech
+ 
+  Mechrep Command: addtech <technology>
+  
+  This command adds the specified advanced technology to the targetted 
+  RS Unit.
+  
+  See Also: settarget, @viewxcode
+ 

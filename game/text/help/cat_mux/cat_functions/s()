@@ -1,0 +1,18 @@
+ 
+& s()
+ 
+  Syntax: s(string)
+ 
+  This function performs pronoun substitution in a string, and then
+  returns that string. As usually, %n is the name, %s the subjective
+  pronoun, %o the objective, %p the possessive, and %a the absolute
+  possessive. It is important to note that the pronoun is that of the
+  triggering object.
+ 
+  So, if the attribute ve of an object were: s(This is %n), and I were
+  to type @trigger <object>/ve, it would return "This is <myname>",
+  but if attribute vf were @trigger me/ve, then triggering the
+  attribute vf makes the Attribute ve return "This is <object>".
+ 
+  See Also: subj(), obj()
+ 

@@ -1,0 +1,8 @@
+
+& use_http
+
+  Config parameter: use_http <yes/no>
+  Default: no
+
+  Indicates whether or not http access is allowed.
+ 

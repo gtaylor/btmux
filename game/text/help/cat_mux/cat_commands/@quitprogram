@@ -1,0 +1,11 @@
+ 
+& @quitprogram
+ 
+  Syntax: @quitprogram <player>
+ 
+  Terminates the @program for player. If <player> is not specified,
+  then it works upon the enactor (a player may quit a program while
+  they are in it by piping out @quitprogram, see 'help @program').
+ 
+  See also: @program
+ 

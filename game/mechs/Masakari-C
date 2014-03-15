@@ -1,0 +1,75 @@
+Name             { Masakari }
+Reference        { Masakari-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Heat_Sinks       { 46 }
+Max_Speed        { 64.50 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-7		  { HeatSink - - }
+    CRIT_8-9		  { CL.ERPPC - OnTC }
+    CRIT_10-11		  { CL.ERPPC - OnTC }
+    CRIT_12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { HeatSink - - }
+    CRIT_6-7		  { CL.LargePulseLaser - - }
+    CRIT_8-9		  { CL.LargePulseLaser - - }
+    CRIT_10		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-10		  { HeatSink - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { HeatSink - - }
+    CRIT_5-9		  { TargetingComputer - - }
+    CRIT_10-11		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 27 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.Flamer - - }
+Left_Leg
+  Armor            { 35 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 35 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

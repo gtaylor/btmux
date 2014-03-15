@@ -1,0 +1,83 @@
+Name             { Blood Kite }
+Reference        { BloodKite-1 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Computer         { 4 }
+Heat_Sinks       { 42 }
+Jump_Speed       { 32.25 }
+Max_Speed        { 53.75 }
+Specials         { Clan FlipArms }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-8              { HeatSink - - }
+    CRIT_9		  { Cl.ERLargeLaser - - }
+    CRIT_10-12            { EndoSteel - - }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-6              { HeatSink - - }
+    CRIT_7-8              { Cl.LRM-15 - - }
+    CRIT_9                { Cl.SRM-4 - - }
+    CRIT_10-11            { Ammo_CL.LRM-15 8 - }
+    CRIT_12               { EndoSteel - - }
+Left_Torso
+  Armor            { 27 }
+  Internals        { 18 }
+  Rear             { 9 }
+    CRIT_1-4		  { HeatSink - - }
+    CRIT_5                { JumpJet - - }
+    CRIT_6-7              { Cl.LRM-15 - - }
+    CRIT_8                { Cl.SRM-4 - - }
+    CRIT_9-10             { Ammo_CL.LRM-15 8 - }
+    CRIT_11-12            { EndoSteel - - }
+Right_Torso
+  Armor            { 27 }
+  Internals        { 18 }
+  Rear             { 9 }
+    CRIT_1-4		  { HeatSink - - }
+    CRIT_5                { JumpJet - - }
+    CRIT_6-7              { Cl.LRM-15 - - }
+    CRIT_8                { Cl.SRM-4 - - }
+    CRIT_9-10             { Ammo_CL.LRM-15 8 - }
+    CRIT_11               { Ammo_CL.SRM-4 25 - }
+    CRIT_12               { EndoSteel - - }
+Center_Torso
+  Armor            { 39 }
+  Internals        { 27 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { Cl.ERLargeLaser - - }
+Left_Leg
+  Armor            { 30 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 30 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Cl.ERLargeLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,30 @@
+Name             { Rommel }
+Reference        { Rommel }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 65 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:02 2000 }
+Computer         { 3 }
+Heat_Sinks       { 11 }
+Mech_BV          { 550 }
+Max_Speed        { 64.50 }
+Left_Side
+  Armor            { 39 }
+  Internals        { 7 }
+Right_Side
+  Armor            { 39 }
+  Internals        { 7 }
+Front_Side
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_1		  { IS.SmallLaser - - 3 }
+Aft_Side
+  Armor            { 26 }
+  Internals        { 7 }
+Turret
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_1		  { IS.AC/20 - - 3 }
+    CRIT_2-5		  { Ammo_IS.AC/20 5 - - }
+    CRIT_6		  { IS.LRM-5 - - 3 }
+    CRIT_7		  { Ammo_IS.LRM-5 24 - - }

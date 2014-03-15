@@ -1,0 +1,25 @@
+
+& @lock attribute
+
+  ATTRIBUTE LOCKS:
+
+  Key: <attribute>:<pattern>
+       +<attribute>:<wildcard-pattern>
+       =<attribute>:<wildcard-pattern>
+
+  You may lock on whether a specific attribute on the player
+  attempting to pass the lock matches a pattern.  Example: '@lock
+  thing=sex:m*' will lock thing to anyone whose sex starts with an M.
+  Wild cards, greater than and less than may be used, for example:
+  '@lock a-f=name:<g' will lock the exit a-f against any one whose
+  name is higher than f.
+
+  Both the player testing the lock and every object in his inventory
+  is checked, the player passes the lock if any of those objects
+  passes the lock. If the attribute name is prefixed by a = then
+  only the player is checked. Similarly, if the attribute name is
+  prefixed by a + then only objects in the player's inventory are
+  tested.
+
+{ 'help @lock attribute2' for more}
+.

@@ -1,0 +1,15 @@
+ 
+& bttechstatus()2
+ 
+  Error Messages:
+ 
+  * If <UnitDb> is not valid the function will return #-1 NOT A MECH
+  * If the function is uable to determine the technologies it will
+    return #-1 UNABLE TO GET MECHDATA
+ 
+  Example:
+  Given that #1234 is a MAD-9S which is a valid template
+ 
+  > think bttechstatus(#1234)
+  DoubleHS ECM BeagleProbe SearchLight EndoSteel_Tech LightEngine_Tech
+ 

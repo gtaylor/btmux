@@ -1,0 +1,16 @@
+ 
+& @restart
+ 
+  Syntax: @restart
+  
+  This command literally restarts the game. To the players, it appears 
+  as merely a short pause in the action. There are many reasons to 
+  @restart, including updating the source code, freeing built-up 
+  memory, etc.
+  
+  @restart dumps and reloads the database, so you cannot use it to 
+  change the database. You may recompile and use @restart to 
+  implement the changes without having to @shutdown.
+  
+  See Also: @shutdown
+ 

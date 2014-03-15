@@ -1,0 +1,79 @@
+Name             { Marauder }
+Reference        { MAD-5T }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Heat_Sinks       { 28 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1521 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS EndoSteel_Tech XLEngine_Tech Searchlight }
+Left_Arm
+  Armor          { 23 }
+  Internals      { 12 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-8     { IS.LargePulseLaser - OnTC }
+    CRIT_9       { IS.MediumPulseLaser - OnTC }
+    CRIT_10-12   { EndoSteel - - }
+Right_Arm
+  Armor          { 23 }
+  Internals      { 12 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-8     { IS.LargePulseLaser - OnTC }
+    CRIT_9       { IS.MediumPulseLaser - OnTC }
+    CRIT_10-12   { EndoSteel - - }
+Left_Torso
+  Armor          { 24 }
+  Internals      { 16 }
+  Rear           { 8 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-10    { TargetingComputer - - }
+    CRIT_11-12   { EndoSteel - - }
+Right_Torso
+  Armor          { 24 }
+  Internals      { 16 }
+  Rear           { 8 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-9     { IS.RotaryAC/5 - OnTC }
+    CRIT_10      { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_11      { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_12      { Case - - }
+Center_Torso
+  Armor          { 35 }
+  Internals      { 23 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11-12   { EndoSteel - - }
+Left_Leg
+  Armor          { 30 }
+  Internals      { 16 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Right_Leg
+  Armor          { 30 }
+  Internals      { 16 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

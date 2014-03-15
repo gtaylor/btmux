@@ -1,0 +1,20 @@
+ 
+& flags
+ 
+  xcodevalue: flags <bv>
+  XTYPE: MAP
+  
+  This xcode value stores flags pertaining to the map.
+  
+  Flags:
+  * a = mapobjects - this map is parent to sub-maps
+  * b = Special rules apply. eg Gravity or temp are non-standard
+  * c = Map is in vacumn
+  * d = Eternal fires burn on the map
+  * e = Map is subterrainian - Jumping, VTOL takeoff are disabled
+  * f = Map is dark - nothing if visible beyond sensor range
+  * g = Bridges are CS - cannot be destroyed on this map
+  * h = Roads do not convert to bridges 
+  
+  See Also: @viewxcode
+ 

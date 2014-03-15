@@ -1,0 +1,18 @@
+ 
+& hasflag()
+ 
+  Syntax: hasflag(<object>,<flag>)
+ 
+  Returns true(1) if object <object> has the flag named <flag> set on
+  it. You may not be able to retrieve information for objects that you
+  do not own.
+ 
+  Example:
+ 
+  > say hasflag(me, wizard)
+  You say "0"
+  > say hasflag(me, connect)
+  You say "1"
+ 
+  See Also: orflags(), flags()
+ 

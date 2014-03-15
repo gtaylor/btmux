@@ -1,0 +1,11 @@
+ 
+& ultra
+ 
+  RS Command: ultra <weapnum>
+  
+  This command toggles the state of <weapnum> causing it to cycle 
+  between Ultra mode and normal mode. In Ultra mode 2 shots are fired 
+  instead of 1. 
+  
+  Only the Ultra AutoCannon can use Ultra mode.
+ 

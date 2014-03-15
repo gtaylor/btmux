@@ -1,0 +1,14 @@
+ 
+& ROYALTY
+ 
+  Flag: ROYALTY
+ 
+  If a person is ROYALTY, they can see and examine things, and
+  teleport anywhere or anything, like a wizard can. They cannot modify
+  objects or players they do not control, and cannot use wizard
+  commands.
+ 
+  This flag may only be set by a wizard.
+ 
+  See also: WIZARD, STAFF, HEAD
+ 

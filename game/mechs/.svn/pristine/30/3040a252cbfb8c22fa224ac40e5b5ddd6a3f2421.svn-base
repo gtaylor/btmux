@@ -1,0 +1,40 @@
+Name             { Infiltrator }
+Reference        { InfiltratorII }
+Type             { Battlesuit }
+Move_Type        { Biped }
+Tons             { 1 }
+Comment          { Saved by: Spectre(#4628) at Mon Jul  2 13:12:47 2001 }
+Radio            { 4 }
+Heat_Sinks       { 12 }
+Mech_BV          { 184 }
+Cargo_Space      { 0 }
+Max_Suits        { 4 }
+Max_Speed        { 32.25 }
+Jump_Speed       { 32.25 }
+InfantrySpecials { Swarm_Attack_Tech Mount_Friends_Tech AntiLeg_Attack_Tech FC_InfiltratorII_Stealth_Tech }
+Suit_1
+  Armor            { 6 }
+  Internals        { 1 }
+    CRIT_1		  { IS.MagshotGaussRifle - - 3 }
+    CRIT_2		  { Ammo_IS.MagshotGaussRifle 20 - - }
+    CRIT_3		  { InfiltratorIIStealthUnit - - 0 }
+Suit_2
+  Armor            { 6 }
+  Internals        { 1 }
+    CRIT_1		  { IS.MagshotGaussRifle - - 3 }
+    CRIT_2		  { Ammo_IS.MagshotGaussRifle 20 - - }
+    CRIT_3		  { InfiltratorIIStealthUnit - - 0 }
+Suit_3
+  Armor            { 6 }
+  Internals        { 1 }
+  Rear             { 6 }
+    CRIT_1		  { IS.MagshotGaussRifle - - 3 }
+    CRIT_2		  { Ammo_IS.MagshotGaussRifle 20 - - }
+    CRIT_3		  { InfiltratorIIStealthUnit - - 0 }
+Suit_4
+  Armor            { 6 }
+  Internals        { 1 }
+  Rear             { 6 }
+    CRIT_1		  { IS.MagshotGaussRifle - - 3 }
+    CRIT_2		  { Ammo_IS.MagshotGaussRifle 20 - - }
+    CRIT_3		  { InfiltratorIIStealthUnit - - 0 }

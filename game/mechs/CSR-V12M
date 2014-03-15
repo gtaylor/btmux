@@ -1,0 +1,40 @@
+Name             { Regulus }
+Reference        { CSR-V12M }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 50 }
+Comment          { Saved by: Celebrimbor(#319) at Tue Jun  3 18:45:18 1997 }
+Computer         { 3 }
+Heat_Sinks       { 19 }
+Fuel             { 750 }
+Max_Speed        { 96.75 }
+Nose
+  Armor            { 56 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+    CRIT_3		  { IS.SmallLaser - - }
+Left_Wing
+  Armor            { 40 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 40 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 56 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 34 }
+  Internals        { 10 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }

@@ -1,0 +1,27 @@
+Name   { Hunter } 
+Reference        { Hunter-58 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 35 }
+Mech_BV          { 480 }
+Max_Speed        { 64.50 }
+Specials	 { Searchlight }
+Left_Side
+  Armor            { 15 }
+  Internals        { 4 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 15 }
+  Internals        { 4 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 28 }
+  Internals        { 4 }
+    CRIT_1		  { IS.LRM-15 - - }
+    CRIT_2		  { IS.LRM-15 - - }
+    CRIT_3		  { ArtemisIV - - }
+    CRIT_4		  { ArtemisIV - - }
+    CRIT_5-6		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+Aft_Side
+  Armor            { 14 }
+  Internals        { 4 }

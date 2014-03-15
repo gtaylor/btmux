@@ -1,0 +1,12 @@
+ 
+& case()
+ 
+  Syntax: case(<str>[,<pat1>,<res1>]...[,<dflt>])
+ 
+  case() is like switch() but does not do wildcard matching (i.e.,
+using *).
+  In cases where wildcards are not needed, it performs marginally
+faster.
+ 
+  See also: @switch, match(), ifelse(), switch()
+ 

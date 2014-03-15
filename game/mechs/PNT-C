@@ -1,0 +1,77 @@
+Name             { Panther }
+Reference        { PNT-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Comment          { Saved by: Stringfellow Hawke(#988) at Sun Apr 30 23:12:53 2006 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 13 }
+Mech_BV          { 696 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-7		  { IS.ERPPC - - }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 8 }
+  Rear             { 5 }
+    CRIT_1		  { Ammo_IS.SRM-4 25 - - }
+    CRIT_2-5		  { HeatSink - - }
+    CRIT_6		  { Case - - }
+    CRIT_7-12		  { EndoSteel - - }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 8 }
+  Rear             { 5 }
+    CRIT_1-4		  { HeatSink - - }
+    CRIT_5-11		  { EndoSteel - - }
+Center_Torso
+  Armor            { 14 }
+  Internals        { 11 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.SRM-4 - - }
+    CRIT_12		  { C3Slave - - }
+Left_Leg
+  Armor            { 12 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 12 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

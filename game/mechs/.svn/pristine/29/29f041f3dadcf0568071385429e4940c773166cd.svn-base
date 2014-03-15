@@ -1,0 +1,29 @@
+Name		 { Partisan } 
+Reference        { Partisan-CC }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Mech_BV          { 585 }
+Max_Speed        { 53.75 }
+Specials	 { AntiAircraft }
+Left_Side
+  Armor            { 26 }
+  Internals        { 8 }
+    CRIT_6-12             { FerroFibrous - - }
+Right_Side
+  Armor            { 26 }
+  Internals        { 8 }
+    CRIT_6-12             { FerroFibrous - - }
+Front_Side
+  Armor            { 35 }
+  Internals        { 8 }
+Aft_Side
+  Armor            { 21 }
+  Internals        { 8 }
+    CRIT_1-2              { C3Master - - }
+Turret
+  Armor            { 35 }
+  Internals        { 8 }
+    CRIT_1-2		  { IS.LB10-XAC - - }
+    CRIT_3-9              { Ammo_IS.LB10-XAC 10 - - }
+

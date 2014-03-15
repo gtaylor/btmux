@@ -1,0 +1,74 @@
+Name             { Overlord }
+Reference        { DS.Overlord }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 9700 }
+Comment          { Saved by: Celebrimbor(#319) at Wed Jun  4 18:41:03 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 120 }
+Max_Speed        { 53.75 }
+Front_Right_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.AC/5 - - }
+    CRIT_3		  { IS.LargeLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6-8		  { Ammo_IS.AC/5 20 - - }
+    CRIT_9-12		  { Ammo_IS.LRM-20 6 - - }
+Front_Left_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.AC/5 - - }
+    CRIT_3		  { IS.LargeLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6-8		  { Ammo_IS.AC/5 20 - - }
+    CRIT_9-12		  { Ammo_IS.LRM-20 6 - - }
+Rear_Left_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_3		  { IS.LargeLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_8		  { IS.MediumLaser - - }
+    CRIT_9-10		  { Ammo_IS.AC/20 5 - - }
+    CRIT_12		  { Ammo_IS.LRM-20 6 - - }
+Rear_Right_Side
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_3		  { IS.LargeLaser - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_8		  { IS.MediumLaser - - }
+    CRIT_11		  { Ammo_IS.AC/5 20 - - }
+    CRIT_12		  { Ammo_IS.LRM-20 6 - - }
+Aft
+  Armor            { 80 }
+  Internals        { 80 }
+    CRIT_1		  { IS.AC/5 - - }
+    CRIT_2		  { IS.AC/5 - - }
+    CRIT_3		  { IS.LRM-20 - - }
+    CRIT_4		  { IS.LargeLaser - - }
+    CRIT_5		  { IS.LargeLaser - - }
+    CRIT_6		  { IS.MediumLaser - - }
+    CRIT_7		  { IS.MediumLaser - - }
+    CRIT_8-10		  { Ammo_IS.AC/20 5 - - }
+    CRIT_11		  { Ammo_IS.AC/5 20 - - }
+    CRIT_12		  { Ammo_IS.LRM-20 6 - - }
+Nose
+  Armor            { 127 }
+  Internals        { 97 }
+    CRIT_4		  { IS.PPC - - }
+    CRIT_5		  { IS.PPC - - }
+    CRIT_6		  { IS.AC/5 - - }
+    CRIT_7		  { IS.AC/5 - - }
+    CRIT_8		  { IS.AC/20 - - }
+    CRIT_9		  { IS.AC/20 - - }
+    CRIT_10		  { IS.MediumLaser - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { Ammo_IS.AC/20 5 - - }

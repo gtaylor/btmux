@@ -1,0 +1,36 @@
+Name             { Po }
+Reference        { Po-LGR }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 60 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:07:31 2002 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 415 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 30 }
+  Internals        { 6 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+Right_Side
+  Armor            { 30 }
+  Internals        { 6 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+Front_Side
+  Armor            { 36 }
+  Internals        { 6 }
+Aft_Side
+  Armor            { 24 }
+  Internals        { 6 }
+Turret
+  Armor            { 24 }
+  Internals        { 6 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { IS.LightGaussRifle - - 3 }
+    CRIT_3-5		  { Ammo_IS.LightGaussRifle 16 - - }
+    CRIT_6		  { Ammo_IS.MachineGun 100 Hotload Halfton - }
+    CRIT_12		  { Case - - 3 }

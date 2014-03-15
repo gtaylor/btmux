@@ -1,0 +1,80 @@
+Name             { Stalking Spider }
+Reference        { StalkingSpider-2 }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 50 }
+Heat_Sinks	 { 24 }
+Max_Speed        { 86.00 }
+Jump_Speed	 { 53.75 }
+Specials	 { Clan }
+Front_Left_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6		  { FerroFibrous - - }
+Front_Right_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 15 }
+  Internals        { 12 }
+  Rear             { 4 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_3-4		  { TargetingComputer - - }
+    CRIT_5		  { CL.MediumPulseLaser - - }
+    CRIT_6		  { CL.MediumPulseLaser - - }
+    CRIT_7		  { BeagleProbe - - }
+    CRIT_8		  { TAG - - }
+Right_Torso
+  Armor            { 15 }
+  Internals        { 12 }
+  Rear             { 4 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_3-4		  { Masc - - }
+    CRIT_5-7		  { CL.HeavyLargeLaser - - }
+    CRIT_8-9		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 21 }
+  Internals        { 16 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { FerroFibrous - - }
+Rear_Left_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6		  { FerroFibrous - - }
+Rear_Right_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6		  { FerroFibrous - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

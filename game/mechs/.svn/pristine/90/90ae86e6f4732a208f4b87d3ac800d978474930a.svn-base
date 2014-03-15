@@ -1,0 +1,86 @@
+Name             { Grand Titan }
+Reference        { T-IT-N11M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:08:35 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 32 }
+Mech_BV          { 1688 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 29 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-9		  { IS.LightGaussRifle - - 3 }
+    CRIT_10-12		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 29 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-7		  { IS.ERPPC - - 3 }
+    CRIT_10-12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 31 }
+  Internals        { 21 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.StreakSRM-4 - - 3 }
+    CRIT_5		  { Ammo_IS.LightGaussRifle 16 - - }
+    CRIT_6		  { Ammo_IS.StreakSRM-4 25 - - }
+    CRIT_7		  { IS.MediumPulseLaser - - 3 }
+    CRIT_8		  { IS.MediumPulseLaser - - 3 }
+    CRIT_9		  { Case - - 3 }
+    CRIT_11		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 31 }
+  Internals        { 21 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.StreakSRM-4 - - 3 }
+    CRIT_5-6		  { Ecm - - 3 }
+    CRIT_7		  { IS.MediumPulseLaser - - 3 }
+    CRIT_8		  { IS.MediumPulseLaser - - 3 }
+    CRIT_9-12		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 42 }
+  Internals        { 31 }
+  Rear             { 19 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_12		  { EndoSteel - - 3 }
+Left_Leg
+  Armor            { 38 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 38 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.ERSmallLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

@@ -1,0 +1,10 @@
+ 
+& @power
+ 
+  Syntax: @power <object>=[!]<power>
+ 
+  This is a command that allows the granting of special powers to
+  objects of any type.
+ 
+  See also: POWERS LIST
+ 

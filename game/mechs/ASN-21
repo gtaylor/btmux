@@ -1,0 +1,66 @@
+Name             { Assassin }
+Reference        { ASN-21 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Mech_BV          { 596 }
+Max_Speed        { 118.25 }
+Jump_Speed       { 75.25 }
+Left_Arm
+  Armor            { 6 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 6 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 10 }
+  Rear             { 2 }
+    CRIT_1		  { IS.SRM-2 - - }
+    CRIT_2		  { Ammo_IS.SRM-2 50 - }
+    CRIT_3-5		  { JumpJet - - }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 10 }
+  Rear             { 2 }
+    CRIT_1		  { IS.LRM-5 - - }
+    CRIT_2		  { Ammo_IS.LRM-5 24 - }
+    CRIT_3-5		  { JumpJet - - }
+Center_Torso
+  Armor            { 12 }
+  Internals        { 12 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_12		  { JumpJet - - }
+Left_Leg
+  Armor            { 6 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 6 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

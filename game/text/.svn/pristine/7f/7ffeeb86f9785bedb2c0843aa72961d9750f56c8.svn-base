@@ -1,0 +1,10 @@
+ 
+& stat_any
+ 
+  Power: stat_any
+  
+  This power permits the player to use the @stat command on any 
+  player.
+  
+  See Also: @power, @list powers, @stat
+ 

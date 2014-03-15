@@ -1,0 +1,78 @@
+Name             { Valkyrie }
+Reference        { VLK-QD }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Comment          { Saved by: Stringfellow Hawke(#988) at Mon Jun  5 08:51:56 2006 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 690 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-11		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumPulseLaser - - }
+    CRIT_5-11		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 12 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_3		  { IS.LRM-10 - Artemis/Mine }
+    CRIT_4		  { IS.LRM-10 - - }
+    CRIT_5		  { ArtemisIV - - }
+    CRIT_6-12		  { EndoSteel - - }
+Right_Torso
+  Armor            { 12 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_3		  { Ammo_IS.LRM-10 12 Artemis/Mine - }
+    CRIT_4		  { Case - - }
+    CRIT_5-11		  { EndoSteel - - }
+Center_Torso
+  Armor            { 16 }
+  Internals        { 10 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

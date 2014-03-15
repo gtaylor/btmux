@@ -1,0 +1,15 @@
+ 
+& climb
+ 
+  RS Command: climb [angle]
+  
+  This command controls the angle of climb for Aero type RS Units.
+  
+  Arguments:
+  none - displays the current climb angle
+  angle - sets the climb angle
+  
+  NOTE - Aero units are currently non-functional within the codebase.
+  
+  See Also: thrust, dive
+ 

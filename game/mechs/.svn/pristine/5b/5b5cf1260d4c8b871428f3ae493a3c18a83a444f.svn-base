@@ -1,0 +1,38 @@
+Name             { Lightning }
+Reference        { LTG-1 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 50 }
+Computer         { 3 }
+Heat_Sinks       { 13 }
+Fuel             { 750 }
+Max_Speed        { 96.75 }
+Nose
+  Armor            { 54 }
+  Internals        { 10 }
+    CRIT_1		  { IS.AC/20 - - }
+    CRIT_2-3		  { Ammo_IS.AC/20 5 - }
+    CRIT_4		  { IS.MediumLaser - - }
+Left_Wing
+  Armor            { 25 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 25 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 38 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 13 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 0 }
+    CRIT_3		  { Cockpit - - 0 }
+    CRIT_4		  { Sensors - - 0 }
+    CRIT_5		  { LifeSupport - - 0 }
+Engine
+  Armor 	   { 23 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }

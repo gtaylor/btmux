@@ -1,0 +1,15 @@
+ 
+& bootlegger
+ 
+  RS Command: bootlegger <r/l>
+  
+  This command causes a mech to execute an immediate 90 degree turn in 
+  the direction specified.
+  
+  Arguments:
+  r - right
+  l - left
+  
+  A pilot skill roll is required to successfully carry out this 
+  command.
+ 

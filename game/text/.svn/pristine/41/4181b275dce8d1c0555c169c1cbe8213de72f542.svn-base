@@ -1,0 +1,25 @@
+ 
+& btsetxcodevalue()
+ 
+  Syntax: btsetxcodevalue(<ObjectDB>,<xcodevalue>,<value>)
+ 
+  This function stores <value> in <xcodevalue> on the specified
+  object.
+ 
+  The function returns 1 if successful, #-1 if failed
+ 
+  Warning: Modification of xcodevalues can have serious implications.
+  Familiarity with XCODE is strongly advised.
+ 
+  Error Messages:
+ 
+  * If <ObjectDB> is not valid the function will return #-1
+  * If <xcodvalue> is not a valid value for <ObjectDB>'s XTYPE the
+    function will return #-1
+ 
+  Example:
+  Given a map (#dbref 62):
+ 
+  > think btsetxcodevalue(#62, mapvis,20)
+  1
+ 

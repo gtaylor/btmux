@@ -1,0 +1,10 @@
+ 
+& inc()
+ 
+  Syntax: inc(<number>)
+ 
+  Returns <number> plus 1. Much faster and more efficient than
+  add(<number>,1).
+ 
+  See Also: add(), sub(), dec()
+ 

@@ -1,0 +1,75 @@
+Name             { Crab }
+Reference        { CRB-30 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Comment          { Saved by: Spanky(#6784) at Tue Jun 26 07:23:17 2001 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 28 }
+Mech_BV          { 1204 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-9		  { HeatSink - - 3 }
+    CRIT_10-12		  { IS.ERPPC - - 3 }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-9		  { HeatSink - - 3 }
+    CRIT_10-12		  { IS.ERPPC - - 3 }
+Left_Torso
+  Armor            { 16 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { Ecm - - 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Torso
+  Armor            { 16 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { C3i - - 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Center_Torso
+  Armor            { 20 }
+  Internals        { 16 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.ERMediumLaser - - 3 }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.ERSmallLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

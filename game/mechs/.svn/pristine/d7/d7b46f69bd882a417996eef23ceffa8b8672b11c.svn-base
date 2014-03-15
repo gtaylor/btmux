@@ -1,0 +1,32 @@
+Name             { Drillson }
+Reference        { Drillson }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 50 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:53 2000 }
+Mech_BV          { 711 }
+Max_Speed        { 150.50 }
+Left_Side
+  Armor            { 21 }
+  Internals        { 5 }
+Right_Side
+  Armor            { 21 }
+  Internals        { 5 }
+Front_Side
+  Armor            { 25 }
+  Internals        { 5 }
+    CRIT_1		  { IS.LRM-10 - - 3 }
+    CRIT_2		  { IS.MachineGun - - 3 }
+    CRIT_3		  { IS.MachineGun - - 3 }
+    CRIT_4-5		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_6		  { Ammo_IS.MachineGun 200 - - }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 5 }
+Turret
+  Armor            { 25 }
+  Internals        { 5 }
+    CRIT_1		  { IS.LargeLaser - - 3 }
+    CRIT_2		  { IS.SRM-2 - - 3 }
+    CRIT_3		  { IS.SRM-2 - - 3 }
+    CRIT_4		  { Ammo_IS.SRM-2 50 - - }

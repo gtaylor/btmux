@@ -1,0 +1,78 @@
+Name             { Garm }
+Reference        { GRM-01B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:05:37 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 12 }
+Mech_BV          { 732 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Left_Arm
+  Armor            { 8 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-12		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 8 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 12 }
+  Internals        { 8 }
+  Rear             { 1 }
+    CRIT_1-2		  { HeatSink - - 3 }
+    CRIT_3-4		  { IS.LRM-10 - - 3 }
+    CRIT_5		  { ArtemisIV - - 3 }
+    CRIT_6		  { Ammo_IS.LRM-10 12 Artemis/Mine - }
+    CRIT_7-12		  { FerroFibrous - - 3 }
+Right_Torso
+  Armor            { 12 }
+  Internals        { 8 }
+  Rear             { 1 }
+    CRIT_1-2		  { HeatSink - - 3 }
+    CRIT_3-4		  { IS.ERLargeLaser - - 3 }
+    CRIT_5-9		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 14 }
+  Internals        { 11 }
+  Rear             { 2 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { HeatSink - - 3 }
+    CRIT_12		  { JumpJet - - 3 }
+Left_Leg
+  Armor            { 8 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Right_Leg
+  Armor            { 8 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Head
+  Armor            { 7 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { EndoSteel - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

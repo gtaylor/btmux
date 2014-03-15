@@ -1,0 +1,9 @@
+ 
+& mute mode
+ 
+  setchannelmode:   Mute mode:
+  Flag: U or u
+  
+  This mode silences a channel. This is useful if you are relaying 
+  messages which you do not wish to listen to.
+ 

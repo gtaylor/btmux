@@ -1,0 +1,9 @@
+ 
+& boot
+ 
+  Power: boot
+  
+  This power permits the player to use the @boot command.
+  
+  See Also: @power, @list powers, @boot
+ 

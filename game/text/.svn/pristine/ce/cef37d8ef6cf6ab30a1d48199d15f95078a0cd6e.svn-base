@@ -1,0 +1,14 @@
+
+& input_database
+
+  Config parameter: input_database
+  Default: netmux.db
+
+  Specifies the name of the database file that is read in at startup.
+
+  This file is used only as an input file, the parameter
+  output_database controls where updated copies of the database are
+  written.
+
+  See also: crash_database, gdbm_database, output_database.
+ 

@@ -1,0 +1,21 @@
+ 
+& @switch
+ 
+  Syntax: @switch[/<switches>] <string>=<t1>,<c1> [,<tN>,<cN>]...
+          [,<cD>]
+ 
+  Compares <string> against the targets <t1>, <t2>, etc, until a match
+  is found, at which time the corresponding list of commands is
+  performed.
+ 
+  Wildcards, and the < and > operators are allowed in the targets.  By
+  default, any list whose target matches the string is executed (the
+  targets are not mutually exclusive). If no target matches, the
+  default list <cD> is executed.
+ 
+  The following switches are available:
+     /all   - (default) Perform the actionlists associated with all
+              targets that match <string>.
+     /first - Perform only the actionlist associated with the first
+              target that matches <string>.
+ 

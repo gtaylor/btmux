@@ -1,0 +1,11 @@
+ 
+& settons
+ 
+  Mechrep Command: settons <num>
+  
+  This command set the tonnage for the targetted RS Unit.
+  
+  The command sets the 'tons' xcode value for the unit.
+  
+  See Also: settarget, @viewxcode
+ 

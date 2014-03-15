@@ -1,0 +1,8 @@
+
+& btech_exile_stun_code
+
+  Config parameter: btech_exile_stun_code <0/1>
+  Default: 0
+
+  Enables the head hit stun code originally implemented on Exile Mux.
+ 

@@ -1,0 +1,72 @@
+Name             { Hauptmann }
+Reference        { HA1-OB }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 95 }
+Comment          { Saved by: Charlemagne(#4624) at Wed May 10 16:29:31 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 32 }
+Mech_BV          { 1662 }
+Cargo_Space      { 0 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { IS.ERPPC - - 3 }
+    CRIT_6		  { IS.MediumPulseLaser - - 3 }
+    CRIT_7-9		  { HeatSink - - 3 }
+Right_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { IS.ERPPC - - 3 }
+    CRIT_6		  { IS.MediumPulseLaser - - 3 }
+    CRIT_7-9		  { HeatSink - - 3 }
+Left_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-9		  { HeatSink - - 3 }
+Right_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-10		  { IS.UltraAC/20 - - 3 }
+    CRIT_11		  { Case - - 0 }
+    CRIT_12		  { Ammo_IS.UltraAC/20 5 - - }
+Center_Torso
+  Armor            { 45 }
+  Internals        { 30 }
+  Rear             { 15 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { Ammo_IS.UltraAC/20 5 - - }
+Left_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.MediumPulseLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

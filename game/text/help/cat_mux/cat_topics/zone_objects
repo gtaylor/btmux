@@ -1,0 +1,20 @@
+ 
+& ZONE OBJECTS
+ 
+  ZONE OBJECTS
+ 
+  Zones are areas of the MUX which may be controlled by many people.
+  Essentially, they allow group ownership of objects.
+ 
+  The default zone is NOTHING. Any building done by a player defaults
+  to belonging to the same zone that the player belongs to.
+  Every zone is defined by a Zone Master Object (ZMO). The ZMO is an
+  ordinary MUX object owned by some player. A wizard may change the
+  zone of an object or player to a ZMO.
+ 
+  If the ZMO is a room, it is called a "Parent room." Most of the
+  statements about ZMOs also apply to parent rooms; for details,
+  see the help topic PARENT ROOMS.
+ 
+  See also: ZONES2
+ 

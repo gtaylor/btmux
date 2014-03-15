@@ -1,0 +1,38 @@
+Name             { Fenrir }
+Reference        { Fenrir-MG }
+Type             { Battlesuit }
+Move_Type        { Biped }
+Tons             { 1 }
+Comment          { Saved by: Spanky(#6784) at Wed Jul 11 15:33:56 2001 }
+Mech_BV          { 106 }
+Cargo_Space      { 0 }
+Max_Suits        { 4 }
+Max_Speed        { 43.00 }
+Suit_1
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { IS.MachineGun - - 3 }
+    CRIT_3		  { IS.MachineGun - - 3 }
+    CRIT_4		  { Ammo_IS.MachineGun 100 Halfton - }
+Suit_2
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { IS.MachineGun - - 3 }
+    CRIT_3		  { IS.MachineGun - - 3 }
+    CRIT_4		  { Ammo_IS.MachineGun 100 Halfton - }
+Suit_3
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { IS.MachineGun - - 3 }
+    CRIT_3		  { IS.MachineGun - - 3 }
+    CRIT_4		  { Ammo_IS.MachineGun 100 Halfton - }
+Suit_4
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { IS.MachineGun - - 3 }
+    CRIT_3		  { IS.MachineGun - - 3 }
+    CRIT_4		  { Ammo_IS.MachineGun 100 Halfton - }

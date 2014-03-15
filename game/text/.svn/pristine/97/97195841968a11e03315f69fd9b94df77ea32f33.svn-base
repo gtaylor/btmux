@@ -1,0 +1,10 @@
+ 
+& pilotnum
+ 
+  xcodevalue: pilotnum <DBref>
+  XTYPE: MECH
+  
+  This xcode value stores the dbref of the pilot of the RS Unit.
+  
+  See Also: @viewxcode
+ 

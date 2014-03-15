@@ -1,0 +1,12 @@
+ 
+& cloudbase
+ 
+  xcodevalue: cloudbase <short>
+  XTYPE: MAP
+  
+  This xcode value stores the height, in terms of the z coord, before 
+  clouds are encountered.
+  
+  See Also: gravity, maplight, temperature, winddir, windspeed, 
+  @viewxcode
+ 

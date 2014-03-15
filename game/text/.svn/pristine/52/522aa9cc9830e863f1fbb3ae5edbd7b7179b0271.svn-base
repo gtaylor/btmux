@@ -1,0 +1,16 @@
+ 
+& @aahear
+ 
+  Syntax: @aahear <object> = <command-list>
+  Attribute: Aahear
+ 
+  An Aahear on an object is activated whenever the listen pattern
+  matches anything done/said by anything else in the room, including
+  itself. The Ahear ignores itself, helpful for keeping machines
+  from triggering itself)
+ 
+  Example:
+  @aahear listener = "I heard someone (maybe me?) say the word!
+ 
+  See also: @ahear, @amhear, @listen
+ 

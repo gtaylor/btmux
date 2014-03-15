@@ -1,0 +1,28 @@
+Name		 { Warrior } 
+Reference        { H-7C }
+Type             { VTOL }
+Move_Type        { VTOL }
+Computer         { 4 }
+Tons             { 21 }
+Mech_BV          { 719 }
+Max_Speed        { 161.25 }
+Specials         { ICEEngine_Tech Searchlight }
+Left_Side
+  Armor            { 5 }
+  Internals        { 2 }
+Right_Side
+  Armor            { 5 }
+  Internals        { 2 }
+Front_Side
+  Armor            { 6 }
+  Internals        { 2 }
+    CRIT_1		  { IS.LRM-10 - - }
+    CRIT_2		  { IS.SRM-4 - - }
+    CRIT_3-4		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_5		  { Ammo_IS.SRM-4 25 - - }
+Aft_Side
+  Armor            { 6 }
+  Internals        { 2 }
+Rotor
+  Armor            { 2 }
+  Internals        { 2 }

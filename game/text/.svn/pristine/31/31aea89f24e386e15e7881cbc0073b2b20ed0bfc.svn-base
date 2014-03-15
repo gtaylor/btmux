@@ -1,0 +1,7 @@
+ 
+& fixinternal
+ 
+  RS Command: fixinternal <loc>
+  
+  This command repairs internal structure in <loc>
+ 

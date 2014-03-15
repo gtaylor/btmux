@@ -1,0 +1,26 @@
+Name		 { Neptune } 
+Reference        { Neptune }
+Type             { Naval }
+Move_Type        { Sub }
+Tons             { 100 }
+Mech_BV          { 604 }
+Heat_Sinks	 { 8 }
+Max_Speed        { 53.75 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 60 }
+  Internals        { 10 }
+Right_Side
+  Armor            { 60 }
+  Internals        { 10 }
+Front_Side
+  Armor            { 80 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LRM-20 - - }
+    CRIT_2		  { IS.SRM-6 - - }
+    CRIT_3		  { IS.SRM-6 - - }
+    CRIT_4		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_5		  { Ammo_IS.SRM-6 15 - - }
+Aft_Side
+  Armor            { 40 }
+  Internals        { 10 }

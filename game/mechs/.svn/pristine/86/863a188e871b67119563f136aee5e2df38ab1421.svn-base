@@ -1,0 +1,28 @@
+Name             { MechWarrior }
+Reference        { MechWarrior }
+Type             { Mechwarrior }
+Move_Type        { Biped }
+Tons             { 1 }
+Max_Speed        { 5.00 }
+Mech_BV          { 100 }
+Radio            { 1 }
+Computer         { 1 }
+RadioType        { 129 }
+Radio_Range      { 30 }
+Scan_Range       { 1 }
+Left_Arm
+  Internals        { 1 }
+Right_Arm
+  Internals        { 1 }
+Left_Torso
+  Internals        { 1 }
+Right_Torso
+  Internals        { 1 }
+Center_Torso
+  Internals        { 1 }
+Left_Leg
+  Internals        { 1 }
+Right_Leg
+  Internals        { 1 }
+Head
+  Internals        { 1 }

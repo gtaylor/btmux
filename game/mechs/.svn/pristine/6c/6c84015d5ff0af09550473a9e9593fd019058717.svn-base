@@ -1,0 +1,27 @@
+Name             { Galleon }
+Reference        { GAL-200 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 30 }
+Mech_BV          { 168 }
+Max_Speed        { 96.75 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 13 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - }
+Right_Side
+  Armor            { 13 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - }
+Front_Side
+  Armor            { 14 }
+  Internals        { 3 }
+Aft_Side
+  Armor            { 14 }
+  Internals        { 3 }
+Turret
+  Armor            { 20 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { Ammo_IS.MachineGun 200 - - }

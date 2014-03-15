@@ -1,0 +1,42 @@
+Name             { Lucifer }
+Reference        { LCF-R16 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 65 }
+Comment          { Saved by: Celebrimbor(#319) at Fri May 30 18:51:11 1997 }
+Computer         { 3 }
+Heat_Sinks       { 20 }
+Fuel             { 750 }
+Max_Speed        { 86.00 }
+Nose
+  Armor            { 50 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LRM-20 - - }
+    CRIT_2		  { IS.ERLargeLaser - - }
+    CRIT_3		  { IS.ERLargeLaser - - }
+    CRIT_4		  { ArtemisIV - - }
+Left_Wing
+  Armor            { 28 }
+  Internals        { 10 }
+    CRIT_1		  { IS.StreakSRM-2 - - }
+Right_Wing
+  Armor            { 28 }
+  Internals        { 10 }
+    CRIT_1		  { IS.StreakSRM-2 - - }
+Fuselage
+  Armor            { 38 }
+  Internals        { 10 }
+    CRIT_1-5		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+    CRIT_6		  { Ammo_IS.StreakSRM-2 50 - - }
+Cockpit
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 27 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumPulseLaser - - }

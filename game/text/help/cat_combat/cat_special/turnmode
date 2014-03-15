@@ -1,0 +1,15 @@
+ 
+& turnmode
+ 
+  RS Command: turnmode <tight|normal>
+  
+  This command permits selection of the desired turning rate.
+  
+  NOTE - This command is available to characters with the Maneuvering 
+  Ace advantage only.
+  
+  Arguments:
+  * normal - as per normal
+  * tight - enables sharper turns, however there is a greater cost in 
+            speed lost to achieve the turn.
+ 

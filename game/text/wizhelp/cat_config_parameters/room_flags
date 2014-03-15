@@ -1,0 +1,11 @@
+
+& room_flags
+
+  Config parameter: room_flags <flags>
+  Default: none
+
+  Modifies the set of flags that a room receives when it is @dug.
+  Flags prefixed by a ! remove the indicated flag from the set.
+
+  See also: @list, exit_flags, player_flags, robot_flags, thing_flags.
+ 

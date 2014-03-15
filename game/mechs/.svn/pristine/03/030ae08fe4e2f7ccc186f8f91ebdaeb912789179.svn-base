@@ -1,0 +1,35 @@
+Name             { Purifier }
+Reference        { Purifier-SL }
+Type             { Battlesuit }
+Move_Type        { Biped }
+Tons             { 1 }
+Radio            { 4 }
+Heat_Sinks       { 12 }
+Mech_BV          { 184 }
+Cargo_Space      { 0 }
+Max_Suits        { 4 }
+Max_Speed        { 32.25 }
+Jump_Speed       { 32.25 }
+InfantrySpecials { Swarm_Attack_Tech Mount_Friends_Tech AntiLeg_Attack_Tech CS_Purifier_Stealth_Tech }
+Suit_1
+  Armor            { 6 }
+  Internals        { 1 }
+    CRIT_1		  { IS.ERSmallLaser - - 3 }
+    CRIT_2		  { PurifierArmor - - }
+Suit_2
+  Armor            { 6 }
+  Internals        { 1 }
+    CRIT_1		  { IS.ERSmallLaser - - 3 }
+    CRIT_2		  { PurifierArmor - - }
+Suit_3
+  Armor            { 6 }
+  Internals        { 1 }
+  Rear             { 6 }
+    CRIT_1		  { IS.ERSmallLaser - - 3 }
+    CRIT_2		  { PurifierArmor - - }
+Suit_4
+  Armor            { 6 }
+  Internals        { 1 }
+  Rear             { 6 }
+    CRIT_1		  { IS.ERSmallLaser - - 3 }
+    CRIT_2		  { PurifierArmor - - }

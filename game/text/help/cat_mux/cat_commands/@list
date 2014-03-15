@@ -1,0 +1,26 @@
+ 
+& @list
+ 
+  Syntax: @list [<option>]
+ 
+  Lists information from internal databases.  Information is available
+  about the following options:
+    attributes      - Valid object attributes.
+    commands        - Commands that you may use (excluding the
+                      attribute-setting commands as well as any exits,
+                      and $-commands available).
+    costs           - Lists the costs associated with many commands
+                      and actions.
+    default_flags   - Lists the flags that new objects receive by
+                      default when created.
+    flags           - Lists the name and letter of all the flags.
+    functions       - Lists all the available functions.
+    options         - Lists several global options and limits.
+    powers          - Lists all powers.
+    switches        - Lists what commands support switches and the
+                      switches that they do support.
+  The information provided by the @list command is definitive, as it
+  reads the internal tables to produce the information it displays.
+ 
+  Specifying @list with no argument lists the options you may use.
+ 

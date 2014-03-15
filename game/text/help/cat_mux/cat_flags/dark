@@ -1,0 +1,11 @@
+ 
+& DARK
+ 
+  Flag: DARK (D)
+ 
+  If a room is DARK, then no items are shown when a person
+  'looks' there. If an object is DARK, then "look" does not list that
+  object in the room's contents:, and if an exit is DARK, it doesn't
+  show up in the Obvious Exits: list.  Puppets and objects that can
+  listen cannot be DARK.
+ 

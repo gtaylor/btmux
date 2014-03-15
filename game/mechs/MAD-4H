@@ -1,0 +1,82 @@
+Name             { Marauder II }
+Reference        { MAD-4H }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Heat_Sinks       { 21 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1421 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Specials	 { Searchlight }
+Left_Arm
+  Armor          { 34 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-7     { HeatSink - - }
+    CRIT_8-10    { IS.ERPPC - - }
+    CRIT_11      { IS.ERMediumLaser - - }
+Right_Arm
+  Armor          { 34 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-7     { HeatSink - - }
+    CRIT_8-10    { IS.ERPPC - - }
+    CRIT_11      { IS.ERMediumLaser - - }
+Left_Torso
+  Armor          { 32 }
+  Internals      { 21 }
+  Rear           { 10 }
+    CRIT_1-3     { IS.RL-20 - OneShot }
+    CRIT_4-6     { IS.RL-20 - OneShot }
+    CRIT_7-8     { IS.RL-15 - OneShot }
+    CRIT_9-10    { IS.RL-15 - OneShot }
+    CRIT_11-12   { IS.RL-15 - OneShot }
+Right_Torso
+  Armor          { 32 }
+  Internals      { 21 }
+  Rear           { 10 }
+    CRIT_1-3     { IS.RL-20 - OneShot }
+    CRIT_4-6     { IS.RL-20 - OneShot }
+    CRIT_7-8     { IS.RL-15 - OneShot }
+    CRIT_9-10    { IS.RL-15 - OneShot }
+    CRIT_11-12   { IS.RL-15 - OneShot }
+Center_Torso
+  Armor          { 46 }
+  Internals      { 31 }
+  Rear           { 16 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { JumpJet - - }
+    CRIT_12      { HeatSink - - }
+Left_Leg
+  Armor          { 42 }
+  Internals      { 21 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+Right_Leg
+  Armor          { 42 }
+  Internals      { 21 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { IS.RL-10 - OneShot }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

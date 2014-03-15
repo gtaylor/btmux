@@ -1,0 +1,13 @@
+ 
+& think
+ 
+  Syntax: think <message>
+ 
+  You can use this command to send a private message to yourself.
+  Pronoun substitution is performed. This is essentially equivalent
+  to "@pemit me=<message>", but with "think", there is no prepended
+  text.
+ 
+  One possible use: "@adesc me=think --> %n(%#[flags(%#)])
+  just looked at you."
+ 

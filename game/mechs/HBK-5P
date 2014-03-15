@@ -1,0 +1,79 @@
+Name             { Swayback }
+Reference        { HBK-5P }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Comment          { Saved by: Stringfellow Hawke(#988) at Thu Mar  2 13:13:57 2006 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 36 }
+Mech_BV          { 1162 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-10		  { HeatSink - - }
+    CRIT_11		  { IS.MediumPulseLaser - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-10		  { HeatSink - - }
+    CRIT_11		  { IS.MediumPulseLaser - - }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-9		  { HeatSink - - }
+    CRIT_10		  { IS.ERMediumLaser - - }
+    CRIT_11		  { IS.ERMediumLaser - - }
+    CRIT_12		  { IS.ERMediumLaser - - }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-9		  { HeatSink - - }
+    CRIT_10		  { IS.ERMediumLaser - - }
+    CRIT_11		  { IS.ERMediumLaser - - }
+    CRIT_12		  { IS.ERMediumLaser - - }
+Center_Torso
+  Armor            { 24 }
+  Internals        { 16 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { Ecm - - }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { C3Slave - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

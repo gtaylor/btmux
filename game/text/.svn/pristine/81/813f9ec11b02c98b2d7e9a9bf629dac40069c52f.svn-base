@@ -1,0 +1,9 @@
+ 
+& beep()
+ 
+  Syntax: beep()
+ 
+  This function simply outputs the beep character, which on most
+  terminals with sound, will emit a short beep. Only wizards may use
+  this function.
+ 

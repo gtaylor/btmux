@@ -1,0 +1,11 @@
+
+& starting_quota
+
+  Config parameter: starting_quota <amount>
+  Default: 20
+
+  Sets the building quota that players receive when they are created,
+  whether by @pcreate or the connection screen.
+
+  See also: @quota, quotas.
+ 

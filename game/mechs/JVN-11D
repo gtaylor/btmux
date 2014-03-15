@@ -1,0 +1,86 @@
+Name             { Javelin }
+Reference        { JVN-11D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Comment          { Saved by: Spanky(#6784) at Tue Jun 26 07:24:22 2001 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 22 }
+Mech_BV          { 977 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 8 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-7		  { HeatSink - - 3 }
+    CRIT_8-12		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 8 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-7		  { HeatSink - - 3 }
+    CRIT_8-12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.MediumPulseLaser - OnTC 3 }
+    CRIT_5		  { IS.ERMediumLaser - OnTC 3 }
+    CRIT_6-7		  { TargetingComputer - - 3 }
+    CRIT_8-10		  { HeatSink - - 3 }
+    CRIT_11-12		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.MediumPulseLaser - OnTC 3 }
+    CRIT_5		  { IS.ERMediumLaser - OnTC 3 }
+    CRIT_6		  { IS.ERMediumLaser - OnTC 3 }
+    CRIT_7		  { C3Slave - - 3 }
+    CRIT_8-10		  { HeatSink - - 3 }
+    CRIT_11-12		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { JumpJet - - 3 }
+Left_Leg
+  Armor            { 12 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Right_Leg
+  Armor            { 12 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

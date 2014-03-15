@@ -1,0 +1,39 @@
+Name             { Seydlitz }
+Reference        { SYD-Z2A }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 20 }
+Comment          { Saved by: Celebrimbor(#319) at Fri May 30 17:33:17 1997 }
+Computer         { 3 }
+Heat_Sinks       { 20 }
+Fuel             { 450 }
+Max_Speed        { 215.00 }
+Specials         { DoubleHS }
+Nose
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Left_Wing
+  Armor            { 8 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 8 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 16 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 10 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 15 }
+  Internals        { 10 }

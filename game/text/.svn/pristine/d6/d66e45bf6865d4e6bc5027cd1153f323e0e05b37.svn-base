@@ -1,0 +1,10 @@
+ 
+& mapvis
+ 
+  xcodevalue: mapvis <char>
+  XTYPE: MAP
+  
+  This xcode value stores the visibility on the map (in hexes).
+  
+  See Also: @viewxcode
+ 

@@ -1,0 +1,72 @@
+Name             { Hollander II }
+Reference        { BZK-F7 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 45 }
+Comment          { Saved by: Kue(#923) at Tue Sep 26 10:00:58 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 0 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 9 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+    CRIT_7-12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 9 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+    CRIT_7-12		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 11 }
+  Rear             { 4 }
+    CRIT_1-3		  { Ammo_IS.HeavyGaussRifle 4 - - }
+    CRIT_4-9		  { EndoSteel - - }
+    CRIT_10-11		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 11 }
+  Rear             { 4 }
+    CRIT_1-11		  { IS.HeavyGaussRifle - - }
+Center_Torso
+  Armor            { 13 }
+  Internals        { 14 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { HeatSink - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,69 @@
+Name             { Vindicator }
+Reference        { VND-1R }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 45 }
+Mech_BV          { 900 }
+Heat_Sinks       { 16 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.SmallLaser - - 2 }
+Right_Arm
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-6		  { IS.PPC - - }
+Left_Torso
+  Armor            { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1		  { IS.LRM-5 - - 2 }
+    CRIT_2-5		  { HeatSink - - }
+    CRIT_6		  { Ammo_IS.LRM-5 24 - }
+Right_Torso
+  Armor            { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-5		  { HeatSink - - }
+Center_Torso
+  Armor            { 18 }
+  Internals        { 14 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { JumpJet - - }
+Left_Leg
+  Armor            { 18 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+Right_Leg
+  Armor            { 18 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.MediumLaser - - 2 }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

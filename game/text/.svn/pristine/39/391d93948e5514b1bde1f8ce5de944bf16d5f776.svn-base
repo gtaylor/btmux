@@ -1,0 +1,10 @@
+
+& btech_glancing_blows
+
+  Config parameter: btech_glancing_blows <0/1/2>
+  Default: 1
+
+  Arguments:
+  0   Don't permit glancing blows
+  1   Use Maxtech rules (BTH)
+  2   Use Exile rules (BTH-1)

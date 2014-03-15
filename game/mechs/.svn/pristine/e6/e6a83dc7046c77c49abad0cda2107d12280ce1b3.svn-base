@@ -1,0 +1,78 @@
+Name             { Catapult }
+Reference        { CPLT-C5 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Heat_Sinks       { 24 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1329 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { DoubleHS FlipArms EndoSteel_Tech }
+Left_Arm
+  Armor          { 20 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-12    { EndoSteel - - }
+Right_Arm
+  Armor          { 20 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-11    { IS.ArrowIVSystem - - }
+Left_Torso
+  Armor          { 22 }
+  Internals      { 15 }
+  Rear           { 8 }
+    CRIT_1-3     { HeatSink - - }
+    CRIT_4-5     { JumpJet - - }
+    CRIT_6       { IS.ERMediumLaser - - }
+    CRIT_7       { Ammo_IS.ArrowIVSystem 5 - }
+    CRIT_8       { Ammo_IS.ArrowIVSystem 5 - }
+    CRIT_9       { Ammo_IS.ArrowIVSystem 5 - }
+    CRIT_10      { Ammo_IS.ArrowIVSystem 5 - }
+    CRIT_11      { EndoSteel - - }
+    CRIT_12      { Case - - }
+Right_Torso
+  Armor          { 22 }
+  Internals      { 15 }
+  Rear           { 8 }
+    CRIT_1-3     { HeatSink - - }
+    CRIT_4-5     { JumpJet - - }
+    CRIT_6       { IS.ERMediumLaser - - }
+    CRIT_7-12    { IS.ArrowIVSystem - - }
+Center_Torso
+  Armor          { 28 }
+  Internals      { 21 }
+  Rear           { 11 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { IS.ERMediumLaser - - }
+    CRIT_12      { IS.ERMediumLaser - - }
+Left_Leg
+  Armor          { 26 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Right_Leg
+  Armor          { 26 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { EndoSteel - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

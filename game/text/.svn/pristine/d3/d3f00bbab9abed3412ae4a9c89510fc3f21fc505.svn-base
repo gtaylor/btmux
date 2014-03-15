@@ -1,0 +1,11 @@
+ 
+& findable()
+ 
+  Syntax: findable(<object>,<victim>)
+ 
+  Returns 1 if <object> can locate <victim>, or 0 otherwise. This
+  checks WIZARD status of <object>, UNFINDABLE status of <victim>, and
+  other related factors.
+ 
+  See Also: UNFINDABLE
+ 

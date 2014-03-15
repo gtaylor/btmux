@@ -1,0 +1,12 @@
+
+& find_money_chance
+
+  Config parameter: find_money_chance <amount>
+  Default: 0
+
+  Indicates the chance that players have of finding money when
+  entering a new room.  The chance is 1 / find_money_chance, except
+  that finding money is disabled if this parameter is set to zero.
+
+  See also: earn_limit, paycheck.
+ 

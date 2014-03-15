@@ -1,0 +1,65 @@
+Name             { Bombardier }
+Reference        { BMB-10D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Mech_BV          { 1015 }
+Max_Speed        { 64.50 }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.SRM-4 - - }
+    CRIT_6		  { Ammo_IS.SRM-4 25 - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 10 }
+    CRIT_1-5		  { IS.LRM-20 - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 10 }
+    CRIT_1-5		  { IS.LRM-20 - - }
+    CRIT_6-7		  { Ammo_IS.LRM-20 6 - - }
+Center_Torso
+  Armor            { 24 }
+  Internals        { 21 }
+  Rear             { 15 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MachineGun - - }
+    CRIT_12		  { Ammo_IS.MachineGun 200 - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

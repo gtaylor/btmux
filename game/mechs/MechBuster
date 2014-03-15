@@ -1,0 +1,34 @@
+Name             { MechBuster }
+Reference        { MechBuster }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 50 }
+Computer         { 5 }
+Heat_Sinks       { 0 }
+Fuel             { 6000 }
+Max_Speed        { 86.00 }
+Nose
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { IS.AC/20 - - 5 }
+Left_Wing
+  Armor            { 6 }
+  Internals        { 5 }
+Right_Wing
+  Armor            { 6 }
+  Internals        { 5 }
+Fuselage
+  Armor            { 12 }
+  Internals        { 5 }
+    CRIT_1		  { Ammo_IS.AC/20 5 - }
+Cockpit
+  Armor            { 6 }
+  Internals        { 5 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor 	   { 8 }
+  Internals        { 5 }

@@ -1,0 +1,80 @@
+Name             { Black Lanner }
+Reference        { BlackLanner-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Comment          { Saved by: Celebrimbor(#319) at Tue Jul 29 18:25:07 1997 }
+Computer         { 4 }
+Radio            { 5 }
+Heat_Sinks       { 20 }
+Max_Speed        { 118.25 }
+Specials         { Clan FlipArms }
+Left_Arm
+  Armor            { 13 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { CL.MediumPulseLaser - - 5 }
+    CRIT_4		  { CL.ERSmallLaser - - 5 }
+    CRIT_5		  { CL.MachineGun - - 5 }
+    CRIT_6		  { CL.MachineGun - - 5 }
+    CRIT_11-12		  { FerroFibrous - - 5 }
+Right_Arm
+  Armor            { 13 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { CL.MediumPulseLaser - - 5 }
+    CRIT_4		  { CL.ERSmallLaser - - 5 }
+    CRIT_5		  { CL.MachineGun - - 5 }
+    CRIT_6		  { CL.MachineGun - - 5 }
+    CRIT_11-12		  { EndoSteel - - 5 }
+Left_Torso
+  Armor            { 16 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1-2		  { Engine - - 3 }
+    CRIT_3		  { CL.SRM-6 - - 5 }
+    CRIT_4		  { CL.Flamer - - 5 }
+    CRIT_5		  { Ammo_CL.MachineGun 200 - - }
+    CRIT_10-12		  { FerroFibrous - - 5 }
+Right_Torso
+  Armor            { 16 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1-2		  { Engine - - 3 }
+    CRIT_3		  { CL.SRM-6 - - 5 }
+    CRIT_4-5		  { Ammo_CL.SRM-6 15 - - }
+    CRIT_10-12		  { EndoSteel - - 5 }
+Center_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - 5 }
+    CRIT_4-7		  { Gyro - - 5 }
+    CRIT_8-10		  { Engine - - 5 }
+Left_Leg
+  Armor            { 22 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { FerroFibrous - - 5 }
+Right_Leg
+  Armor            { 22 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { EndoSteel - - 5 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 5 }
+    CRIT_2		  { Sensors - - 5 }
+    CRIT_3		  { Cockpit - - 5 }
+    CRIT_4		  { BeagleProbe - - 0 }
+    CRIT_5		  { Sensors - - 5 }
+    CRIT_6		  { LifeSupport - - 5 }

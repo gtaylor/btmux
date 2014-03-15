@@ -1,0 +1,80 @@
+Name             { Rifleman }
+Reference        { RFL-8D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Heat_Sinks       { 22 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1932 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { DoubleHS FlipArms EndoSteel_Tech XLEngine_Tech AntiAircraft Searchlight }
+Left_Arm
+  Armor          { 19 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-8     { IS.RotaryAC/5 - - }
+    CRIT_9       { IS.ERMediumLaser - - }
+    CRIT_10-12   { EndoSteel - - }
+Right_Arm
+  Armor          { 19 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-8     { IS.RotaryAC/5 - - }
+    CRIT_9       { IS.ERMediumLaser - - }
+    CRIT_10-12   { EndoSteel - - }
+Left_Torso
+  Armor          { 20 }
+  Internals      { 14 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_8       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_9       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_10-12   { EndoSteel - - }
+Right_Torso
+  Armor          { 20 }
+  Internals      { 14 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_8       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_9       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_10-12   { EndoSteel - - }
+Center_Torso
+  Armor          { 28 }
+  Internals      { 20 }
+  Rear           { 9 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11-12   { EndoSteel - - }
+Left_Leg
+  Armor          { 27 }
+  Internals      { 14 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { JumpJet - - }
+Right_Leg
+  Armor          { 27 }
+  Internals      { 14 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { JumpJet - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

@@ -1,0 +1,11 @@
+ 
+& cfmax
+ 
+  xcodevalue: cfmax <short>
+  XTYPE: MAP
+  
+  This xcode value stores the maximum CF (Construction Factor) of the 
+  building representing this map on the parent map.
+  
+  See Also: cf, @viewxcode
+ 

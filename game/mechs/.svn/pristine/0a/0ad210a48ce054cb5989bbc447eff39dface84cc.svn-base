@@ -1,0 +1,70 @@
+Name             { Blitzkrieg }
+Reference        { BTZ-3F }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Comment          { Saved by: Charlemagne(#4624) at Fri Feb 25 18:45:33 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1092 }
+Max_Speed        { 118.25 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-12		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-9		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 13 }
+  Internals        { 12 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - 3 }
+    CRIT_3-12		  { IS.UltraAC/20 - - 3 }
+Right_Torso
+  Armor            { 13 }
+  Internals        { 12 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Ammo_IS.UltraAC/20 5 - - }
+    CRIT_8-12		  { FerroFibrous - - 3 }
+Center_Torso
+  Armor            { 17 }
+  Internals        { 16 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-11		  { Engine - - 3 }
+    CRIT_12		  { EndoSteel - - 3 }
+Left_Leg
+  Armor            { 16 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 16 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { FerroFibrous - - 3 }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { EndoSteel - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

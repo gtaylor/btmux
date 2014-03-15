@@ -1,0 +1,25 @@
+Name		 { Striker } 
+Reference        { Striker-LRM }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 35 }
+Mech_BV          { 383 }
+Max_Speed        { 86.00 }
+Specials	 { ICEEngine_Tech Searchlight }
+Left_Side
+  Armor            { 20 }
+  Internals        { 4 }
+Right_Side
+  Armor            { 20 }
+  Internals        { 4 }
+Front_Side
+  Armor            { 24 }
+  Internals        { 4 }
+Aft_Side
+  Armor            { 18 }
+  Internals        { 4 }
+Turret
+  Armor            { 22 }
+  Internals        { 4 }
+    CRIT_1		  { IS.LRM-15 - - }
+    CRIT_2-5		  { Ammo_IS.LRM-15 8 - }

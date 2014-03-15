@@ -1,0 +1,8 @@
+
+& logout_cmd_alias
+
+  Config parameter: logout_cmd_alias <alias> <command>
+
+  Makes <alias> an alias for <command>, where <command> is one of WHO,
+  DOING, SESSION, QUIT, OUTPUTPREFIX, and OUTPUTSUFFIX.
+ 

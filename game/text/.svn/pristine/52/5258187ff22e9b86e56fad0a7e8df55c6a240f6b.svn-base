@@ -1,0 +1,27 @@
+ 
+& bthexlos()
+ 
+  Syntax: bthexlos(<UnitDB>,<x>,<y>)
+ 
+  This function determines if <UnitDB> is within line of site of the
+  hex specified by <x> <y>.
+ 
+  The function returns 1 if the unit is within LOS of the hex, and 0
+  if it is not.
+ 
+  Error Messages:
+ 
+  * If <UnitDB> is not an RS unit the function returns
+  #-1 INVALID MECH
+  * If <x> <y> are outside the boundaries of the map the function
+    returns #-1 INVALID COORDINATES
+ 
+  Example:
+  Given a unit #dbref 1234 within LOS of 10,10 but NOT within LOS of
+  20,20:
+ 
+  > think bthexlos(#1234,10,10)
+  1
+  > think bthexlos(#1234,20,20)
+  0
+ 

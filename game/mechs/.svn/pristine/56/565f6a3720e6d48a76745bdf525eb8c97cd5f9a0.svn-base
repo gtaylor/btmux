@@ -1,0 +1,67 @@
+Name             { Great Wyrm }
+Reference        { GreatWyrm-1 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 45 }
+Heat_Sinks	 { 20 }
+Max_Speed        { 86.00 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.UltraAC/2 - - }
+    CRIT_5-6		  { CL.UltraAC/2 - - }
+Left_Torso
+  Armor            { 12 }
+  Internals        { 11 }
+  Rear             { 4 }
+    CRIT_1		  { CL.ERMediumLaser - - }
+    CRIT_2		  { CL.ERSmallLaser - - }
+Right_Torso
+  Armor            { 12 }
+  Internals        { 11 }
+  Rear             { 4 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_3		  { CL.ERMediumLaser - - }
+    CRIT_4		  { CL.ERSmallLaser - - }
+    CRIT_5		  { Ammo_CL.LRM-10 12 - }
+    CRIT_6		  { Ammo_CL.UltraAC/2 45 - }
+Center_Torso
+  Armor            { 16 }
+  Internals        { 14 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.LRM-10 - - }
+Left_Leg
+  Armor            { 16 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 16 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 7 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

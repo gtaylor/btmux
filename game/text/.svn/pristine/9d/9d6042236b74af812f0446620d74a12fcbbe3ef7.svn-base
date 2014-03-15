@@ -1,0 +1,11 @@
+ 
+& delcom
+ 
+  Syntax: delcom <alias>
+ 
+  Deletes <alias> from your list of channel aliases. If <alias> was
+  the only alias you had for a certain channel, you may no longer
+  use that channel until you add a new alias for it.
+ 
+  See also: addcom, comlist, clearcom
+ 

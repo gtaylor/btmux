@@ -1,0 +1,8 @@
+ 
+& firecluster
+ 
+  RS Command: firecluster <weapnum>
+  
+  This command toggles artillery weapons between firing cluster rounds 
+  and normal ammunition.
+ 

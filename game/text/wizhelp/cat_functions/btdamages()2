@@ -1,0 +1,30 @@
+ 
+& btdamages()2
+ 
+  Note: <typenum> complies with the damages defined in
+  src/hcode/btech/mech.tech.damages.h
+ 
+  <data>
+  * If <typenum>=0 then <data> shows the section to be reattached
+  * If <typenum>=1 or 2, then <data> shows the partname to be
+     replaced
+  * If <typenum>=10 then <data> shows the weaponname to be replaced
+  * if <typenum>=11 then <data> shows the ammoname and amount to be
+    reloaded (format: <ammoname>:amount>)
+  * If <typenum>=12 or 13, then <data> shows the amount of armor to
+    be replaced.
+  * If <typenum>=14 then <data> shows the internal to be replaced
+  * If <typenum>=16 or 17, then <data> shows the item to be scrapped
+  * if <typenum>=18 then <data> shows the ammoname and amount to be
+    unloaded (format: <ammoname>:amount>)
+  * If <typenum>=19 then <data> shows section to be resealed
+ 
+  <fixing> returns 1 if the damage is being repaired, 0 if otherwise
+
+  Error Messages:
+
+  * Invalid <UnitDB> results in #-1 NOT A MECH
+  * Other errores result in #-1 ERROR
+ 
+Continued in btdamgaes()3
+ 

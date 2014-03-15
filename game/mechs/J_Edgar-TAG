@@ -1,0 +1,34 @@
+Name             { J_Edgar }
+Reference        { J_Edgar-TAG }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 25 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:06:13 2002 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 359 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 182.75 }
+Left_Side
+  Armor            { 20 }
+  Internals        { 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 20 }
+  Internals        { 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 32 }
+  Internals        { 3 }
+Aft_Side
+  Armor            { 12 }
+  Internals        { 3 }
+Turret
+  Armor            { 24 }
+  Internals        { 3 }
+    CRIT_1		  { TAG - - 3 }
+    CRIT_2		  { IS.MediumLaser - - 3 }
+    CRIT_3		  { IS.MediumLaser - - 3 }
+    CRIT_4		  { BeagleProbe - - 3 }

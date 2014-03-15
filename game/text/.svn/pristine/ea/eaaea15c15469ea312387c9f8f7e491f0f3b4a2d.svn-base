@@ -1,0 +1,26 @@
+ 
+& setq()
+ 
+  Syntax: setq(<number>,<string>)
+ 
+  This function is used to copy strings into local registers. It
+  returns a null string; it is a purely "side effect" function. There
+  are ten local registers, numbered 0 through 9. They are cleared at
+  the start of each interactive command, but are preserved across the
+  command queue. They are most useful for storing complex function
+  evaluations which are used repeatedly within a single command. The
+  local registers may be read via the r() function, and a common use
+  of setq()/r() is to temporarily store the result of a complex
+  evaluation whose result is needed more than once.
+ 
+  setq() can be used to improve the readability of MUX code, as well
+  as to cut down the amount of time needed to do complex evaluations.
+ 
+  Example:
+  >&TEST me=Test on [mudname()] at [time()].
+  > say [setq(0,u(TEST))]'[r(0)]' has length [strlen(r(0))].
+  You say "'Test on TestMUX at Tue Feb 23 17:00:51 1993.' has length
+  45."
+ 
+  See Also: r(), setr()
+ 

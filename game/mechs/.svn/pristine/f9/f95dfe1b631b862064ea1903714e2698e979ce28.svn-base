@@ -1,0 +1,41 @@
+Name             { Schiltron }
+Reference        { Schiltron-A }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 80 }
+Comment          { Saved by: Charlemagne(#4624) at Mon Feb 21 07:14:44 2000 }
+Mech_BV          { 1088 }
+Max_Speed        { 53.75 }
+Specials         { XLEngine_Tech }
+Left_Side
+  Armor            { 34 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 34 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 46 }
+  Internals        { 8 }
+    CRIT_1		  { IS.MRM-40 - - 3 }
+    CRIT_2		  { IS.MRM-40 - - 3 }
+    CRIT_3-4		  { Ammo_IS.MRM-40 6 - - }
+    CRIT_5-8		  { Ammo_IS.MRM-40 6 - - }
+Aft_Side
+  Armor            { 25 }
+  Internals        { 8 }
+    CRIT_1		  { C3Master - - 3 }
+    CRIT_2		  { Ecm - - 3 }
+Turret
+  Armor            { 40 }
+  Internals        { 8 }
+    CRIT_1		  { IS.MediumLaser - - 3 }
+    CRIT_2		  { IS.MediumLaser - - 3 }
+    CRIT_3		  { IS.SmallLaser - - 3 }
+    CRIT_4		  { IS.SmallLaser - - 3 }
+    CRIT_5		  { IS.SmallLaser - - 3 }
+    CRIT_6		  { IS.SmallLaser - - 3 }
+    CRIT_7		  { IS.MRM-10 - - 0 }
+    CRIT_8		  { IS.MRM-10 - - 0 }
+    CRIT_9-10		  { Ammo_IS.MRM-10 24 - - }

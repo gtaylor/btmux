@@ -1,0 +1,43 @@
+Name             { Gotha }
+Reference        { GTHA-500 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 60 }
+Comment          { Saved by: Celebrimbor(#319) at Thu May 15 03:31:43 1997 }
+Computer         { 3 }
+Heat_Sinks       { 14 }
+Fuel             { 900 }
+Max_Speed        { 86.00 }
+Nose
+  Armor            { 60 }
+  Internals        { 10 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { Ammo_IS.LRM-15 8 - - }
+Left_Wing
+  Armor            { 46 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LRM-15 - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Right_Wing
+  Armor            { 46 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LRM-15 - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Fuselage
+  Armor            { 31 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 40 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }

@@ -1,0 +1,19 @@
+ 
+& digital mode
+ 
+  setchannelmode: Digital mode:
+  Flag: D or d
+  
+  This mode transmits less distance than analog, but is not 
+  susceptible to scanning by enemy units. Additionally Relay and Info 
+  modes can only be used in Digital mode.
+  
+  Digital mode is indicated by square brackets (ie '[]') around the 
+  channel and bearing indicator
+  
+  Example: 
+  Given that UnitID [TT] (calltitle MechJock) is within range and 
+  transmitting on channel A in digital mode
+  
+  [A:054] <MechJock> Can you guys hear me?
+ 

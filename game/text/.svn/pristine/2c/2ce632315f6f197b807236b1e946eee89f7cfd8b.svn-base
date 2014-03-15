@@ -1,0 +1,19 @@
+ 
+& @setmap
+ 
+  Syntax: @setmap <name> <value>
+  
+  This command permits you to set <value> on the xcodevalue <name>
+  on a map object.
+  
+  This is the equivalent of the btsetxcodevalue() function.
+  
+  NOTE - the command does not return any message to indicate success.
+  
+  Errors:
+  * if argumments !=2 the command returns "Invalid arguments!"
+  * if <name> is not a valid value for a MAP object the command 
+    returns "Error: No xcode values for this type of object found."
+  
+  See Also: btsetxcodevalue
+ 

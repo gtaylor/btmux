@@ -1,0 +1,64 @@
+Name             { Longbow }
+Reference        { LGB-0W }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Mech_BV          { 1034 }
+Heat_Sinks       { 13 }
+Max_Speed        { 64.50 }
+Specials         { Fliparms AntiAircraft }
+Left_Arm
+  Armor            { 9 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-7		  { IS.LRM-20 - - }
+Right_Arm
+  Armor            { 9 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-7		  { IS.LRM-20 - - }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1		  { IS.LRM-5 - - }
+    CRIT_2-3		  { Ammo_IS.LRM-20 6 - }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1		  { IS.LRM-5 - - }
+    CRIT_2-3		  { Ammo_IS.LRM-20 6 - }
+Center_Torso
+  Armor            { 21 }
+  Internals        { 27 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { Ammo_IS.LRM-5 24 - }
+Left_Leg
+  Armor            { 18 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 18 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

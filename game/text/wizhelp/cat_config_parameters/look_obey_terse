@@ -1,0 +1,15 @@
+
+& look_obey_terse
+
+  Config parameter: look_obey_terse <yes/no>
+  Default: Yes
+
+  Indicates whether or not the 'look' command obeys the TERSE flag
+  when deciding how much information to display.  If set to yes, the
+  terse_shows_contents, terse_shows_exits, and
+  terse_shows_move_messages config options control the amount of
+  information displayed for TERSE players.
+
+  See also: terse_shows_contents, terse_shows_exits,
+            terse_shows_move_messages.
+ 

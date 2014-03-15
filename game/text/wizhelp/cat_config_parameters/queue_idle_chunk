@@ -1,0 +1,12 @@
+
+& queue_idle_chunk
+
+  Config parameter: queue_idle_chunk <num>
+  Default: 10
+
+  Specifies the number of commands to be run from the player queue
+  when the check for network traffic indicates that there is no data
+  needing to be read from or written to the network.
+
+  See also: queue_active_chunk.
+ 

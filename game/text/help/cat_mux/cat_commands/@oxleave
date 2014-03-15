@@ -1,0 +1,19 @@
+ 
+& @oxleave
+ 
+  Syntax: @oxleave <object> = <message>
+  Attribute: Oxleave
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in the location being entered when someone leaves <object>.
+  Note that the message is shown to those outside the object, not
+  those inside.
+ 
+  This attribute is meaningful for players, things, and rooms, and
+  will never be automatically triggered on exits.
+ 
+  Example:
+  @oxleave wormhole = steps out of a hyperspatial wormhole.
+ 
+  See also: leave, @aleave, @leave, @oleave
+ 

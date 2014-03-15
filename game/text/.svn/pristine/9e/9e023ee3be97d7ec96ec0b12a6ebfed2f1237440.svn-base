@@ -1,0 +1,10 @@
+ 
+& caseless
+ 
+  RS Command: caseless <weaponum>
+  
+  This command toggles the state of <weapnum>, causing it to fire 
+  Caseless ammunition or normal ammunition.
+  
+  Caseless ammo is available for AutoCannons only.
+ 

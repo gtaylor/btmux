@@ -1,0 +1,27 @@
+ 
+& conn()
+ 
+  Syntax: conn(<player>)
+ 
+  Returns the number of seconds that <player> has been connected.
+  If <player> is not connected then -1 is returned. If <player> is
+  connected more than once, the longest connect time is returned.
+ 
+  Example:
+ 
+  > WHO
+  Player Name          On For Idle  Doing
+  Wizard                00:04   1m
+  Mortal                00:11   0s
+  Evinar                00:12   6m  Idle. :)
+  frobozz               00:32   6s
+  4 Players logged in.
+  > say conn(wiz)
+  You say "251"
+  > say conn(e)
+  You say "770"
+  > say conn(frobozz)
+  You say "-1"
+ 
+  See Also: WHO, idle(), lwho().
+ 

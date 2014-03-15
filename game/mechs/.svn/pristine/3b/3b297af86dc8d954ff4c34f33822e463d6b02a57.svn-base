@@ -1,0 +1,75 @@
+Name             { LaoHu }
+Reference        { LHU-3C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Heat_Sinks       { 20 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1611 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS EndoSteel_Tech XLEngine_Tech }
+Left_Arm
+  Armor          { 23 }
+  Internals      { 12 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-5     { IS.ERLargeLaser - - }
+    CRIT_6-12    { EndoSteel - - }
+Right_Arm
+  Armor          { 23 }
+  Internals      { 12 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-9     { IS.GaussRifle - - }
+Left_Torso
+  Armor          { 24 }
+  Internals      { 16 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4       { IS.LRM-5 - - }
+    CRIT_5       { IS.LRM-5 - - }
+    CRIT_6       { IS.LRM-5 - - }
+    CRIT_7       { Ammo_IS.LRM-5 24 - }
+    CRIT_8       { Ammo_IS.LRM-5 24 - }
+    CRIT_9       { Ammo_IS.LRM-5 24 - }
+    CRIT_10-12   { EndoSteel - - }
+Right_Torso
+  Armor          { 24 }
+  Internals      { 16 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4       { Ammo_IS.GaussRifle 8 - }
+    CRIT_5       { Ammo_IS.GaussRifle 8 - }
+Center_Torso
+  Armor          { 33 }
+  Internals      { 23 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+Left_Leg
+  Armor          { 28 }
+  Internals      { 16 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Right_Leg
+  Armor          { 28 }
+  Internals      { 16 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

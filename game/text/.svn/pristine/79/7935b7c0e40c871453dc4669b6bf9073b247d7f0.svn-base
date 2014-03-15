@@ -1,0 +1,26 @@
+ 
+& heading
+ 
+  RS Command: heading [<degrees>]
+  
+  If an argument is specified this command determines the direction 
+  that an RS Unit will face.
+  
+  Without an argument the command returns the current heading of the 
+  unit.
+  
+  The heading of the unit will not change immediately, as it takes 
+  time for the unit to turn to another direction
+  
+  Example:
+  Given that your unit's current heading is 120
+ 
+  >heading 0
+  Your current heading is 106.
+  >heading
+  Your current heading is 66.
+  >heading
+  Your current heading is 12.
+  >heading
+  Your current heading is 0.
+ 

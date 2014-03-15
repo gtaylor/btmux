@@ -1,0 +1,47 @@
+Name             { Stuka }
+Reference        { STU-D6 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 100 }
+Comment          { Saved by: Celebrimbor(#319) at Fri May 30 18:19:44 1997 }
+Computer         { 3 }
+Heat_Sinks       { 40 }
+Fuel             { 750 }
+Max_Speed        { 86.00 }
+Nose
+  Armor            { 45 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SRM-6 - - }
+    CRIT_3		  { IS.SRM-6 - - }
+    CRIT_4-7		  { Ammo_IS.SRM-6 15 - - }
+Left_Wing
+  Armor            { 27 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LRM-10 - - }
+    CRIT_3-4		  { Ammo_IS.LRM-10 12 - - }
+Right_Wing
+  Armor            { 27 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.LRM-10 - - }
+    CRIT_3-4		  { Ammo_IS.LRM-10 12 - - }
+Fuselage
+  Armor            { 52 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 36 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_4-10		  { HeatSink - - }
+    CRIT_12		  { HeatSink - - }

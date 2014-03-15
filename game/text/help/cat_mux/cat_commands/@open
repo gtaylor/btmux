@@ -1,0 +1,25 @@
+ 
+& @open
+ 
+  Syntax: @open[/<switches>] <direction list> [=<number>[,<direction
+  list>]]
+ 
+  Creates an exit in the specified direction(s). If <number> is
+  specified, it is linked to that room. Otherwise, it is created
+  unlinked. You or anyone else may use the '@link' command to
+  specify where the unlinked exit leads.
+ 
+  Opening an exit costs 1 coin. If you specify <number>, linking costs
+  1 more coin.  You can specify a second direction list (after the
+  comma), which is automatically opened in the room that the new
+  exit goes TO and which is linked back to where you are.  I.e.
+  @open north;n=#1234,south;s would open exit 'north;n' from here to
+  #1234, and an exit 'south;s' from #1234 to here, assuming you have
+  rights to open exits and link to the rooms in question.
+ 
+  The following switches are available:
+     /location  - Create the exit in your location (default).
+     /inventory - Create the exit on yourself.
+ 
+  See also: @dig, @link, LINKING
+ 

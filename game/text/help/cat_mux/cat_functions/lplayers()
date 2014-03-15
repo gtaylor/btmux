@@ -1,0 +1,9 @@
+ 
+& lplayers()
+
+  FUNCTION: lplayers(<object>)
+
+  Returns a space-separated list of the players inside <object>, connected
+  or not.
+
+  See Also: lcon(), lvplayers()

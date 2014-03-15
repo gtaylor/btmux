@@ -1,0 +1,68 @@
+Name             { Thug }
+Reference        { THG-10E }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Mech_BV          { 1203 }
+Heat_Sinks       { 19 }
+Max_Speed        { 64.50 }
+Left_Arm
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-7		  { IS.PPC - - }
+    CRIT_8                { HeatSink - - }
+Right_Arm
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-7		  { IS.PPC - - }
+    CRIT_8                { HeatSink - - }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 8 }
+    CRIT_1		  { IS.SRM-4 - - }
+    CRIT_2-4		  { HeatSink - - }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 8 }
+    CRIT_1		  { IS.SRM-4 - - }
+    CRIT_2		  { Ammo_IS.SRM-4 25 - - }
+    CRIT_3-4		  { HeatSink - - }
+Center_Torso
+  Armor            { 33 }
+  Internals        { 25 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 33 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 33 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,19 @@
+ 
+& edit()
+ 
+  Syntax: edit(<string>,<from>,<to>)
+ 
+  This function edits <string>, replacing all occurrences of the
+  substring <from> with the string <to>. If <from> is '$', then <to>
+  is appended to <string>, while if <from> is '^', then it is
+  prepended.
+ 
+  Example:
+ 
+  > say edit(This is a test,is,x)  
+  You say "Thx x a test"
+  > say edit(Atlantic,^,Trans)
+  You say "TransAtlantic"
+ 
+  See Also: @edit, remove()
+ 

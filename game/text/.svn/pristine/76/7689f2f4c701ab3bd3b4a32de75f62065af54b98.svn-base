@@ -1,0 +1,10 @@
+ 
+& gattling
+ 
+  RS Command: gattling <weapnum>
+  
+  This command toggles the weapon specified between gattling 
+  (radipdfire mode) and normal mode.
+  
+  Only machineguns can use gattling mode.
+.

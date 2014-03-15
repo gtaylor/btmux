@@ -1,0 +1,20 @@
+ 
+& addweap
+ 
+  Mechrep Command: addweap <name> <loc> <critslots> [r|t|o] 
+ 
+  This command adds the weapon specified in <name> to the 
+  targetted RS Unit at <loc> using <crit secs> with the specified 
+  flags.
+  
+  Arguments:
+  * name - this argument requires the long version of the weapon name.
+  * loc - specifies the section for the weapon (eg CT, LA)
+  * critslots - a space delimited list of the critslots to put the 
+                weapon into
+  * 0 - weapon is a one-shot type
+  * R - weapon is rear mounted
+  * T - weapon is 'targetting computer'
+  
+  Continued in addweap2
+ 

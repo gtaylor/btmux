@@ -1,0 +1,9 @@
+ 
+& announce
+ 
+  Power: announce
+  
+  This power permits the player to use the @wall command.
+ 
+  See Also: @power, @list powers, @wall
+ 

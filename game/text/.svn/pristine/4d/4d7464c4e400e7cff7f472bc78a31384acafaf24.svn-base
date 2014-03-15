@@ -1,0 +1,23 @@
+ 
+& btsetcharvalue()2
+ 
+  Error Messages:
+ 
+  * If <ObjectDB> is not valid the function will return #-1 INVALID
+    TARGET
+  * If <skill/attribute> is an attribute and <mode> does not equal 0
+    the function will return #-1 ONLY SKILLS CAN HAVE FLAG
+  * If <skill/attribute is not valie the function will return #-1
+    INVALID VALUE
+ 
+  Example:
+ 
+  Given a player named Labrat (#dbref 1234):
+ 
+  > think btsetcharvalue(#1234, medtech, 2, 0)
+  Labrat's Medtech set to 2
+  > think btsetcharvalue(#1234, medtech, 2, 1)
+  Labrat's Medtech set to 5
+  > think btsetcharvalue(#1234, medtech, 2, 2)
+  Labrat gained 2 more Medtech XP.
+ 

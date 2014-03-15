@@ -1,0 +1,31 @@
+ 
+& btstores()
+ 
+  Syntax: btstores(<MapDB>[,<partname>])
+ 
+  This function returns a list of parts in the specified unit or
+  hangar.
+ 
+  The format of the list is <partname>:<amount>|
+ 
+  The function accepts an optional argument of a partname in which
+  case it returns the amount of that part located in the unit/hangar
+ 
+  Note: This will work on units to see their cargo manifest, useful
+  for carriers and other things.
+ 
+  Error Messages:
+ 
+  * If <MapDB> is not valid the function will return #-1 INVALID
+    TARGET
+  * If <partname> optional argument is included and is not a valid
+    partname the function will return #-1 INVALID PART NAME
+ 
+  Example:
+  Given that #62 is a valid bay
+ 
+  > think btstores(#62)
+  Armor:5|Engine:5|IS.LargeLaser:2
+  > think btstores(#62,Armor)
+  5
+ 

@@ -1,0 +1,10 @@
+ 
+& unload
+ 
+  RS Command: unload <loc> <pos>
+  
+  This command unloads the ammunition stored in the ammobin at 
+  <loc> <pos>.
+  
+  Use the critstatus command to identify the <pos>
+ 

@@ -1,0 +1,70 @@
+Name             { Union }
+Reference        { DS.Union-58 }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 3500 }
+Comment          { Saved by: Celebrimbor(#319) at Fri Jun  6 15:45:25 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 127 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS }
+Front_Right_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.GaussRifle - - }
+    CRIT_3		  { IS.LRM-20 - - }
+    CRIT_4		  { ArtemisIV - - }
+    CRIT_5		  { IS.LRM-20 - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7		  { IS.ERLargeLaser - - }
+    CRIT_8		  { IS.MediumLaser - - }
+    CRIT_9		  { IS.MediumLaser - - }
+    CRIT_10-12		  { Ammo_IS.GaussRifle 8 - - }
+Front_Left_Side
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.GaussRifle - - }
+    CRIT_3		  { IS.LRM-20 - - }
+    CRIT_4		  { ArtemisIV - - }
+    CRIT_5		  { IS.LRM-20 - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7		  { IS.ERLargeLaser - - }
+    CRIT_8		  { IS.MediumLaser - - }
+    CRIT_9		  { IS.MediumLaser - - }
+    CRIT_10-12		  { Ammo_IS.GaussRifle 8 - - }
+Rear_Left_Side
+  Armor            { 110 }
+  Internals        { 35 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_7-12		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+Rear_Right_Side
+  Armor            { 110 }
+  Internals        { 35 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_7-12		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+Aft
+  Armor            { 60 }
+  Internals        { 35 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Nose
+  Armor            { 120 }
+  Internals        { 60 }
+    CRIT_1		  { IS.ERPPC - - }
+    CRIT_2		  { IS.GaussRifle - - }
+    CRIT_3		  { IS.LRM-20 - - }
+    CRIT_4		  { ArtemisIV - - }
+    CRIT_5		  { IS.LRM-20 - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7		  { IS.MediumLaser - - }
+    CRIT_8		  { IS.MediumLaser - - }
+    CRIT_10-12		  { Ammo_IS.GaussRifle 8 - - }

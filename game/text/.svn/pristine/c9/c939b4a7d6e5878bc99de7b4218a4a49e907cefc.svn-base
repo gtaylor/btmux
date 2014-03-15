@@ -1,0 +1,21 @@
+ 
+ & tactical
+ 
+  RS Command: tactical [C | T | L] [<BEARING> <RANGE> | <TARGET-ID>]
+ 
+  Displays the tactical map
+  
+  Arguments
+  * c - highlights clifs which a mech cannot traverse
+  * t - highlights cliffs which a vehicle cannot travers
+  * l - displays the line of sight
+  
+  By default the map is centered on your current location. Using
+  the <bearing> and <range> permits you to view the map offset from
+  your current location by <range> hexes in the direction of
+  <bearing>.
+  
+  Alternatively by specifying the <ID> of another RS unit 
+  you can view the tactical map centered on that unit.
+  
+  

@@ -1,0 +1,10 @@
+ 
+& rapidfire
+ 
+  RS Command: rapidfire <weapnum>
+  
+  This command toggles the specified weapon between rapidfire mode 
+  and normal mode.
+  
+  Only Standard and Light Autocannons can use rapidfire mode. 
+ 

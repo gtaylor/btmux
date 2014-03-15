@@ -1,0 +1,16 @@
+ 
+& @signature
+ 
+  Syntax: @signature <player> = <message>
+  Attribute: Signature
+ 
+  Sets a message to be appended to ever @mail message you send. It is
+  appended directly at the end of the message, so if you wish to start
+  the signature on a new line you should begin it with a %r.
+ 
+  Example: @signature me=%rThis is a mail signature. (Note: You might
+  want to include the %r at the front of the signature, other wise
+  it will be combined with the @mail message.)
+ 
+  See also: @mailsucc, @amail, @mail
+ 

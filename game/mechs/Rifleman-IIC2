@@ -1,0 +1,69 @@
+Name             { Rifleman }
+Reference        { Rifleman-IIC2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Heat_Sinks       { 20 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 32.25 }
+Specials         { Clan FlipArms Searchlight AntiAircraft }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.UltraAC/2 - - }
+    CRIT_5-6		  { CL.UltraAC/2 - - }
+    CRIT_7		  { EndoSteel - - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.UltraAC/2 - - }
+    CRIT_5-6		  { CL.UltraAC/2 - - }
+    CRIT_7		  { EndoSteel - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 9 }
+    CRIT_1		  { JumpJet - - }
+    CRIT_2		  { Ammo_CL.UltraAC/2 45 - }
+    CRIT_4-5		  { EndoSteel - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 15 }
+  Rear             { 9 }
+    CRIT_1		  { JumpJet - - }
+    CRIT_2-3		  { Ammo_CL.UltraAC/2 45 - }
+    CRIT_4-5		  { EndoSteel - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 21 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

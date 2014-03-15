@@ -1,0 +1,21 @@
+ 
+& setcargospace
+ 
+  Mechrep Command: setcargospace <cargo> <maxton>
+  
+  This command sets the total amount of cargo that the RS Unit can 
+  carry to <cargo>/2 and the maximum tonnage of any single item to 
+  <maxton>
+  
+  The command sets the 'cargospace' and 'carmaxton' xcode values on 
+  the unit.
+  
+  Example
+  Given that you wish to set the RS Unit to have a cargo capacity of 
+  500 tons and a maximum tonnage for individual items of 75 tons:
+  
+  >setcargospace 1000 75
+  500.00 cargospace and 75 tons of maxton space set.
+  
+  See Also: settarget, @viewxcode
+ 

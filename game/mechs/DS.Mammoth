@@ -1,0 +1,39 @@
+Name             { Mammoth }
+Reference        { DS.Mammoth }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 52000 }
+Comment          { Saved by: Celebrimbor(#319) at Wed Jun  4 18:40:18 1997 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 127 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS }
+Front_Right_Side
+  Armor            { 40 }
+  Internals        { 127 }
+Front_Left_Side
+  Armor            { 40 }
+  Internals        { 127 }
+Rear_Left_Side
+  Armor            { 40 }
+  Internals        { 127 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Rear_Right_Side
+  Armor            { 40 }
+  Internals        { 127 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Aft
+  Armor            { 30 }
+  Internals        { 127 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Nose
+  Armor            { 60 }
+  Internals        { 127 }
+    CRIT_1		  { IS.LargeLaser - - }

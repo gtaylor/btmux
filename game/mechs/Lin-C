@@ -1,0 +1,83 @@
+Name             { Linebacker }
+Reference        { Lin-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Computer         { 4 }
+Heat_Sinks       { 28 }
+Max_Speed        { 96.75 }
+Specials         { Clan FerroFibrous_Tech EndoSteel_Tech }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5		  { FerroFibrous - - }
+    CRIT_6		  { CL.ERMediumLaser - - }
+    CRIT_7		  { CL.ERLargeLaser - - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2-4		  { CL.UltraAC/5 - - }
+    CRIT_5		  { FerroFibrous - - }
+    CRIT_6		  { EndoSteel - - }
+    CRIT_7		  { Ammo_CL.UltraAC/5 20 - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1		  { EndoSteel - - }
+    CRIT_2		  { FerroFibrous - - }
+    CRIT_3-4		  { Engine - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+    CRIT_6		  { CL.ERMediumLaser - - }
+    CRIT_7		  { CL.ERMediumLaser - RearMount }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1		  { EndoSteel - - }
+    CRIT_2		  { FerroFibrous - - }
+    CRIT_3-4		  { Engine - - }
+    CRIT_5		  { CL.MachineGun - - }
+    CRIT_6		  { CL.MachineGun - RearMount }
+    CRIT_7		  { Ammo_CL.MachineGun 200 - }
+    CRIT_8		  { CL.Flamer - RearMount }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+Left_Leg
+  Armor            { 25 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6		  { FerroFibrous - - }
+Right_Leg
+  Armor            { 25 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6		  { FerroFibrous - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,76 @@
+Name             { JagerMech }
+Reference        { JM6-DD }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:04:15 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 668 }
+Max_Speed        { 64.50 }
+Specials         { FlipArms AntiAircraft }
+Left_Arm
+  Armor            { 8 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-7		  { IS.UltraAC/5 - - 3 }
+    CRIT_8		  { IS.AC/2 - - 3 }
+    CRIT_9-11		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 8 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-7		  { IS.UltraAC/5 - - 3 }
+    CRIT_8		  { IS.AC/2 - - 3 }
+    CRIT_9-11		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 17 }
+  Internals        { 15 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.MediumPulseLaser - - 3 }
+    CRIT_5		  { Ammo_IS.UltraAC/5 20 - - }
+    CRIT_6		  { Ammo_IS.AC/2 45 - - }
+    CRIT_7		  { Case - - 3 }
+    CRIT_8-11		  { FerroFibrous - - 3 }
+Right_Torso
+  Armor            { 17 }
+  Internals        { 15 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.MediumPulseLaser - - 3 }
+    CRIT_5		  { Ammo_IS.UltraAC/5 20 - - }
+    CRIT_6		  { Ammo_IS.AC/2 45 - - }
+    CRIT_7		  { Case - - 3 }
+    CRIT_8-11		  { FerroFibrous - - 3 }
+Center_Torso
+  Armor            { 18 }
+  Internals        { 21 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+Left_Leg
+  Armor            { 12 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 12 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

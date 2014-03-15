@@ -1,0 +1,74 @@
+Name             { Centurion }
+Reference        { CN9-YLW2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Radio            { 5 }
+Computer	 { 5 }
+Heat_Sinks       { 10 }
+Max_Speed        { 96.75 }
+Left_Arm
+  Armor            { 13 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumPulseLaser - - 5 }
+    CRIT_6		  { IS.MediumPulseLaser - - 5 }
+Right_Arm
+  Armor            { 13 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-10		  { IS.GaussRifle - - 5 }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 12 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-6		  { TripleStrengthMyomer - - }
+    CRIT_7-10		  { EndoSteel - - }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 12 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-5		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_6-8		  { TripleStrengthMyomer - - }
+    CRIT_9-12		  { EndoSteel - - }
+Center_Torso
+  Armor            { 21 }
+  Internals        { 16 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MediumPulseLaser - RearMount 5 }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 18 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 18 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

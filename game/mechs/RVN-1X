@@ -1,0 +1,66 @@
+Name             { Raven }
+Reference        { RVN-1X }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Mech_BV          { 621 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 12 }
+Max_Speed        { 86.00 }
+Specials         { ECM Fliparms }
+Left_Arm
+  Armor            { 6 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+Right_Arm
+  Armor            { 6 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 8 }
+  Rear             { 3 }
+    CRIT_1-4		  { Ecm - - }
+    CRIT_5		  { Ammo_IS.SRM-6 15 - }
+Right_Torso
+  Armor            { 6 }
+  Internals        { 8 }
+  Rear             { 3 }
+    CRIT_1-2		  { IS.SRM-6 - - }
+Center_Torso
+  Armor            { 8 }
+  Internals        { 11 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_12		  { HeatSink - - }
+Left_Leg
+  Armor            { 8 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 8 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,11 @@
+ 
+& hotload
+ 
+  RS Command: hotload <weapnum>
+  
+  This command toggles the state of an lrm launcher between hotload 
+  and normal use.
+  
+  Hotloading missiles removes the short range penalties, however 
+  there is an increased chance of jamming.
+ 

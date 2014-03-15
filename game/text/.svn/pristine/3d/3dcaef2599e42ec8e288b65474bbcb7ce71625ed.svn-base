@@ -1,0 +1,18 @@
+ 
+& analog mode
+ 
+  setchannelmode: Analog mode:
+  Flag: A, a or -
+ 
+  This mode transmits further than digital mode - however it is 
+  susceptible to scanning by enemy units.
+ 
+  Analog mode is indicated by parentheses (ie '()') around the channel
+  and bearing indicator.
+  
+  Example: 
+  Given that UnitID [TT] (calltitle MechJock) is within range
+  and transmitting on channel A in anaolog mode
+ 
+  (A:054) <MechJock> Can you guys hear me?
+ 

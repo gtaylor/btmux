@@ -1,0 +1,33 @@
+Name             { Striker }
+Reference        { Striker-NARC }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 35 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:11 2000 }
+Mech_BV          { 356 }
+Max_Speed        { 86.00 }
+Specials         { SearchLight }
+Left_Side
+  Armor            { 23 }
+  Internals        { 4 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 23 }
+  Internals        { 4 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 26 }
+  Internals        { 4 }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 4 }
+Turret
+  Armor            { 24 }
+  Internals        { 4 }
+    CRIT_1		  { IS.NarcBeacon - - 3 }
+    CRIT_2		  { IS.LRM-10 - - 3 }
+    CRIT_3		  { IS.SRM-2 - - 3 }
+    CRIT_4		  { IS.SRM-2 - - 3 }
+    CRIT_5		  { Ammo_IS.NarcBeacon 6 - - }
+    CRIT_6		  { Ammo_IS.LRM-10 12 Narc/Smoke - }
+    CRIT_7		  { Ammo_IS.SRM-2 50 Narc/Smoke - }

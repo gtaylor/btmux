@@ -1,0 +1,27 @@
+Name             { LRM Carrier }
+Reference        { LRM_Carrier-58 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 60 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:02 2000 }
+Mech_BV          { 663 }
+Max_Speed        { 32.25 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 12 }
+  Internals        { 6 }
+Right_Side
+  Armor            { 12 }
+  Internals        { 6 }
+Front_Side
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { IS.LRM-20 - - 3 }
+    CRIT_2		  { IS.LRM-20 - - 3 }
+    CRIT_3		  { IS.LRM-20 - - 3 }
+    CRIT_4-6		  { ArtemisIV - - 3 }
+    CRIT_7-12		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+Aft_Side
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { C3Slave - - 3 }

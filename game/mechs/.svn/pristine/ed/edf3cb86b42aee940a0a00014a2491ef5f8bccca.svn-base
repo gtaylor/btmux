@@ -1,0 +1,25 @@
+Name   { Command_Van } 
+Reference        { Command_Van }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 15 }
+Max_Speed        { 96.75 }
+Left_Side
+  Armor            { 14 }
+  Internals        { 2 }
+Right_Side
+  Armor            { 14 }
+  Internals        { 2 }
+Front_Side
+  Armor            { 16 }
+  Internals        { 2 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { Ammo_IS.MachineGun 200 - }
+Aft_Side
+  Armor            { 12 }
+  Internals        { 2 }
+Turret
+  Armor            { 8 }
+  Internals        { 2 }
+    CRIT_1		  { IS.LRM-5 - - }
+    CRIT_2		  { Ammo_IS.LRM-5 24 - }

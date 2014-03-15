@@ -1,0 +1,30 @@
+Name   { Scorpion } 
+Reference        { Scorpion-SRM }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 25 }
+Mech_BV          { 231 }
+Computer         { 3 }
+Max_Speed        { 64.50 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 11 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 11 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 22 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { Ammo_IS.MachineGun 100 Hotload }
+Aft_Side
+  Armor            { 10 }
+  Internals        { 3 }
+Turret
+  Armor            { 10 }
+  Internals        { 3 }
+    CRIT_1		  { IS.SRM-4 - - }
+    CRIT_2		  { IS.SRM-4 - - }
+    CRIT_3		  { IS.SRM-4 - - }
+    CRIT_4-6		  { Ammo_IS.SRM-4 25 - - }

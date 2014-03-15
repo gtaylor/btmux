@@ -1,0 +1,66 @@
+Name             { Jenner }
+Reference        { JR7-F }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Mech_BV          { 792 }
+Computer 	 { 2 }
+Radio 		 { 2 }
+Max_Speed        { 118.25 }
+Jump_Speed       { 53.75 }
+Specials	 { FlipArms }
+Left_Arm
+  Armor            { 11 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+Right_Arm
+  Armor            { 11 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+Left_Torso
+  Armor            { 11 }
+  Internals        { 8 }
+  Rear             { 5 }
+    CRIT_1-2		  { JumpJet - - }
+Right_Torso
+  Armor            { 11 }
+  Internals        { 8 }
+  Rear             { 5 }
+    CRIT_1-2		  { JumpJet - - }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { HeatSink - - }
+Left_Leg
+  Armor            { 15 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 15 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 7 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,21 @@
+ 
+& last()
+ 
+  Syntax: last(<string>[, <delim>])
+ 
+  Returns the last word of a string, that is, everything to the right
+  of the last space in the string, or the entire string if there are
+  no spaces in the string.
+ 
+  The <delim> argument may be used to specify a delimiter other than
+ 'space'.
+ 
+  Example:
+ 
+  > say last(This is a test)
+  You say "test"
+  > say last(Happy-Fun-Test-Thing,-)
+  You say "Thing"
+ 
+  See Also: first(), rest(), extract()
+ 

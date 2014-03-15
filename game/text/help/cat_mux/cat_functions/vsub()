@@ -1,0 +1,14 @@
+ 
+& vsub()
+ 
+  Syntax: vsub(<vector>,<vector>[,<delimiter>])
+ 
+  Returns the difference between two vectors.
+ 
+  Example:
+ 
+  > think vsub(3 4 5,3 2 1)
+  0 2 4
+ 
+  See Also: vmul(), vdim(), vadd(), vmag(), vunit()
+ 

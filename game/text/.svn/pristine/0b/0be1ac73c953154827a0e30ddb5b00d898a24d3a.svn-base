@@ -1,0 +1,11 @@
+ 
+& squish()
+ 
+  Syntax: squish(<text>)
+ 
+  This function literally 'squishes' the given text, reducing multiple
+  instances of spaces to a single space, after evaluating everything
+  normally.
+ 
+  See Also: trim()
+ 

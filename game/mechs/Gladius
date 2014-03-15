@@ -1,0 +1,23 @@
+Name             { Gladius }
+Reference        { Gladius }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 40 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:53 2000 }
+Mech_BV          { 378 }
+Max_Speed        { 129.00 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 24 }
+  Internals        { 4 }
+Right_Side
+  Armor            { 24 }
+  Internals        { 4 }
+Front_Side
+  Armor            { 30 }
+  Internals        { 4 }
+    CRIT_1		  { IS.AC/10 - - 3 }
+    CRIT_2-3		  { Ammo_IS.AC/10 10 - - }
+Aft_Side
+  Armor            { 18 }
+  Internals        { 4 }

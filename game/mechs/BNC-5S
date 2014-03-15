@@ -1,0 +1,77 @@
+Name             { Banshee }
+Reference        { BNC-5S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 95 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:03:15 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 28 }
+Mech_BV          { 1613 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 21 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+    CRIT_6		  { IS.MediumLaser - - 3 }
+Right_Arm
+  Armor            { 21 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { IS.SRM-6 - - 3 }
+    CRIT_7		  { Ammo_IS.SRM-6 15 - - }
+Left_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-10		  { IS.GaussRifle - - 3 }
+    CRIT_11		  { IS.MediumLaser - RearMount 3 }
+    CRIT_12		  { Ammo_IS.GaussRifle 8 - - }
+Right_Torso
+  Armor            { 30 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { IS.ERPPC - - 3 }
+    CRIT_7-9		  { IS.ERPPC - - 3 }
+    CRIT_10		  { IS.MediumLaser - RearMount 3 }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 30 }
+  Rear             { 17 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.SmallLaser - - 3 }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.SmallLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

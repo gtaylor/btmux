@@ -1,0 +1,10 @@
+
+& notify_recursion_limit
+
+  Config parameter: notify_recursion_limit <num>
+  Default: 20
+
+  Sets the maximum number of times that the notify() routine may be
+  called recursively.  A recursive call is made whenever a message
+  heard by an object is to be forwarded to its contents.
+ 

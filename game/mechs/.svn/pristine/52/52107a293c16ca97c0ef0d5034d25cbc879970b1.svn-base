@@ -1,0 +1,74 @@
+Name             { Red Shift }
+Reference        { RDS-2B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 20 }
+Heat_Sinks       { 20 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 530 }
+Max_Speed        { 150.50 }
+Specials         { DoubleHS FerroFibrous_Tech EndoSteel_Tech XLEngine_Tech BeagleProbe }
+Left_Arm
+  Armor          { 6 }
+  Internals      { 3 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { IS.MediumPulseLaser - - }
+    CRIT_5-12    { FerroFibrous - - }
+Right_Arm
+  Armor          { 6 }
+  Internals      { 3 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { IS.MediumPulseLaser - - }
+    CRIT_5-12    { EndoSteel - - }
+Left_Torso
+  Armor          { 8 }
+  Internals      { 5 }
+  Rear           { 2 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-9     { HeatSink - - }
+    CRIT_10-12   { FerroFibrous - - }
+Right_Torso
+  Armor          { 8 }
+  Internals      { 5 }
+  Rear           { 2 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-12    { EndoSteel - - }
+Center_Torso
+  Armor          { 9 }
+  Internals      { 6 }
+  Rear           { 3 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11-12   { BeagleProbe - - }
+Left_Leg
+  Armor          { 8 }
+  Internals      { 4 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { FerroFibrous - - }
+Right_Leg
+  Armor          { 8 }
+  Internals      { 4 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { FerroFibrous - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { TAG - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

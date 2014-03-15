@@ -1,0 +1,12 @@
+
+& read_remote_desc
+
+  Config parameter: read_remote_desc <yes/no>
+  Default: no
+
+  Indicates whether or not the descriptions of faraway objects are
+  available to players that don't control them via the examine
+  command and get() function.
+
+  See also: examine, get().
+ 

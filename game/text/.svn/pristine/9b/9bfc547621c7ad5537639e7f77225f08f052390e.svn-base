@@ -1,0 +1,8 @@
+ 
+& heatcutoff
+ 
+  RS Command: heatcutoff
+  
+  This command sets the heat dissipation of your mech to maintain 
+  sufficient heat to activate TSM.
+ 

@@ -1,0 +1,12 @@
+ 
+& skills-econ
+ 
+ >> Help: Skills-Econ
+ -----------------------------------------------------------------------------
+ Administration		Appraisal		Bureaucracy
+ Engineering		Gambling		Leadership
+ Negotiation		Protocol		Research
+ Strategy		Tinker			Training
+ -----------------------------------------------------------------------------
+ To view info on a skill, use 'help <skillname>' without the <>'s.
+ 

@@ -1,0 +1,29 @@
+Name             { LRM Carrier }
+Reference        { HLRM_Carrier }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Comment          { Saved by: Tantrum(#4394) at Sun Apr  1 19:00:20 2001 }
+Mech_BV          { 769 }
+Cargo_Space      { 0 }
+Max_Speed        { 32.25 }
+Left_Side
+  Armor            { 12 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 12 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 14 }
+  Internals        { 8 }
+Aft_Side
+  Armor            { 12 }
+  Internals        { 8 }
+Turret
+  Armor            { 14 }
+  Internals        { 8 }
+    CRIT_1		  { IS.LRM-20 - - 3 }
+    CRIT_2		  { IS.LRM-20 - - 3 }
+    CRIT_3		  { IS.LRM-20 - - 3 }
+    CRIT_4		  { IS.LRM-20 - - 3 }
+    CRIT_5-12		  { Ammo_IS.LRM-20 6 - - }

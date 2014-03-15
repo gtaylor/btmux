@@ -1,0 +1,11 @@
+ 
+& poss()
+ 
+  Syntax: poss(<object>)
+ 
+  Returns the proper possessive pronoun (his, her, its, their) for
+  referring to <object>, based on the object's Sex attribute. You must
+  either control or be near <object>.
+ 
+  See Also: obj()
+ 

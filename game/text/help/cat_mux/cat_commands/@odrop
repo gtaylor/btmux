@@ -1,0 +1,21 @@
+ 
+& @odrop
+ 
+  Syntax: @odrop <object> = <message>
+  Attribute: Odrop
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in  the room when someone drops <object>, or to others in
+  the room that the player arrives in after taking an exit.
+ 
+  Example:
+ 
+  <object>
+  @odrop loadstone = puts down the loadstone and then wipes sweat
+  from %p brow.
+ 
+  <exit>
+  @odrop elevator = enters the elevator from the lobby.
+ 
+  See also: drop, @adrop, @drop, DROP-TO, EXITS
+ 

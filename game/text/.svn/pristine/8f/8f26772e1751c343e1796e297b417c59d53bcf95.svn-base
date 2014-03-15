@@ -1,0 +1,12 @@
+ 
+& spot
+ 
+  RS Command: spot <UnitID|OwnID|->
+  
+  This command controls the assignment of a spotter unit.
+  
+  Arguments:
+  * UnitID - Causes your unit to use <UnitID> as a spotter
+  * OwnID - Causes your unit to be available as a spotter
+  * '-' - Causes your unit to cease acting as a spotter
+ 

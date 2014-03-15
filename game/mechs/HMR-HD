@@ -1,0 +1,37 @@
+Name             { Hammaerhead }
+Reference        { HMR-HD }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 75 }
+Comment          { Saved by: Celebrimbor(#319) at Thu May 15 03:50:59 1997 }
+Computer         { 3 }
+Fuel             { 750 }
+Max_Speed        { 118.25 }
+Nose
+  Armor            { 60 }
+  Internals        { 10 }
+    CRIT_1		  { IS.AC/20 - - }
+    CRIT_2-4		  { Ammo_IS.AC/20 5 - - }
+Left_Wing
+  Armor            { 40 }
+  Internals        { 10 }
+Right_Wing
+  Armor            { 40 }
+  Internals        { 10 }
+Fuselage
+  Armor            { 40 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_4-10		  { HeatSink - - }
+    CRIT_12		  { HeatSink - - }

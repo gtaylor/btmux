@@ -1,0 +1,28 @@
+ 
+& examine
+ 
+  Syntax: examine[/<switches>] <object>[/<wild-attrib>]
+ 
+  Displays all available information about <object>.  <object> may be
+  an object, 'me' or 'here'. You must control the object to examine
+  it, or it  must be set VISUAL.  If you do not own the object, you
+  will just see the name of the object's owner, and optionally any
+  public attributes and attributes owned by you set on the object.
+ 
+  If an attribute is owned by a player other than the owner of the
+  object, the number of the attribute owner is shown in parentheses
+  immediately following the attribute name.  Flag letters may appear
+  in parentheses also, to indicate the status of the attribute:
+    + - The attribute is locked, it does not change ownership when the
+        object is @chowned and may not be modified.
+    $ - The attribute is not checked when looking for $-commands.
+        Note that the predefined attributes DESC, IDESC, ODESC,
+        FAIL, OFAIL,  SUCC, OSUCC, DROP, ODROP, SEX, and CHARGES are
+        never checked.
+    I - This attribute is not inherited by children of the object.
+    V - The attribute is visible to anyone who examines you.  Note
+        that the predefined attributes DESC, SEX, and LAST are
+        always VISUAL.
+ 
+  { 'help examine2' for more}
+ 

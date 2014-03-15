@@ -1,0 +1,79 @@
+Name             { Apollo }
+Reference        { APL-3T }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Comment          { Saved by: Power Shaper(#1235) at Fri May 19 14:52:54 2006 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1011 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumPulseLaser - - }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumPulseLaser - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-3		  { HeatSink - - }
+    CRIT_4		  { IS.LRM-10 - Artemis/Mine }
+    CRIT_5		  { IS.LRM-10 - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7-8		  { Ammo_IS.LRM-10 12 Artemis/Mine - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-3		  { HeatSink - - }
+    CRIT_4		  { IS.LRM-10 - Artemis/Mine }
+    CRIT_5		  { IS.LRM-10 - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7-8		  { Ammo_IS.LRM-10 12 Artemis/Mine - }
+Center_Torso
+  Armor            { 28 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

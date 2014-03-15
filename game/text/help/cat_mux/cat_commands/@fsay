@@ -1,0 +1,12 @@
+ 
+& @fsay
+ 
+  Syntax: @fsay <object>=<message>
+ 
+  Forces <object> to say <message>.  This command is similar to the command
+  '@force <object> = say <message>', except that it will work so long as you
+  own the object, whereas @force may fail if the object has its INHERIT flag
+  set and the object performing the @force does not.
+ 
+  See Also: @femit, @fpose, INHERIT, say.
+ 

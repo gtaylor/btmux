@@ -1,0 +1,10 @@
+ 
+& see_queue
+ 
+  Power: see_queue
+  
+  This power permits the player to use @ps/all or to use the @ps 
+  command on any player.
+  
+  See Also: @power, @list powers, @ps
+ 

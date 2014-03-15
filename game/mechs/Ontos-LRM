@@ -1,0 +1,31 @@
+Name             { Ontos }
+Reference        { Ontos-LRM }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 95 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:37 2000 }
+Mech_BV          { 866 }
+Max_Speed        { 53.75 }
+Specials         { SearchLight ICEEngine_Tech }
+Left_Side
+  Armor            { 30 }
+  Internals        { 10 }
+Right_Side
+  Armor            { 30 }
+  Internals        { 10 }
+Front_Side
+  Armor            { 35 }
+  Internals        { 10 }
+    CRIT_1-5		  { Ammo_IS.LRM-20 6 - - }
+Aft_Side
+  Armor            { 30 }
+  Internals        { 10 }
+Turret
+  Armor            { 35 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LRM-20 - - 3 }
+    CRIT_2		  { IS.LRM-20 - - 3 }
+    CRIT_3-7		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_8		  { IS.LRM-5 - - 3 }
+    CRIT_9		  { IS.LRM-5 - - 3 }
+    CRIT_10		  { Ammo_IS.LRM-5 24 - - }

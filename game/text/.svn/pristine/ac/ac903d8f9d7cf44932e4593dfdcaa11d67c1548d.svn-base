@@ -1,0 +1,11 @@
+ 
+& heat
+ 
+  RS Command: heat <weapnum>
+ 
+  This command toggles a flamer between heat and damage modes.
+  
+  In heat mode the flamer adds heat to the unit it strikes, 
+  whereas in damage mode the weapon burns the unit it strikes causing 
+  damage to the unit.
+ 

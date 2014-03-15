@@ -1,0 +1,18 @@
+
+& @lock ownership
+
+  OWNERSHIP LOCKS:
+
+  Key: $<object>
+
+  You pass an ownership lock if you have the same owner as <object>.
+
+  Examples:
+    > @lock mystuff=$me
+    Only objects you own may use the mystuff exit.
+
+    > @lock/page me = !$*TinyJerk
+    Neither TinyJerk nor any of his objects may page you.
+
+  See also: @lock normal.
+ 

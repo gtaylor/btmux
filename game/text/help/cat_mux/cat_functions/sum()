@@ -1,0 +1,13 @@
+ 
+& sum()
+ 
+  Syntax: sum(<list>[, <delim>])
+ 
+  Returns the sum of a list of numbers, optionally separated by <delim>.
+ 
+  Example:
+  > say sum(2 3 4)
+  You say "9"
+  > say sum(34|47|78,|)
+  You say "159"
+  

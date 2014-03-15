@@ -1,0 +1,19 @@
+ 
+& sin()
+ 
+  Syntax: sin(<number>)
+ 
+  Returns the sine of <number>, expressed in radians.
+ 
+  Examples:
+  > say sin(0)
+  You say "0"
+  > say sin(fdiv(pi(),2))
+  You say "1"
+  > say sin(fdiv(pi(),4))
+  You say "0.707107"
+  > say sin(fdiv(pi(),6))
+  You say "0.5"
+ 
+  See Also: acos(), asin(), atan(), cos(), pi(), tan()
+ 

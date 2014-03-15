@@ -1,0 +1,29 @@
+Name             { Galleon }
+Reference        { Galleon-58 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 30 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:10 2000 }
+Mech_BV          { 393 }
+Max_Speed        { 118.25 }
+Left_Side
+  Armor            { 18 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MediumLaser - - 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 18 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MediumLaser - - 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 25 }
+  Internals        { 3 }
+    CRIT_1		  { BeagleProbe - - 3 }
+Aft_Side
+  Armor            { 19 }
+  Internals        { 3 }
+Turret
+  Armor            { 28 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MediumPulseLaser - - 3 }

@@ -1,0 +1,44 @@
+Name             { Turk }
+Reference        { Turk-C }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 50 }
+Heat_Sinks       { 24 }
+Fuel             { 750 }
+Max_Speed        { 118.25 }
+Specials	 { Clan CargoTech FerroFibrous_Tech }
+Nose
+  Armor            { 30 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LRM-20 - - }
+    CRIT_2-3		  { Ammo_CL.LRM-20 6 - }
+Left_Wing
+  Armor            { 30 }
+  Internals        { 7 }
+    CRIT_1		  { CL.ERLargeLaser - - }
+    CRIT_2		  { CL.StreakSRM-6 - - }
+    CRIT_3		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 30 }
+  Internals        { 7 }
+    CRIT_1		  { CL.ERLargeLaser - - }
+    CRIT_2		  { CL.StreakSRM-6 - - }
+    CRIT_3		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 54 }
+  Internals        { 7 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 7 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 7 }
+    CRIT_1		  { CL.ERMediumLaser - - }
+

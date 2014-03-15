@@ -1,0 +1,12 @@
+ 
+& buildonmap
+ 
+  xcodevalue: buildonmap <DBref_ro>
+  XTYPE: MAP
+  
+  This xcode value stores the dbref of the parent mapobject,  ie - 
+  indicates the map which THIS  mapobject is represented upon as an 
+  entrance.
+  
+  See Also: @viewxcode
+ 

@@ -1,0 +1,66 @@
+Name             { Vulture }
+Reference        { Vulture-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Heat_Sinks       { 24 }
+Max_Speed        { 86.00 }
+Specials	 { Clan FlipArms }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-8		  { CL.GaussRifle - - }
+    CRIT_9-10		  { Ammo_CL.GaussRifle 8 - }
+    CRIT_11		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-8		  { CL.GaussRifle - - }
+    CRIT_9-10		  { Ammo_CL.GaussRifle 8 - }
+    CRIT_11		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 16 }
+  Internals        { 14 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 16 }
+  Internals        { 14 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 20 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

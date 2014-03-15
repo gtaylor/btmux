@@ -1,0 +1,74 @@
+Name             { Crockett }
+Reference        { CRK-5003-0 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Mech_BV          { 1325 }
+Heat_Sinks       { 15 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Left_Arm
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { IS.LargeLaser - - }
+    CRIT_6		  { IS.SmallLaser - - }
+Right_Arm
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { IS.LargeLaser - - }
+    CRIT_6		  { IS.SmallLaser - - }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 11 }
+    CRIT_1-2		  { IS.SRM-6 - - }
+    CRIT_3-9		  { IS.AC/10 - - }
+    CRIT_10		  { HeatSink - - }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 11 }
+    CRIT_1-2		  { IS.SRM-6 - - }
+    CRIT_3-4		  { Ammo_IS.SRM-6 15 - - }
+    CRIT_5-6		  { Ammo_IS.AC/10 10 - - }
+    CRIT_7-8		  { HeatSink - - }
+Center_Torso
+  Armor            { 35 }
+  Internals        { 27 }
+  Rear             { 19 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6                { HeatSink - - }
+Right_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6                { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

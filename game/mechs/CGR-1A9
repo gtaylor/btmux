@@ -1,0 +1,72 @@
+Name             { Charger }
+Reference        { CGR-1A9 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Mech_BV          { 1315 }
+Heat_Sinks       { 22 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 15 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Arm
+  Armor            { 15 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MediumLaser - - }
+    CRIT_6		  { HeatSink - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 17 }
+  Rear             { 5 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2-3		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_4-8		  { HeatSink - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 17 }
+  Rear             { 5 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2-6		  { IS.LRM-20 - - }
+    CRIT_7-8		  { HeatSink - - }
+Center_Torso
+  Armor            { 25 }
+  Internals        { 25 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.SmallLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

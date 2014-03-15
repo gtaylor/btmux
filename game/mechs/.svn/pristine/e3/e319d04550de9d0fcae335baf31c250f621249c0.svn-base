@@ -1,0 +1,82 @@
+Name             { Archer }
+Reference        { ARC-5W }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Comment          { Saved by: Captain QB(#198) at Wed Nov 23 13:22:29 2005 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1128 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.SRM-4 - Narc/Smoke }
+    CRIT_6		  { Ammo_IS.SRM-4 25 Narc/Smoke - }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.SRM-4 - Narc/Smoke }
+    CRIT_6		  { Ammo_IS.SRM-4 25 Narc/Smoke - }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4		  { IS.LRM-20 - Narc/Smoke }
+    CRIT_5-8		  { IS.LRM-20 - - }
+    CRIT_9		  { Ammo_IS.NarcBeacon 6 - - }
+    CRIT_10-11		  { Ammo_IS.LRM-20 6 Narc/Smoke - }
+    CRIT_12		  { Case - - }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4		  { IS.LRM-20 - Narc/Smoke }
+    CRIT_5-8		  { IS.LRM-20 - - }
+    CRIT_9		  { Ammo_IS.NarcBeacon 6 - - }
+    CRIT_10-11		  { Ammo_IS.LRM-20 6 Narc/Smoke - }
+    CRIT_12		  { Case - - }
+Center_Torso
+  Armor            { 33 }
+  Internals        { 22 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { IS.NarcBeacon - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

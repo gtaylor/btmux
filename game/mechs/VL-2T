@@ -1,0 +1,68 @@
+Name             { Vulcan }
+Reference        { VL-2T }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Mech_BV          { 523 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 64.50 }
+Specials         { Searchlight }
+Left_Arm
+  Armor            { 6 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MachineGun - - }
+Right_Arm
+  Armor            { 6 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.Flamer - - }
+Left_Torso
+  Armor            { 8 }
+  Internals        { 10 }
+  Rear             { 4 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { Ammo_IS.MachineGun 200 - - }
+    CRIT_3-4		  { JumpJet - - }
+Right_Torso
+  Armor            { 8 }
+  Internals        { 10 }
+  Rear             { 4 }
+    CRIT_1		  { IS.AC/2 - - }
+    CRIT_2		  { Ammo_IS.AC/2 45 - - }
+    CRIT_3-4		  { JumpJet - - }
+    CRIT_5                { HeatSink - - }
+Center_Torso
+  Armor            { 10 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { JumpJet - - }
+Left_Leg
+  Armor            { 10 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 10 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

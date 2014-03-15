@@ -1,0 +1,12 @@
+
+& cache_depth
+
+  Config parameter: cache_depth <depth>.
+  Default: 10
+
+  Specifies the depth of the database cache.  Each bucket in the cache
+  is allowed to have this many entries before it will try to remove
+  old entries.
+
+  See also: cache_width.
+ 

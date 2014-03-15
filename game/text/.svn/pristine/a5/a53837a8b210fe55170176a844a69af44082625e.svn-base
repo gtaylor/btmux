@@ -1,0 +1,28 @@
+ 
+& @infilter
+ 
+  Syntax: @infilter <object> = <pattern>[, <pattern>...]
+  Attribute: Infilter
+ 
+  This attribute specifies a series of patterns to be used to suppress
+  text normally sent to the contents of <object> by @listen.  If the
+  desired pattern contains a comma, the pattern may be enclosed in
+  curly braces {}.
+ 
+  Example:
+    > @listen sports car=*
+    > @fo test=enter sports car
+    test has left.
+    test> Sports Car(#383Q)
+    > :waves.
+    test> Wizard waves.
+    Wizard waves.
+    > @infilter sports = *waves*
+    > :waves.
+    Wizard waves.
+    > :knocks on the window.
+    test> Wizard knocks on the window.
+    Wizard knocks on the window.
+ 
+  See also:  @filter, @inprefix, @listen, @prefix
+ 

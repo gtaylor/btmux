@@ -1,0 +1,78 @@
+Name             { Canis }
+Reference        { Canis-1 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Heat_Sinks       { 32 }
+Max_Speed        { 53.75 }
+Jump_Speed	 { 32.25 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-7              { HeatSink - - }
+    CRIT_8                { CL.ERLargeLaser - - }
+    CRIT_9                { CL.ERLargeLaser - - }
+Right_Arm
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-9              { HeatSink - - }
+    CRIT_10               { CL.ERLargeLaser - - }
+    CRIT_11               { CL.ERLargeLaser - - }
+Left_Torso
+  Armor            { 23 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3                { JumpJet - - }
+    CRIT_4-7              { CL.UltraAC/10 - - }
+    CRIT_8-9              { Ammo_CL.UltraAC/10 10 - }
+    CRIT_10-12            { EndoSteel - - }
+Right_Torso
+  Armor            { 23 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3                { JumpJet - - }
+    CRIT_4-7              { CL.UltraAC/10 - - }
+    CRIT_8-9              { Ammo_CL.UltraAC/10 10 - }
+    CRIT_10-12            { EndoSteel - - }
+Center_Torso
+  Armor            { 37 }
+  Internals        { 25 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 33 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 33 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

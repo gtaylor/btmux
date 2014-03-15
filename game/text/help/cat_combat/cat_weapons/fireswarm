@@ -1,0 +1,10 @@
+ 
+& fireswarm
+ 
+  RS Command: fireswarm <weapnum>
+  
+  This command toggles <weapnum> between firing swarm ammunition and 
+  firing normal ammunition.
+  
+  Swarm ammunition can be fired by LRM weapons only.
+ 

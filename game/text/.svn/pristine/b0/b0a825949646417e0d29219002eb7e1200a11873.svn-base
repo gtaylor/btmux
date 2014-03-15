@@ -1,0 +1,33 @@
+ 
+& @mail
+ 
+  @mail[/<switches>] <player-list> = <subject>
+  @mail[/<switches>] [<msg-list> [= <target>]]
+ 
+  @mail invokes the built-in MUX mailer, which allows players to send
+  and receive mail. Pronoun/function substitution is performed on
+  any messages you may try to send.
+ 
+  A <player-list> is a space-separated list of recipients, which may
+  be:
+        Player names (names with spaces in them should be put in
+        double quotes, ex: "Foo Bar")
+        Player dbref #'s
+	
+	Message numbers to be replied to.
+	A mix of the above, and mail aliases (see @malias)
+ 
+  A <msg-list> is one of the following:
+        A single msg # (ex: 3)
+        A message range (ex: 2-5, -7, 3-)
+        A sender (ex: *lauren)
+        An age of mail in days (ex: ~3 (exactly 3), <2, >1)
+        "days" here means 24-hour periods from the current time.
+        One of the following: "read", "unread", "cleared", "tagged",
+        "urgent"
+        For certain commands, "all".
+ 
+  See the following topics:
+    mail-sending    mail-reading     mail-folders      mail-other
+    mail-admin      @malias          mail-reviewing    mail-examples
+ 

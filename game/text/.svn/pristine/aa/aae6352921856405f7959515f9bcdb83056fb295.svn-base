@@ -1,0 +1,10 @@
+
+& create_min_cost
+
+  Config parameter: create_min_cost <amount>
+  Default: 10
+
+  Specifies the minimum (and default) cost for creating an object.
+
+  See also: create_max_cost, sacrifice_adjust, sacrifice_factor.
+ 

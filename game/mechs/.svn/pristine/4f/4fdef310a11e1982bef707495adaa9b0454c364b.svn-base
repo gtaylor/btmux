@@ -1,0 +1,78 @@
+Name             { Salamander }
+Reference        { PPR-5T }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:03:00 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1352 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { IS.LRM-15 - - 3 }
+    CRIT_7		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 17 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { IS.LRM-15 - - 3 }
+    CRIT_7-9		  { Ammo_IS.LRM-15 8 - - }
+    CRIT_10		  { Case - - 3 }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 17 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { IS.LRM-15 - - 3 }
+    CRIT_7-9		  { Ammo_IS.LRM-15 8 - - }
+    CRIT_10		  { Case - - 3 }
+Center_Torso
+  Armor            { 33 }
+  Internals        { 25 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.SmallLaser - - 3 }
+    CRIT_12		  { IS.SmallLaser - - 3 }
+Left_Leg
+  Armor            { 28 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 28 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { EndoSteel - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

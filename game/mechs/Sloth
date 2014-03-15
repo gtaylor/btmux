@@ -1,0 +1,30 @@
+Name             { Sloth }
+Reference        { Sloth }
+Type             { Battlesuit }
+Move_Type        { Biped }
+Tons             { 1 }
+Comment          { Saved by: Kelvin McCorvin(#2) at Wed Apr  5 23:31:58 2006 }
+Mech_BV          { 203 }
+Cargo_Space      { 0 }
+Max_Suits        { 4 }
+Max_Speed        { 32.25 }
+Suit_1
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Suit_2
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Suit_3
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Suit_4
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }

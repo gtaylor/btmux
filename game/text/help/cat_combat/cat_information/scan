@@ -1,0 +1,22 @@
+ 
+& scan
+ 
+  RS Command: scan [<UnitID> [a|i|w]|<x> <y>| <x> <y> <b|h>]
+  
+  This command scans the specified object displaying various 
+  information about it.
+  
+  Arguments:
+  none - scans the locked target
+  * UnitID - scans the specified unit
+   *UnitID arguments:
+    none - displays the full detail for the specified unit
+    * a - displays the armor for the specified unit
+    * i - displays the info for the specified unit
+    * w - displays the weapons for the specified unit
+  * x y - scans the specified hex
+   * x y arguments:
+    none - scans the hex for units
+    * b - scans the building in the specified hex
+    * h - scans the specified hex for mines
+ 

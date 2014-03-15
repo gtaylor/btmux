@@ -1,0 +1,13 @@
+ 
+& speed
+ 
+  xcodevalue: speed <float>
+  XTYPE: MECH
+  
+  This xcode value stores the current speed of a unit.
+  
+  NOTE - the value stored is NOT the desired speed (as is set via 
+  'speed  n') 
+  
+  See Also: speed, @viewxcode
+ 

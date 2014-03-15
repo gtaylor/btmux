@@ -1,0 +1,27 @@
+Name   { Marksman } 
+Reference        { Marksman }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 65 }
+Mech_BV          { 392 }
+Computer         { 3 }
+Max_Speed        { 64.50 }
+Specials         { FerroFibrous_Tech }
+Left_Side
+  Armor            { 20 }
+  Internals        { 7 }
+Right_Side
+  Armor            { 20 }
+  Internals        { 7 }
+Front_Side
+  Armor            { 54 }
+  Internals        { 7 }
+    CRIT_1		  { IS.Sniper - - }
+    CRIT_2-3		  { Ammo_IS.Sniper 10 - }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 7 }
+Turret
+  Armor            { 20 }
+  Internals        { 7 }
+    CRIT_1		  { IS.LargeLaser - - }

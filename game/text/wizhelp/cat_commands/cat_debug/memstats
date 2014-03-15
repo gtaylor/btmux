@@ -1,0 +1,28 @@
+ 
+& memstats
+ 
+  Debug Command: memstats [long]
+  
+  This command shows memory statistics for the XCODE objects in the 
+  DB.
+  
+  Arguments
+  none - displays the short form
+  * long - displays a more detailed report
+  
+  Example:
+  >memstats long
+  #13: MAP (362 bytes)
+  #62: MAP (250301 bytes)
+  #217: MAP (378 bytes)
+  #809: MAP (367 bytes)
+  #833: MAP (378 bytes)
+  #961: MAP (367 bytes)
+  #974: MAP (367 bytes)
+    24 MECH                : 73344 bytes total, 3056 each
+     9 MECHREP             : 72 bytes total, 8 each
+     7 MAP                 : 252520 bytes total, 36074 avg, 362/250301 
+      small/large
+     1 AUTOPILOT           : 272 bytes total, 272 each
+  Grand total: 326208 bytes.
+ 

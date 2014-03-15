@@ -1,0 +1,22 @@
+ 
+& @ood
+ 
+  RS Command: @ood <x> <y> [<z>]
+  
+  This command initiates an Orbital Drop at the specified location. 
+  
+  Errors:
+  * if <x> or <y> are out of bounds the command returns "Invalid co-
+    ordinates!"
+  * if <x> is not a valid argument (eg non-numeric) the command 
+    returns "Invalid number! (x)"
+  * if <y> is not a valid argument (eg non-numeric) the command 
+    returns "Invalid number! (y)"
+  * if the RS Unit is fallen (ie not standing) the command returns 
+    "You'll have to get up first."
+  * if the RS Unit is currently digging-in the command returns "You're 
+    too busy digging in."
+  
+  Arguments:
+  * <z> - if specified the RS Unit will drop from a height of z
+ 

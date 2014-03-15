@@ -1,0 +1,12 @@
+ 
+& setchannelfreq
+ 
+  RS Command: setchannelfreq <channel>=<frequency>
+ 
+  This command sets the frequency assigned to <channel>
+ 
+  Example:
+  >setchannelfreq a=9343
+ 
+  See Also: sendchannel, setchannelmode, setchanneltitle,  
+            listchannels

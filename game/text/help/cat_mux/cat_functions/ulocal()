@@ -1,0 +1,25 @@
+ 
+& ulocal()
+ 
+  Syntax: ulocal([<obj>/]<attr>[,<arg>]...)
+ 
+  The ulocal() function is almost identical to u() in Syntax: it
+  evaluates an attribute, either from the object performing the
+  function, or another object that you control or has the same owner
+  as you, passing in arguments and returning the result. When
+  evaluating the fetched attribute, %# refers to the original enactor
+  and not the 'calling' object; 'me' refers to the object that
+  supplied the attribute.
+ 
+  However, unlike the u() function, the global registers r(0) through
+  r(9) (%q0 - %q9) are preserved in their initial state. This means
+  that functions "below" the level of the u() can reset global
+  registers for temporary calculations, without needing to worry about
+  "clobbering" the original values.
+ 
+  This makes ulocal() particularly useful for global or shared code
+  which calls arbitrary u() functions, where global register values
+  need to be preserved from accidental user clobbering.
+ 
+  (help ulocal()2 for more)
+.

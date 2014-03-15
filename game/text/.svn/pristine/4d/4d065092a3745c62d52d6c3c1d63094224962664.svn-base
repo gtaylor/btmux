@@ -1,0 +1,12 @@
+
+& paycheck
+
+  Config parameter: paycheck <amount>
+  Default: 0
+
+  Specifies the default amount of money that players receive each day
+  they connect.  This parameter may be overridden by setting the
+  ALLOWANCE attribute on the player to a different value.
+
+  See also: @allowance, earn_limit, starting_money.
+ 

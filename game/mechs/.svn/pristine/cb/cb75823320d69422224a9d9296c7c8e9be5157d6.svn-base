@@ -1,0 +1,71 @@
+Name             { Goliath }
+Reference        { GOL-1H }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 80 }
+Mech_BV          { 1200 }
+Heat_Sinks       { 17 }
+Max_Speed        { 64.50 }
+Front_Left_Leg
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Front_Right_Leg
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 17 }
+  Rear             { 13 }
+    CRIT_1-2		  { IS.LRM-10 - - 4 }
+    CRIT_3		  { IS.MachineGun - - }
+    CRIT_4		  { Ammo_IS.MachineGun 200 - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 17 }
+  Rear             { 13 }
+    CRIT_1-3		  { IS.PPC - - 4 }
+    CRIT_4-5		  { IS.LRM-10 - - 4 }
+    CRIT_6		  { IS.MachineGun - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 25 }
+  Rear             { 19 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { Ammo_IS.LRM-10 12 - - }
+Rear_Left_Leg
+  Armor            { 30 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Rear_Right_Leg
+  Armor            { 30 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { HeatSink - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

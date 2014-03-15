@@ -1,0 +1,73 @@
+Name             { Grinner }
+Reference        { WLF-IIC-G }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Computer         { 4 }
+Radio            { 5 }
+Heat_Sinks       { 22 }
+Max_Speed        { 96.75 }
+Specials         { Clan }
+Left_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+Right_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4-5		  { CL.LargePulseLaser - - 5 }
+Left_Torso
+  Armor            { 11 }
+  Internals        { 8 }
+  Rear             { 5 }
+    CRIT_1-2		  { Engine - - 5 }
+    CRIT_5		  { CL.MediumPulseLaser - - 5 }
+    CRIT_6-12		  { EndoSteel - - 5 }
+Right_Torso
+  Armor            { 11 }
+  Internals        { 8 }
+  Rear             { 5 }
+    CRIT_1-2		  { Engine - - 5 }
+    CRIT_3-4		  { HeatSink - - 5 }
+    CRIT_5		  { CL.MediumPulseLaser - - 5 }
+    CRIT_6-12		  { FerroFibrous - - 5 }
+Center_Torso
+  Armor            { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 5 }
+    CRIT_4-7		  { Gyro - - 5 }
+    CRIT_8-10		  { Engine - - 5 }
+    CRIT_11		  { CL.MediumPulseLaser - - 5 }
+    CRIT_12		  { CL.MediumPulseLaser - RearMount 5 }
+Left_Leg
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { HeatSink - - 5 }
+Right_Leg
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 5 }
+    CRIT_2		  { UpperActuator - - 5 }
+    CRIT_3		  { LowerActuator - - 5 }
+    CRIT_4		  { HandOrFootActuator - - 5 }
+    CRIT_5-6		  { HeatSink - - 5 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 5 }
+    CRIT_2		  { Sensors - - 5 }
+    CRIT_3		  { Cockpit - - 5 }
+    CRIT_4		  { Ecm - - 5 }
+    CRIT_5		  { Sensors - - 5 }
+    CRIT_6		  { LifeSupport - - 5 }

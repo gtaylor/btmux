@@ -1,0 +1,78 @@
+Name             { Masakari }
+Reference        { Mas-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Computer         { 4 }
+Heat_Sinks       { 44 }
+Max_Speed        { 64.50 }
+Left_Arm
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.ERPPC - OnTC }
+    CRIT_6-7		  { CL.ERPPC - OnTC }
+    CRIT_8-9		  { HeatSink - - }
+    CRIT_10		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { CL.LargePulseLaser - OnTC }
+    CRIT_7-8		  { CL.LargePulseLaser - OnTC }
+    CRIT_9-10		  { HeatSink - - }
+    CRIT_11		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-10		  { HeatSink - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-6		  { TargetingComputer - - }
+    CRIT_7-8		  { Engine - - }
+    CRIT_9-10		  { HeatSink - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 42 }
+  Internals        { 27 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.Flamer - - }
+Left_Leg
+  Armor            { 35 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 35 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

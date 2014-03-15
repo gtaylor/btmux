@@ -1,0 +1,13 @@
+ 
+& savemap
+ 
+  Map Command: savemap <name>
+  
+  This command saves the map, in the state it is in at the time of the 
+  commands being run, to <name>.
+  
+  Error Messages:
+  * if arguments < 1 the command returns "Invalid number of arguments"
+  * if <name> cannot be opened for write access the command returns 
+  "Unable to open the map file!"
+  

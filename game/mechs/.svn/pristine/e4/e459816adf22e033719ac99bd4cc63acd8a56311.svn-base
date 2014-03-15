@@ -1,0 +1,66 @@
+Name             { Enforcer }
+Reference        { ENF-4R }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Mech_BV          { 895 }
+Heat_Sinks       { 12 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 14 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { IS.LargeLaser - - }
+Right_Arm
+  Armor            { 14 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-10		  { IS.AC/10 - - 5 }
+Left_Torso
+  Armor            { 17 }
+  Internals        { 12 }
+  Rear             { 3 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2-3		  { HeatSink - - }
+Right_Torso
+  Armor            { 17 }
+  Internals        { 12 }
+  Rear             { 3 }
+    CRIT_1		  { Ammo_IS.AC/10 10 - }
+    CRIT_2-3		  { HeatSink - - }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 16 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

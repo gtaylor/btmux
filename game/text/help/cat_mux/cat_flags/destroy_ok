@@ -1,0 +1,16 @@
+ 
+& DESTROY_OK
+ 
+  Flag: DESTROY_OK (d)
+ 
+  When set on an object, it allows any player to destroy
+  it as long as the object is not locked against them. This is good
+  for things like notes, whereby the recipient can destroy the note
+  after reading it, instead of having to look for you to destroy it.
+  The DESTROY_OK flag overrides the SAFE flag, so that you do not need
+  to give the /override switch to @destroy to destroy a thing that 
+  is both DESTROY_OK and SAFE. When it is set on any object or the 
+  owner of that object, that object can be destroyed immediately.
+ 
+  See also: @destroy, SAFE
+ 

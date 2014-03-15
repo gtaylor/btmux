@@ -1,0 +1,65 @@
+Name             { Flea }
+Reference        { FLE-4 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 20 }
+Mech_BV          { 360 }
+Computer         { 5 }
+Radio 		 { 5 }
+Max_Speed        { 96.75 }
+Specials         { Fliparms }
+Left_Arm
+  Armor            { 3 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.SmallLaser - - }
+    CRIT_4		  { IS.SmallLaser - - }
+Right_Arm
+  Armor            { 3 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { IS.LargeLaser - - }
+Left_Torso
+  Armor            { 3 }
+  Internals        { 5 }
+  Rear             { 1 }
+    CRIT_1		  { HeatSink - - }
+Right_Torso
+  Armor            { 3 }
+  Internals        { 5 }
+  Rear             { 1 }
+    CRIT_1		  { HeatSink - - }
+Center_Torso
+  Armor            { 5 }
+  Internals        { 6 }
+  Rear             { 2 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.Flamer - RearMount }
+Left_Leg
+  Armor            { 3 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 3 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 5 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

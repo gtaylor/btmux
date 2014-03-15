@@ -1,0 +1,10 @@
+ 
+& @kick
+ 
+  Syntax: @kick <count>
+  
+  This command immediately executes the first <count> commands from 
+  the top of the queue.
+  
+  See also: @disable, @enable, @timewarp.
+ 

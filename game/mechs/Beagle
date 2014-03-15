@@ -1,0 +1,30 @@
+Name             { Beagle }
+Reference        { Beagle }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 15 }
+Comment          { Saved by: GreaseMonkey(#1094) at Mon Jul 16 15:37:36 2007 }
+Computer         { 3 }
+Mech_BV          { 234 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 193.50 }
+Left_Side
+  Armor            { 12 }
+  Internals        { 2 }
+Right_Side
+  Armor            { 12 }
+  Internals        { 2 }
+Front_Side
+  Armor            { 15 }
+  Internals        { 2 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { FerroFibrous - - }
+Aft_Side
+  Armor            { 10 }
+  Internals        { 2 }
+Turret
+  Armor            { 14 }
+  Internals        { 2 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { BeagleProbe - - }

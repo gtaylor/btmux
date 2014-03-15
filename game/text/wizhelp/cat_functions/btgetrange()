@@ -1,0 +1,21 @@
+ 
+& btgetrange()
+ 
+  Syntax: btgetrange(<MapOBJ>,<arg1>,<arg2>[,<arg3>[,<arg4>[,<arg5>
+          [,<arg6>[,<arg7>]]]]])
+ 
+  This function returns the distance (in hexes) between the specified
+  objects or hexes.
+ 
+  Arguments:
+ 
+  * The function requires between 3 and 7 arguments. Acceptable
+  arguments are either 2 UnitDB's, 1 UnitDB and an xy[z] set, or 2
+  xy[z] sets.
+ 
+  Note: If you specify the z (altitude) element of one xy[z] set you
+  must specify it for both 'locations' - either with another xy[z] set
+  or implicitly with a unit.)
+ 
+ Continued in btgetrange()2
+ 

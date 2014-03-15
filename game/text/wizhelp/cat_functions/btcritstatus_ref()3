@@ -1,0 +1,13 @@
+ 
+& btcritstatus_ref()3
+ 
+  Example:
+ 
+  Given that EXT-4D is a valid reference:
+ 
+  > think btcritstatus_ref(EXT-4D, la)
+  1||ShoulderOrHip|0|3,2||UpperActuator|0|3,3||LowerActuator|0|3,4|
+  |HandOrFootActuator|0|3,5||MediumLaser|0|1,6||MediumLaser|0|1,7|
+  |Empty|0|5,8||Empty|0|5,9||Empty|0|5,10||Empty|0|5,11||Empty|0|5,12|
+  |Empty|0|5
+ 

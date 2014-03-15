@@ -1,0 +1,22 @@
+ 
+& skills-combat
+ 
+ >> Help: Skills-Combat
+ -----------------------------------------------------------------------------
+ [_Misc Combat Skills_]
+ Computer		Perception		Running
+ Swimming
+
+ [_Communication Skills_]
+ Comm-Conventional	Comm-Hyperpulse
+ 
+ [_Gunnery Skills_]
+ Gunnery-Artillery	Gunnery-Ballistic	Gunnery-Flamer
+ Gunnery-Laser		Gunnery-Missile		Gunnery-Spotting
+ 
+ [_Piloting Skills_]
+ Piloting-Aerospace	Piloting-Biped		Piloting-Quad
+ Piloting-Spacecraft	Piloting-Tracked	Piloting-Wheeled
+ -----------------------------------------------------------------------------
+ To view info on a skill, use 'help <skillname>' without the <>'s.
+ 

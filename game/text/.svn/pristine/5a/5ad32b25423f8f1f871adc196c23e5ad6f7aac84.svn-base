@@ -1,0 +1,23 @@
+ 
+& @otofail
+ 
+  Syntax: @otofail <object> = <message>
+  Attribute: Otofail
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in  the same room when someone tries to teleport out of
+  somewhere they do not have permission.
+ 
+  Function references and %-substitutions are allowed in teleport
+  failure messages, and are evaluated when someone attempts to
+  teleport from their location.  In function references, 'me' refers
+  to the player's location, while %-substitutions that refer to the
+  enactor (such as %n, %#, %p, etc) refer to the player attempting
+  the teleport.
+ 
+  Example:
+  @otofail here = thinks about teleporting from the Magic Room, but
+  decides against it at the last moment.
+ 
+  See also: @teleport, @atofail, @tofail, @lock
+ 

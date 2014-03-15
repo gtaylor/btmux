@@ -1,0 +1,9 @@
+ 
+& bt-advanced-econ
+
+  Compile option: --disable-bt-advanced-econ
+ 
+  Disabled the advanced econ system
+ 
+  See Also: btsetpartcost(), btgetpartcost(), btfasabasecost()
+

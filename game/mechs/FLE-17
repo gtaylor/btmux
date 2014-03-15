@@ -1,0 +1,72 @@
+Name             { Flea }
+Reference        { FLE-17 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 20 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 09:39:51 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 375 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 96.75 }
+Specials         { FlipArms }
+Left_Arm
+  Armor            { 4 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { IS.MediumPulseLaser - - 3 }
+Right_Arm
+  Armor            { 4 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { IS.MediumPulseLaser - - 3 }
+Left_Torso
+  Armor            { 5 }
+  Internals        { 5 }
+  Rear             { 3 }
+    CRIT_1		  { HeatSink - - 3 }
+    CRIT_2		  { IS.SmallLaser - RearMount 3 }
+    CRIT_3-9		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 5 }
+  Internals        { 5 }
+  Rear             { 3 }
+    CRIT_1		  { HeatSink - - 3 }
+    CRIT_2		  { IS.SmallLaser - RearMount 3 }
+    CRIT_3-9		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 8 }
+  Internals        { 6 }
+  Rear             { 3 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.Flamer - - 3 }
+    CRIT_12		  { Masc - - 3 }
+Left_Leg
+  Armor            { 4 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { HeatSink - - 3 }
+Right_Leg
+  Armor            { 4 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { HeatSink - - 3 }
+Head
+  Armor            { 5 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

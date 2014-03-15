@@ -1,0 +1,19 @@
+
+& skills-misc
+ 
+ >> Help: Skills-Misc
+ -----------------------------------------------------------------------------
+ Acrobatics		Alternate_Identity		Archery
+ Blade			Climbing			Cryptography
+ Demolitions		Disguise			Escape_Artist
+ Forgery		Gambling			Impersonation
+ Interrogation		Jump_Pack			Leadership
+ Medtech		Navigation			Quickdraw
+ Riding			Security_Systems		Seduction
+ Small_Arms		Stealth				Strategy
+ Streetwise		Support_Weapons			Survival
+ Tactics		Throwing_Weapons		Tracking
+ Training		Unarmed_Combat			Zero-G_Operations
+ -----------------------------------------------------------------------------
+ To view info on a skill, use 'help <skillname>' without the <>'s.
+ 

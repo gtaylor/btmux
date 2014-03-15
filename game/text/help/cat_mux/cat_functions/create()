@@ -1,0 +1,17 @@
+ 
+& create()
+
+  Syntax: create(<object>, <cost>[, <type>])
+
+  Works the same as @create <object>, but returns the database number
+  of the object created. <cost> is the cost of making the object.
+  <type> is an optional parameter:
+
+  'r' for rooms,
+  't' for things, and
+  'e' for exits.
+
+  If no <type> is specified, then a thing will be created by default.
+
+  See Also: @create.
+ 

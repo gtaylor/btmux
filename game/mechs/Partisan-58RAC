@@ -1,0 +1,36 @@
+Name             { Partisan }
+Reference        { Partisan-58RAC }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Comment          { Saved by: Genitrix(#1511) at Thu Feb  8 15:39:21 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 0 }
+Max_Speed        { 53.75 }
+Specials         { AntiAircraft }
+Left_Side
+  Armor            { 30 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 30 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 40 }
+  Internals        { 8 }
+Aft_Side
+  Armor            { 23 }
+  Internals        { 8 }
+    CRIT_1		  { C3Slave - - }
+Turret
+  Armor            { 38 }
+  Internals        { 8 }
+    CRIT_1		  { IS.RotaryAC/5 - - }
+    CRIT_2		  { IS.RotaryAC/5 - - }
+    CRIT_3		  { IS.LB2-XAC - - }
+    CRIT_4		  { IS.LB2-XAC - - }
+    CRIT_5-8		  { Ammo_IS.RotaryAC/5 20 - - }
+    CRIT_9		  { Ammo_IS.LB2-XAC 45 - - }

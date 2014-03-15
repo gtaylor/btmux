@@ -1,0 +1,61 @@
+Name             { Locust }
+Reference        { LCT-1M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 20 }
+Mech_BV          { 382 }
+Max_Speed        { 129.00 }
+Specials         { Fliparms }
+Left_Arm
+  Armor            { 1 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.LRM-5 - - }
+Right_Arm
+  Armor            { 1 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.LRM-5 - - }
+Left_Torso
+  Armor            { 2 }
+  Internals        { 5 }
+  Rear             { 1 }
+Right_Torso
+  Armor            { 2 }
+  Internals        { 5 }
+  Rear             { 1 }
+Center_Torso
+  Armor            { 2 }
+  Internals        { 6 }
+  Rear             { 1 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { Ammo_IS.LRM-5 24 - }
+Left_Leg
+  Armor            { 1 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 1 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 3 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,8 @@
+ 
+& mail-other2
+ 
+  @mail/safe [<msg-list> | all>]
+        This command marks a message as being safe from mail
+        expiration. It should be used sparingly and only for
+        very imporatant messages.
+ 

@@ -1,0 +1,81 @@
+Name             { BlackHawk }
+Reference        { BlackHawk-S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Heat_Sinks       { 28 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials         { Clan }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.MediumPulseLaser - - }
+    CRIT_6		  { CL.MediumPulseLaser - - }
+    CRIT_7		  { CL.MediumPulseLaser - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.MediumPulseLaser - - }
+    CRIT_6		  { CL.MediumPulseLaser - - }
+    CRIT_7		  { CL.MediumPulseLaser - - }
+Left_Torso
+  Armor            { 15 }
+  Internals        { 12 }
+  Rear             { 8 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7		  { CL.MachineGun - - }
+    CRIT_8		  { CL.MachineGun - - }
+    CRIT_9		  { Ammo_CL.MachineGun 100 Hotload }
+Right_Torso
+  Armor            { 15 }
+  Internals        { 12 }
+  Rear             { 8 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-6		  { HeatSink - - }
+    CRIT_7		  { CL.MachineGun - - }
+    CRIT_8		  { CL.MachineGun - - }
+    CRIT_9		  { Ammo_CL.Anti-MissileSystem 24 - - }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 16 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { CL.Anti-MissileSystem - - }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { BeagleProbe - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

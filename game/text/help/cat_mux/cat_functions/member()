@@ -1,0 +1,26 @@
+ 
+& member()
+ 
+  Syntax: member(<list>, <word>[, <delim>])
+ 
+  This function takes a list and a word, and returns the position of
+  that word within the list. If the word does not occur in the list,
+  then 0 is returned. Unlike match(), member() does not check for
+  wildcarding, and the cases of <list> and <word> are significant. A
+  word is defined as a string which has no interior spaces. So 'hello'
+  would be one word, while 'hello there' would be two. <delim> may be
+  used to specify a delimiter other than a space.
+ 
+  Example:
+ 
+  > say member(This is a member test, member)
+  You say "4"
+  > say member(This is a member test, Member)
+  You say "0"
+  > say member(This is a member test, *e*)  
+  You say "0"
+  > say member(This is a member test, is a)
+  You say "#-1 CAN ONLY TEST ONE ELEMENT"
+ 
+  See Also: LISTS, match(), strmatch()
+ 

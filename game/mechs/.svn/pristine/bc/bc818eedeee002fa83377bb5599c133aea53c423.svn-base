@@ -1,0 +1,82 @@
+Name             { Panther }
+Reference        { PNT-12A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Comment          { Saved by: Spanky(#6784) at Sat Jun 23 17:11:05 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Heat_Sinks       { 20 }
+Mech_BV          { 925 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-7		  { HeatSink - - 3 }
+    CRIT_8		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { IS.ERLargeLaser - OnTC 3 }
+    CRIT_7-12		  { HeatSink - - 3 }
+Left_Torso
+  Armor            { 12 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1		  { Ammo_IS.StreakSRM-4 25 - - }
+    CRIT_2-4		  { HeatSink - - 3 }
+    CRIT_5		  { Case - - 3 }
+    CRIT_6-11		  { EndoSteel - - 3 }
+Right_Torso
+  Armor            { 12 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		  { TargetingComputer - - 3 }
+    CRIT_3-5		  { HeatSink - - 3 }
+    CRIT_6-12		  { EndoSteel - - 3 }
+Center_Torso
+  Armor            { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.StreakSRM-4 - - 3 }
+    CRIT_12		  { IS.MediumPulseLaser - OnTC 3 }
+Left_Leg
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Right_Leg
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { JumpJet - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

@@ -1,0 +1,27 @@
+ 
+& btgetpartcost()
+ 
+  Syntax: btgetpartcost(<partname>)
+ 
+  This function returns the cost of the specified part.
+ 
+  Note: The cost defaults to 0 and must be set via btsetpartcost()
+ 
+  Note: The information returned by this function requires the bt-
+  advanced-econ compile-time directive.
+ 
+  Error Messages:
+ 
+  * If <partname> is not valid the function returns
+    #-1 INVALID PART NAME
+  * If the mux was compiled without the bt-advanced-econ directive
+    the function returns #-1 NO ECONDB SUPPORT
+ 
+  Example:
+  Given that VTOL_FUEL is a valid part and costs 500
+ 
+  > think btgetpartcost(vtol_fuel)
+  500
+ 
+  See Also: btsetpartcost(), btfasabasecost_ref()
+ 

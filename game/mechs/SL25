@@ -1,0 +1,45 @@
+Name             { Samurai }
+Reference        { SL-25 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 50 }
+Comment          { Saved by: Celebrimbor(#319) at Fri May 30 19:06:02 1997 }
+Computer         { 3 }
+Heat_Sinks       { 19 }
+Fuel             { 750 }
+Max_Speed        { 118.25 }
+Nose
+  Armor            { 40 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.SmallLaser - - }
+Left_Wing
+  Armor            { 22 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Right_Wing
+  Armor            { 22 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+Fuselage
+  Armor            { 30 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 18 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 30 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+    CRIT_4-10		  { HeatSink - - }
+    CRIT_12		  { HeatSink - - }

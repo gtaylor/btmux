@@ -1,0 +1,22 @@
+ 
+& insert()
+ 
+  Syntax: insert(<list>, <pos>, <word>[, <sep>])
+ 
+  This function inserts a word into <list> so that the word becomes
+  the <pos>'th element of the list, and all subsequent list elements
+  are moved down. This means that it appears between the <pos-1>'th
+  and <pos>'th elements of the original list. This function may also
+  be used to append a word to a list.
+ 
+  <delim> may be used to specify a delimiter other than a space.
+ 
+  Example:
+ 
+  > say insert(This is a test, 4, new)
+  You say "This is a new test"
+  > say insert(Yet@Another@List, 3, Funky, @)
+  You say "Yet@Another@Funky@List"
+ 
+  See Also: extract(), ldelete(), replace()
+ 

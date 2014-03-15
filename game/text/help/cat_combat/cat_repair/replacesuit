@@ -1,0 +1,11 @@
+ 
+& replacesuit
+ 
+  RS Command: replacesuit <suitnum>
+  
+  This command replaces a destroyed battlesuit.
+  
+  Arguments:
+  * suitnum - this uses the same argument as critstatus does for 
+              battlesuits:  eg S1, S2, etc
+ 

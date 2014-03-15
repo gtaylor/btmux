@@ -1,0 +1,10 @@
+
+& robot_cost
+
+  Config paramater: robot_cost <amount>
+  Default: 1000
+
+  Specifies the cost of using the @robot command to create a robot.
+
+  See also: @robot, ROBOT.
+ 

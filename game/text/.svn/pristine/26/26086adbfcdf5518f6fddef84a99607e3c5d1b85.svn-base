@@ -1,0 +1,9 @@
+ 
+& @ccharge
+ 
+  Syntax: @ccharge <channel>=<amount>
+ 
+  This command imposes a charge of <amount> coins on transmitting over
+  a channel. The default fee when a channel is created is 0. All
+  proceeds benefit the channel owner.
+ 

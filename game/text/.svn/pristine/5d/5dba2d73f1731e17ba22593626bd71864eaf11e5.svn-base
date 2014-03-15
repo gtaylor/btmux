@@ -1,0 +1,22 @@
+ 
+& isdbref()
+ 
+  Syntax: isdbref(<string>)
+ 
+  This function will return 1 if the string passed to it is a valid
+  dbref. To be a valid dbref the string must begin with '#' and be
+  followed by an integer. Also, the dbref must exist in the current
+  database as a valid object. If the object fails either of these
+  criteria, then a 0 is returned.
+ 
+  Example:
+ 
+  > say isdbref(#-1)
+  You say "0"
+  > say isdbref(#1)
+  You say "1"
+  > say isdbref(This is not a dbref)
+  You say "0"
+ 
+  See Also: isnum(), isword()
+ 

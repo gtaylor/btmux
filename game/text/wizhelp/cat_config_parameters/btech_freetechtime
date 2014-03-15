@@ -1,0 +1,11 @@
+ 
+& btech_freetechtime
+ 
+  Config paramater: btech_freetechtime <0/1>
+  Default: 0
+  
+  Enables carrying out of repairs and tech activities virtually
+  instantly.
+  
+  See Also: bt-freetechtime
+ 

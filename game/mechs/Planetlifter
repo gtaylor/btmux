@@ -1,0 +1,33 @@
+Name             { Planetlifter }
+Reference        { Planetlifter }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 50 }
+Computer         { 3 }
+Heat_Sinks       { 0 }
+Fuel             { 2500 }
+Max_Speed        { 64.50 }
+Specials	 { CargoTech }
+Nose
+  Armor            { 12 }
+  Internals        { 5 }
+Left_Wing
+  Armor            { 4 }
+  Internals        { 5 }
+Right_Wing
+  Armor            { 4 }
+  Internals        { 5 }
+Fuselage
+  Armor            { 10 }
+  Internals        { 5 }
+Cockpit
+  Armor            { 8 }
+  Internals        { 5 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor 	   { 10 }
+  Internals        { 5 }

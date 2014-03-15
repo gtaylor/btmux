@@ -1,0 +1,11 @@
+
+& guest_nuker
+
+  Config parameter: guest_nuker <dbref>
+  Default: 1
+
+  Specifies who is to nuke guests when they log off. If it is not a
+  good object or a wizard, it defaults to #1.
+
+  See also: guest_char_num, guest_prefix, number_guests.
+ 

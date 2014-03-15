@@ -1,0 +1,67 @@
+Name             { Mackie }
+Reference        { M5K-6S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Comment          { Saved by: Spectre(#4628) at Sat Mar 31 15:20:27 2001 }
+Radio            { 2 }
+Heat_Sinks       { 15 }
+Mech_BV          { 1180 }
+Cargo_Space      { 0 }
+Max_Speed        { 53.75 }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { IS.PPC - - 3 }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-10		  { IS.AC/10 - - 3 }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { HeatSink - - 3 }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1		  { HeatSink - - 3 }
+    CRIT_2-3		  { Ammo_IS.AC/10 10 - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 31 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.MediumLaser - - 3 }
+    CRIT_12		  { IS.MediumLaser - - 3 }
+Left_Leg
+  Armor            { 28 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 28 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

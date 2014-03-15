@@ -1,0 +1,30 @@
+ 
+& btdamagemech()3
+ 
+  AttemptCrit arguments
+  This argument is boolean: 0=no 1=yes
+ 
+  Error Messages:
+ 
+  * Invalid <UnitDB> results in #-1 NOT A MECH
+  * Invalid <totaldamage> results in #-1 INVALID 2ND ARG
+  * Invalid <clustersize> results in #-1 INVALID 3RD ARG
+  * Invalid <direction> results in #-1 INVALID 4TH ARG
+  * Invalid <attemptcrit> results in #-1 INVALID 5TH ARG
+ 
+  Example:
+ 
+  Given that #1234 is a unit
+ 
+  > think btdamagemech(#1234, 2, 2, 0, 0, BANG, GETS BANGED)
+  1
+ 
+  The occupant(s) of the unit will see:
+ 
+  BANG
+  You have been hit for 2 points of damage in the left arm
+ 
+  The occupants of any units within LOS will see:
+ 
+  unit name [ID] GETS BANGED
+ 

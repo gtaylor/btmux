@@ -1,0 +1,12 @@
+ 
+& relay mode
+ 
+  setchannelmode: Relay mode
+  Flag: E, or e
+  
+  This mode causes your radio to retransmit messages from units 
+  which are out of range of other units. Relay mode can only operate 
+  in Digital mode.
+  
+  You will see nothing to indicate if you are relaying or not.
+ 

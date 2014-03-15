@@ -1,0 +1,19 @@
+ 
+& @oenter
+ 
+  Syntax: @oenter <object> = <message>
+  Attribute: Oenter
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in the location being entered when someone enters <object>.
+  Note that the message is shown to those inside the object, not
+  those outside.
+ 
+  This attribute is meaningful for players, things, and rooms, and
+  will never be automatically triggered on exits.
+ 
+  Example:
+  @oxenter wormhole = enters the wormhole from normal space.
+ 
+  See also: enter, @aenter, @enter, @oxenter
+ 

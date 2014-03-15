@@ -1,0 +1,69 @@
+Name             { Firefly }
+Reference        { FFL-4A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Mech_BV          { 649 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 43.00 }
+Specials         { Fliparms }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.SmallLaser - - }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { IS.SmallLaser - - }
+Left_Torso
+  Armor            { 11 }
+  Internals        { 7 }
+  Rear             { 3 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }
+    CRIT_3-4		  { HeatSink - - }
+Right_Torso
+  Armor            { 11 }
+  Internals        { 7 }
+  Rear             { 3 }
+    CRIT_1		  { IS.MediumLaser - - }
+    CRIT_2		  { IS.LRM-5 - - }
+    CRIT_3		  { Ammo_IS.LRM-5 24 - }
+    CRIT_4-5		  { HeatSink - - }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.SmallLaser - - }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

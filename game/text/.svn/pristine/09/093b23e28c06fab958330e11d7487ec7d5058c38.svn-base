@@ -1,0 +1,12 @@
+ 
+& removesection
+ 
+  RS Command: removesection <loc>
+  
+  This command removes a section (eg LT, RL) from an RS Unit which is 
+  being scrapped.
+  
+  NOTE - this command will remove a section even if there are parts 
+  still on it which can be salvaged. In that case, those parts will be 
+  lost.
+ 

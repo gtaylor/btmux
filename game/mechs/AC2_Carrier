@@ -1,0 +1,27 @@
+Name             { AC2_Carrier }
+Reference        { AC2_Carrier }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 60 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:02 2000 }
+Mech_BV          { 263 }
+Max_Speed        { 53.75 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 12 }
+  Internals        { 6 }
+Right_Side
+  Armor            { 12 }
+  Internals        { 6 }
+Front_Side
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { IS.AC/2 - - 3 }
+    CRIT_2		  { IS.AC/2 - - 3 }
+    CRIT_3		  { IS.AC/2 - - 3 }
+    CRIT_4		  { IS.AC/2 - - 3 }
+    CRIT_5		  { IS.AC/2 - - 3 }
+    CRIT_6-9		  { Ammo_IS.AC/2 45 - - }
+Aft_Side
+  Armor            { 12 }
+  Internals        { 6 }

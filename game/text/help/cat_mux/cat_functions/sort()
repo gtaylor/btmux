@@ -1,0 +1,29 @@
+ 
+& sort()
+ 
+  Syntax: sort(<list>[, <sort type>[, <delim>]])
+ 
+  Takes a list of words, numbers, or dbref, and sorts them into
+  ascending order. Lexicographic order is used for words, and numeric
+  order is used for numbers and dbrefs.
+ 
+  <sort type> may be used to specify the type of sort to perform (use
+  d for dbref, n for integer numeric, f for floating numeric, and a
+  for alphanumeric). If omitted or left blank, the function will
+  automatically determine the type of sort to perform.
+ 
+  If <delim> is specified, it (rather than a space) is used to
+  separate items in the list. You may specify an alternate delimiter
+  without specifying a sort type by passing a null <sort type>
+  parameter.
+ 
+  Example:
+  > say sort(This is a test)
+  You say "This a is test"
+  > say sort(98 99 100 101)
+  You say "98 99 100 102"
+  > say sort(foo-bar-bletch,,-)
+  You say "bar-bletch-foo"
+ 
+  See Also: sortby()
+ 

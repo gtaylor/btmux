@@ -1,0 +1,72 @@
+Name             { ManO'War }
+Reference        { Man-A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Computer         { 4 }
+Heat_Sinks       { 32 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 23 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { CL.LargePulseLaser - - }
+    CRIT_7		  { CL.MediumPulseLaser - - }
+    CRIT_8		  { CL.ERMediumLaser - - }
+    CRIT_9		  { CL.ERSmallLaser - - }
+Right_Arm
+  Armor            { 23 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.ERPPC - - }
+    CRIT_6-7		  { CL.ERPPC - - }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 25 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_6		  { FerroFibrous - - }
+Right_Leg
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_6		  { FerroFibrous - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

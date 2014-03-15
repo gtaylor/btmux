@@ -1,0 +1,18 @@
+ 
+& saw
+ 
+  RS Command: saw [ID]
+  
+  This command causes your 'Mech to attack another RS Unit with a 
+  saw. Naturally, this requires that your unit be equipped with a 
+  saw.
+  
+  As with all physical attacks you must be within the same hex as the 
+  unit you are attacking.
+  
+  Arguments:
+  none - if a target is locked, attempt to attack that target
+  * ID - specify a unit to attack
+  
+  See Also: axe, charge, chop, club, grabclub, kick, mace, punch, trip
+ 

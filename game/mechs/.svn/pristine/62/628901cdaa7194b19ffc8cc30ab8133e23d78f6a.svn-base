@@ -1,0 +1,30 @@
+Name             { Main Gauche }
+Reference        { MainGauche-XL }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 30 }
+Comment          { Saved by: Spectre(#4628) at Thu Jul 11 06:56:40 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 375 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 96.75 }
+Specials         { XLEngine_Tech }
+Left_Side
+  Armor            { 19 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 19 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 30 }
+  Internals        { 3 }
+    CRIT_1		  { IS.LightGaussRifle - - 3 }
+    CRIT_2		  { IS.MachineGun - - 3 }
+    CRIT_3		  { IS.MachineGun - - 3 }
+Aft_Side
+  Armor            { 13 }
+  Internals        { 3 }
+    CRIT_1		  { Ammo_IS.LightGaussRifle 16 - - }
+    CRIT_2		  { Ammo_IS.MachineGun 200 - - }

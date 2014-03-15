@@ -1,0 +1,13 @@
+ 
+& fuel
+ 
+  xcodevalue: fuel <int>
+  XTYPE: MECH
+  
+  This xcode value stores the amount of fuel current in the vehicle.
+  
+  NOTE - This does not include cargo - only the vehicle's operating 
+  fuel.
+  
+  See Also: fuel_orig, @viewxcode
+ 

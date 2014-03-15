@@ -1,0 +1,14 @@
+ 
+& \\
+ 
+  Syntax: \\<message>
+ 
+  Outputs <message> to everyone in your current room without
+  embellishment.
+ 
+  Example:
+  >\\A chill falls over the room.
+  A chill falls over the room.'
+ 
+  See also: @emit, @oemit, NOSPOOF
+ 

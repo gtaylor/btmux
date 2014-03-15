@@ -1,0 +1,11 @@
+
+& player_quota
+
+  Config parameter: player_quota <amount>
+  Default: 1
+
+  Sets how much quota it costs to create a robot player (and also how
+  much the remaining quota is increased when a robot is @destroyed.
+
+  See also: @quota, exit_quota, room_quota, thing_quota, QUOTAS.
+ 

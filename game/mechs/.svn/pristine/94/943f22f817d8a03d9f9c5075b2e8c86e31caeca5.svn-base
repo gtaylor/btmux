@@ -1,0 +1,89 @@
+Name             { Gladiator }
+Reference        { Gla-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 95 }
+Computer         { 4 }
+Heat_Sinks       { 38 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Specials         { Masc }
+Left_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.SRM-6 - - }
+    CRIT_6		  { CL.SRM-6 - - }
+    CRIT_7-9		  { Ammo_CL.SRM-6 15 - }
+    CRIT_12		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 32 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.LargePulseLaser - - }
+    CRIT_6		  { CL.MediumPulseLaser - - }
+    CRIT_7		  { CL.MediumPulseLaser - - }
+    CRIT_8		  { CL.MediumPulseLaser - - }
+    CRIT_9		  { CL.SmallPulseLaser - - }
+    CRIT_10		  { CL.SmallPulseLaser - - }
+    CRIT_11		  { CL.SmallPulseLaser - - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { HeatSink - - }
+    CRIT_5		  { Masc - - }
+    CRIT_6		  { CL.Flamer - - }
+    CRIT_7-8		  { HeatSink - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 20 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { Masc - - }
+    CRIT_4		  { CL.SmallPulseLaser - - }
+    CRIT_5		  { CL.SmallPulseLaser - - }
+    CRIT_6-9		  { HeatSink - - }
+    CRIT_11-12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 37 }
+  Internals        { 30 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { Masc - - }
+Left_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 40 }
+  Internals        { 20 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

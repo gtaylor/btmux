@@ -1,0 +1,77 @@
+Name             { Fire Scorpion }
+Reference        { FireScorpion-2 }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 65 }
+Heat_Sinks	 { 10 }
+Max_Speed        { 64.50 }
+Specials	 { Clan }
+Front_Left_Leg
+  Armor            { 29 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.A-Pod - - }
+    CRIT_6		  { EndoSteel - - }
+Front_Right_Leg
+  Armor            { 29 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.A-Pod - - }
+    CRIT_6		  { EndoSteel - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-8		  { CL.UltraAC/20 - - }
+    CRIT_9-12		  { Ammo_CL.UltraAC/20 5 - }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1		  { CL.LRM-10 - - }
+    CRIT_2		  { CL.LRM-10 - - }
+    CRIT_3		  { BeagleProbe - - }
+    CRIT_4-7		  { CL.MachineGun - - }
+    CRIT_8-9		  { Ammo_CL.LRM-10 12 - }
+    CRIT_10		  { Ammo_CL.MachineGun 200 - }
+Center_Torso
+  Armor            { 31 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { EndoSteel - - }
+Rear_Left_Leg
+  Armor            { 29 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.A-Pod - - }
+    CRIT_6		  { EndoSteel - - }
+Rear_Right_Leg
+  Armor            { 29 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.A-Pod - - }
+    CRIT_6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

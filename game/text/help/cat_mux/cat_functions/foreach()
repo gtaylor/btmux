@@ -1,0 +1,25 @@
+ 
+& foreach()
+ 
+  Syntax: foreach([<object>/]<attribute>,<string>[,<begin>, <end>])
+ 
+  Maps a function onto a string.
+ 
+  Each character in <string> has the user-defined function of the
+  first argument performed on it; the character is passed to the
+  function as %0. The results are concatenated. If <begin> and <end>
+  are specified, only the characters between <begin> and <end> are
+  parsed, other characters are concatenated as they are. This allows
+  a rudimentary form of tokens and speeds up the evaluation greatly
+  if tokenizing is your purpose.
+ 
+  Example:
+ 
+  > &add_one me=[add(%0,1)]
+  > say [foreach(add_one, 54321)]
+  You say, "65432"
+ 
+  > &add_one me=[add(%0,1)]
+  > say [foreach(add_one, This adds #0# to numbers in this
+  string,#,#)]
+  You say, "This adds 1 to numbers in this string."

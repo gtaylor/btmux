@@ -1,0 +1,72 @@
+Name             { Imp }
+Reference        { IMP-2E }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Mech_BV          { 1619 }
+Heat_Sinks       { 30 }
+Radio            { 4 }
+Max_Speed        { 53.75 }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-6		  { IS.LRM-15 - - }
+Left_Torso
+  Armor            { 30 }
+  Internals        { 21 }
+  Rear             { 12 }
+    CRIT_1-3		  { IS.PPC - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { Ammo_IS.LRM-15 8 - }
+    CRIT_6-11		  { HeatSink - - }
+Right_Torso
+  Armor            { 30 }
+  Internals        { 21 }
+  Rear             { 12 }
+    CRIT_1-3		  { IS.PPC - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5-11		  { HeatSink - - }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 31 }
+  Rear             { 22 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MediumLaser - - }
+    CRIT_12		  { IS.MediumLaser - - }
+Left_Leg
+  Armor            { 42 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 42 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { HeatSink - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

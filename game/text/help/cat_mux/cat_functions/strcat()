@@ -1,0 +1,12 @@
+ 
+& strcat()
+ 
+  Syntax: strcat(<string1>, <stringN>, ...)
+ 
+  This function concatanates two or more strings, with no
+  space between them.
+   
+  Example:
+  Say strcat(foo,bar,baz,blech)
+  You say "foobarbazblech".
+ 

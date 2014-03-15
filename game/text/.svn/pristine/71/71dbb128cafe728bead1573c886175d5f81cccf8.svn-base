@@ -1,0 +1,14 @@
+
+& timeslice
+
+  Config parameter: timeslice <amount>
+  Default: 100
+
+  Specifies the interval at which connected users' command quotas are
+  increased.  Each command a user types in (commands executed by
+  machines do not count) decreases that user's quota by 1, and the
+  user's commands are only executed if the quota is greater than
+  zero.
+
+  See also: command_quota_incr, command_quota_max.
+ 

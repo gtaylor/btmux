@@ -1,0 +1,73 @@
+Name             { Warhammer }
+Reference        { WHM-9S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Heat_Sinks       { 40 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1433 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS LightEngine_Tech Searchlight }
+Left_Arm
+  Armor          { 21 }
+  Internals      { 11 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-9     { HeatSink - - }
+    CRIT_10-12   { IS.ERPPC - - }
+Right_Arm
+  Armor          { 21 }
+  Internals      { 11 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-9     { HeatSink - - }
+    CRIT_10-12   { IS.ERPPC - - }
+Left_Torso
+  Armor          { 22 }
+  Internals      { 15 }
+  Rear           { 7 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3-11    { HeatSink - - }
+Right_Torso
+  Armor          { 22 }
+  Internals      { 15 }
+  Rear           { 7 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3-8     { HeatSink - - }
+    CRIT_9-10    { IS.StreakSRM-6 - - }
+    CRIT_11      { Ammo_IS.StreakSRM-6 15 - }
+    CRIT_12      { Case - - }
+Center_Torso
+  Armor          { 31 }
+  Internals      { 22 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { IS.ERMediumLaser - - }
+    CRIT_12      { IS.ERMediumLaser - - }
+Left_Leg
+  Armor          { 29 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Right_Leg
+  Armor          { 29 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

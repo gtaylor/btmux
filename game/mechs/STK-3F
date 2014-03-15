@@ -1,0 +1,78 @@
+Name             { Stalker }
+Reference        { STK-3F }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Mech_BV          { 1152 }
+Heat_Sinks       { 20 }
+Computer	 { 4 }
+Max_Speed        { 53.75 }
+Specials         { Fliparms }
+Left_Arm
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { IS.LRM-10 - - }
+    CRIT_5		  { HeatSink - - }
+    CRIT_6		  { IS.MediumLaser - - 4 }
+    CRIT_7		  { Ammo_IS.LRM-10 12 - }
+    CRIT_8		  { IS.MediumLaser - - 4 }
+Right_Arm
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { IS.LRM-10 - - }
+    CRIT_5		  { HeatSink - - }
+    CRIT_6		  { IS.MediumLaser - - 4 }
+    CRIT_7		  { Ammo_IS.LRM-10 12 - }
+    CRIT_8		  { IS.MediumLaser - - 4 }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1-2		  { IS.LargeLaser - - 4 }
+    CRIT_3-4		  { IS.SRM-6 - - }
+    CRIT_5		  { Ammo_IS.SRM-6 15 - }
+    CRIT_6		  { HeatSink - - }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1-2		  { IS.LargeLaser - - 4 }
+    CRIT_3-4		  { IS.SRM-6 - - }
+    CRIT_5		  { Ammo_IS.SRM-6 15 - }
+    CRIT_6		  { HeatSink - - }
+Center_Torso
+  Armor            { 36 }
+  Internals        { 27 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { HeatSink - - }
+Left_Leg
+  Armor            { 25 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 25 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

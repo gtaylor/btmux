@@ -1,0 +1,47 @@
+Name             { Sabutai }
+Reference        { Sabutai-B }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 75 }
+Heat_Sinks       { 30 }
+Fuel             { 450 }
+Max_Speed        { 96.75 }
+Specials	 { Clan FerroFibrous_Tech }
+Nose
+  Armor            { 46 }
+  Internals        { 7 }
+    CRIT_1		  { TAG - - }
+    CRIT_2		  { CL.NarcBeacon - - }
+    CRIT_3-4		  { Ammo_CL.NarcBeacon 6 - }
+    CRIT_5		  { CL.LRM-20 - - }
+    CRIT_6		  { Ammo_CL.LRM-20 6 Narc/Smoke }
+Left_Wing
+  Armor            { 35 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LRM-20 - - }
+    CRIT_2		  { CL.LRM-20 - - }
+    CRIT_3-4		  { Ammo_CL.LRM-20 6 Narc/Smoke }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 35 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LRM-20 - - }
+    CRIT_2		  { CL.LRM-20 - - }
+    CRIT_3-4		  { Ammo_CL.LRM-20 6 Narc/Smoke }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 40 }
+  Internals        { 7 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 7 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 30 }
+  Internals        { 7 }
+    CRIT_1		  { Ecm - - }
+    CRIT_2		  { CL.MediumPulseLaser - - }

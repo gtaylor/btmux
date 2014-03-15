@@ -1,0 +1,81 @@
+Name             { Venom }
+Reference        { SDR-9KB }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 35 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:05:30 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 13 }
+Mech_BV          { 638 }
+Max_Speed        { 129.00 }
+Jump_Speed       { 64.50 }
+Left_Arm
+  Armor            { 8 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 8 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-12		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 11 }
+  Internals        { 8 }
+  Rear             { 2 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { HeatSink - - 3 }
+    CRIT_5-7		  { JumpJet - - 3 }
+    CRIT_8		  { IS.MediumPulseLaser - - 3 }
+    CRIT_9		  { IS.MediumPulseLaser - - 3 }
+    CRIT_10-12		  { FerroFibrous - - 3 }
+Right_Torso
+  Armor            { 11 }
+  Internals        { 8 }
+  Rear             { 2 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-6		  { JumpJet - - 3 }
+    CRIT_7		  { IS.MediumPulseLaser - - 3 }
+    CRIT_8		  { IS.MachineGun - - 3 }
+    CRIT_9		  { Ammo_IS.MachineGun 100 Hotload - }
+    CRIT_10-12		  { FerroFibrous - - 3 }
+Center_Torso
+  Armor            { 12 }
+  Internals        { 11 }
+  Rear             { 3 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { FerroFibrous - - 3 }
+Left_Leg
+  Armor            { 8 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { FerroFibrous - - 3 }
+Right_Leg
+  Armor            { 8 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { FerroFibrous - - 3 }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { HeatSink - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

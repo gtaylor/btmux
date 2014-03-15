@@ -1,0 +1,29 @@
+Name             { Mantis }
+Reference        { Mantis }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 15 }
+Comment          { Saved by: Charlemagne(#4624) at Fri Mar 24 05:27:49 2000 }
+Mech_BV          { 460 }
+Cargo_Space      { 0 }
+Max_Speed        { 182.75 }
+Left_Side
+  Armor            { 8 }
+  Internals        { 2 }
+Right_Side
+  Armor            { 8 }
+  Internals        { 2 }
+Front_Side
+  Armor            { 14 }
+  Internals        { 2 }
+    CRIT_1		  { IS.ERSmallLaser - - 3 }
+    CRIT_2		  { IS.ERSmallLaser - - 3 }
+    CRIT_3		  { IS.ERSmallLaser - - 3 }
+    CRIT_4		  { IS.ERSmallLaser - - 3 }
+    CRIT_5		  { IS.ERSmallLaser - - 3 }
+Aft_Side
+  Armor            { 8 }
+  Internals        { 2 }
+Rotor
+  Armor            { 2 }
+  Internals        { 2 }

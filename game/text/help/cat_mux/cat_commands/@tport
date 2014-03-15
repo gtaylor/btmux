@@ -1,0 +1,17 @@
+ 
+& @tport
+ 
+  Syntax: @tport <object> = <message>
+  Attribute: Tport
+ 
+  Sets the message that an object sees whenever it teleports.
+  The message is displayed after the object moves to its new location.
+ 
+  This attribute is only meaningful for players and things, and will
+  never be automatically triggered on other object types.
+ 
+  Example:
+  @tport me = Hey! I teleported. Wow!
+ 
+  See also: @atport, @otport, @oxtport, @teleport
+ 

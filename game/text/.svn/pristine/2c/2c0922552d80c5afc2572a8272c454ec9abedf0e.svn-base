@@ -1,0 +1,24 @@
+ 
+& @oefail
+ 
+  Syntax: @oefail <object> = <command-list>
+  Attribute: Oefail
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in the same room as the player when he tries to enter the
+  object but fails because the object is not ENTER_OK or the player
+  fails the object's enter lock.
+ 
+  The enter lock only affects the 'enter' command and its aliases (set
+  via the @ealias command), it does not affect exits that lead to
+  the object or teleporting in.
+ 
+  This attribute is meaningful for players and things, and will never
+  be automatically triggered on rooms or exits.
+ 
+  Example: @oefail car = tries to open the car's door, but it is
+  locked.
+ 
+  See also: @aefail, @aenter, @ealias, @efail, @enter, @oenter, enter,
+  ENTER_OK
+ 

@@ -1,0 +1,27 @@
+Name             { J-27 }
+Reference        { J-27 }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 20 }
+Comment          { Saved by: Charlemagne(#4624) at Sat Mar  4 14:50:02 2000 }
+Mech_BV          { 34 }
+Cargo_Space      { 3072 }
+Max_Speed        { 86.00 }
+Specials         { CargoTech ICEEngine_Tech }
+Left_Side
+  Armor            { 5 }
+  Internals        { 2 }
+Right_Side
+  Armor            { 5 }
+  Internals        { 2 }
+Front_Side
+  Armor            { 6 }
+  Internals        { 2 }
+Aft_Side
+  Armor            { 6 }
+  Internals        { 2 }
+Turret
+  Armor            { 2 }
+  Internals        { 2 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { Ammo_IS.MachineGun 200 - - }

@@ -1,0 +1,23 @@
+ 
+& enterbase
+ 
+  RS Command: enterbase [n|s|e|w]
+  
+  This command causes an RS Unit to enter a hangar/factory/etc from 
+  the RS map.
+  
+  If a direction is specified the unit will arrive within the base at 
+  the entrance associated with that direction (eg enterbase n will 
+  bring your unit to the north entrance).
+  
+  If no direction is specified the unit will arrive at the default 
+  entrance.
+  
+  Arguments:
+  n - north
+  s - south
+  e - east
+  w - west
+  
+  See Also: enterbay
+ 

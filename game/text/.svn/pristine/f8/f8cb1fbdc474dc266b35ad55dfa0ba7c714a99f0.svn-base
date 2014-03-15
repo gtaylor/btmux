@@ -1,0 +1,12 @@
+ 
+& "
+ 
+  Syntax: "<message>
+ 
+  Says <message> out loud to everyone in your current room.  Example:
+  the command '"Where is the movie theater?' produces
+  '<yourname> says "Where is the movie theater>"'.  Note that the
+  closing double quote is automatically added.
+ 
+  See also: page, pose, say, :,"
+ 

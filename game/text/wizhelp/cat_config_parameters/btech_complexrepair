@@ -1,0 +1,11 @@
+
+& btech_complexrepair
+
+  Config parameter: btech_complexrepair <0/1>
+  Default: 0
+
+  Determines if complex repairs are to be implemented on the Mux. When
+  enabled parts for RS units will be weight specific - ie a hand
+  actuator for a 70 ton mech cannot be used to repair an 80 ton mech.
+
+  See Also: bt-complexrepairs.

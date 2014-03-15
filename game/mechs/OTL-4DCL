@@ -1,0 +1,69 @@
+Name             { Ostsol }
+Reference        { OTL-4DCL }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Computer         { 4 }
+Heat_Sinks       { 30 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Left_Torso
+  Armor            { 23 }
+  Internals        { 14 }
+  Rear             { 5 }
+    CRIT_1		  { CL.ERLargeLaser - - }
+    CRIT_2		  { CL.MediumPulseLaser - - }
+    CRIT_3-9		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 23 }
+  Internals        { 14 }
+  Rear             { 5 }
+    CRIT_1		  { CL.ERLargeLaser - - }
+    CRIT_2		  { CL.MediumPulseLaser - - }
+    CRIT_3-4		  { HeatSink - - }
+Center_Torso
+  Armor            { 32 }
+  Internals        { 20 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.MediumPulseLaser - RearMount }
+Left_Leg
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 28 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

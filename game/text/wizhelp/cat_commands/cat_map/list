@@ -1,0 +1,17 @@
+ 
+& list
+ 
+  Map Command: list <mechs|objs>
+  
+  This command lists the specified object-type on the map.
+  
+  To run this command you must be within the mapobject which the map 
+  you are checking is attached to.
+  
+  Arguments:
+  * mechs - displays details of the RS Units on the map
+  * objs - displays details of other units (eg minds) on the map.
+  
+  Error Messages:
+  * if arg < 1 the command returns "Supply target type too!"
+ 

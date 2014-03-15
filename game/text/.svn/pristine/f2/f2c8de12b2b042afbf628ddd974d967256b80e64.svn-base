@@ -1,0 +1,25 @@
+ 
+removegun2
+ 
+  Example:
+  
+  >status w
+  Vehicle Name:                  ID:[FV]   Vehicle Reference: Pinto
+  Tonnage:    30      FlankSpeed: 161       Movement Type: VTOL
+  Pilot: NONE
+  SHUTDOWN
+  AdvSensors: BeagleProbe
+  
+==================WEAPON SYSTEMS===========================AMMUNITION========
+------ Weapon --------- [##] Location ---- Status ||--- Ammo Type ---- Rounds
+ MediumLaser            [ 0] Front Side    Ready  || LRM-5            A   24
+ MediumLaser            [ 1] Front Side    Ready  ||    
+ MediumLaser            [ 2] Front Side    Ready  ||    
+ LRM-5                  [ 3] Front Side    Ready  ||    
+  
+  >removegun 0
+  BTH: 5 Roll: 7
+  You start removing the gun..
+  You have 40 minutes of repairs pending and you're ready to do at 
+  least 560 more minutes of work.
+  

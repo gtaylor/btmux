@@ -1,0 +1,80 @@
+Name             { Vixen }
+Reference        { Vix-P }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Computer         { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 150.50 }
+Specials         { Clan FerroFibrous_Tech EndoSteel_Tech }
+Left_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 10 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { CL.LargePulseLaser - - }
+Left_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { CL.ERMediumLaser - - }
+    CRIT_4		  { CL.MachineGun - - }
+    CRIT_5		  { CL.MachineGun - - }
+    CRIT_8-10		  { FerroFibrous - - }
+    CRIT_11-12		  { EndoSteel - - }
+Right_Torso
+  Armor            { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { CL.ERMediumLaser - - }
+    CRIT_4		  { CL.MachineGun - - }
+    CRIT_5		  { CL.MachineGun - - }
+    CRIT_9-10		  { FerroFibrous - - }
+    CRIT_11-12		  { EndoSteel - - }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_CL.MachineGun 100 Halfton - }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { FerroFibrous - - }
+    CRIT_6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { FerroFibrous - - }
+    CRIT_6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.MachineGun - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

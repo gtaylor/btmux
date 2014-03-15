@@ -1,0 +1,75 @@
+Name             { Ryoken }
+Reference        { Ryo-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Computer         { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 96.75 }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-8		  { CL.LB10-XAC - - }
+    CRIT_9-10		  { Ammo_CL.LB10-XAC 10 - }
+    CRIT_11		  { Ammo_CL.LB10-XAC 10 LBX/Cluster }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { CL.LargePulseLaser - - }
+Left_Torso
+  Armor            { 17 }
+  Internals        { 13 }
+  Rear             { 9 }
+    CRIT_1		  { CL.MediumPulseLaser - - }
+    CRIT_2-3		  { Engine - - }
+    CRIT_9		  { EndoSteel - - }
+    CRIT_10-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 17 }
+  Internals        { 13 }
+  Rear             { 9 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { CL.MediumPulseLaser - - }
+    CRIT_9		  { EndoSteel - - }
+    CRIT_10-12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

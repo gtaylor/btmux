@@ -1,0 +1,39 @@
+Name             { Rommel }
+Reference        { Rommel-GR }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 65 }
+Comment          { Saved by: Genitrix(#1511) at Thu Feb  8 15:31:16 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Computer         { 3 }
+Mech_BV          { 0 }
+Max_Speed        { 64.50 }
+Left_Side
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 42 }
+  Internals        { 7 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { IS.MachineGun - - }
+Aft_Side
+  Armor            { 26 }
+  Internals        { 7 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { Ammo_IS.MachineGun 100 Hotload - }
+Turret
+  Armor            { 40 }
+  Internals        { 7 }
+    CRIT_1		  { IS.GaussRifle - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MachineGun - - }
+    CRIT_5		  { IS.MachineGun - - }
+    CRIT_6-7		  { Ammo_IS.GaussRifle 8 - - }

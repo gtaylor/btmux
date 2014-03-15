@@ -1,0 +1,72 @@
+Name             { Battlemaster }
+Reference        { BLR-5M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Heat_Sinks       { 28 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1484 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS Searchlight }
+Left_Arm
+  Armor          { 24 }
+  Internals      { 14 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-7     { HeatSink - - }
+Right_Arm
+  Armor          { 24 }
+  Internals      { 14 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-9     { IS.LightGaussRifle - - }
+    CRIT_10      { Ammo_IS.LightGaussRifle 16 - }
+    CRIT_11-12   { IS.ERLargeLaser - - }
+Left_Torso
+  Armor          { 28 }
+  Internals      { 18 }
+  Rear           { 8 }
+    CRIT_1       { IS.ERMediumLaser - - }
+    CRIT_2       { IS.ERMediumLaser - - }
+    CRIT_3       { IS.ERMediumLaser - RearMount }
+Right_Torso
+  Armor          { 28 }
+  Internals      { 18 }
+  Rear           { 8 }
+    CRIT_1       { IS.ERMediumLaser - - }
+    CRIT_2       { IS.ERMediumLaser - - }
+    CRIT_3       { IS.ERMediumLaser - RearMount }
+Center_Torso
+  Armor          { 40 }
+  Internals      { 27 }
+  Rear           { 11 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+Left_Leg
+  Armor          { 26 }
+  Internals      { 18 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Right_Leg
+  Armor          { 26 }
+  Internals      { 18 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

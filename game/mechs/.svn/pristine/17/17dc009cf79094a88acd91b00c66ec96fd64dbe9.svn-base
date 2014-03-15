@@ -1,0 +1,72 @@
+Name             { Kraken }
+Reference        { Kra-I }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Computer         { 4 }
+Heat_Sinks       { 20 }
+Max_Speed        { 53.75 }
+Left_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-6		  { CL.UltraAC/10 - - }
+    CRIT_7-10		  { CL.UltraAC/10 - - }
+    CRIT_11-12		  { Ammo_CL.UltraAC/10 10 - }
+Right_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-6		  { CL.UltraAC/10 - - }
+    CRIT_7-10		  { CL.UltraAC/10 - - }
+    CRIT_11-12		  { Ammo_CL.UltraAC/10 10 - }
+Left_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-8		  { Ammo_CL.UltraAC/10 10 - }
+Right_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { Ammo_CL.UltraAC/10 10 - }
+    CRIT_5		  { CL.MachineGun - - }
+    CRIT_6		  { CL.MachineGun - - }
+    CRIT_7		  { CL.MachineGun - - }
+    CRIT_8		  { CL.MachineGun - - }
+    CRIT_9		  { Ammo_CL.MachineGun 100 Halfton - }
+    CRIT_10-11		  { Ammo_CL.UltraAC/10 10 - }
+Center_Torso
+  Armor            { 46 }
+  Internals        { 31 }
+  Rear             { 13 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 42 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 42 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

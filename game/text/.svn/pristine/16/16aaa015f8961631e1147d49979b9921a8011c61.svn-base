@@ -1,0 +1,8 @@
+ 
+& btech_idf_requires_spotter
+ 
+  Config parameters: btech_idf_requires_spotter <0/1>
+  Default: 1
+  
+  Enable code which requires a spotter for Indirect Fire
+ 

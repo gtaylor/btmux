@@ -1,0 +1,16 @@
+
+& log_options
+
+  Config parameter: log_options [!]<option> [[!]<option>]...
+
+  Specifies the type of information to be included in each log entry.
+
+  The possible values are:
+    flags       - Include the flags set on a player or object.
+    location    - Include the location of referenced players and
+                  objects.
+    owner       - Include the owner of referenced players and objects.
+    timestamp   - Include a timestamp in each log entry.
+
+  See also: log.
+ 

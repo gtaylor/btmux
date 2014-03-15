@@ -1,0 +1,29 @@
+Name             { Scorpion }
+Reference        { Scorpion }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 25 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:11 2000 }
+Computer         { 3 }
+Mech_BV          { 163 }
+Max_Speed        { 64.50 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 11 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 11 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 16 }
+  Internals        { 3 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { Ammo_IS.MachineGun 100 Hotload - }
+Aft_Side
+  Armor            { 10 }
+  Internals        { 3 }
+Turret
+  Armor            { 16 }
+  Internals        { 3 }
+    CRIT_1		  { IS.AC/5 - - 3 }
+    CRIT_2		  { Ammo_IS.AC/5 20 - - }

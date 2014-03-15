@@ -1,0 +1,20 @@
+ 
+& setchannelmode
+ 
+  RS Command: setchannelmode <channel>=<mode>
+ 
+  This command sets the characteristics of your use of <channel>.
+ 
+  Mode Arguments:
+  A - Analog
+  D - Digital
+  E - Relay
+  I - Info
+  S - Scan
+  U - Mute
+ 
+  Additionally you can supply color codes.
+ 
+  See also: sendchannel, setchanneltitle, setchannelfreq, analog mode, 
+            digital mode, relay mode, info mode, scan mode, mute mode, 
+            radio colors

@@ -1,0 +1,18 @@
+ 
+& mechprefs
+ 
+  RS Command mechprefs [<setting>] [<on|off>]
+  
+  This command controls and displays the mechprefs for the RS Unit.
+  
+  If no argument is specified the command show the state of all 
+  mechprefs.
+  
+  Arguments:
+  * setting - if you specify a setting the command will toggle 
+              the state of that setting.
+  * on - turns the setting on
+  * off - turns the setting off
+  
+  Continued in mechprefs2
+ 

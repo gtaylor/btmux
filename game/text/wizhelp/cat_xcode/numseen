@@ -1,0 +1,11 @@
+ 
+& numseen
+ 
+  xcodevalue: numseen <short>
+  XTYPE: MECH
+  
+  This xcode value stores the number of enemy units currently 'seen' 
+  by the RS Unit.
+  
+  See Also: @viewxcode
+ 

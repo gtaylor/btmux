@@ -1,0 +1,15 @@
+ 
+& @robot
+ 
+  Syntax: @robot <name>=<password>
+ 
+  Creates a robot player owned by you.  The robot has its ROBOT flag
+  set, so it may use the OUTPUTPREFIX and OUTPUTSUFFIX commands that
+  most publicly available robot programs require.  This command
+  costs 1000 coins.
+ 
+  Note that some sites do not restrict OUTPUTSUFFIX and OUTPUTPREFIX
+  to robots.
+ 
+  See also: OUTPUTPREFIX, OUTPUTSUFFIX, ROBOT, TYPES OF OBJECTS
+ 

@@ -1,0 +1,16 @@
+ 
+& @oufail
+ 
+  Syntax: @oufail <object> = <message>
+  Attribute: Oufail
+ 
+  Sets the message that others in the same room see when someone tries
+  to use object but fails the object's use lock.  Note that the
+  other functions controlled by the use lock (paying, listening, and
+  $-commands) do not trigger Oufail.
+ 
+  Example:
+  @oufail robot = tries to activate the robot, but to no avail.
+ 
+  See also: @aufail, @ufail, @use
+ 

@@ -1,0 +1,26 @@
+ 
+& delobj
+ 
+  Map Command: delobj <type>
+               delobj <x> <y>
+               delobj <type> <x> <y>
+  
+  This command deletes objects from the map.
+  
+  Arguments:
+  * <type> - deletes ALL objects of <type> from the map
+  * <x> <y> - deletes all objects from <x> <y>
+  * <type> <x> <y> - deletes objects of <type> from <x> <y>
+  
+  Valid types are:
+  * blz
+  * building
+  * deco
+  * entra
+  * fire
+  * leave
+  * linked
+  * mine
+  * smoke
+  * tbits
+ 

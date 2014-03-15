@@ -1,0 +1,18 @@
+ 
+& max()
+ 
+  Syntax: max(<number1>,<number2>[,<numberN]...)
+ 
+  Returns the largest integer from among its arguments. Up to 30
+  arguments may be specified. <numberN> may be a floating point
+  number, and a floating point result is returned.
+ 
+  Example:
+ 
+  > say max(2,4)
+  You say "4"
+  > say max(-100,50,0,25)
+  You say "50"
+ 
+  See Also: min()
+ 

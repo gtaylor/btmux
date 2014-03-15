@@ -1,0 +1,21 @@
+ 
+& before()
+ 
+  Syntax: before(<string1>, <string2>)
+ 
+  Returns the portion of <string1> that occurs before <string2>. If
+  <string2> does not occur in <string1>, the entire string is
+  returned. If you want to return the portion of the string after the
+  first space, use the first() function instead.
+ 
+  Example:
+ 
+  > say before(This is a test,a)
+  You say "This is "
+  > say before(This is a test,is)
+  You say "Th"
+  > say before(This is a test, nope)
+  You say "This is a test"
+ 
+  See Also: after(), first(), rest().
+ 

@@ -1,0 +1,74 @@
+Name             { Battle Cobra }
+Reference        { BattleCobra-A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 40 }
+Heat_Sinks       { 20 }
+Max_Speed        { 96.75 }
+Specials         { Clan }
+Left_Arm
+  Armor            { 11 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { CL.MediumPulseLaser - - }
+    CRIT_5		  { CL.MediumPulseLaser - - }
+    CRIT_6		  { CL.SmallPulseLaser - - }
+    CRIT_7		  { CL.SmallPulseLaser - - }
+    CRIT_8		  { CL.SmallPulseLaser - - }
+Right_Arm
+  Armor            { 11 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { CL.MediumPulseLaser - - }
+    CRIT_5		  { CL.MediumPulseLaser - - }
+    CRIT_6		  { CL.SmallPulseLaser - - }
+    CRIT_7		  { CL.SmallPulseLaser - - }
+    CRIT_8		  { CL.SmallPulseLaser - - }
+Left_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { FerroFibrous - - }
+    CRIT_4-6		  { EndoSteel - - }
+Right_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { FerroFibrous - - }
+    CRIT_4-6		  { EndoSteel - - }
+    CRIT_7-8		  { HeatSink - - }
+Center_Torso
+  Armor            { 17 }
+  Internals        { 12 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { FerroFibrous - - }
+    CRIT_12		  { EndoSteel - - }
+Left_Leg
+  Armor            { 17 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 17 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,48 @@
+Name             { Visigoth }
+Reference        { Visigoth-P }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 60 }
+Heat_Sinks       { 32 }
+Fuel             { 750 }
+Max_Speed        { 118.25 }
+Specials	 { Clan FerroFibrous_Tech }
+Nose
+  Armor            { 50 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LB10-XAC - - }
+    CRIT_2-3		  { Ammo_CL.LB10-XAC 10 - }
+    CRIT_4		  { Ammo_CL.LB10-XAC 10 LBX/Cluster }
+    CRIT_5		  { CL.ERMediumLaser - - }
+    CRIT_6		  { CL.ERMediumLaser - - }
+    CRIT_7		  { CL.ERMediumLaser - - }
+Left_Wing
+  Armor            { 36 }
+  Internals        { 7 }
+    CRIT_1		  { CL.StreakSRM-4 - - }
+    CRIT_2		  { Ammo_CL.StreakSRM-4 25 - }
+    CRIT_3		  { CL.SmallPulseLaser - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 36 }
+  Internals        { 7 }
+    CRIT_1		  { CL.StreakSRM-4 - - }
+    CRIT_2		  { Ammo_CL.StreakSRM-4 25 - }
+    CRIT_3		  { CL.SmallPulseLaser - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 42 }
+  Internals        { 7 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 7 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 7 }
+    CRIT_1		  { CL.ERMediumLaser - - }
+    CRIT_2		  { CL.ERMediumLaser - - }

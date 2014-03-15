@@ -1,0 +1,11 @@
+ 
+& angelecm
+ 
+  RS Command: angelecm
+  
+  This command toggles the ECM status of your Angel ECM suite.
+  
+  ECM interferes with the communications and certain sensors of enemy 
+  units within ranage of your 'ECM Umbrella'.
+  
+  See Also: angeleccm

@@ -1,0 +1,71 @@
+Name             { Shadow Hawk }
+Reference        { SHD-2K }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Mech_BV          { 1018 }
+Heat_Sinks       { 17 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 32.25 }
+Specials         { Searchlight }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-3		  { IS.PPC - - }
+    CRIT_4		  { JumpJet - - }
+    CRIT_5		  { HeatSink - - }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1		  { IS.LRM-5 - - 4 }
+    CRIT_2		  { Ammo_IS.LRM-5 24 - }
+    CRIT_3		  { JumpJet - - }
+    CRIT_4		  { HeatSink - - }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 18 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 16 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 16 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

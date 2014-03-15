@@ -1,0 +1,33 @@
+Name             { Demolisher }
+Reference        { Demolisher-GR }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Comment          { Saved by: Genitrix(#1511) at Thu Feb  8 15:37:24 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 0 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 36 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 36 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 50 }
+  Internals        { 8 }
+Aft_Side
+  Armor            { 30 }
+  Internals        { 8 }
+Turret
+  Armor            { 45 }
+  Internals        { 8 }
+    CRIT_1		  { IS.GaussRifle - - }
+    CRIT_2		  { IS.GaussRifle - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5-8		  { Ammo_IS.GaussRifle 8 - - }

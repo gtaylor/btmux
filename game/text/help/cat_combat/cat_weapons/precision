@@ -1,0 +1,10 @@
+ 
+& precision
+ 
+  RS Command: precision <weapnum>
+  
+  This command toggles the state of <weapnum>, causing it to fire 
+  Precision ammunition or normal ammunition.
+  
+  Precision ammo is available for AutoCannons only.
+ 

@@ -1,0 +1,80 @@
+Name             { Thunderbolt }
+Reference        { TDR-9NAIS }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Heat_Sinks       { 26 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1715 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS EndoSteel_Tech XLEngine_Tech ECM }
+Left_Arm
+  Armor          { 18 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-12    { EndoSteel - - }
+Right_Arm
+  Armor          { 18 }
+  Internals      { 10 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-10    { IS.RotaryAC/5 - OnTC }
+Left_Torso
+  Armor          { 20 }
+  Internals      { 15 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { TargetingComputer - - }
+    CRIT_8-9     { IS.StreakSRM-6 - - }
+    CRIT_10      { IS.ERMediumLaser - OnTC }
+    CRIT_11      { IS.ERMediumLaser - OnTC }
+    CRIT_12      { IS.ERMediumLaser - OnTC }
+Right_Torso
+  Armor          { 20 }
+  Internals      { 15 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_5       { Ammo_IS.StreakSRM-6 15 - }
+    CRIT_6       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_7       { Ammo_IS.RotaryAC/5 20 - }
+    CRIT_8-9     { EndoSteel - - }
+    CRIT_12      { Case - - }
+Center_Torso
+  Armor          { 29 }
+  Internals      { 21 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11-12   { Ecm - - }
+Left_Leg
+  Armor          { 27 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Right_Leg
+  Armor          { 27 }
+  Internals      { 15 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

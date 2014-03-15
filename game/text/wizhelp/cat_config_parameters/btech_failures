@@ -1,0 +1,8 @@
+
+& btech_failures
+
+  Config parameter: btech-failures <0/1>
+  Default: 1
+
+  Determines if RS units will suffer random failure of components.
+ 

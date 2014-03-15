@@ -1,0 +1,35 @@
+Name             { Von Luckner }
+Reference        { VNL-K65N }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 75 }
+Mech_BV          { 663 }
+Heat_Sinks       { 10 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 30 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 30 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 41 }
+  Internals        { 8 }
+    CRIT_1		  { IS.Flamer - - }
+Aft_Side
+  Armor            { 30 }
+  Internals        { 8 }
+    CRIT_4		  { IS.LRM-10 - - }
+    CRIT_5		  { Ammo_IS.LRM-10 12 - }
+Turret
+  Armor            { 45 }
+  Internals        { 8 }
+    CRIT_1		  { IS.AC/20 - - }
+    CRIT_2		  { IS.SRM-6 - - }
+    CRIT_3		  { IS.SRM-6 - - }
+    CRIT_4		  { IS.SRM-4 - - }
+    CRIT_5		  { IS.MachineGun - - }
+    CRIT_6-8		  { Ammo_IS.AC/20 5 - }
+    CRIT_9		  { Ammo_IS.SRM-6 15 - }
+    CRIT_10		  { Ammo_IS.SRM-4 25 - }
+    CRIT_11		  { Ammo_IS.MachineGun 100 - }

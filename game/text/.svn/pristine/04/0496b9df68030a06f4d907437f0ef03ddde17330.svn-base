@@ -1,0 +1,9 @@
+
+& good_name
+
+  Config parameter: good_name <name>
+
+  Removes <name> from the list of names that may not be used as a
+  player name, reversing the effect of a bad_name directive.  The
+  name must match exactly (wildcard matching is not performed).
+ 

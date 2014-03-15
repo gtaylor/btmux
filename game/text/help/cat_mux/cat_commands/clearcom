@@ -1,0 +1,11 @@
+ 
+& clearcom
+ 
+  Syntax: clearcom
+ 
+  Removes all your aliases for channels. You should be extremely
+  careful about this command, as it will wipe out all of your
+  channel information.
+ 
+  See also: addcom, delcom
+ 

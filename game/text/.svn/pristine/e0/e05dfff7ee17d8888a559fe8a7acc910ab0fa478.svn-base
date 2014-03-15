@@ -1,0 +1,13 @@
+
+& pemit_far_players
+
+  Config parameter: pemit_far_players <yes/no>
+  Default: no
+
+  Controls whether or not players may use the @pemit command to send
+  messages to other connected players that are not in the same room.
+  The rules and costs for this form of @pemit are the same as for
+  page.
+
+  See also: pemit_any_object.
+ 

@@ -1,0 +1,10 @@
+ 
+& lbx
+ 
+  RS Command: lbx <weapnum>
+  
+  This command toggles the state of <weapnum>, causing it to fire 
+  LBX ammunition or normal ammuntion.
+  
+  LBX ammo is available for LBX-AutoCannons only.
+ 

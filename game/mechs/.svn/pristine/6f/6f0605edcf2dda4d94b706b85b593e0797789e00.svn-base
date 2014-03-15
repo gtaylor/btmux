@@ -1,0 +1,73 @@
+Name             { Ryoken }
+Reference        { Ryoken-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Heat_Sinks       { 20 }
+Max_Speed        { 96.75 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-7		  { CL.LB10-XAC - - }
+    CRIT_8-9		  { Ammo_CL.LB10-XAC 10 - }
+    CRIT_10		  { Ammo_CL.LB10-XAC 10 LBX/Cluster }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { CL.LargePulseLaser - - }
+Left_Torso
+  Armor            { 17 }
+  Internals        { 13 }
+  Rear             { 9 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { CL.MediumPulseLaser - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5-7		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 17 }
+  Internals        { 13 }
+  Rear             { 9 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3		  { CL.MediumPulseLaser - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5-7		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Leg
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,19 @@
+ 
+& btmapemit()
+ 
+  Error Messages:
+ 
+  * If <MapDB> is not valid the function returns #-1 INVALID MAP
+  * If <message> is not valid (eg a null string) the function returns
+    #-1 INVALID MESSAGE
+ 
+  Example:
+  Given that #62 is a valid mapobject
+ 
+  > think btmapemit(#62, Fascinating Message)
+  1
+ 
+  The occupant(s) of any units on the map will see:
+
+  Fascinating Message
+ 

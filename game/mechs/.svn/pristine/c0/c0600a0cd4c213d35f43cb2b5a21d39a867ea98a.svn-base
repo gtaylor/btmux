@@ -1,0 +1,30 @@
+Name             { Condor }
+Reference        { Condor-L }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 50 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:53 2000 }
+Computer         { 3 }
+Heat_Sinks       { 12 }
+Mech_BV          { 473 }
+Max_Speed        { 129.00 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 23 }
+  Internals        { 5 }
+Right_Side
+  Armor            { 23 }
+  Internals        { 5 }
+Front_Side
+  Armor            { 38 }
+  Internals        { 5 }
+Aft_Side
+  Armor            { 22 }
+  Internals        { 5 }
+Turret
+  Armor            { 30 }
+  Internals        { 5 }
+    CRIT_1		  { IS.MediumLaser - - 3 }
+    CRIT_2		  { IS.MediumLaser - - 3 }
+    CRIT_3		  { IS.MediumLaser - - 3 }
+    CRIT_4		  { IS.MediumLaser - - 3 }

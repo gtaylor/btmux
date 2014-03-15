@@ -1,0 +1,17 @@
+ 
+& @away
+ 
+  Syntax: @away <object> = <message>
+  Attribute: Away
+ 
+  This attribute is sent as a message to anyone who tries to page you
+  when you are not connected.
+ 
+  This attribute is only meaningful for players, and will never be
+  automatically referenced on other object types.
+ 
+  Example:
+  @away me = Hey, I'm not even connected.  So why are you paging me?
+ 
+  See also: @idle, @reject, page
+ 

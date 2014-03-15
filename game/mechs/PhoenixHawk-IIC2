@@ -1,0 +1,81 @@
+Name             { Phoenix Hawk }
+Reference        { PhoenixHawk-IIC2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Heat_Sinks       { 20 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials	 { Clan DoubleHS }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+    CRIT_7-8		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-7		  { EndoSteel - - }
+    CRIT_8-9		  { FerroFibrous - - }
+Left_Torso
+  Armor		   { 20 }
+  Internals	   { 17 }
+  Rear		   { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { JumpJet - - }
+    CRIT_5-8		  { CL.LRM-10 - }
+    CRIT_9-11		  { Ammo_CL.LRM-10 12 - }
+    CRIT_12		  { Ammo_CL.MachineGun 100 Hotload }
+Right_Torso
+  Armor		   { 20 }
+  Internals	   { 17 }
+  Rear		   { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { JumpJet - - }
+    CRIT_5-8		  { CL.LRM-10 - }
+    CRIT_9-11		  { Ammo_CL.LRM-10 12 - }
+    CRIT_12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 26 }
+  Internals        { 25 }
+  Rear             { 15 }
+    CRIT_1-3    	  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { CL.MachineGun - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6		  { FerroFibrous - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6		  { FerroFibrous - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.MachineGun - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

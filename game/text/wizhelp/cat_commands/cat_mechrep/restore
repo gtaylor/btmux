@@ -1,0 +1,9 @@
+ 
+& restore
+ 
+  Mechrep Command: restore
+  
+  This command returns the targtetted RS Unit to it's templated 
+  condition.
+ 
+  See Also: settarget

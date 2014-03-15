@@ -1,0 +1,10 @@
+
+& version
+
+  Syntax: version
+
+  Displays the version of MUX that is running and the date it was last
+  rebuilt.
+
+  See also: version()
+ 

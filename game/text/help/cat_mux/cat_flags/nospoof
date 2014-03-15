@@ -1,0 +1,11 @@
+ 
+& NOSPOOF
+ 
+  Flag: NOSPOOF(N)
+ 
+  This flag will prepend information about the origin of @emits before
+  each one.  It can get spammy, but it prevents people from spoofing 
+  you.
+ 
+  See also: @emit, @femit, @oemit, @pemit
+ 

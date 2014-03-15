@@ -1,0 +1,13 @@
+ 
+& --enable-sql-support
+
+  Compile option: --enable-sql-support
+  Default: disabled
+ 
+  Enables the MUX->SQL port. This functions in the form of starting
+  sqlslave processes alongside the main netmux to handle SQL queries
+  via @query. This is great if you want to integrate your game and
+  website together for things like player rankings. If you enable
+  this, you will need libdbi and one or more of the libdbi database
+  drivers installed.
+ 

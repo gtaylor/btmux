@@ -1,0 +1,25 @@
+ 
+& btmapunits()2
+ 
+  Error Messages:
+ 
+  * If <MapOBJ> is not a valid map the function returns #-1 INVALID
+    MAP
+  * If <x> falls outside the boundaries of the map the function
+    returns #-1 INVALID X COORD
+  * If <y> falls outside the boundaries of the map the function
+    returns #-1 INVALID Y COORD
+  * If <range> is < 0 the function returns #-1 INVALID RANGE
+  * For other errors the function returns #-1 INVALID ARGUMENTS
+ 
+  Example:
+  Given that #62 is a valid MapOBJ, with 2 units #1234 (at 10,10) and
+  #2345 (10,10,10) on it
+ 
+  think btmapunits(#62)
+  #1234 #2345
+  think btmapunits(#62,0,0,14)
+  #1234 #2345
+  think btmapunits(#62,0,0,0,14)
+  #1234
+ 

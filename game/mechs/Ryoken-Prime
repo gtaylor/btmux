@@ -1,0 +1,78 @@
+Name             { Ryoken }
+Reference        { Ryoken-Prime }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Heat_Sinks       { 44 }
+Max_Speed        { 96.75 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-10		  { HeatSink - - }
+    CRIT_11		  { CL.ERLargeLaser - - }
+    CRIT_12		  { CL.ERMediumLaser - - }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-10		  { HeatSink - - }
+    CRIT_11		  { CL.ERLargeLaser - - }
+    CRIT_12		  { CL.ERMediumLaser - - }
+Left_Torso
+  Armor            { 17 }
+  Internals        { 13 }
+  Rear             { 9 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-8		  { HeatSink - - }
+    CRIT_9		  { EndoSteel - - }
+    CRIT_10-12		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 17 }
+  Internals        { 13 }
+  Rear             { 9 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-8		  { HeatSink - - }
+    CRIT_9		  { EndoSteel - - }
+    CRIT_10-12		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+    CRIT_12		  { FerroFibrous - - }
+Left_Leg
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 25 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.ERMediumLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

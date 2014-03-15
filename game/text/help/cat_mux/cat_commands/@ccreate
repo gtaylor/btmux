@@ -1,0 +1,10 @@
+ 
+& @ccreate
+ 
+  Syntax: @ccreate <channel name>
+ 
+  Creates a channel with default settings. Only wizards can create a
+  channel.
+ 
+  See also: @cdestroy, @clist, @cchown
+ 

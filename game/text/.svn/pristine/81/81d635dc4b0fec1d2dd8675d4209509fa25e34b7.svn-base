@@ -1,0 +1,20 @@
+ 
+& dump
+ 
+  RS Command: dump <weapnum|section|<loc> <pos>|all|stop> 
+
+  This command causes the RS Unit to dump the ammunition specified.
+  
+  Arguments:
+  * weapnum - dumps the ammunition suppy for the weapon. The number  
+              used is the number ash shown in the status command.
+  
+  * section - dumps all ammunition in a section (eg LT, RA)
+  
+  * <loc> <pos> - dumps the ammunition stored in the ammo bin at 
+                  <loc> <pos>
+  
+  * all - dumps all ammunition on the RS Unit.
+  
+  * stop - ceases all dumping.
+ 

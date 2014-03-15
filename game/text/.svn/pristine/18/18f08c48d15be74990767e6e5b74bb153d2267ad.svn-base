@@ -1,0 +1,32 @@
+ 
+& btweaponstatus_ref()2
+ 
+  Argument:
+
+  * If <location> is specified only the weapons for that location are
+    returned, otherwise all weapons are listed.
+ 
+  <Weapon Type> is listed as:
+    * 0 = Beam Weapon
+    * 1 = Missile Weapon
+    * 2 = Artillery Weapon
+    * 3 = Ammo Weapon
+    * 4 = Hand Weapon
+ 
+  <Weapon Status> is listed as:
+    * 0 = Weapon Operational
+    * 1 = Weapon (temporarily) glitched
+    * 2 = Weapon destroyed/flooded
+ 
+  Error Messages:
+    * If <UnitRef> is not a valid RS unit the function will return
+      #-1 NO SUCH MECH
+    * If <location> is not valid the function will return
+      #-1 INVALID SECTION
+ 
+  Example:
+  Given that EXT-4D is a valid reference:
+ 
+ > think btweaponstatus_ref(#1234,la)
+ 0|MediumLaser|1|0|20|0|0|0,1|MediumLaser|1|0|20|0|0|0
+ 

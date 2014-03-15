@@ -1,0 +1,45 @@
+Name             { Scytha }
+Reference        { Scytha-P }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 90 }
+Heat_Sinks       { 52 }
+Fuel             { 600 }
+Max_Speed        { 96.75 }
+Specials	 { Clan FerroFibrous_Tech }
+Nose
+  Armor            { 67 }
+  Internals        { 9 }
+    CRIT_1		  { CL.UltraAC/20 - - }
+    CRIT_2-3		  { Ammo_CL.UltraAC/20 5 - }
+    CRIT_4		  { CL.ERSmallLaser - - }
+    CRIT_5		  { CL.ERLargeLaser - - }
+Left_Wing
+  Armor            { 50 }
+  Internals        { 9 }
+    CRIT_1		  { CL.ERLargeLaser - - }
+    CRIT_2		  { CL.ERLargeLaser - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 50 }
+  Internals        { 9 }
+    CRIT_1		  { CL.ERLargeLaser - - }
+    CRIT_2		  { CL.ERLargeLaser - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 64 }
+  Internals        { 9 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 9 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 9 }
+    CRIT_1		  { CL.ERMediumLaser - - }
+    CRIT_2		  { CL.ERMediumLaser - - }
+

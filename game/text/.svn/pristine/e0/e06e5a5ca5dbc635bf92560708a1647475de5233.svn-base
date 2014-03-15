@@ -1,0 +1,30 @@
+ 
+& btcritslot_ref()2
+  
+  Error Messages:
+ 
+  * If <UnitRef> is not a valid reference the function returns
+    #1-NOT A MECH
+  * if <location> is not valid the function returns
+    #-1 INVALID SECTION
+  * If <critslot> is not valid the function returns
+    #-1 INVALID CRITICAL
+  * If <typeflag> is maxammo and the slot is not an ammobin the
+    function returns #-1 NOT AMMO
+  * if <typeflag> is mode and the slot is not ammo or weapon the
+    function returns #-1 NOT AMMO OR WEAPON
+ 
+  Example: Given that CHP-1N is a valid unit:
+ 
+  > think btcritslot_ref(CHP-1N,lt,1,name)
+  IS.SRM-6
+  > think btcritslot_ref(CHP-1N,lt,1,status)
+  Operational
+  > think btcritslot_ref(CHP-1N,lt,1,data)
+  0
+  > think btcritslot_ref(CHP-1N,lt,1,mode)
+ 
+  > think btcritslot_ref(CHP-1N,lt,3,maxammo)
+  15
+ 
+ 

@@ -1,0 +1,11 @@
+
+& motd_file
+
+  Config parameter: motd_file <pathname>
+  Default: text/motd.txt
+
+  Specifies the name of the file to be shown to players immediately
+  after they connect to their characters.
+
+  See also: @readcache, newuser_file, motd_message.
+ 

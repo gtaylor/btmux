@@ -1,0 +1,79 @@
+Name             { Goliath }
+Reference        { GOL-3S }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 80 }
+Heat_Sinks       { 20 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1374 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS ArtemisIV LightEngine_Tech }
+Front_Left_Leg
+  Armor          { 28 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { IS.ERMediumLaser - - }
+Front_Right_Leg
+  Armor          { 28 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { IS.ERMediumLaser - - }
+Left_Torso
+  Armor          { 21 }
+  Internals      { 17 }
+  Rear           { 7 }
+    CRIT_1       { Engine - - }
+    CRIT_2-12    { IS.LB20-XAC - - }
+Right_Torso
+  Armor          { 21 }
+  Internals      { 17 }
+  Rear           { 7 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3-4     { IS.LRM-10 - - }
+    CRIT_5       { Ammo_IS.LB20-XAC 5 - }
+    CRIT_6       { Ammo_IS.LB20-XAC 5 - }
+    CRIT_7       { Ammo_IS.LB20-XAC 5 LBX/Cluster }
+    CRIT_8       { Ammo_IS.LB20-XAC 5 LBX/Cluster }
+    CRIT_9       { Ammo_IS.LRM-10 12 Artemis/Mine }
+    CRIT_10      { Ammo_IS.LRM-10 12 Artemis/Mine }
+    CRIT_11      { ArtemisIV - - }
+    CRIT_12      { Case - - }
+Center_Torso
+  Armor          { 29 }
+  Internals      { 25 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11-12   { IS.ERLargeLaser - - }
+Rear_Left_Leg
+  Armor          { 28 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { Engine - - }
+Rear_Right_Leg
+  Armor          { 28 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { IS.ERMediumLaser - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

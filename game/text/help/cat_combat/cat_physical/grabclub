@@ -1,0 +1,18 @@
+ 
+& grabclub
+ 
+  RS Command: grabclub [R|L|-]
+  
+  This command causes your unit to pick up a tree and wield it as a 
+  club.
+  
+  To grab a club you must be in a forest hex, and your 'Mech must be 
+  equipped with hand actuators.
+  
+  Arguments:
+  * R - grab the club with your right hand
+  * L - grab the club with your left hand
+  * - - drop the club
+  
+  See Also: axe, charge, chop, club, kick, mace, punch, saw, trip
+ 

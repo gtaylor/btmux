@@ -1,0 +1,66 @@
+Name             { Archer }
+Reference        { ARC-2RC }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Max_Speed        { 64.50 }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+Left_Torso
+  Armor            { 29 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-4		  { CL.LRM-20 - - }
+    CRIT_6-7		  { Ammo_CL.LRM-20 6 - }
+Right_Torso
+  Armor            { 29 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-4		  { CL.LRM-20 - - }
+    CRIT_6-7		  { Ammo_CL.LRM-20 6 - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 22 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.ERMediumLaser - RearMount }
+    CRIT_12		  { CL.ERMediumLaser - RearMount }
+Left_Leg
+  Armor            { 29 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 29 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

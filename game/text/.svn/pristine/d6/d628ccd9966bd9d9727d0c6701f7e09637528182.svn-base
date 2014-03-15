@@ -1,0 +1,8 @@
+ 
+& btech_stackdamage
+ 
+  Config parameter: btech_stackdamage <num>
+  Default: 100
+  
+  Sets the damage modifier for units stacking
+  

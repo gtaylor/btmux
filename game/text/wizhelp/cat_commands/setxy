@@ -1,0 +1,24 @@
+ 
+& setxy
+ 
+  RS Command: setxy <x> <y> [<z>]
+  
+  This command permits you to set the location of the RS Unit you are 
+  in at the specified coordinates.
+  
+  Arguments:
+  * <x> - the location on the x axis
+  * <y> - the location on the y axis
+  * <z> - the height at which to place the unit
+  
+  NOTE - if the <z> argument is omitted then the RS Unit will be 
+  placed at the z of the hex specified by <x> <y>
+  
+  Errors:
+  * if arguments < 2 or > 3 the command returns "Invalid number of 
+    arguments to SETXY!"
+  * if <x> or <y> are outsides the boundaries of the map the command 
+    returns "Invalid coordinates!"
+  
+  See Also: btsetxy()
+ 

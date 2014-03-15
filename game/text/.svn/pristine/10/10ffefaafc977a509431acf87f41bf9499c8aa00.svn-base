@@ -1,0 +1,23 @@
+ 
+& sensor
+ 
+  RS Command: sensor [<pri> <sec>]
+  
+  This command displays the currently selected sensors or sets sensors 
+  to those specified.
+  
+  Arguments:
+   none - displays the current sensors
+   one argument - displays a detailed report on the current sensors
+   two arguments - set your primaary and secondary sensors
+    * b - beagle active probe
+    * e - electromagnetic
+    * h - bloodhound active probe
+    * i - infrared
+    * l - light amplification
+    * r - radar
+    * s - seismic
+    * v - visual 
+ 
+  Continued in sensor2
+ 

@@ -1,0 +1,12 @@
+ 
+& removegun
+ 
+  RS Command: removegun <num>
+  
+  This command removes a weapon from an RS Unit.
+  
+  The <num> specified refers to the number of the weapon in the status 
+  command.
+  
+  Continued in removegun2
+ 

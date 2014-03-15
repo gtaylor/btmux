@@ -1,0 +1,28 @@
+ 
+& @otfail
+ 
+  Syntax: @otfail <object> = <message>
+  Attribute: Otfail
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in the same room when someone tries to teleport to
+  somewhere he does not have permission.  You do not see this
+  message if they couldn't teleport out of their present location.
+ 
+  Function references and %-substitutions are allowed in teleport
+  failure messages, and are evaluated when someone attempts to
+  teleport to the specified destination.  In function references,
+  'me' refers to the teleport destination, while %-substitutions
+  that refer to the enactor (such as %n, %#, %p, etc) refer to the
+  player attempting the teleport.
+ 
+  When a player teleports another object (@tel <object> =
+  <destination>), the lock is checked against the player, not the
+  object.
+ 
+  Example:
+  @otfail here = thinks about teleporting to the Magic Room,
+  but decides against it at the last moment.
+ 
+  See also: @teleport, @atfail, @tfail, @lock
+ 

@@ -1,0 +1,79 @@
+Name             { Highlander }
+Reference        { HGN-732 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 90 }
+Mech_BV          { 1838 }
+Radio            { 4 }
+Computer         { 4 }
+Heat_Sinks       { 12 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Left_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { IS.SRM-6 - - }
+    CRIT_7-12             { FerroFibrous - - }
+Right_Arm
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-10		  { IS.GaussRifle - - }
+    CRIT_11-12            { FerroFibrous - - }
+Left_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 10 }
+    CRIT_1		  { Case - - }
+    CRIT_2-6		  { IS.LRM-20 - - }
+    CRIT_7-8		  { Ammo_IS.LRM-20 6 - - }
+    CRIT_9-10		  { Ammo_IS.SRM-6 15 - - }
+    CRIT_11               { JumpJet - - }
+Right_Torso
+  Armor            { 28 }
+  Internals        { 19 }
+  Rear             { 10 }
+    CRIT_1-2		  { Ammo_IS.GaussRifle 8 - - }
+    CRIT_3		  { IS.MediumLaser - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6                { Case - - }
+    CRIT_7-12             { FerroFibrous - - }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 29 }
+  Rear             { 17 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+Left_Leg
+  Armor            { 38 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5                { HeatSink - - }
+Right_Leg
+  Armor            { 38 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5                { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

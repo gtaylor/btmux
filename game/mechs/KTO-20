@@ -1,0 +1,76 @@
+Name             { Kintaro }
+Reference        { KTO-20 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 09:41:01 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1081 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.LRM-5 - - 3 }
+    CRIT_6-7		  { IS.SRM-6 - - 3 }
+Right_Arm
+  Armor            { 18 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+    CRIT_6		  { IS.MediumLaser - - 3 }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 8 }
+    CRIT_1		  { Ammo_IS.LRM-5 24 - - }
+    CRIT_2		  { Ammo_IS.SRM-6 15 - - }
+    CRIT_3-9		  { FerroFibrous - - 3 }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 8 }
+    CRIT_1-2		  { IS.SRM-6 - - 3 }
+    CRIT_3		  { Ammo_IS.SRM-6 15 - - }
+    CRIT_4-10		  { FerroFibrous - - 3 }
+Center_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { IS.LargeLaser - - 3 }
+Left_Leg
+  Armor            { 23 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 23 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

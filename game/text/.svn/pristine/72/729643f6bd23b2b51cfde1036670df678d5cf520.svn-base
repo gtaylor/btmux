@@ -1,0 +1,10 @@
+ 
+& land
+ 
+  RS Command: land
+  
+  This command will cause your VTOL, Aero or dropship to land, if it 
+  meets the required conditions (eg height, speed, etc).
+  
+  See Also: takeoff, vertical
+ 

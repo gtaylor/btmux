@@ -1,0 +1,25 @@
+
+& mechname
+
+  Attribute: mechname
+ 
+  This attribute contains the value returned as the name of an RS
+  Unit.
+
+  Note - It is an accepted convention that the first two characters of 
+  the mechname be the faction ID.     
+     
+  Example:
+  Given that #1234 is an EXT-4D with the attribute
+  'mechaname:OO Exterminator'
+ 
+  From another RS Unit
+  >contacts
+  PS*[se]B OO Extermina x:  4 y: 2 z: 0 r: 4.0 b:120 s:  0.0 h:  0  S:
+
+  From within #1234
+  >status i
+  Mech Name: OO Exterminator      ID:[QN]   Mech Reference: EXT-4D
+  <etc>
+
+  See Also: contacts, report, status

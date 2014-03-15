@@ -1,0 +1,13 @@
+ 
+& @forwardlist
+ 
+  Syntax: @forwardlist <object> = <dbref-list>
+  Attribute: Forwardlist
+ 
+  Specifies a list of locations (specified by their db numbers) that
+  are to receive messages heard by <object> (filtered by the @filter
+  attribute and prefixed by the @prefix attribute).  The messages
+  are only forwarded if object> has its AUDIBLE flag set.
+ 
+  See also: @filter, @prefix, AUDIBLE
+ 

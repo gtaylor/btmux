@@ -1,0 +1,25 @@
+ 
+& btlosm2m()
+ 
+  Syntax: btlosm2m(<UnitDB>,<TargetUnitDB>)
+ 
+  This function determines if the unit <TargetUnitDB> is within line
+  of site of <UnitDB>.
+ 
+  The function returns 1 if <TargetUnitDB> is within LOS of <UnitDB>,
+  otherwise it returns 0
+ 
+  Error Messages:
+ 
+  * If the object specified in <UnitDB> or <TargetUnitDB> is not an
+    RS unit the function returns #-1 INVALID MECH
+ 
+  Example:
+  Given that #dbref 1234, #dbref 2345 and #dbref 3456 are all valid RS
+  units and that #2345 is within LOS of #1234 but #3456 is not:
+ 
+  > think btlosm2m(#1234,#2345)
+  1
+  > think btlosm2m(#1234,#3456)
+  0
+ 

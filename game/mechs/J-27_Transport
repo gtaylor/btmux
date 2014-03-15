@@ -1,0 +1,32 @@
+Name             { Long Tom }
+Reference        { J-27_Transport }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 10 }
+Comment          { Saved by: Tony(#8) at Fri Jan 11 16:28:54 2002 }
+LRS_Range        { 20 }
+Radio_Range      { 100 }
+Radio            { 2 }
+Heat_Sinks       { 0 }
+Mech_BV          { 532 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Left_Side
+  Armor            { 1 }
+  Internals        { 1 }
+Right_Side
+  Armor            { 1 }
+  Internals        { 1 }
+Front_Side
+  Armor            { 2 }
+  Internals        { 1 }
+Aft_Side
+  Armor            { 2 }
+  Internals        { 1 }
+Turret
+  Armor            { 2 }
+  Internals        { 1 }
+Rotor
+  Armor            { 2 }
+  Internals        { 1 }

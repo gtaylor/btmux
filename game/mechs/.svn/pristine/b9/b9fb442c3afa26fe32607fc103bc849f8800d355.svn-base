@@ -1,0 +1,34 @@
+Name             { Guardian }
+Reference        { Guardian }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 20 }
+Computer         { 5 }
+Heat_Sinks       { 0 }
+Fuel             { 2000 }
+Max_Speed        { 118.25 }
+Nose
+  Armor            { 3 }
+  Internals        { 7 }
+    CRIT_1		  { IS.SRM-6 - - 5 }
+    CRIT_2		  { Ammo_IS.SRM-6 15 - }
+Left_Wing
+  Armor            { 2 }
+  Internals        { 7 }
+Right_Wing
+  Armor            { 2 }
+  Internals        { 7 }
+Fuselage
+  Armor            { 3 }
+  Internals        { 7 }
+Cockpit
+  Armor            { 3 }
+  Internals        { 7 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor 	   { 3 }
+  Internals        { 7 }

@@ -1,0 +1,78 @@
+Name             { Marauder II }
+Reference        { MAD-4S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Heat_Sinks       { 32 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 2249 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Specials         { DoubleHS LightEngine_Tech Searchlight }
+Left_Arm
+  Armor          { 34 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-9     { IS.ERPPC - - }
+    CRIT_10      { IS.ERMediumLaser - - }
+Right_Arm
+  Armor          { 34 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-9     { IS.ERPPC - - }
+    CRIT_10      { IS.ERMediumLaser - - }
+Left_Torso
+  Armor          { 32 }
+  Internals      { 21 }
+  Rear           { 10 }
+    CRIT_1-2     { Engine - - }
+    CRIT_3-8     { HeatSink - - }
+    CRIT_9       { Ammo_IS.HeavyGaussRifle 4 - }
+    CRIT_10      { Ammo_IS.HeavyGaussRifle 4 - }
+    CRIT_11      { Ammo_IS.HeavyGaussRifle 4 - }
+    CRIT_12      { Ammo_IS.HeavyGaussRifle 4 - }
+Right_Torso
+  Armor          { 32 }
+  Internals      { 21 }
+  Rear           { 10 }
+    CRIT_1       { Engine - - }
+    CRIT_2-12    { IS.HeavyGaussRifle - - }
+Center_Torso
+  Armor          { 46 }
+  Internals      { 31 }
+  Rear           { 16 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-11    { Engine - - }
+    CRIT_12      { JumpJet - - }
+Left_Leg
+  Armor          { 42 }
+  Internals      { 21 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+Right_Leg
+  Armor          { 42 }
+  Internals      { 21 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

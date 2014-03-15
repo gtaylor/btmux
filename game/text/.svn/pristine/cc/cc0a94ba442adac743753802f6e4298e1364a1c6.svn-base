@@ -1,0 +1,11 @@
+
+& fixed_tel_message
+
+  Config parameter: fixed_tel_message <string>
+  Default: none
+
+  Specifies the string that is sent to a player when they try to
+  teleport while they are set with the FIXED flag.
+
+  See also: fixed_home_message.
+ 

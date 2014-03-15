@@ -1,0 +1,78 @@
+Name             { Hankyu }
+Reference        { Hankyu-B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Heat_Sinks       { 20 }
+Max_Speed        { 129.00 }
+Jump_Speed       { 64.50 }
+Specials         { Clan }
+Left_Arm
+  Armor            { 7 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.MediumPulseLaser - - }
+    CRIT_6		  { CL.ERMediumLaser - - }
+    CRIT_7		  { EndoSteel - - }
+    CRIT_8		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 7 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-5		  { CL.LB2-XAC - - }
+    CRIT_6		  { CL.Flamer - - }
+    CRIT_7		  { EndoSteel - - }
+    CRIT_8		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 8 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-5		  { EndoSteel - - }
+    CRIT_6-7		  { FerroFibrous - - }
+Right_Torso
+  Armor            { 8 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { HeatSink - - }
+    CRIT_5		  { Ammo_CL.LB2-XAC 45 - }
+    CRIT_6-7		  { EndoSteel - - }
+    CRIT_8-9		  { FerroFibrous - - }
+Center_Torso
+  Armor            { 9 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { JumpJet - - }
+Left_Leg
+  Armor            { 8 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Right_Leg
+  Armor            { 8 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

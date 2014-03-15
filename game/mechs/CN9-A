@@ -1,0 +1,65 @@
+Name             { Centurion }
+Reference        { CN9-A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Mech_BV          { 772 }
+Max_Speed        { 64.50 }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-10		  { IS.AC/10 - - }
+Left_Torso
+  Armor            { 13 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-2		  { IS.LRM-10 - - 4 }
+    CRIT_3-4		  { Ammo_IS.LRM-10 12 - }
+    CRIT_5		  { HeatSink - - }
+Right_Torso
+  Armor            { 13 }
+  Internals        { 12 }
+  Rear             { 6 }
+    CRIT_1-2		  { Ammo_IS.AC/10 10 - }
+    CRIT_3		  { HeatSink - - }
+Center_Torso
+  Armor            { 18 }
+  Internals        { 16 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MediumLaser - - 2 }
+    CRIT_12		  { IS.MediumLaser - RearMount 2 }
+Left_Leg
+  Armor            { 16 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 16 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,29 @@
+ 
+& btmapterr()
+ 
+  Syntax: btmapterr(<MapDB>,<x>,<y>)
+ 
+  This function returns a one-character string that represents the
+  terrain in the specified hex on the specified map.
+ 
+  Possible output:
+  .   Clear       #   Road       ~   Water
+  @   Building    =   Wall       -   Ice
+  ^   Mountain    }   Desert     &   Fire
+  %   Rough
+ 
+  Error Messages:
+  * If <MapDB> is not valid the function will return #-1
+  * If <x> <y> are not numeric the function will return #-2
+  * If <x> <y> are outside the boundaries of the map the function
+   will return ?
+ 
+  Example:
+  Given that #62 is a map of 50 x 50
+  > think btmapterr(#62,5,9)
+  .
+  > think btmapterr(#62,10,10)
+  #
+  > think btmapterr(#62,10,60)
+  ?
+ 

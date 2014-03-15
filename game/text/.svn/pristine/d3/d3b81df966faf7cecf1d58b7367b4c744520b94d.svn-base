@@ -1,0 +1,10 @@
+ 
+& see_hidden
+ 
+  Power: see_hidden
+  
+  This power permits the player to see hidden players via the WHO 
+  command.
+  
+  See Also: @power, @list powers
+ 

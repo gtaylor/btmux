@@ -1,0 +1,74 @@
+Name             { Blood Asp }
+Reference        { BloodAsp-D }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 90 }
+Heat_Sinks       { 32 }
+Max_Speed        { 64.50 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 28 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { CL.ERLargeLaser - - }
+    CRIT_5-6		  { CL.HeavyMediumLaser - - }
+    CRIT_7-9		  { EndoSteel - - }
+Right_Arm
+  Armor            { 28 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { CL.ERLargeLaser - - }
+    CRIT_5-6		  { CL.HeavyMediumLaser - - }
+    CRIT_7		  { EndoSteel - - }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 19 }
+  Rear             { 11 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-8		  { CL.GaussRifle - - }
+    CRIT_9-10		  { Ammo_CL.GaussRifle 8 - }
+    CRIT_11		  { EndoSteel - - }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 19 }
+  Rear             { 11 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-8		  { CL.UltraAC/2 - - }
+    CRIT_9		  { Ammo_CL.UltraAC/2 45 - }
+    CRIT_10-11		  { HeatSink - - }
+    CRIT_12		  { EndoSteel - - }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 29 }
+  Rear             { 13 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { HeatSink - - }
+Left_Leg
+  Armor            { 34 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 34 }
+  Internals        { 19 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { EndoSteel - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

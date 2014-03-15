@@ -1,0 +1,33 @@
+Name             { Achileus }
+Reference        { Achileus-FL }
+Type             { Battlesuit }
+Move_Type        { Biped }
+Tons             { 1 }
+Comment          { Saved by: Kip B. Masters(#12) at Sun Jul  1 03:43:42 2001 }
+Mech_BV          { 88 }
+Cargo_Space      { 0 }
+Max_Suits        { 4 }
+Max_Speed        { 32.50 }
+Jump_Speed       { 32.50 }
+InfantrySpecials { Swarm_Attack_Tech Mount_Friends_Tech AntiLeg_Attack_Tech FWL_Achileus_Stealth_Tech }
+Suit_1
+  Armor            { 6 }
+  Internals        { 1 }
+    CRIT_1		  { IS.Flamer - - 3 }
+    CRIT_2		  { AchileusStealthUnit - - }
+Suit_2
+  Armor            { 6 }
+  Internals        { 1 }
+    CRIT_1		  { IS.Flamer - - 3 }
+    CRIT_2		  { AchileusStealthUnit - - }
+Suit_3
+  Armor            { 6 }
+  Internals        { 1 }
+    CRIT_1		  { IS.Flamer - - 3 }
+    CRIT_2		  { AchileusStealthUnit - - }
+Suit_4
+  Armor            { 6 }
+  Internals        { 1 }
+    CRIT_1		  { IS.Flamer - - 3 }
+    CRIT_2		  { AchileusStealthUnit - - }
+

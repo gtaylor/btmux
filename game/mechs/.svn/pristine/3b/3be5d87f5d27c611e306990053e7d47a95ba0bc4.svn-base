@@ -1,0 +1,35 @@
+Name             { Spad }
+Reference        { SPD-502 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 30 }
+Comment          { Saved by: Celebrimbor(#319) at Thu May 15 02:45:30 1997 }
+Computer         { 3 }
+Fuel             { 750 }
+Max_Speed        { 118.25 }
+Nose
+  Armor            { 25 }
+  Internals        { 10 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.SmallLaser - - }
+Left_Wing
+  Armor            { 18 }
+  Internals        { 10 }
+Right_Wing
+  Armor            { 18 }
+  Internals        { 10 }
+Fuselage
+  Armor            { 27 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 25 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 25 }
+  Internals        { 10 }

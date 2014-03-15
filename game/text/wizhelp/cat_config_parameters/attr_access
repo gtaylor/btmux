@@ -1,0 +1,14 @@
+
+& attr_access
+
+  Config parameter: attr_access
+
+  Changes the access rights to the named attribute.
+
+  The following privileges may be used:
+  private     - The attribute is visible only to those who can examine
+                the object.
+  internal    - The attribute is not visible to anyone.
+  wizard      - Only wizards may change the attribute.
+  hidden      - The attribute is visible only to wizards.
+ 

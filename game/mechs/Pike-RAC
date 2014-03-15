@@ -1,0 +1,32 @@
+Name             { Pike-RAC }
+Reference        { Pike-RAC }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 60 }
+Comment          { Saved by: Spanky(#6784) at Tue Jul 10 08:58:36 2001 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 557 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 30 }
+  Internals        { 6 }
+Right_Side
+  Armor            { 30 }
+  Internals        { 6 }
+Front_Side
+  Armor            { 42 }
+  Internals        { 6 }
+    CRIT_1		  { IS.SmallLaser - - 3 }
+Aft_Side
+  Armor            { 28 }
+  Internals        { 6 }
+    CRIT_1-4		  { Ammo_IS.RotaryAC/2 45 - - }
+Turret
+  Armor            { 40 }
+  Internals        { 6 }
+    CRIT_1		  { IS.RotaryAC/2 - - 3 }
+    CRIT_2		  { IS.RotaryAC/2 - - 3 }
+    CRIT_3		  { IS.RotaryAC/2 - - 3 }

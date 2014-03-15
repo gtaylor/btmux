@@ -1,0 +1,14 @@
+ 
+& replacegun
+ 
+  RS Command: replacegun [<num> | <loc> <pos>}] [<name>]
+  
+  This command installs a new weapon in <loc> <pos> or displayed 
+  as <num> in the damages command.
+  
+  THe agument allows you to install a specific brand of that weapon, 
+  if brands are enabled on the MUX.
+  
+  Use critstatus to determine the <pos> for the weapon.
+  
+  Continued in replacegun2

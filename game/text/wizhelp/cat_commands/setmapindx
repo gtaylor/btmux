@@ -1,0 +1,16 @@
+ 
+& setmapindx
+ 
+  RS Command: setmapindx <num>
+  
+  This command set the  mapindex xcode value on the RS Unit.
+  
+  Errors:
+  * if arguments < 1 the command returns "Invalid number of argumetns 
+    to SETMAPINDX!
+  * if <num> is not a valid Map object the command returns "Invalid 
+    map index!"
+  * if the map is full the command returns "There are too many mechs 
+    on that map!"
+  
+  See Also: mapindex, @viewxcode

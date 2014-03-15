@@ -1,0 +1,16 @@
+
+& listeras
+ 
+ >> Help: Listeras (Template Command)
+ -----------------------------------------------------------------------------
+ Syntax: Listeras
+ 
+ The 'Listeras' command will show all of our currently templated eras. These
+ are in the format of a year number most of the time for the sake of
+ familiarity.
+ 
+ You can then use an era name with the 'Listrefs' command to view all refs in
+ a particular era.
+ 
+ See also: listrefs, viewref
+ 

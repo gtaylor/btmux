@@ -1,0 +1,22 @@
+
+& trace_output_limit
+
+  Config parameter: trace_output_limit <amount>
+  Default: 200
+
+  Specifies the maximum number of lines of trace output that will be
+  displayed when using top-down format.  Bottom-up format output is
+  not affected by this parameter.
+
+  Note that this parameter is intended as a limit on the amount of
+  memory used to store intermediate data and not on the quantity of
+  trace output, top-down format needs to keep all intermediate
+  results in memory before displaying them, while bottom-up format
+  displays them immediately after generating them.
+
+  When trace output lines are discarded, only the last
+  (trace_output_limit) lines are kept.  These lines contain
+  information about the evaluations done earliest in the process of
+  evaluating the expression (usually the innermost evaluations and
+  earlier arguments of outer functions).
+ 

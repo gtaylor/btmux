@@ -1,0 +1,11 @@
+ 
+& tel_anything
+ 
+  Power: tel_anything
+  
+  This power permits the player to @teleport anything. This includes 
+  the ability to @teleport himself to any location (as per 
+  tel_anywhere).
+  
+  See Also: @power, @list powers, @teleport
+ 

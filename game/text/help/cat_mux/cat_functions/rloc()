@@ -1,0 +1,23 @@
+ 
+& rloc()
+ 
+  Syntax: rloc(<object>,<levels>)
+ 
+  This function may be used to get the location of an object's
+  location (for which you would previously use 'loc(loc(<object>))',
+  which fails if you don't control <object>'s location).
+ 
+  <levels> indicates the number of nested 'loc' calls to make, so
+  'loc(loc(<object>))' could be replaced with 'rloc(<object>,2)'. If
+  rloc() encounters a room, the dbref of the room is returned.
+ 
+  You must either control the object or be nearby for it to work. When
+  used on an exit it returns the destination of the exit. You can also
+  use rloc() to find the location of players that are not set
+  UNFINDABLE.
+ 
+  rloc(<object>,0) is the same as num(<object>), and rloc(<object>,1)
+  is the same as loc(<object>).
+ 
+  See Also: loc(), where()
+ 

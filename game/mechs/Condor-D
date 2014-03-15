@@ -1,0 +1,30 @@
+Name             { Condor }
+Reference        { Condor-D }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 50 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:53 2000 }
+Computer         { 3 }
+Mech_BV          { 383 }
+Max_Speed        { 129.00 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 15 }
+  Internals        { 5 }
+Right_Side
+  Armor            { 15 }
+  Internals        { 5 }
+Front_Side
+  Armor            { 30 }
+  Internals        { 5 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { Ammo_IS.MachineGun 100 Hotload - }
+Aft_Side
+  Armor            { 14 }
+  Internals        { 5 }
+Turret
+  Armor            { 22 }
+  Internals        { 5 }
+    CRIT_1		  { IS.AC/5 - - 3 }
+    CRIT_2		  { IS.AC/5 - - 3 }
+    CRIT_3		  { Ammo_IS.AC/5 20 - - }

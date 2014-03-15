@@ -1,0 +1,19 @@
+ 
+& btcharlist()2
+ 
+  Example:
+  Given that #dbref 1234 is a valid player
+ 
+  > think btcharlist(skills,#1234)
+  Blade Comm-Conventional Computer Gunnery-Artillery Gunnery-Flamer
+  Gunnery-Laser Gunnery-Missile Gunnery-Spotting Medtech Perception
+  Piloting-Aerospace Piloting-Biped Piloting-BSuit Piloting-Hover
+  Piloting-Naval Piloting-Quad Piloting-Spacecraft Piloting-Tracked
+  Piloting-Wheeled
+  > think btcharlist(advantages)
+  Ambidextrous Bloodname Combat_Sense Contact Dropship EI_Implant
+  Exceptional_Attribute Extra_Edge Land_Grant Reputation Sixth_Sense
+  Title Toughness Wealth Well-Connected Well_Equipped Dodge_Maneuver
+  Maneuvering_Ace Melee_Specialist Pain_Resistance Speed_Demon
+  Tech_Aptitud
+ 

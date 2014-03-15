@@ -1,0 +1,29 @@
+Name		 { Shamash } 
+Reference        { Shamash }
+Type             { Vehicle }
+Move_Type        { Hover }
+Tons             { 11 }
+Max_Speed        { 215.00 }
+Specials         { Clan FerroFibrous_Tech }
+Left_Side
+  Armor            { 7 }
+  Internals        { 1 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 7 }
+  Internals        { 1 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 9 }
+  Internals        { 1 }
+Aft_Side
+  Armor            { 7 }
+  Internals        { 1 }
+Turret
+  Armor            { 8 }
+  Internals        { 1 }
+    CRIT_1		  { CL.ERSmallLaser - - }
+    CRIT_2		  { CL.ERSmallLaser - - }
+    CRIT_3		  { CL.ERSmallLaser - - }
+    CRIT_4		  { CL.ERSmallLaser - - }
+

@@ -1,0 +1,14 @@
+ 
+& @listcommands
+ 
+  Syntax: @listcommands [<name>]
+  
+  This command lists the commands which have been added to the MUX 
+  built-in command table using  @addcommand. 
+  
+  Arguments:
+  none - lists all added commands
+  * name - lists all commands with that particular name
+  
+  See also: @addcommand, @listcommands.
+ 

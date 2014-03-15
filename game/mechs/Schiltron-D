@@ -1,0 +1,40 @@
+Name             { Schiltron }
+Reference        { Schiltron-D }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 80 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:03:04 2002 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 1211 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Specials         { XLEngine_Tech }
+Left_Side
+  Armor            { 34 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 34 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 46 }
+  Internals        { 8 }
+    CRIT_1		  { IS.LRM-15 - - 3 }
+    CRIT_2		  { ArtemisIV - - 3 }
+    CRIT_3-5		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+Aft_Side
+  Armor            { 25 }
+  Internals        { 8 }
+    CRIT_1		  { C3Master - - 3 }
+    CRIT_2		  { Ecm - - 3 }
+    CRIT_3		  { TargetingComputer - - 3 }
+Turret
+  Armor            { 40 }
+  Internals        { 8 }
+    CRIT_1		  { IS.RotaryAC/5 - OnTC 3 }
+    CRIT_2		  { IS.RotaryAC/5 - OnTC 3 }
+    CRIT_3-8		  { Ammo_IS.RotaryAC/5 20 - - }

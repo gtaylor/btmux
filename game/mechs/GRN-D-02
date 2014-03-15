@@ -1,0 +1,82 @@
+Name             { Grand Crusader }
+Reference        { GRN-D-02 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Comment          { Saved by: Spectre(#4628) at Wed Jul 10 10:04:37 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1211 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { HeatSink - - 3 }
+    CRIT_6-7		  { IS.LargePulseLaser - - 3 }
+    CRIT_8		  { IS.LRM-5 - - 3 }
+    CRIT_9		  { ArtemisIV - - 3 }
+    CRIT_10-12		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-4		  { IS.LargePulseLaser - - 3 }
+    CRIT_5		  { IS.LRM-5 - - 3 }
+    CRIT_6		  { ArtemisIV - - 3 }
+    CRIT_7-12		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-8		  { IS.LRM-20 - - 3 }
+    CRIT_9		  { ArtemisIV - - 3 }
+    CRIT_10-12		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 17 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-8		  { IS.LRM-20 - - 3 }
+    CRIT_9		  { ArtemisIV - - 3 }
+    CRIT_10-12		  { Ammo_IS.LRM-20 6 Artemis/Mine - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 25 }
+  Rear             { 15 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { Ammo_IS.LRM-5 24 Artemis/Mine - }
+Left_Leg
+  Armor            { 31 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 31 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { EndoSteel - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

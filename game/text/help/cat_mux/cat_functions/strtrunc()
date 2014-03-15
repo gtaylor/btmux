@@ -1,0 +1,13 @@
+ 
+& strtrunc()
+ 
+  Syntax: strtrunc(<string>,<number>)
+ 
+  This function returns <string> truncated if it is longer than
+<number>. If
+  <number> is greater than the length of <string>, it just returns
+<string>.
+  Much more efficient than the equivalent mid().
+ 
+  See also: mid(), ljust().
+ 

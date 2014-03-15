@@ -1,0 +1,33 @@
+Name             { Anhur }
+Reference        { Anhur }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 30 }
+Comment          { Saved by: Charlemagne(#4624) at Sat Mar  4 14:45:56 2000 }
+Computer         { 5 }
+Radio            { 5 }
+Heat_Sinks       { 13 }
+Mech_BV          { 1221 }
+Cargo_Space      { 700 }
+Max_Speed        { 129.00 }
+Specials         { Clan CargoTech }
+Left_Side
+  Armor            { 14 }
+  Internals        { 3 }
+    CRIT_6-12		  { FerroFibrous - - 5 }
+Right_Side
+  Armor            { 14 }
+  Internals        { 3 }
+    CRIT_6-12		  { FerroFibrous - - 5 }
+Front_Side
+  Armor            { 16 }
+  Internals        { 3 }
+    CRIT_1		  { CL.ERMediumLaser - - 5 }
+    CRIT_2		  { CL.MediumPulseLaser - - 5 }
+Aft_Side
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { CL.MediumPulseLaser - - 5 }
+Rotor
+  Armor            { 2 }
+  Internals        { 3 }

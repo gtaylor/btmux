@@ -1,0 +1,5 @@
+&help
+
+This is the plushelp.txt file. It is used by the '+help' command, and should
+contain information just like the 'help.txt' and 'wiznews.txt' files.
+

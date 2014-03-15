@@ -1,0 +1,11 @@
+ 
+& hhourly
+ 
+  Attribute: hhourly
+  
+  The contents of attribute are executed once every hour.
+  
+  Example:
+  >ex Main RS Map/hhourly
+  HHourly: @fo me={FIXMAP};@tri me/SAVEMAP.T
+ 

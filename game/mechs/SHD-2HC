@@ -1,0 +1,75 @@
+Name             { Shadow Hawk }
+Reference        { SHD-2HC }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 55 }
+Computer         { 4 }
+Heat_Sinks       { 24 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials         { Clan }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 9 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.ERMediumLaser - - }
+    CRIT_6		  { CL.ERMediumLaser - - }
+Left_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1-4		  { CL.LB5-XAC - - }
+    CRIT_5		  { Ammo_CL.LB5-XAC 20 - }
+    CRIT_6		  { JumpJet - - }
+Right_Torso
+  Armor            { 18 }
+  Internals        { 13 }
+  Rear             { 6 }
+    CRIT_1		  { CL.LRM-5 - - }
+    CRIT_2		  { Ammo_CL.LRM-5 24 - }
+    CRIT_3		  { JumpJet - - }
+    CRIT_4-5		  { HeatSink - - }
+Center_Torso
+  Armor            { 23 }
+  Internals        { 18 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_CL.StreakSRM-2 50 - }
+    CRIT_12		  { JumpJet - - }
+Left_Leg
+  Armor            { 16 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_6		  { JumpJet - - }
+Right_Leg
+  Armor            { 16 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.StreakSRM-2 - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

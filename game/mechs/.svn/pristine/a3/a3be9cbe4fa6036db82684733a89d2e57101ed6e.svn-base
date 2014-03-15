@@ -1,0 +1,81 @@
+Name             { Thunderbolt }
+Reference        { TDR-9S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:04:15 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 30 }
+Mech_BV          { 1244 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-7		  { HeatSink - - 3 }
+    CRIT_8		  { IS.MachineGun - - 3 }
+    CRIT_9		  { IS.MachineGun - - 3 }
+Right_Arm
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { HeatSink - - 3 }
+    CRIT_7-9		  { IS.ERPPC - - 3 }
+Left_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-3		  { HeatSink - - 3 }
+    CRIT_4-5		  { IS.SRM-6 - - 3 }
+    CRIT_6		  { IS.MediumLaser - - 3 }
+    CRIT_7		  { IS.MediumLaser - - 3 }
+    CRIT_8		  { IS.MediumLaser - - 3 }
+    CRIT_9		  { Ammo_IS.SRM-6 15 - - }
+    CRIT_10		  { Ammo_IS.MachineGun 200 - - }
+    CRIT_11		  { Case - - 3 }
+Right_Torso
+  Armor            { 24 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-6		  { HeatSink - - 3 }
+    CRIT_7		  { IS.Flamer - - 3 }
+    CRIT_8		  { IS.Flamer - - 3 }
+    CRIT_9		  { IS.Anti-MissileSystem - - 3 }
+    CRIT_10		  { Ammo_IS.Anti-MissileSystem 12 - - }
+    CRIT_11		  { Case - - 3 }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 21 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+Left_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 30 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

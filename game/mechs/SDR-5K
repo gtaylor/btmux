@@ -1,0 +1,66 @@
+Name             { Spider }
+Reference        { SDR-5K }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Mech_BV          { 433 }
+Max_Speed        { 129.00 }
+Jump_Speed       { 64.50 }
+Left_Arm
+  Armor            { 5 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MachineGun - - }
+Right_Arm
+  Armor            { 5 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.MachineGun - - }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1-3		  { JumpJet - - }
+Right_Torso
+  Armor            { 6 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1-3		  { JumpJet - - }
+Center_Torso
+  Armor            { 8 }
+  Internals        { 10 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.MediumLaser - - 5 }
+    CRIT_12		  { Ammo_IS.MachineGun 200 - }
+Left_Leg
+  Armor            { 6 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 6 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { HeatSink - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

@@ -1,0 +1,13 @@
+ 
+& gravity
+ 
+  xcodevalue: gravity <char>
+  XTYPE: MAP
+  
+  This xcode value stores the gravity on the map, expressed in .001 
+  gravties. eg A gravity of 1 is expressed as 10 in the gravity xcode 
+  value.
+  
+  See Also: cloudbase, maplight, temperature, winddir, windspeed, 
+  @viewxcode
+ 

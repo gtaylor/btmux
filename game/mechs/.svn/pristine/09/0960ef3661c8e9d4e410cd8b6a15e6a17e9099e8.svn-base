@@ -1,0 +1,37 @@
+Name		 { Ishtar } 
+Reference        { Ishtar }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 65 }
+Max_Speed        { 53.75 }
+Specials	 { Clan FerroFibrous_Tech ArtemisIV CL_AMS }
+Left_Side
+  Armor            { 30 }
+  Internals        { 7 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 30 }
+  Internals        { 7 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 32 }
+  Internals        { 7 }
+    CRIT_1		  { CL.ERMediumLaser - - }
+    CRIT_2		  { CL.ERMediumLaser - - }
+    CRIT_3		  { CL.Anti-MissileSystem - - }
+    CRIT_4		  { Ammo_CL.Anti-MissileSystem 24 - }
+    CRIT_5		  { CL.LRM-15 - - }
+    CRIT_6		  { ArtemisIV - - }
+    CRIT_7-8		  { Ammo_CL.LRM-15 8 Artemis/Mine }
+Aft_Side
+  Armor            { 24 }
+  Internals        { 7 }
+Turret
+  Armor            { 28 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LB10-XAC - - }
+    CRIT_2		  { Ammo_CL.LB10-XAC 10 - }
+    CRIT_3		  { Ammo_CL.LB10-XAC 10 LBX/Cluster }
+    CRIT_4		  { CL.UltraAC/10 - - }
+    CRIT_5-6		  { Ammo_CL.UltraAC/10 10 - }
+

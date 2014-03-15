@@ -1,0 +1,14 @@
+ 
+& shuffle()
+ 
+  Syntax: shuffle(<word1> <word2> <...<wordN>[,<delimiter>])
+ 
+  This function shuffles the order of words in a list, returning a
+  random permutation of its elements.
+ 
+  Example:
+  > say shuffle(foo bar baz gleep)
+  You say "baz foo gleep bar"
+ 
+  See Also: scramble()
+ 

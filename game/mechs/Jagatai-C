@@ -1,0 +1,46 @@
+Name             { Jagatai }
+Reference        { Jagatai-C }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 70 }
+Heat_Sinks       { 30 }
+Fuel             { 600 }
+Max_Speed        { 96.75 }
+Specials	 { Clan FerroFibrous_Tech }
+Nose
+  Armor            { 46 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LB20-XAC - - }
+    CRIT_2		  { Ammo_CL.LB20-XAC 5 - }
+    CRIT_3		  { Ammo_CL.LB20-XAC 5 LBX/Cluster }
+    CRIT_4		  { CL.ERLargeLaser - - }
+    CRIT_5		  { CL.ERLargeLaser - - }
+Left_Wing
+  Armor            { 36 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LRM-10 - - }
+    CRIT_2		  { Ammo_CL.LRM-10 12 - }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 36 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LRM-10 - - }
+    CRIT_2		  { Ammo_CL.LRM-10 12 - }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 55 }
+  Internals        { 7 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 7 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 7 }
+    CRIT_1		  { CL.LargePulseLaser - - }
+    CRIT_2		  { CL.ERLargeLaser - - }
+

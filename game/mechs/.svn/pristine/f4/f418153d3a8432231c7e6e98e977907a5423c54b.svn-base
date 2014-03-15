@@ -1,0 +1,30 @@
+Name             { Fenrir }
+Reference        { Fenrir-SPL }
+Type             { Battlesuit }
+Move_Type        { Biped }
+Tons             { 1 }
+Comment          { Saved by: Spanky(#6784) at Wed Jul 11 15:34:54 2001 }
+Mech_BV          { 138 }
+Cargo_Space      { 0 }
+Max_Suits        { 4 }
+Max_Speed        { 43.00 }
+Suit_1
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.SmallPulseLaser - - 3 }
+    CRIT_2		  { IS.SmallPulseLaser - - 3 }
+Suit_2
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.SmallPulseLaser - - 3 }
+    CRIT_2		  { IS.SmallPulseLaser - - 3 }
+Suit_3
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.SmallPulseLaser - - 3 }
+    CRIT_2		  { IS.SmallPulseLaser - - 3 }
+Suit_4
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.SmallPulseLaser - - 3 }
+    CRIT_2		  { IS.SmallPulseLaser - - 3 }

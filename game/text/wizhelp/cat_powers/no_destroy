@@ -1,0 +1,9 @@
+ 
+& no_destroy
+ 
+  Power: no_destroy
+  
+  This power prevents the player being destroyed or toaded.
+  
+  See Also: @power, @list powers, @toad
+ 

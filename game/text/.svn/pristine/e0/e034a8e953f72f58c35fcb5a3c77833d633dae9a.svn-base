@@ -1,0 +1,12 @@
+ 
+& give
+ 
+  Syntax: give <player>=<amount/object>
+ 
+  Gives player the specified amount of money or <object>. You can't
+  give someone money if their new total would be greater than 10000
+  (No reason to get greedy).  You may also give players objects, but
+  the other player must be set ENTER_OK to receive something you give.
+ 
+  See also: @apay, @cost, @opay, @pay, ENTER_OK
+ 

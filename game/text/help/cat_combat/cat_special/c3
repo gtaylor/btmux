@@ -1,0 +1,12 @@
+ 
+& c3
+
+  RS Command: c3 [ID|-]
+
+  This command initialises or terminates connection to a C3 network.
+  
+  Arguments:
+  
+  * ID - Connects you to the C3 network of which ID is a part.
+  * '-' - Disconnects you from a C3 network.
+ 

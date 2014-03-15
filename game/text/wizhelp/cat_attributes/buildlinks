@@ -1,0 +1,17 @@
+
+& buildlinks
+ 
+  Attribute: buildlinks [num] [num] ...
+  
+  This attribute contains a space delimited list of the #dbrefs of 
+  objects holding submaps.
+  
+  Example:
+  Given that #62 is a map object with 3 submaps, the dbrefs of which 
+  are #75, #103, and #105.
+  
+  >ex #62/buildlinks
+  Buildlinks: 75 103 105
+  
+  See Also: buildcoord, buildentrace, updatelinks
+  

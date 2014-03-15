@@ -1,0 +1,22 @@
+ 
+& @odfail
+ 
+  Syntax: @odfail <object> = <message>
+  Attribute: Odfail
+ 
+  Sets the message (prefixed by the player's name) that is shown to
+  others in  the same room when someone tries to drop <object> but
+  fails because they didn't pass the object's drop lock.
+ 
+  Function references and %-substitutions are allowed in drop failure
+  messages, and are evaluated when someone drops the object.  In
+  function references, 'me' refers to the object being dropped,
+  while %-substitutions that refer to the enactor (such as %n, %#,
+  %p, etc) refer to the dropper.
+ 
+  Example:
+  @odfail sword = tries to put down the sword but it leaps back
+  into %p hand.
+ 
+  See also: drop, @adfail, @dfail, @lock
+ 

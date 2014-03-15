@@ -1,0 +1,29 @@
+Name             { Po }
+Reference        { Po }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 60 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:02 2000 }
+Mech_BV          { 361 }
+Max_Speed        { 64.50 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 32 }
+  Internals        { 6 }
+Right_Side
+  Armor            { 32 }
+  Internals        { 6 }
+Front_Side
+  Armor            { 40 }
+  Internals        { 6 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { Ammo_IS.MachineGun 200 - - }
+Aft_Side
+  Armor            { 30 }
+  Internals        { 6 }
+Turret
+  Armor            { 34 }
+  Internals        { 6 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { IS.AC/10 - - 3 }
+    CRIT_3-4		  { Ammo_IS.AC/10 10 - - }

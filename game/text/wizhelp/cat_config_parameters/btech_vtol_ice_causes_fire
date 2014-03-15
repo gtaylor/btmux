@@ -1,0 +1,9 @@
+ 
+& btech_ice_causes_fire
+  
+  Config parameter: btech_ice_causes_fire <0/1>
+  Default: 1
+  
+  Enables code which causes VTOL's with ICE engines to cause fire upon 
+  crash or explosion of that unit.
+ 

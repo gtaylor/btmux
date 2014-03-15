@@ -1,0 +1,9 @@
+
+& btech_phys_use_pskill
+
+  Config parameter: btech_phys_use_pskill <0/1>
+  Default 1
+
+  Determines if the game rolls against the players piloting skill for
+  physical attacks
+ 

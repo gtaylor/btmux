@@ -1,0 +1,33 @@
+ 
+& btmakepilotroll()
+ 
+  Syntax: btmakepilotroll(<UnitDB>,<roll modifier>,<damage modifer>)
+ 
+  This function causes the pilot of <UnitDB> to make a pilot roll.
+ 
+  The <roll modifier> is added to the applicable pilot-skill base of
+  the pilot to provide the base-to-hit of the roll.
+ 
+  If the pilot makes the roll, ie rolls higher than the base-to-hit,
+  the event is complete.
+ 
+  If the pilot fails the roll, ie rolls lower than the base-to-hit,
+  then the <damage modifier> is added to the pilot-skill base to
+  provide the base-to-hit of a roll to determine if the player will
+  suffer damage.
+ 
+  If the pilot makes the damage roll, the unit is damaged but not the
+  player, and the event is complete.
+ 
+  If the pilot fails the damage roll, both the unit and player suffer
+  damage. The player makes a further roll to determine if he/she will
+  retain consciousness and the event is complete.
+  
+  Note: A consciousness roll does not use the modifiers stated in the
+  btmakepilotroll function.
+ 
+    * If the pilot passes the initial roll the function returns 1.
+    * If the pilot fails the initial roll the function returns 0.
+ 
+  Continued in btmakpilotroll()2
+ 

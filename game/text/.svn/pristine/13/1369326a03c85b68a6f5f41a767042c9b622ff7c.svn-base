@@ -1,0 +1,15 @@
+ 
+& where()
+ 
+  Syntax: where(<object>)
+ 
+  This function returns the "true" location of an object. You must
+  control the object or be near it in order for it to work. For
+  players and things, the "true" location is the normal location of
+  the object.
+ 
+  For exits, the "true" location is the source room. For rooms, it is
+  #-1.
+ 
+  See Also: loc(), rloc()
+ 

@@ -1,0 +1,13 @@
+
+& unowned_safe
+
+  Config parameter: unowned_safe <yes/no>
+  Default: no
+
+  Indicates whether or not objects not owned by you are automatically
+  considered SAFE.  (This parameter only affects wizards)  Note that
+  players are always considered SAFE, and DESTROY_OK things are
+  never considered SAFE.
+
+  See also: @destroy, DESTROY_OK, SAFE.
+ 

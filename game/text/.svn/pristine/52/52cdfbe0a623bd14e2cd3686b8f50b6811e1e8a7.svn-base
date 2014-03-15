@@ -1,0 +1,29 @@
+ 
+& btweaponstatus()2
+ 
+  * 0 = Beam Weapon
+  * 1 = Missile Weapon
+  * 2 = Artillery Weapon
+  * 3 = Ammo Weapon
+  * 4 = Hand Weapon
+ 
+  <Weapon Status> is listed as:
+ 
+  * 0 = Weapon Operational
+  * 1 = Weapon (temporarily) glitched
+  * 2 = Weapon destroyed/flooded
+ 
+  Error Messages:
+ 
+  * If <UnitDB> is not a valid RS unit the function will return #-1
+    NO SUCH MECH
+  * If <location> is not valid the function will return #-1 INVALID
+    SECTION
+ 
+  Example:
+  Given that #1234 is an EXT-4D which fired 1 of it's left arm medium
+  lasers 10 seconds ago:
+ 
+  > think btweaponstatus(#1234,la)
+  0|MediumLaser|1|0|20|10|0|0,1|MediumLaser|1|0|20|0|0|0
+ 

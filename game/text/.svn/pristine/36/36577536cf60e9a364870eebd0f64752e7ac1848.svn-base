@@ -1,0 +1,9 @@
+ 
+& stripansi()
+ 
+  Syntax: stripansi(<string>)
+ 
+  Strips the ansi codes from <string>.
+ 
+  See Also: ANSI, ansi(), ansisecure()
+ 

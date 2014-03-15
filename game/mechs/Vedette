@@ -1,0 +1,29 @@
+Name             { Vedette }
+Reference        { Vedette }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 50 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:54 2000 }
+Computer         { 3 }
+Mech_BV          { 229 }
+Max_Speed        { 86.00 }
+Specials         { SearchLight ICEEngine_Tech }
+Left_Side
+  Armor            { 18 }
+  Internals        { 5 }
+Right_Side
+  Armor            { 18 }
+  Internals        { 5 }
+Front_Side
+  Armor            { 20 }
+  Internals        { 5 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { Ammo_IS.MachineGun 200 - - }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 5 }
+Turret
+  Armor            { 20 }
+  Internals        { 5 }
+    CRIT_1		  { IS.AC/5 - - 3 }
+    CRIT_2		  { Ammo_IS.AC/5 20 - - }

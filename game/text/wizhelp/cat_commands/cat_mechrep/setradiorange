@@ -1,0 +1,11 @@
+ 
+& setradiorange
+ 
+  Mechrep Command: setradiorange <num>
+  
+  This command sets the range for the 'radio' system for the RS Unit.
+  
+  The command sets the 'radiorange' xcode value for the unit.
+  
+  See Also: settarget, @viewxcode
+ 

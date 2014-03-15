@@ -1,0 +1,17 @@
+ 
+& btdesignex()
+ 
+  Syntax: btdesignex(<UnitRef>)
+ 
+  This function returns '1' if the specified unit reference exists in
+  the /mechs directory and '0' if it does not. Note that if you copy a
+  template into the mechs directory, you may need to perform a
+  @restart before it becomes visible.
+ 
+  Example:
+ 
+  > think btdesignex(AS7-D)
+  1
+  > think btdesignex(AS20-C)
+  0
+ 

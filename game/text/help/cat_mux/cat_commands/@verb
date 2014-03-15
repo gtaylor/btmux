@@ -1,0 +1,32 @@
+ 
+& @verb
+ 
+  Syntax: @verb <victim>=<actor>, <what>, <def>, <owhat>, <odef>,
+  <awhat>, <args>
+ 
+  This command provides a way to do user-defined verbs with associated
+  @attr/@oattr/@aattr groups. Invoking it does the following:
+ 
+  <actor> sees the contents of <victim>'s <what> attribute, or
+  the <def> string if you can't read <victim>'s <what>   
+  attribute.
+ 
+  Everyone in the same room as <actor> sees the contents of
+  <victim>'s <owhat> attribute, with <actor>'s name prepended,
+  or <odef>, also with <actor>'s name prepended, if you can't read
+  <victim>'s <owhat> attribute.
+ 
+  If you control <victim>, then he executes the contents of his
+  <awhat> attribute.
+ 
+  By supplying up to nine <args>, you may pass those values on
+  the stack (i.e. %0, %1, %2, etc. up through %9).
+ 
+  You must control the actor, but need not control the victim.  Note
+  that if you don't have the ability to read the appropriate
+  attributes (whether because you control the victim, he is VISUAL,
+  or the attributes are set VISUAL), the default messages will be
+  used.
+ 
+{ 'help @verb2' for more }
+ 

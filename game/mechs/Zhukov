@@ -1,0 +1,29 @@
+Name             { Zhukov }
+Reference        { Zhukov }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 75 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:03 2000 }
+Mech_BV          { 532 }
+Max_Speed        { 53.75 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 32 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 32 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 44 }
+  Internals        { 8 }
+    CRIT_1		  { IS.SRM-6 - - 3 }
+    CRIT_2		  { Ammo_IS.SRM-6 15 - - }
+Aft_Side
+  Armor            { 24 }
+  Internals        { 8 }
+Turret
+  Armor            { 44 }
+  Internals        { 8 }
+    CRIT_1		  { IS.AC/10 - - 3 }
+    CRIT_2		  { IS.AC/10 - - 3 }
+    CRIT_3-4		  { Ammo_IS.AC/10 10 - - }

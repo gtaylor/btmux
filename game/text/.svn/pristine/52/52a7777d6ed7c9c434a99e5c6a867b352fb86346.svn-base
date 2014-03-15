@@ -1,0 +1,20 @@
+ 
+& info mode
+ 
+  setchannelmode: Info mode
+  Flag: I or i
+  
+  This mode indicates additional data about signals which are 
+  relayed to you.
+  
+  Example:
+  Given that you are out of radio range of UnitID [TT] but that UnitID 
+  [BL] is within range of both units and has Relay enabled.
+ 
+  [A:140] {R-path:[BL]-h:179} <MechJock> Can you guys hear me?
+  
+  * [A:140] indicates the bearing to UnitID [BL] from your unit.
+  * (R-path:[BL]-  h:179) indicates that [BL] is relaying the 
+    transmission to you and that the originating unit is at a bearing 
+    of 179 degrees from UnitID [BL]
+ 

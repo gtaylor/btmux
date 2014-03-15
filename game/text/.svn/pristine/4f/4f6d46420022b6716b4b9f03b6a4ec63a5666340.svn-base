@@ -1,0 +1,12 @@
+ 
+& playmem()
+ 
+  Syntax: playmem(<player>)
+ 
+  Returns the size in bytes of <player>. Note that this is the total
+  number of bytes that player uses, including all objects that they
+  own.
+ 
+  You must be a WIZARD, or have the search power to use this function
+  on another player.
+ 

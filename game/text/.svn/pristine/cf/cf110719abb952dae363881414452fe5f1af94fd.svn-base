@@ -1,0 +1,83 @@
+ 
+& config_parameters
+ 
+  
+  These are the parameters which can be set in the MUX configuration file:
+ 
+ access                  alias                     allow_chanlurking 
+ allow_unloggedwho       attr_access               attr_alias 
+ attr_cmd_access         badsite_file              bad_name 
+ btech_afterlife_dbref   btech_complexrepair       btech_critlevel 
+ btech_defaultweapbv     btech_defaultweapdam      btech_dig_only_fs 
+ btech_divrotordamage    btech_exile_stun_code     btech_explode_ammo 
+ btech_explode_reactor   btech_explode_stop        btech_explode_time 
+ btech_extendedmovemod   btech_failures            btech_fasaadvvhlcrit 
+ btech_fasaadvvhlfire    btech_fasaadvvtolcrit     btech_fasacrit 
+ btech_freetechtime      btech_glancing_blows      btech_hotloadaddshalfbthmod 
+ btech_ic                btech_idf_requires_spotter 
+ btech_inferno_penalty   btech_limitedrepairs      btech_moddamagewithrange 
+ btech_moddamagewithwoods                          btech_mw_losmap 
+ btech_newterrain        btech_nofusionvtolfuel    btech_occ_comsys 
+ btech_oldxpsystem       btech_phys_use_pskill     btech_roll_on_backwalk 
+ btech_seismic_see_stopped                         btech_stackdamage 
+ btech_stacking          btech_stackpole           btech_tankfriendly 
+ btech_tankshield        btech_usedmechstore       btech_vcrit 
+ btech_vtol_ice_causes_fire                        btech_xp_ammomod 
+ btech_xp_missilemod     btech_xp_modifier         btech_xp_usePilotBVMod 
+ cache_depth             cache_trim                cache_width 
+ check_interval          check_offset              clone_copies_cost 
+ command_quota_increment command_quota_max         compression 
+ compress_program        concentrator_port         config_access 
+ connect_file            connect_reg_file          conn_timeout 
+ crash_database          create_max_cost           create_min_cost 
+ dark_sleepers           default_home              dig_cost 
+ down_file               down_motd_message         dump_interval 
+ dump_message            dump_offset               earn_limit events_
+ daily_hour              examine_flags             examine_public_
+ attrs exit_flags        exit_quota                fascist_teleport 
+ find_money_chance       fixed_home_message        fixed_tel_message 
+ flag_alias              forbid_site               fork_dump 
+ fork_vfork              full_file full_motd_message 
+ function_access         function_invocation_limit 
+ function_recursion_limit                          gdbm_database 
+ good_name               guests_channel            guest_char_num 
+ guest_file              guest_nuker               have_comsys 
+ have_macros             have_mailer               have_zones 
+ help_file               help_index                hostnames 
+ idle_interval           idle_timeout              idle_wiz_dark 
+ include                 indent_desc               initial_size 
+ input_database          kill_guarantee_cost       kill_max_cost 
+ kill_min_cost           link_cost                 list_access 
+ lock_recursion_limit    log                       logout_cmd_access 
+ logout_cmd_alias        log_options               look_obey_terse 
+ machine_command_cost    mail_database             mail_expiration 
+ master_room             match_own_commands        max_players 
+ money_name_plural       money_name_singular       motd_file 
+ motd_message            mud_name                  news_file 
+ news_index              newuser_file              notify_recursion_limit 
+ number_guests           open_cost                 output_database 
+ output_limit            page_cost                 paranoid_allocate 
+ parent_recursion_limit  paycheck                  pemit_any_object 
+ pemit_far_players       pemit_site                player_flags 
+ player_listen           player_match_own_commands player_queue_limit 
+ player_quota            player_starting_home      player_starting_room 
+ plushelp_file           plushelp_index            port 
+ postdump_message        public_channel            public_flags 
+ queue_active_chunk      queue_idle_chunk          quiet_look 
+ quiet_whisper           quit_file                 quotas 
+ read_remote_desc        read_remote_name          register_create_file 
+ register_site           retry_limit               robot_cost 
+ robot_flags             robot_speech              room_flags 
+ room_quota              sacrifice_adjust          sacrifice_factor 
+ search_cost             see_owned_dark            signal_action 
+ site_chars              space_compress            stack_limit 
+ starting_money          starting_quota            status_file 
+ suspect_site            sweep_dark                switch_default_all 
+ terse_shows_contents    terse_shows_exits         terse_shows_move_messages 
+ thing_flags             thing_quota               timeslice 
+ trace_output_limit      trace_topdown             trust_site 
+ uncompress_program      unowned_safe              user_attr_access 
+ use_http                wait_cost                 wizard_help_file 
+ wizard_help_index       wizard_motd_file          wizard_motd_message 
+ wiznews_file            wiznews_index             zone_recursion_limit
+ 

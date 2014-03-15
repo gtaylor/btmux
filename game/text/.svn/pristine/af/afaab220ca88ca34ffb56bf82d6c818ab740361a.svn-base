@@ -1,0 +1,14 @@
+ 
+& fuel_orig
+ 
+  xcodevalue: fuel_orig <int>
+  XTYPE: MECH
+  
+  This xcode value stores the amount of fuel originally in the 
+  vehicle.
+  
+  NOTE - This does not include cargo - only the vehicle's operating 
+  fuel.
+  
+  See Also: fuel, @viewxcode
+ 

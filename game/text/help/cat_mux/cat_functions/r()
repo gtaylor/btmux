@@ -1,0 +1,16 @@
+ 
+& r()
+ 
+  Syntax: r(<number>)
+ 
+  This function is used to access "local registers", and returns the
+  contents of the specified register. There are ten such registers,
+  numbered 0 through 9.
+ 
+  The local registers are normally cleared at the start of each
+  command, but are preserved across the commands that compose an
+  actionlist, as well as commands that directly trigger actionlists,
+  such as @switch, @trigger, and @dolist.
+ 
+  See Also: setq(), setr()
+ 

@@ -1,0 +1,89 @@
+Name             { Viper }
+Reference        { Viper-2 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Heat_Sinks       { 24 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials	 { Clan }
+Left_Arm
+  Armor            { 22 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.MachineGun - OnTC }
+    CRIT_6		  { CL.MachineGun - OnTC }
+    CRIT_7                { Ecm - - }
+    CRIT_8                { Ammo_CL.MachineGun 200 - }
+    CRIT_9-10             { Ammo_CL.UltraAC/2 45 - }
+    CRIT_11               { FerroFibrous - - }
+Right_Arm
+  Armor            { 22 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-8		  { TargetingComputer - -}
+    CRIT_9		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { JumpJet - - }
+    CRIT_5                { CL.SmallPulseLaser - OnTC }
+    CRIT_6                { CL.SmallPulseLaser - OnTC }
+    CRIT_7-8              { CL.UltraAC/2 - OnTC }
+    CRIT_9                { EndoSteel - - }
+    CRIT_10-11            { FerroFibrous - - }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 16 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { JumpJet - - }
+    CRIT_5                { CL.SmallPulseLaser - OnTC }
+    CRIT_6                { CL.SmallPulseLaser - OnTC }
+    CRIT_7                { CL.ERLargeLaser - OnTC }
+    CRIT_8                { CL.ERLargeLaser - OnTC }
+    CRIT_9                { CL.SmallPulseLaser - OnTC }
+    CRIT_10               { EndoSteel - - }
+    CRIT_11-12            { FerroFibrous - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 23 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11               { JumpJet - - }
+    CRIT_12               { EndoSteel - - }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4                { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

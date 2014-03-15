@@ -1,0 +1,37 @@
+Name             { Transport }
+Reference        { DS.Reliant }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 5000 }
+Comment          { Saved by: Spectre(#4628) at Mon Feb 19 08:21:02 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Computer         { 3 }
+Heat_Sinks       { 90 }
+Mech_BV          { 0 }
+Cargo_Space      { 0 }
+Fuel             { 8000 }
+Max_Speed        { 86.00 }
+Front_Right_Side
+  Armor            { 200 }
+  Internals        { 15 }
+Front_Left_Side
+  Armor            { 200 }
+  Internals        { 15 }
+Rear_Left_Side
+  Armor            { 200 }
+  Internals        { 15 }
+Rear_Right_Side
+  Armor            { 200 }
+  Internals        { 15 }
+Aft
+  Armor            { 200 }
+  Internals        { 15 }
+    CRIT_1		  { IS.MediumLaser - - 0 }
+    CRIT_2		  { IS.MediumLaser - - 0 }
+Nose
+  Armor            { 200 }
+  Internals        { 15 }
+    CRIT_1		  { DSMechDoor - - 3 }
+    CRIT_2		  { IS.LargeLaser - - 0 }

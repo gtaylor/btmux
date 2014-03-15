@@ -1,0 +1,19 @@
+ 
+& scan mode
+ 
+  setchannelmode: Scan mode:
+  Flag: S or s
+  
+  This mode will listen for any analog signals and attempt to 
+  determine  the frequency which those transmissiosn are using. 
+  Depending on a number of factors your scanner will determine the 
+  frequency either 'somewhat', 'fairly well', 'precisely' or 
+  'exactly'.
+  
+  Example:
+  Given that a unit is transmitting in analog mode within radio range 
+  and that you have a channel set to scan mode.
+  
+  You notice a unknown transmission your scanner ....
+  Your systems manage to zero on it exactly on channel A.
+  

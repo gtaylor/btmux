@@ -1,0 +1,9 @@
+ 
+& btech_ooc_comsys
+ 
+  Config parameter: btech_occ_comsys <0/1>
+  Default: 0
+  
+  Enables code which bypasses checks to block use of the comsys from 
+  IC locations
+  

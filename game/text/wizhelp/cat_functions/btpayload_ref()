@@ -1,0 +1,26 @@
+ 
+& btpayload_ref()
+ 
+  Syntax: btpayload_ref(<UnitRef>)
+ 
+  This function displays a string detailing the weapons and ammunition
+  payload of a reference unit, ie the default templated unit.
+ 
+  The string is formatted <itemname>:<quantity>|
+ 
+  Note: This function does not display melee weapons.
+ 
+  Error Messages:
+ 
+  * If <UnitRef> is not a valid unit the function returns #-1 NO SUCH
+    MECH
+  * If the function fails for any other reason the function returns
+    #-1
+ 
+  Example:
+  Given that EXT-4D is valid mech reference
+ 
+  > think btpayload_ref(ext-4d)
+  IS.MediumLaser:4|IS.LRM-10:1|IS.Anti-MissileSystem:1
+  |IS.SmallLaser:1|Ammo_IS.Anti-MissileSystem:1|Ammo_IS.LRM-10:1
+ 

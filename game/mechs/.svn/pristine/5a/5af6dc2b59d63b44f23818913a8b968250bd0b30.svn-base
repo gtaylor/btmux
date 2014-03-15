@@ -1,0 +1,33 @@
+Name             { SturmFeur }
+Reference        { SturmFeur-HGR }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 85 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:09:30 2002 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 1074 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 66 }
+  Internals        { 9 }
+Right_Side
+  Armor            { 66 }
+  Internals        { 9 }
+Front_Side
+  Armor            { 66 }
+  Internals        { 9 }
+    CRIT_1		  { IS.HeavyGaussRifle - - 3 }
+    CRIT_2-7		  { Ammo_IS.HeavyGaussRifle 4 - - }
+Aft_Side
+  Armor            { 48 }
+  Internals        { 9 }
+Turret
+  Armor            { 66 }
+  Internals        { 9 }
+    CRIT_1		  { IS.LRM-10 - - 3 }
+    CRIT_2		  { IS.ERMediumLaser - - 3 }
+    CRIT_3-4		  { Ammo_IS.LRM-10 12 - - }

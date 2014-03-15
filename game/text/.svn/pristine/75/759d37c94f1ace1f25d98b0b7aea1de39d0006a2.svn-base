@@ -1,0 +1,11 @@
+ 
+& z
+ 
+  xcodevalue: z <short>
+  XTYPE: MECH
+  
+  This xcode value stores the z value (ie vertical height) for the RS 
+  Unit
+  
+  See also: y, z, fx, fy, fz, @viewxcode
+ 

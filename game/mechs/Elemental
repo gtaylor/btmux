@@ -1,0 +1,40 @@
+Name             { Elemental }
+Reference        { Elemental }
+Type             { Battlesuit }
+Move_Type        { Biped }
+Tons             { 1 }
+Max_Suits        { 4 }
+Max_Speed        { 32.50 }
+Jump_Speed       { 32.50 }
+InfantrySpecials { Swarm_Attack_Tech Mount_Friends_Tech AntiLeg_Attack_Tech }
+Suit_1
+  Internals        { 1 }
+  Armor            { 10 }
+  CRIT_1		  { CL.SmallLaser - - }
+  CRIT_2                  { CL.SRM-2 - - }
+  CRIT_3                  { Ammo_CL.SRM-2 2 - }
+Suit_2
+  Internals        { 1 }
+  Armor            { 10 }
+  CRIT_1		  { CL.SmallLaser - - }
+  CRIT_2                  { CL.SRM-2 - - }
+  CRIT_3                  { Ammo_CL.SRM-2 2 - }
+Suit_3
+  Internals        { 1 }
+  Armor            { 10 }
+  CRIT_1		  { CL.SmallLaser - - }
+  CRIT_2                  { CL.SRM-2 - - }
+  CRIT_3                  { Ammo_CL.SRM-2 2 - }
+Suit_4
+  Internals        { 1 }
+  Armor            { 10 }
+  CRIT_1		  { CL.SmallLaser - - }
+  CRIT_2                  { CL.SRM-2 - - }
+  CRIT_3                  { Ammo_CL.SRM-2 2 - }
+Suit_5
+  Internals        { 1 }
+  Armor            { 10 }
+  CRIT_1		  { CL.SmallLaser - - }
+  CRIT_2                  { CL.SRM-2 - - }
+  CRIT_3                  { Ammo_CL.SRM-2 2 - }
+

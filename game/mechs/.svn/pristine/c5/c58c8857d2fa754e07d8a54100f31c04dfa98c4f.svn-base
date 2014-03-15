@@ -1,0 +1,66 @@
+Name             { Ostroc }
+Reference        { OSR-2M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Mech_BV          { 1036 }
+Heat_Sinks       { 15 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Left_Arm
+  Armor            { 8 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+Right_Arm
+  Armor            { 8 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 14 }
+  Rear             { 4 }
+    CRIT_1-2		  { IS.LargeLaser - - }
+    CRIT_3-4		  { JumpJet - - }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 14 }
+  Rear             { 4 }
+    CRIT_1-2		  { IS.LargeLaser - - }
+    CRIT_3-4		  { JumpJet - - }
+Center_Torso
+  Armor            { 22 }
+  Internals        { 20 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { JumpJet - - }
+    CRIT_12		  { HeatSink - - }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

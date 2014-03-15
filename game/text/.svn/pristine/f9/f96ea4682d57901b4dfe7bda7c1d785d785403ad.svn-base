@@ -1,0 +1,31 @@
+ 
+& btarmorstatus()
+ 
+  Syntax: btarmorstatus(<UnitDB>,<location>)
+ 
+  This function returns a list detailing the status of the armor in
+  the specified <location> on <UnitDB>. The format of the string is:
+ 
+  <current front armor>/<templated front armor>|<current
+  internal>/<templated internal>|<current rear armor>/<templated rear
+  armor>
+ 
+  Error Messages:
+ 
+  * if <UnitDB> is not a valid RS unit the function will return #-1
+    NOT A MECH
+  * if <location> is not valid the function returns #-1 INVALID
+    SECTION
+  * Any other errors will return #-1 ERROR
+ 
+  Example:
+ 
+  Given that #1234 is a mech which has taken 5 damage to the front
+  armor of it's Left Torso
+ 
+  > think btarmorstatus(#1234,lt)
+  13/18|14/14|6/6
+ 
+  See Also: btarmorstatus_ref()
+ 
+ 

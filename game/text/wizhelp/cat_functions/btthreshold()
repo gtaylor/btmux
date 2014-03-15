@@ -1,0 +1,22 @@
+ 
+& btthreshold()
+ 
+  Syntax: btthreshold(<skill>)
+ 
+  This function returns the threshold constant. This constant is one
+  of the factors used to calculate the number of points required in
+  the XP pool of <skill> to improve the skill's base-to-hit by 1.
+ 
+  Error Messages:
+ 
+  * If <skill> is not valid the function will return #-1 ERROR
+ 
+  Example:
+ 
+  > think btthreshold(medtech)
+  999999
+ 
+  Note: The amount returned by btthreshold is NOT the only factor in
+  determining if a player will 'level up'. Further calculations
+  modify the required XP dynamically.
+ 

@@ -1,0 +1,19 @@
+Name             { Mech Recovery Vehicle }
+Reference        { BMRV }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 50 }
+Max_Speed        { 96.75 }
+Specials         { SalvageTech ICEEngine_Tech }
+Left_Side
+  Armor            { 2 }
+  Internals        { 5 }
+Right_Side
+  Armor            { 2 }
+  Internals        { 5 }
+Front_Side
+  Armor            { 2 }
+  Internals        { 5 }
+Aft_Side
+  Armor            { 2 }
+  Internals        { 5 }

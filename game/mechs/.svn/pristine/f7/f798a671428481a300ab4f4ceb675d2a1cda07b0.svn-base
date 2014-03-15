@@ -1,0 +1,23 @@
+Name		 { Coolant Truck } 
+Reference        { 135-K }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 30 }
+Max_Speed        { 64.50 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 28 }
+  Internals        { 3 }
+Right_Side
+  Armor            { 28 }
+  Internals        { 3 }
+Front_Side
+  Armor            { 24 }
+  Internals        { 3 }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 3 }
+Turret
+  Armor            { 12 }
+  Internals        { 3 }
+    CRIT_1-2		  { IS.Flamer - - 5 }

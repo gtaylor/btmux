@@ -1,0 +1,81 @@
+Name             { Charger }
+Reference        { CGR-SA5 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:04:02 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 24 }
+Mech_BV          { 1717 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { IS.StreakSRM-6 - - 3 }
+    CRIT_7-8		  { IS.StreakSRM-6 - - 3 }
+    CRIT_9-11		  { EndoSteel - - 3 }
+Right_Arm
+  Armor            { 26 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-11		  { EndoSteel - - 3 }
+Left_Torso
+  Armor            { 27 }
+  Internals        { 17 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - 3 }
+    CRIT_3-6		  { Masc - - 3 }
+    CRIT_7		  { IS.ERMediumLaser - - 3 }
+    CRIT_8		  { Ammo_IS.LB20-XAC 5 - - }
+    CRIT_9-10		  { Ammo_IS.LB20-XAC 5 LBX/Cluster - }
+    CRIT_11		  { Ammo_IS.StreakSRM-6 15 - - }
+    CRIT_12		  { Case - - 3 }
+Right_Torso
+  Armor            { 27 }
+  Internals        { 17 }
+  Rear             { 7 }
+    CRIT_1		  { IS.ERMediumLaser - - 3 }
+    CRIT_2-12		  { IS.LB20-XAC - - 3 }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 25 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-12		  { Engine - - 3 }
+Left_Leg
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Right_Leg
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { EndoSteel - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.ERMediumLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

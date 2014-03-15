@@ -1,0 +1,12 @@
+
+& public_channel
+
+  Config parameter: public_channel <name>
+  Default: Public
+
+  Specifies the name of the channel that new players join when they
+  are created. You must have previously created the channel. To
+  disable this feature, simply set this parameter to nothing.
+
+  See also: guests_channel.
+ 

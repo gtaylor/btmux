@@ -1,0 +1,28 @@
+Name   { Burke } 
+Reference        { Burke }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 75 }
+Mech_BV          { 594 }
+Computer         { 3 }
+Heat_Sinks       { 30 }
+Max_Speed        { 32.25 }
+Specials         { FerroFibrous_Tech }
+Left_Side
+  Armor            { 20 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 20 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 30 }
+  Internals        { 8 }
+    CRIT_1		  { IS.LRM-10 - - }
+    CRIT_2		  { Ammo_IS.LRM-10 12 - }
+Aft_Side
+  Armor            { 16 }
+  Internals        { 8 }
+Turret
+  Armor            { 22 }
+  Internals        { 8 }
+    CRIT_1-3		  { IS.PPC - - }

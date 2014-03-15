@@ -1,0 +1,21 @@
+ 
+& lock2
+ 
+  Example:
+  To lock UnitID zz:
+  > lock zz
+  Target set to T1 Zorya [zz].
+  The sensors acquire a stable lock on T1 Zorya [om].
+  
+  To lock a hex for igniting:
+  >lock 10 15 i
+  Target coordinates set to igniting hex at (X,Y) 10, 15
+  
+  To lock a building within a hex:
+  >lock 15 9 b
+  Target coordinates set to building at (X,Y) 15, 9
+  
+  To lock a hex (and therefore any units within that hex)
+  >lock 0 0
+  The sensors acquire a stable lock on (0,0).
+ 

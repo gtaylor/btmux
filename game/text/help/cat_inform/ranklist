@@ -1,0 +1,11 @@
+ 
+& ranklist
+ 
+ >> Help: Ranklist (Informational Command)
+ -----------------------------------------------------------------------------
+ Syntax: Ranklist
+ 
+ The 'Ranklist' command simply displays a list of the various ranks your
+ character can achieve. It also shows how much experience is needed to reach
+ each rank level, in addition to how much you need for the next rank.
+ 

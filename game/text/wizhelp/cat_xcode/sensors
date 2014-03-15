@@ -1,0 +1,10 @@
+ 
+& sensors
+ 
+  xcodevalue: sensors <>
+  XTYPE: MECH
+  
+  This xcode value stores the sensors currently being used by the RS 
+  Unit.
+  
+  See Also: sensor, @viewxcode

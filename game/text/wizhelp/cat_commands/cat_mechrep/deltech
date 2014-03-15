@@ -1,0 +1,10 @@
+ 
+& deltech
+ 
+  Mechrep Command: deltech <all|[<tech>]>
+  
+  This command deletes all, or the specified advanced technology from 
+  the targetted RS Unit.
+  
+  See Also: settarget, @viewxcode
+ 

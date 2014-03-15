@@ -1,0 +1,71 @@
+Name             { Thunder Stallion }
+Reference        { ThunderStallion-2 }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 85 }
+Heat_Sinks	 { 32 }
+Max_Speed        { 53.75 }
+Specials	 { Clan }
+Front_Left_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Front_Right_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 18 }
+  Rear             { 16 }
+    CRIT_1-2		  { CL.LRM-15 - - }
+    CRIT_3-4		  { CL.LRM-15 - - }
+    CRIT_5-12		  { Ammo_CL.LRM-15 8 - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 18 }
+  Rear             { 16 }
+    CRIT_1-4              { HeatSink - - }
+    CRIT_5-6              { CL.LRM-15 - - }
+    CRIT_7-8              { CL.LRM-15 - - }
+    CRIT_9-10             { CL.LargePulseLaser - - }
+    CRIT_11-12            { CL.LargePulseLaser - - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 27 }
+  Rear             { 20 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Rear_Left_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Rear_Right_Leg
+  Armor            { 36 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

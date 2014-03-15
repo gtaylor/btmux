@@ -1,0 +1,76 @@
+Name             { Daishi }
+Reference        { Dai-B }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Computer         { 4 }
+Heat_Sinks       { 30 }
+Max_Speed        { 53.75 }
+Left_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.ERPPC - - }
+    CRIT_6-7		  { CL.ERPPC - - }
+    CRIT_8		  { CL.MediumPulseLaser - - }
+    CRIT_9		  { CL.MediumPulseLaser - - }
+Right_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-8		  { CL.LB10-XAC - - }
+    CRIT_9-10		  { Ammo_CL.LB10-XAC 10 - }
+Left_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { HeatSink - - }
+    CRIT_5-6		  { CL.UltraAC/2 - - }
+    CRIT_7-8		  { CL.UltraAC/2 - - }
+    CRIT_9		  { Ammo_CL.UltraAC/2 45 - }
+Right_Torso
+  Armor            { 32 }
+  Internals        { 21 }
+  Rear             { 10 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { HeatSink - - }
+    CRIT_5-6		  { CL.UltraAC/2 - - }
+    CRIT_7-8		  { CL.UltraAC/2 - - }
+    CRIT_9		  { Ammo_CL.UltraAC/2 45 - }
+Center_Torso
+  Armor            { 47 }
+  Internals        { 31 }
+  Rear             { 14 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.ERSmallLaser - - }
+Left_Leg
+  Armor            { 41 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 41 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

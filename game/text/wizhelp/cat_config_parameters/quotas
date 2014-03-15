@@ -1,0 +1,18 @@
+
+& quotas
+
+  Config parameter: quotas <yes/no>
+  Default: no
+
+  Indicates whether or not building quotas are enforced and
+  maintained.
+
+  Quotas are stored as a relative number, ie. number of objects that
+  the player may create, not the total number that the player may
+  create.
+
+  If quotas are turned off and turned back on later, any building or
+  @destroying that occurs in the interim does not affect the quotas.
+
+  See also: @allquota, @create, @destroy, @dig, @open, @quota, QUOTAS.
+ 

@@ -1,0 +1,76 @@
+Name             { King Crab }
+Reference        { KGC-000 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 100 }
+Mech_BV          { 1509 }
+Comment          { RS3050 says AC/20 is split between RA/RT }
+Radio            { 4 }
+Computer         { 4 }
+Heat_Sinks       { 15 }
+Max_Speed        { 53.75 }
+Left_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-12		  { IS.AC/20 - - }
+Right_Arm
+  Armor            { 34 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-12		  { IS.AC/20 - - }
+Left_Torso
+  Armor            { 30 }
+  Internals        { 21 }
+  Rear             { 12 }
+    CRIT_1		  { Ammo_IS.AC/20 5 - - }
+    CRIT_2		  { Case - - }
+    CRIT_3-5		  { IS.LRM-15 - - }
+    CRIT_6		  { Ammo_IS.LRM-15 8 - - }
+    CRIT_7-10             { FerroFibrous - - }
+Right_Torso
+  Armor            { 30 }
+  Internals        { 21 }
+  Rear             { 12 }
+    CRIT_1		  { Ammo_IS.AC/20 5 - - }
+    CRIT_2		  { Case - - }
+    CRIT_3-4		  { IS.LargeLaser - - }
+    CRIT_5-10             { FerroFibrous - - }
+Center_Torso
+  Armor            { 40 }
+  Internals        { 31 }
+  Rear             { 16 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { HeatSink - - }
+    CRIT_12               { FerroFibrous - - }
+Left_Leg
+  Armor            { 35 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5                { HeatSink - - }
+    CRIT_6                { FerroFibrous - - }
+Right_Leg
+  Armor            { 35 }
+  Internals        { 21 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5                { HeatSink - - }
+    CRIT_6                { FerroFibrous - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4                { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

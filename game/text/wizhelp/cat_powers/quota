@@ -1,0 +1,9 @@
+ 
+& quota
+ 
+  Power: quota
+  
+  This power permits a player to see and change the quota for anyone.
+  
+  See Also: @power, @list powers
+ 

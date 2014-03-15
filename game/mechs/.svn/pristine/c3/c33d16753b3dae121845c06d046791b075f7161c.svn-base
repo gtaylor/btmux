@@ -1,0 +1,75 @@
+Name             { Marauder }
+Reference        { Marauder-IIC }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Heat_Sinks       { 42 }
+Max_Speed        { 64.50 }
+Specials	 { Clan Searchlight }
+Left_Arm
+  Armor            { 24 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.ERPPC - - }
+    CRIT_6		  { CL.MediumPulseLaser - - }
+    CRIT_7-9		  { FerroFibrous - - }
+Right_Arm
+  Armor            { 24 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4-5		  { CL.ERPPC - - }
+    CRIT_6		  { CL.MediumPulseLaser - - }
+    CRIT_7-9		  { FerroFibrous - - }
+Left_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 8 }
+    CRIT_1-6		  { HeatSink - - }
+    CRIT_7-8		  { CL.ERPPC - - }
+    CRIT_9		  { CL.ERSmallLaser - - }
+    CRIT_10-12		  { EndoSteel - - }
+Right_Torso
+  Armor            { 26 }
+  Internals        { 18 }
+  Rear             { 8 }
+    CRIT_1-6		  { HeatSink - - }
+    CRIT_7		  { CL.ERSmallLaser - - }
+    CRIT_8-11		  { EndoSteel - - }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 27 }
+  Rear             { 12 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { CL.ERSmallLaser - - }
+    CRIT_12		  { CL.ERSmallLaser - - }
+Left_Leg
+  Armor            { 27 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Leg
+  Armor            { 27 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { FerroFibrous - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

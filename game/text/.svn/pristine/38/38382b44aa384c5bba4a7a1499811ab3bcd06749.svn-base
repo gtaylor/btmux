@@ -1,0 +1,8 @@
+
+& btech_usedmechstore
+
+  Config parameter: btech_usedmechstore <#dbref>
+  Default 0
+
+  #dbref of the room/object used to store destroyed RS units.
+  

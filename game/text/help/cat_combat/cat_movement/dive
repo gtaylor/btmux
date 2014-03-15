@@ -1,0 +1,15 @@
+ 
+& dive
+ 
+  RS Command: dive [angle]
+  
+  This command controls the angle of dive for Aero type RS Units.
+  
+  Arguments:
+  none - displays the current dive angle
+  angle - sets the dive angle
+  
+  NOTE - Aero units are currently non-functional within the codebase.
+  
+  See Also: thrust, climb
+ 

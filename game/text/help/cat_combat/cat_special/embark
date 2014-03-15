@@ -1,0 +1,10 @@
+ 
+& embark
+ 
+  RS Command: embark <UnitID>
+  
+  This command causes your RS Unit to climb into a carrier unit.
+  
+  Upon entering the carrier your unit will be shutdown.
+  
+  See Also: udisembark

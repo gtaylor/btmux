@@ -1,0 +1,40 @@
+Name             { Hellcat }
+Reference        { HCT-1 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 60 }
+Computer         { 3 }
+Heat_Sinks       { 20 }
+Fuel             { 750 }
+Max_Speed        { 96.75 }
+Nose
+  Armor            { 42 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2 		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Left_Wing
+  Armor            { 30 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Right_Wing
+  Armor            { 30 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Fuselage
+  Armor            { 38 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 0 }
+    CRIT_3		  { Cockpit - - 0 }
+    CRIT_4		  { Sensors - - 0 }
+    CRIT_5		  { LifeSupport - - 0 }
+Engine
+  Armor 	   { 23 }
+  Internals        { 10 }
+    CRIT_1 		  { IS.MediumLaser - - }

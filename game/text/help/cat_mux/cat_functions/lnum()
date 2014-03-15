@@ -1,0 +1,11 @@
+ 
+& lnum()
+ 
+  Syntax: lnum(<number>)
+ 
+  Returns a list of numbers from 0 to <number>-1.
+ 
+  Example:
+ 
+  > say lnum(5)
+ You say "0 1 2 3 4"

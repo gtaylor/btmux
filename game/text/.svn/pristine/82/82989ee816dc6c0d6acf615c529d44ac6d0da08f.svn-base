@@ -1,0 +1,15 @@
+ 
+& enterbay
+ 
+  RS Command: enterbay [ID]
+  
+  The command causes an RS Unit to enter a bay of a mobile unit such 
+  as a Dropship or Crawler.
+  
+  Arguments:
+  [ID] - specifies the target ID of the unit which bay you wish to 
+         enter. Normally this is optional, unless there are multiple 
+         enterable objects in the hex
+  
+  See Also; enterbase
+ 

@@ -1,0 +1,66 @@
+Name             { Orion }
+Reference        { ON1-V }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 75 }
+Mech_BV          { 931 }
+Max_Speed        { 64.50 }
+Specials   	 { AntiAircraft }
+Left_Arm
+  Armor            { 19 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.SRM-4 - - }
+Right_Arm
+  Armor            { 19 }
+  Internals        { 12 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { IS.SRM-4 - - }
+Left_Torso
+  Armor            { 20 }
+  Internals        { 16 }
+  Rear             { 8 }
+    CRIT_1-3		  { IS.LRM-15 - - 2 }
+    CRIT_4-5		  { Ammo_IS.LRM-15 8 - }
+    CRIT_6-7		  { Ammo_IS.SRM-4 25 - }
+Right_Torso
+  Armor            { 20 }
+  Internals        { 16 }
+  Rear             { 8 }
+    CRIT_1-7		  { IS.AC/10 - - 1 }
+    CRIT_8-9		  { Ammo_IS.AC/10 10 - }
+Center_Torso
+  Armor            { 32 }
+  Internals        { 23 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 20 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 20 }
+  Internals        { 16 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

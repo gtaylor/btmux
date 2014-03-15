@@ -1,0 +1,12 @@
+ 
+& thrash
+ 
+  RS Command: thrash
+  
+  This command is used by a Mech to attempt to dislodge any elementals 
+  or battlesuits which are swarming it.
+  
+  A Mech must be prone before it can thrash.
+ 
+  See Also: prone, swarm
+ 

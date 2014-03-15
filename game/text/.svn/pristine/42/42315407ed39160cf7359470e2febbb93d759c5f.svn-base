@@ -1,0 +1,17 @@
+ 
+& get2
+ 
+  The following switch is recognized:
+     /quiet   - Don't perform the @osucc/@asucc or @ofail/@afail
+     attributes
+                on the target object.  This switch only works if you
+                control
+                the object.
+ 
+  <object> and <sub-object> may be either players or things.
+ 
+  'take' is the same as 'get'.
+ 
+  See also: drop, @afail, @asucc, @fail, @ofail, @osucc, @succ,
+  ENTER_OK, FAILURE, SUCCESS.
+ 

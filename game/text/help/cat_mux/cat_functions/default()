@@ -1,0 +1,25 @@
+ 
+& default()
+ 
+  Syntax:  default(<obj>/<attr>,<default case>)
+ 
+  This function returns the value of <obj>/<attr>, as if retrieved via
+  the get() function, if the attribute exists and is readable by you.
+  Otherwise, it evaluates the default case, and returns that.
+  Note that the default case is only evaluated if the attribute does
+  not exist or cannot be read.
+ 
+  This is useful for code that needs to return the value of an
+  attribute, or an error message or default case, if that attribute
+  does not exist.
+ 
+  Examples:
+    > &TEST me=apple orange banana
+    > say default(me/Test, No fruits!)
+    You say "apple orange banana"
+    > &TEST ME
+    > say default(me/Test, No fruits!)
+    You say "No fruits!"
+ 
+  See also:  get(), get_eval(), u(), edefault(), udefault().
+ 

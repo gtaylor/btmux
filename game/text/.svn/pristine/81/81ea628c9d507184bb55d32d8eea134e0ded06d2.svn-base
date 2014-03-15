@@ -1,0 +1,20 @@
+ 
+& cargospace
+ 
+  xcodevalue: cargospace <int>
+  XTYPE: MECH
+  
+  This xcode value stores the amount of cargospace for the unit.
+  
+  NOTE - the value is an integer representation of a float. Therefore 
+  100 tons would be shown as 10000
+  
+  Example:
+  >setcargospace 500 75
+  500.00 cargospace and 75 tons of maxton space set.
+  
+  >@viewxcode
+  cargospace                     50000
+  
+  See Also: carmaxton, setcargospace, @viewxcode
+ 

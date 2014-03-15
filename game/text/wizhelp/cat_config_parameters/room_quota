@@ -1,0 +1,11 @@
+
+& room_quota
+
+  Config parameter: room_quota <amount>
+  Default: 1
+
+  Sets how much quota it costs to dig a room (and also how much the
+  remaining quota is increased when a room is @destroyed.
+
+  See also: @quota, exit_quota, player_quota, thing_quota, QUOTAS.
+ 

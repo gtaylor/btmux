@@ -1,0 +1,12 @@
+
+& fascist_teleport
+
+  Config parameter: fascist_teleport <yes/no>
+  Default: no
+
+  If this parameter is set to yes, then players (and objects) may not
+  teleport out of locations that they do not control or which are not
+  set JUMP_OK.  If the teleporting player is inside an object, the
+  room that ultimately contains the object is checked.  Going home
+  is unaffected.
+ 

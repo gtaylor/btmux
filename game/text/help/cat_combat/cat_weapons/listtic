@@ -1,0 +1,9 @@
+ 
+& listtic
+ 
+  RS Command: listtic <num>
+  
+  This command lists the weapons in the specified TIC.
+ 
+    See Also: addtic, cleartic, deltic
+ 

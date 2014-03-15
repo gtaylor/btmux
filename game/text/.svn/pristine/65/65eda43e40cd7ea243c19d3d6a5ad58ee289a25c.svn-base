@@ -1,0 +1,22 @@
+ 
+& lexits()
+ 
+  Syntax: lexits(<loc>)
+ 
+  Returns a space-separated list of the exits in <loc> and its
+  parents.
+ 
+  DARK exits are not returned unless you own the location.
+ 
+  Example:
+ 
+  > look here
+  The Town Square
+  You are in the town square.  All around you .....
+  Obvious exits:
+  foo  up  southeast  sw  north 
+  > say lexits(here)
+  You say "#302 #10 #9 #8 #6"
+ 
+  See Also: lcon()
+ 

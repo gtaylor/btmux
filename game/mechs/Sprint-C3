@@ -1,0 +1,26 @@
+Name		 { Sprint } 
+Reference        { Sprint-C3 }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 10 }
+Mech_BV          { 72 }
+Max_Speed        { 215.00 }
+Left_Side
+  Armor            { 3 }
+  Internals        { 1 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 3 }
+  Internals        { 1 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 7 }
+  Internals        { 1 }
+    CRIT_1		  { BeagleProbe - - }
+Aft_Side
+  Armor            { 3 }
+  Internals        { 1 }
+    CRIT_1		  { C3Slave - - }
+Rotor
+  Armor            { 2 }
+  Internals        { 1 }

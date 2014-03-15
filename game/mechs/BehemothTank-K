@@ -1,0 +1,44 @@
+Name             { Behemoth }
+Reference        { BehemothTank-K }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 100 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:03:50 2002 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 989 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 32.25 }
+Left_Side
+  Armor            { 38 }
+  Internals        { 10 }
+Right_Side
+  Armor            { 38 }
+  Internals        { 10 }
+Front_Side
+  Armor            { 46 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LRM-5 - - 3 }
+    CRIT_2		  { ArtemisIV - - 3 }
+    CRIT_3		  { IS.LRM-5 - - 3 }
+    CRIT_4		  { ArtemisIV - - 3 }
+    CRIT_5		  { Ammo_IS.LRM-5 24 Artemis/Mine - }
+Aft_Side
+  Armor            { 46 }
+  Internals        { 10 }
+    CRIT_1-2		  { Ammo_IS.SRM-6 15 Artemis/Mine - }
+    CRIT_3-4		  { Ammo_IS.MRM-10 24 - - }
+Turret
+  Armor            { 40 }
+  Internals        { 10 }
+    CRIT_1		  { IS.UltraAC/10 - - 3 }
+    CRIT_2		  { IS.UltraAC/10 - - 3 }
+    CRIT_3		  { IS.SRM-6 - - 3 }
+    CRIT_4		  { ArtemisIV - - 3 }
+    CRIT_5		  { IS.SRM-6 - - 3 }
+    CRIT_6		  { ArtemisIV - - 3 }
+    CRIT_7		  { IS.MRM-10 - - 3 }
+    CRIT_8		  { IS.MRM-10 - - 3 }
+    CRIT_9-12		  { Ammo_IS.UltraAC/10 10 - - }

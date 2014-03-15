@@ -1,0 +1,14 @@
+ 
+& ZONES4
+ 
+  More possible uses for zones:
+ 
+  3. If local wizards are desired, a zone object may be created and
+  enter locked to the local wizard. Players building within 
+  that zone should  be @chzone'd to that ZMO. The local wizard 
+  will then be able to control anything within that domain.
+ 
+  4. If you want restricted global commands defined over only a
+  small area, you can define that area to be part of a zone, 
+  and place the desired $commands upon the ZMO.
+ 

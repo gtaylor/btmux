@@ -1,0 +1,79 @@
+Name             { Gunslinger }
+Reference        { GUN-1ERD }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:03:36 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 2176 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 21.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 25 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-10		  { IS.GaussRifle - - 3 }
+Right_Arm
+  Armor            { 25 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-10		  { IS.GaussRifle - - 3 }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.MediumLaser - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+    CRIT_6-7		  { Ammo_IS.GaussRifle 8 - - }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4		  { IS.MediumLaser - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+    CRIT_6-7		  { Ecm - - 3 }
+    CRIT_8-10		  { Ammo_IS.GaussRifle 8 - - }
+Center_Torso
+  Armor            { 34 }
+  Internals        { 27 }
+  Rear             { 19 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11-12		  { BeagleProbe - - 3 }
+Left_Leg
+  Armor            { 32 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { JumpJet - - 3 }
+    CRIT_6		  { IS.MediumPulseLaser - RearMount 3 }
+Right_Leg
+  Armor            { 32 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { JumpJet - - 3 }
+    CRIT_6		  { IS.MediumPulseLaser - RearMount 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_4		  { IS.SmallLaser - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

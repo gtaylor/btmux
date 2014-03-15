@@ -1,0 +1,19 @@
+ 
+& add()
+ 
+  Syntax: add(<number1>,<number2>[,<numberN>]...)
+ 
+  This function returns the result of adding its arguments together.
+  You may add up to 30 numbers in one add() call.
+  The <numberN> may be a floating point number, and a floating point
+  result is returned.
+ 
+  Example:
+ 
+  > say add(2,4)
+  You say "6"
+  > say add(5,3,7,-4)
+  You say "11"
+ 
+  See also: inc(), dec(), div(), mod(), mul(), sub().
+ 

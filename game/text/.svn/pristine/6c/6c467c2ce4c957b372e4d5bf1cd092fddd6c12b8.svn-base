@@ -1,0 +1,9 @@
+ 
+& mech
+ 
+  Power: mech
+  
+  This gives the player access to the mech command set
+  
+  See Also: @power, @list powers
+ 

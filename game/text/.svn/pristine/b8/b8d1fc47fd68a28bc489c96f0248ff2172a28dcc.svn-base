@@ -1,0 +1,22 @@
+ 
+& btpartmatch()
+ 
+  Syntax: btpartmatch(<PartName>)
+ 
+  This function returns the unique part number(s) for the given part.
+  Each part has a unique number that may be used to easily convert
+  between part names and numbers. A number is returned for each type
+  of the weapon or part you specify (if applicable). This can be
+  converted back to a name using btpartname().
+ 
+  This function will accept wildcards in the PartName.
+ 
+  Error Messages:
+ 
+ * If <partname> is not valid the the function will return #-1
+   INVALID PARTNAME
+ * If <partname> is > 399 characters long the function will return
+    #-1 PARTNAME TOO LONG
+ 
+  Continued in btpartmatch()2
+ 

@@ -1,0 +1,9 @@
+
+& player_listen
+
+  Config parameter: player_listen
+  Default: no
+
+  Indicates whether the Listen, Aahear, Ahear, and Amhear attributes
+  on player objects are to be obeyed.
+ 

@@ -1,0 +1,45 @@
+Name             { Scytha }
+Reference        { Scytha-B }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 90 }
+Heat_Sinks       { 40 }
+Fuel             { 600 }
+Max_Speed        { 96.75 }
+Specials	 { Clan CL_AMS FerroFibrous_Tech }
+Nose
+  Armor            { 67 }
+  Internals        { 9 }
+    CRIT_1		  { CL.LargePulseLaser - OnTC }
+    CRIT_2		  { CL.Anti-MissileSystem - - }
+    CRIT_3		  { Ammo_CL.Anti-MissileSystem 24 - }
+    CRIT_4-10		  { TargetingComputer - - }
+Left_Wing
+  Armor            { 50 }
+  Internals        { 9 }
+    CRIT_1		  { CL.LargePulseLaser - OnTC }
+    CRIT_2		  { CL.LargePulseLaser - OnTC }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 50 }
+  Internals        { 9 }
+    CRIT_1		  { CL.LargePulseLaser - OnTC }
+    CRIT_2		  { CL.LargePulseLaser - OnTC }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 64 }
+  Internals        { 9 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 9 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 9 }
+    CRIT_1		  { CL.MediumPulseLaser - OnTC }
+    CRIT_2		  { CL.MediumPulseLaser - OnTC }
+

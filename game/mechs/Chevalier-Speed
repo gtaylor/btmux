@@ -1,0 +1,23 @@
+Name		 { Chevalier } 
+Reference        { Chevalier-Speed }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 35 }
+Max_Speed        { 118.25 }
+Left_Side
+  Armor            { 14 }
+  Internals        { 4 }
+Right_Side
+  Armor            { 14 }
+  Internals        { 4 }
+Front_Side
+  Armor            { 18 }
+  Internals        { 4 }
+Aft_Side
+  Armor            { 10 }
+  Internals        { 4 }
+Turret
+  Armor            { 16 }
+  Internals        { 4 }
+    CRIT_1		  { IS.StreakSRM-2 - - }
+    CRIT_2		  { Ammo_IS.StreakSRM-2 50 - }

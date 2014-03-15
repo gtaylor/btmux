@@ -1,0 +1,13 @@
+ 
+& maxjumpspeed
+ 
+  xcodevalue: maxjumpspeed <float>
+  XTYPE: MECH
+  
+  This xcode value stores the maximum speed a unit will achieve while 
+  jumping.
+  
+  NOTE - the speed is expressed in kph.
+  
+  See Also: speed, maxspeed, @viewxcode
+ 

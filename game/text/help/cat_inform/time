@@ -1,0 +1,10 @@
+
+& time
+ 
+ >> Help: Time (Informational Command)
+ ------------------------------------------------------------------------------
+ Syntax: Time
+ 
+ The 'Time' command shows the current MUX time, along with a progress bar that
+ shows how far in to the game day you are. This resets at 00:00:00 MUX time.
+ 

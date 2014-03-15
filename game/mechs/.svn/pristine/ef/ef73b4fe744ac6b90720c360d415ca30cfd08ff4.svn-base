@@ -1,0 +1,63 @@
+Name             { Scorpion }
+Reference        { SCP-1N }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 55 }
+Mech_BV          { 786 }
+Computer         { 4 }
+Radio            { 4 }
+Max_Speed        { 96.75 }
+Front_Left_Leg
+  Armor            { 10 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Front_Right_Leg
+  Armor            { 10 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Left_Torso
+  Armor            { 11 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1		  { Ammo_IS.SRM-6 15 - - }
+Right_Torso
+  Armor            { 11 }
+  Internals        { 13 }
+  Rear             { 5 }
+    CRIT_1-3		  { IS.PPC - - }
+    CRIT_4-5		  { IS.SRM-6 - - }
+Center_Torso
+  Armor            { 24 }
+  Internals        { 18 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Rear_Left_Leg
+  Armor            { 10 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Rear_Right_Leg
+  Armor            { 10 }
+  Internals        { 13 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 8 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

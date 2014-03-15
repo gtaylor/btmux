@@ -1,0 +1,72 @@
+Name             { Falcon }
+Reference        { FLC-4N }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Mech_BV          { 523 }
+Heat_Sinks       { 12 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 64.50 }
+Left_Arm
+  Armor            { 8 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_7		  { IS.SmallLaser - - }
+Right_Arm
+  Armor            { 8 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_7		  { IS.MediumLaser - - }
+    CRIT_8		  { IS.SmallLaser - - }
+Left_Torso
+  Armor            { 12 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1		  { IS.MachineGun - RearMount }
+    CRIT_2-4		  { JumpJet - - }
+    CRIT_5-6		  { HeatSink - - }
+Right_Torso
+  Armor            { 12 }
+  Internals        { 7 }
+  Rear             { 2 }
+    CRIT_1		  { IS.MachineGun - RearMount }
+    CRIT_2-4		  { JumpJet - - }
+    CRIT_5		  { HeatSink - - }
+Center_Torso
+  Armor            { 14 }
+  Internals        { 10 }
+  Rear             { 3 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_IS.MachineGun 200 - }
+Left_Leg
+  Armor            { 13 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Right_Leg
+  Armor            { 13 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

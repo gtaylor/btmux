@@ -1,0 +1,29 @@
+Name		 { Padilla } 
+Reference        { Padilla }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 75 }
+Mech_BV          { 621 }
+Max_Speed        { 86.00 }
+Specials         { XLEngine_Tech }
+Left_Side
+  Armor            { 24 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 24 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 28 }
+  Internals        { 8 }
+    CRIT_1		  { TAG - - }
+    CRIT_2		  { IS.ArrowIVSystem - - }
+    CRIT_3		  { IS.MediumPulseLaser - - }
+    CRIT_4		  { IS.MediumPulseLaser - - }
+    CRIT_5		  { IS.Anti-MissileSystem - - }
+    CRIT_6-7		  { Ammo_IS.Anti-MissileSystem 12 - - }
+    CRIT_8-12		  { Ammo_IS.ArrowIVSystem 5 - - }
+Aft_Side
+  Armor            { 12 }
+  Internals        { 8 }
+    CRIT_1		  { Ammo_IS.ArrowIVSystem 5 - - }
+

@@ -1,0 +1,80 @@
+Name             { Avatar }
+Reference        { AV1-OB }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 70 }
+Comment          { Saved by: Charlemagne(#4624) at Sat May 13 09:48:04 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1179 }
+Cargo_Space      { 0 }
+Max_Speed        { 64.50 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 16 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { IS.LRM-15 - - 3 }
+    CRIT_7		  { ArtemisIV - - 3 }
+Right_Arm
+  Armor            { 16 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4-6		  { IS.LRM-15 - - 3 }
+    CRIT_7		  { ArtemisIV - - 3 }
+Left_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { IS.LRM-10 - - 3 }
+    CRIT_6		  { ArtemisIV - - 3 }
+    CRIT_7-8		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+    CRIT_9		  { Ammo_IS.LRM-10 12 Artemis/Mine - }
+    CRIT_10		  { Case - - 3 }
+Right_Torso
+  Armor            { 22 }
+  Internals        { 15 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-5		  { IS.LRM-10 - - 3 }
+    CRIT_6		  { ArtemisIV - - 3 }
+    CRIT_7-8		  { Ammo_IS.LRM-15 8 Artemis/Mine - }
+    CRIT_9		  { Ammo_IS.LRM-10 12 Artemis/Mine - }
+    CRIT_10		  { Case - - 3 }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 22 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { IS.MediumLaser - - 3 }
+    CRIT_12		  { IS.MediumLaser - - 3 }
+Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

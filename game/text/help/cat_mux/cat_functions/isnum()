@@ -1,0 +1,21 @@
+ 
+& isnum()
+ 
+  Syntax: isnum(<string>)
+ 
+  This function will return return 1 if the argument is a valid number
+  and 0 if it is not.
+ 
+  Example:
+ 
+  > say isnum(22223.0000)
+  You say "1"
+  > say isnum(77)
+  You say "1"
+  > say isnum(22 L)
+  You say "0"
+  >say isnum(Bad Numbers!)
+  You say "0"
+ 
+  See Also: isdbref(), isword
+ 

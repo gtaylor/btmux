@@ -1,0 +1,34 @@
+Name             { Partisan }
+Reference        { Partisan-LC }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Mar  8 16:22:08 2000 }
+Mech_BV          { 503 }
+Cargo_Space      { 0 }
+Max_Speed        { 53.75 }
+Specials         { AntiAircraft }
+Left_Side
+  Armor            { 26 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 26 }
+  Internals        { 8 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 35 }
+  Internals        { 8 }
+Aft_Side
+  Armor            { 21 }
+  Internals        { 8 }
+    CRIT_1		  { C3Master - - 3 }
+Turret
+  Armor            { 35 }
+  Internals        { 8 }
+    CRIT_1		  { IS.UltraAC/5 - - 3 }
+    CRIT_2		  { IS.UltraAC/5 - - 3 }
+    CRIT_3		  { IS.AC/2 - - 3 }
+    CRIT_4		  { IS.AC/2 - - 3 }
+    CRIT_5-7		  { Ammo_IS.UltraAC/5 20 - - }
+    CRIT_8		  { Ammo_IS.AC/2 45 - - }

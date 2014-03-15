@@ -1,0 +1,72 @@
+Name             { Wasp }
+Reference        { WSP-105 }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Heat_Sinks       { 11 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 64.50 }
+Left_Arm
+  Armor            { 6 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 6 }
+  Internals        { 5 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Left_Torso
+  Armor            { 9 }
+  Internals        { 7 }
+  Rear             { 3 }
+    CRIT_1		  { LAM_Equipment - - }
+    CRIT_2 		  { HeatSink - - }
+    CRIT_3-4		  { JumpJet - - }
+Right_Torso
+  Armor            { 9 }
+  Internals        { 7 }
+  Rear             { 3 }
+    CRIT_1-2		  { LAM_Equipment - - }
+    CRIT_3 		  { HeatSink - - }
+    CRIT_4-5		  { JumpJet - - }
+Center_Torso
+  Armor            { 12 }
+  Internals        { 10 }
+  Rear             { 3 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { IS.SRM-2 - - }
+    CRIT_12		  { Ammo_IS.SRM-2 50 - }
+Left_Leg
+  Armor            { 10 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6 		  { HeatSink - - }
+Right_Leg
+  Armor            { 10 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6 		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { IS.MediumLaser - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

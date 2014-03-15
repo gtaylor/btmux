@@ -1,0 +1,37 @@
+ 
+& fix2
+ 
+  Example:
+  
+  >damages
+  --------------------------------------------------------------------
+                         Damage for  [WH]                             
+  --------------------------------------------------------------------
+  1 :LA Repairs on armor (2 points)                                   
+  2 :RT Repairs on armor (3 points)                                   
+  3 :RA Repairs on armor (8 points)                                   
+  4 :LT Repairs on armor (4 points)                                   
+  --------------------------------------------------------------------
+  (*) / Green = Job already done. Yellow = To be done.                
+  --------------------------------------------------------------------
+  
+  >fix 1-3
+  You start fixing the armor..
+  Tech - BTH: 5(Base:4, Mod:1) Roll: 9
+  You have 6 minutes of repairs pending and you're ready to do at 
+  least 594 more minutes of work.
+  You start fixing the armor..
+  Tech - BTH: 5(Base:4, Mod:1) Roll: 7
+  You have 15 minutes of repairs pending and you're ready to do at 
+  least 585 more minutes of work.
+  You start fixing the armor..
+  Tech - BTH: 5(Base:4, Mod:1) Roll: 9
+  You have 39 minutes of repairs pending and you're ready to do at 
+  least 561 more minutes of work.
+  
+  > fix 4
+  You start replacing the part..
+  Tech - BTH: 6(Base:4, Mod:2) Roll: 10
+  You have 45 minutes of repairs pending and you're ready to do at 
+  least 555 more minutes of work.
+ 

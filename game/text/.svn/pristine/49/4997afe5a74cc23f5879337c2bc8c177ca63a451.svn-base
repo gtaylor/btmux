@@ -1,0 +1,19 @@
+ 
+& ZONES3
+ 
+  Some suggested uses of zones:
+  1. If you are working on a building project with several people, it 
+  may be useful to create a zone object and @elock it to all of you, 
+  and ask a  wizard to @chzone the players involved to the zone 
+  object. That way, all of the  players working on the project will 
+  be able to modify the building.
+
+  2. On a similar thread, if several players are working on a project 
+  involving only a few objects, it may be simpler to create a zone 
+  object and @chzone those few objects to the ZMO instead of 
+  resetting the zones of the players. Note that a player does not 
+  have to belong to a zone in order to change objects in that zone; 
+  all is merely required to pass the ZMO's enter lock.
+ 
+  See also: ZONES4
+  

@@ -1,0 +1,77 @@
+Name             { Stalker }
+Reference        { STK-8S }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 85 }
+Comment          { Saved by: Spectre(#4628) at Mon Jan 14 13:08:01 2002 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 32 }
+Mech_BV          { 1583 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 53.75 }
+Specials         { DoubleHS FlipArms }
+Left_Arm
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { HeatSink - - 3 }
+    CRIT_6-8		  { IS.ERPPC - - 3 }
+    CRIT_9		  { IS.MediumPulseLaser - - 3 }
+    CRIT_10-12		  { HeatSink - - 3 }
+Right_Arm
+  Armor            { 23 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3-5		  { HeatSink - - 3 }
+    CRIT_6-8		  { IS.ERPPC - - 3 }
+    CRIT_9		  { IS.MediumPulseLaser - - 3 }
+    CRIT_10-12		  { HeatSink - - 3 }
+Left_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - 3 }
+    CRIT_3-8		  { HeatSink - - 3 }
+    CRIT_9-10		  { Ammo_IS.HeavyGaussRifle 4 - - }
+    CRIT_11		  { IS.ERMediumLaser - - 3 }
+    CRIT_12		  { IS.ERMediumLaser - - 3 }
+Right_Torso
+  Armor            { 25 }
+  Internals        { 18 }
+  Rear             { 7 }
+    CRIT_1		  { Engine - - 3 }
+    CRIT_2-12		  { IS.HeavyGaussRifle - - 3 }
+Center_Torso
+  Armor            { 36 }
+  Internals        { 27 }
+  Rear             { 11 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-11		  { Engine - - 3 }
+    CRIT_12		  { Ammo_IS.HeavyGaussRifle 4 - - }
+Left_Leg
+  Armor            { 25 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 25 }
+  Internals        { 18 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

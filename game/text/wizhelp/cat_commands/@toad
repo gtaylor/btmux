@@ -1,0 +1,15 @@
+ 
+& @toad
+ 
+  Syntax: @toad[/<switches>] <victim>[=<recipient>]
+  Turns the victim into an object (a slimy toad) and disconnects them 
+  from the game.  The named recipient (or the @toading wizard) get 
+  ownership of all the victim's things, rooms, and exits, as well as 
+  of the toad object itself.
+ 
+  The following switches are available:
+    /no_chown - Don't change the ownership of the victim or his 
+    objects.
+    
+  See also: @boot, @chownall, @destroy.
+ 

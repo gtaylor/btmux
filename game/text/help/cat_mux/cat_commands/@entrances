@@ -1,0 +1,21 @@
+ 
+& @entrances
+ 
+  Syntax: @entrances [[<object>][,<low>[,<high>]]]
+ 
+  Lists links from elsewhere to the specified object (default: your
+  current room).  For rooms, exits and drop-to's, leading to the
+  room and players and objects whose home is in the room are listed.
+  For players and objects, lists exits leading to them.  Because
+  this command is computationally expensive, it costs 100 coins.
+  <low> and <high> can be used to indicate where to start and stop
+  the search, respectively.
+ 
+  Examples:
+    > @entrances             <- all links to here
+    > @entrances object      <- all links to object
+    > @entrances ,100,200    <- all links to here from #100 to #200
+    > @entrances me,1000     <- all links to me from #1000 and above.
+ 
+  See also: @link, @unlink
+ 

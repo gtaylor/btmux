@@ -1,0 +1,11 @@
+ 
+& temperature
+ 
+  xcodevalue: temperature <char>
+  XTYPE: MAP
+  
+  This xcode value stores the temperature on the map.
+  
+  See Also: cloudbase, gravity, maplight, winddir, windspeed,
+  @viewxcode
+ 

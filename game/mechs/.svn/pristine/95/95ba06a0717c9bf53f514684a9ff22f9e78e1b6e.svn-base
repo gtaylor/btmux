@@ -1,0 +1,77 @@
+Name             { Tessen }
+Reference        { TSN-1C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 50 }
+Heat_Sinks       { 22 }
+Mech_BV          { 1280 }
+Max_Speed        { 96.75 }
+Specials         { DoubleHS FerroFibrous_Tech EndoSteel_Tech XLEngine_Tech }
+Left_Arm
+  Armor          { 16 }
+  Internals      { 8 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-6     { IS.iNarcBeacon - - }
+    CRIT_7       { Ammo_IS.iNarcBeacon 4 - }
+    CRIT_8       { Ammo_IS.iNarcBeacon 4 - }
+    CRIT_9       { Ammo_IS.iNarcBeacon 4 - }
+    CRIT_10      { Ammo_IS.iNarcBeacon 4 - }
+    CRIT_11-12   { EndoSteel - - }
+Right_Arm
+  Armor          { 16 }
+  Internals      { 8 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4-6     { IS.ERPPC - - }
+    CRIT_7       { IS.MediumPulseLaser - - }
+    CRIT_8-9     { EndoSteel - - }
+    CRIT_10-12   { FerroFibrous - - }
+Left_Torso
+  Armor          { 18 }
+  Internals      { 12 }
+  Rear           { 6 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-11    { EndoSteel - - }
+    CRIT_12      { Case - - }
+Right_Torso
+  Armor          { 18 }
+  Internals      { 12 }
+  Rear           { 6 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-12    { FerroFibrous - - }
+Center_Torso
+  Armor          { 25 }
+  Internals      { 16 }
+  Rear           { 7 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11-12   { C3i - - }
+Left_Leg
+  Armor          { 20 }
+  Internals      { 12 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { EndoSteel - - }
+Right_Leg
+  Armor          { 20 }
+  Internals      { 12 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { FerroFibrous - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { TAG - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

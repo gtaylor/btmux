@@ -1,0 +1,30 @@
+Name             { Vedette }
+Reference        { Vedette-NETC }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 50 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:54 2000 }
+Mech_BV          { 299 }
+Max_Speed        { 86.00 }
+Specials         { SearchLight ICEEngine_Tech }
+Left_Side
+  Armor            { 15 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Side
+  Armor            { 15 }
+  Internals        { 5 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Front_Side
+  Armor            { 24 }
+  Internals        { 5 }
+    CRIT_1		  { IS.MachineGun - - 3 }
+    CRIT_2		  { Ammo_IS.MachineGun 100 Hotload - }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 5 }
+Turret
+  Armor            { 21 }
+  Internals        { 5 }
+    CRIT_1		  { IS.UltraAC/5 - - 3 }
+    CRIT_2		  { Ammo_IS.UltraAC/5 20 - - }

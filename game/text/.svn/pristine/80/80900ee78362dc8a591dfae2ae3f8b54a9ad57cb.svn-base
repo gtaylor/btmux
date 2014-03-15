@@ -1,0 +1,8 @@
+ 
+& btech_stacking
+ 
+  Config parameter: btech_stacking <0/2>
+  Default: 2
+  
+  Determines if the mux checks for stacking.
+  

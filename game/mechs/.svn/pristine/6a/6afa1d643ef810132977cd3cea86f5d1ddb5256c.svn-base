@@ -1,0 +1,37 @@
+Name             { Rouge }
+Reference        { RGU-133L }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 40 }
+Comment          { Saved by: Celebrimbor(#319) at Tue Jun  3 18:33:39 1997 }
+Computer         { 3 }
+Heat_Sinks       { 16 }
+Fuel             { 750 }
+Max_Speed        { 118.25 }
+Nose
+  Armor            { 20 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }
+Left_Wing
+  Armor            { 22 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+Right_Wing
+  Armor            { 22 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+Fuselage
+  Armor            { 20 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 10 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }

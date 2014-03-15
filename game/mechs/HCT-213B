@@ -1,0 +1,37 @@
+Name             { Hellcat II }
+Reference        { HCT-213B }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 45 }
+Comment          { Saved by: Celebrimbor(#319) at Thu May 15 03:03:08 1997 }
+Computer         { 3 }
+Heat_Sinks       { 15 }
+Fuel             { 750 }
+Max_Speed        { 118.25 }
+Nose
+  Armor            { 50 }
+  Internals        { 10 }
+    CRIT_1		  { BeagleProbe - - }
+Left_Wing
+  Armor            { 38 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+Right_Wing
+  Armor            { 38 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+Fuselage
+  Armor            { 52 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 10 }
+    CRIT_1		  { IS.MediumLaser - - }

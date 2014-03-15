@@ -1,0 +1,25 @@
+Name   { Demolisher } 
+Reference        { Demolisher }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Mech_BV          { 609 }
+Max_Speed        { 53.75 }
+Specials         { ICEEngine_Tech }
+Left_Side
+  Armor            { 30 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 30 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 40 }
+  Internals        { 8 }
+Aft_Side
+  Armor            { 20 }
+  Internals        { 8 }
+Turret
+  Armor            { 40 }
+  Internals        { 8 }
+    CRIT_1-2		  { IS.AC/20 - - }
+    CRIT_3-6		  { Ammo_IS.AC/20 5 - }

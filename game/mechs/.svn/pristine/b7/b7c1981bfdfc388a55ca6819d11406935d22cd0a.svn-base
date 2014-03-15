@@ -1,0 +1,77 @@
+Name             { Loki }
+Reference        { Loki-Prime }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 65 }
+Heat_Sinks       { 26 }
+Max_Speed        { 86.00 }
+Specials         { Clan Searchlight FlipArms }
+Left_Arm
+  Armor            { 11 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.ERPPC - OnTC }
+Right_Arm
+  Armor            { 11 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-4		  { CL.ERPPC - OnTC }
+Left_Torso
+  Armor            { 14 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-5		  { TargetingComputer - - }
+    CRIT_6		  { Ecm - - }
+    CRIT_7		  { BeagleProbe - - }
+    CRIT_8		  { CL.ERMediumLaser - OnTC }
+    CRIT_9		  { CL.ERMediumLaser - OnTC }
+    CRIT_10		  { CL.ERMediumLaser - OnTC }
+Right_Torso
+  Armor            { 14 }
+  Internals        { 15 }
+  Rear             { 7 }
+    CRIT_1-2		  { Engine - - }
+    CRIT_3-4		  { CL.StreakSRM-6 - - }
+    CRIT_5		  { CL.MachineGun - - }
+    CRIT_6		  { CL.MachineGun - - }
+    CRIT_7		  { CL.MachineGun - - }
+    CRIT_8		  { Ammo_CL.StreakSRM-6 15 - }
+    CRIT_9		  { Ammo_CL.MachineGun 100 Hotload }
+Center_Torso
+  Armor            { 17 }
+  Internals        { 21 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { Ammo_CL.Anti-MissileSystem 24 - }
+Left_Leg
+  Armor            { 15 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.A-Pod - - }
+    CRIT_6		  { CL.A-Pod - - }
+Right_Leg
+  Armor            { 15 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { CL.A-Pod - - }
+    CRIT_6		  { CL.A-Pod - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { CL.Anti-MissileSystem - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

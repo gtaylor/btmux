@@ -1,0 +1,10 @@
+ 
+& savenew
+ 
+  Mechrep Command: savenew <templatename>
+  
+  This command saves the current state of the targetted RS Unit as a 
+  new template.
+  
+  See Also: settarget
+ 

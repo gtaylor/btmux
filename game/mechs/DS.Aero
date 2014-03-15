@@ -1,0 +1,24 @@
+Name             { Aerodyne Tester }
+Reference        { DS.Aero }
+Type             { Aerodyne_Dropship }
+Move_Type        { Fly }
+Tons             { 10000 }
+Computer         { 4 }
+Fuel             { 7500 }
+Max_Speed        { 86.00 }
+Nose
+  Armor            { 75 }
+  Internals        { 10 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.PPC - - }
+Left_Wing
+  Armor            { 55 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+Right_Wing
+  Armor            { 55 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LargeLaser - - }
+Aft
+  Armor 	   { 55 }
+  Internals        { 10 }

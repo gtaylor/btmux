@@ -1,0 +1,14 @@
+
+& full_motd_message
+
+  Config parameter: full_motd_message <message>
+  Default: blank
+
+  Sets the message that is displayed when a player attempts to connect
+  to a non-wizard character when the number of connected players is
+  not less than the number of players allowed by the max_players
+  directive.  This message is displayed in addition to the contents
+  of the full.txt file.
+
+  See also: down_motd_file, max_players.
+ 

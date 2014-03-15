@@ -1,0 +1,13 @@
+ 
+& owner()
+ 
+  Syntax: owner(<object>)
+  Syntax: owner(<object>/<attrib>)
+ 
+  The first form of the Template:Function function returns the dbref
+  of the owner of the object. The object must either be yours or
+  nearby.
+ 
+  The second form returns the owner of an attribute on the named
+  object. You must own either the object or the attribute.
+ 

@@ -1,0 +1,82 @@
+Name             { Wyvern }
+Reference        { WVE-5N }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 45 }
+Mech_BV          { 883 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 12 }
+Max_Speed        { 64.50 }
+Jump_Speed       { 43.00 }
+Left_Arm
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { IS.LargeLaser - - }
+    CRIT_7		  { IS.SmallLaser - - }
+    CRIT_8		  { IS.SmallLaser - - }
+Left_Torso
+  Armor            { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_2		  { Case - - }
+    CRIT_3		  { JumpJet - - }
+    CRIT_4-10		  { EndoSteel - - }
+    CRIT_11-12		  { HeatSink - - }
+Right_Torso
+  Armor            { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-2		  { IS.SRM-6 - - }
+    CRIT_3		  { Ammo_IS.SRM-6 15 - - }
+    CRIT_4		  { Case - - }
+    CRIT_5		  { JumpJet - - }
+    CRIT_6-10		  { EndoSteel - - }
+    CRIT_11-12            { HeatSink - - }
+Center_Torso
+  Armor            { 20 }
+  Internals        { 14 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { IS.LRM-10 - - }
+Left_Leg
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6		  { JumpJet - - }
+Right_Leg
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { EndoSteel - - }
+    CRIT_6		  { JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4                { HeatSink - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

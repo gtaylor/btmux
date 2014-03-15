@@ -1,0 +1,16 @@
+ 
+& time()
+ 
+  Syntax: time()
+ 
+  Gives you the current machine time for the box where the game is
+  running.
+ 
+  Note: The returned time may need adjustment for time zones.
+ 
+  Example:
+  > say time()
+  You say "Thu Dec 19 09:48:06 1991"
+ 
+  See Also: convsecs(), convtime(), secs()
+ 

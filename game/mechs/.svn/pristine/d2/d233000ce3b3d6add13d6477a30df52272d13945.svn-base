@@ -1,0 +1,70 @@
+Name             { Naga }
+Reference        { Naga-C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 80 }
+Computer         { 4 }
+Heat_Sinks       { 24 }
+Max_Speed        { 86.00 }
+Left_Arm
+  Armor            { 14 }
+  Internals        { 13 }
+    CRIT_1-12		  { CL.ArrowIVSystem - - }
+Right_Arm
+  Armor            { 14 }
+  Internals        { 13 }
+    CRIT_1-12		  { CL.ArrowIVSystem - - }
+Left_Torso
+  Armor            { 15 }
+  Internals        { 17 }
+  Rear             { 9 }
+    CRIT_1		  { CL.SRM-6 - - }
+    CRIT_2		  { Ammo_CL.SRM-6 15 - }
+    CRIT_3		  { EndoSteel - - }
+    CRIT_4-5		  { Engine - - }
+    CRIT_8		  { Ammo_CL.ArrowIVSystem 5 - }
+    CRIT_10		  { Ammo_CL.ArrowIVSystem 5 - }
+    CRIT_11		  { HeatSink - - }
+Right_Torso
+  Armor            { 15 }
+  Internals        { 17 }
+  Rear             { 9 }
+    CRIT_3		  { EndoSteel - - }
+    CRIT_4-5		  { Engine - - }
+    CRIT_8		  { CL.ERSmallLaser - - }
+    CRIT_9-10		  { Ammo_CL.ArrowIVSystem 5 - }
+    CRIT_11		  { HeatSink - - }
+Center_Torso
+  Armor            { 17 }
+  Internals        { 25 }
+  Rear             { 10 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11		  { EndoSteel - - }
+    CRIT_12		  { CL.ERSmallLaser - - }
+Left_Leg
+  Armor            { 16 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Right_Leg
+  Armor            { 16 }
+  Internals        { 17 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5-6		  { EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }
+Specials { Clan }

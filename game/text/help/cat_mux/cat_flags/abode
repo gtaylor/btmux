@@ -1,0 +1,11 @@
+ 
+& ABODE
+
+Flag: ABODE (A)
+
+  If a room is set ABODE, players can set their homes there,
+  and can set the homes of objects there.  It does not mean that a
+  player can open an exit to that room, however.
+
+  See also: HOMES
+ 

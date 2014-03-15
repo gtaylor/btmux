@@ -1,0 +1,13 @@
+
+& newuser_file
+
+  Config parameter: newuser_file <filename>.
+  Default: text/newuser.txt
+
+  Specifies the file to be shown to new players immediately after they
+  create their characters, in place of the MOTD file.  This file
+  should contain information about the basic commands and how to get
+  help.
+
+  See also: @readcache, motd_file.
+ 

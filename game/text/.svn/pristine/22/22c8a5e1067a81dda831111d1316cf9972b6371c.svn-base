@@ -1,0 +1,11 @@
+
+& retry_limit
+
+  Config paramater: retry_limit <count>
+  Default: 3
+
+  Specifies the number of times that a user is allowed to try to
+  connect to an existing player before being disconnected.
+
+  See also: conn_timeout.
+ 

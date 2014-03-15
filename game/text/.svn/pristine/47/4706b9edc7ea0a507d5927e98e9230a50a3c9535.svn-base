@@ -1,0 +1,10 @@
+ 
+& dissheat
+ 
+  xcodevalue: dissheat <float>
+  XTYPE: MECH
+  
+  This xcode value stores the heat dissipation rate for the RS Unit.
+  
+  See Also: @viewxcode
+ 

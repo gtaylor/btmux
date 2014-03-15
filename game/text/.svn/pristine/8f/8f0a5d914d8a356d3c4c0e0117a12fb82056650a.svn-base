@@ -1,0 +1,10 @@
+ 
+& STAFF
+ 
+  Flag: STAFF
+ 
+  This flag can be used to mark players who serve as staff on the MUX.
+  It is wizard-settable only.
+ 
+  See also: WIZARD, ROYALTY, HEAD
+ 

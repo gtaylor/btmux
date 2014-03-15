@@ -1,0 +1,29 @@
+Name             { SalvageVTOL }
+Reference        { SalvageVTOLII }
+Type             { VTOL }
+Move_Type        { VTOL }
+Tons             { 100 }
+Comment          { Saved by: Spectre(#4628) at Wed Apr 11 16:24:12 2001 }
+Computer         { 3 }
+Mech_BV          { 0 }
+Cargo_Space      { 0 }
+Max_Speed        { 161.25 }
+Specials         { SalvageTech }
+Left_Side
+  Armor            { 8 }
+  Internals        { 5 }
+    CRIT_1		  { IS.SmallLaser - - 3 }
+Right_Side
+  Armor            { 8 }
+  Internals        { 5 }
+    CRIT_1		  { IS.SmallLaser - - 3 }
+Front_Side
+  Armor            { 8 }
+  Internals        { 5 }
+    CRIT_1		  { BeagleProbe - - 3 }
+Aft_Side
+  Armor            { 8 }
+  Internals        { 5 }
+Rotor
+  Armor            { 2 }
+  Internals        { 5 }

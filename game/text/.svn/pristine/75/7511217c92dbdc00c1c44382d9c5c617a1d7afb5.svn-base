@@ -1,0 +1,14 @@
+ 
+& mudname()
+ 
+  Syntax: mudname()
+ 
+  Returns the name of the MUX. This is usually (but not necessarily)
+  the name that appears in the various mud lists. This can be set via
+  the mud_name config directive.
+ 
+  Example:
+ 
+  > say mudname()
+  You say "Battletech: Random Mux"
+ 

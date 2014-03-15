@@ -1,0 +1,46 @@
+Name             { Behemoth }
+Reference        { Behemoth-Flamer }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 100 }
+Comment          { Saved by: Tantrum(#4394) at Sun Apr  1 18:59:05 2001 }
+Mech_BV          { 706 }
+Cargo_Space      { 0 }
+Max_Speed        { 32.25 }
+Left_Side
+  Armor            { 38 }
+  Internals        { 10 }
+    CRIT_1		  { IS.Flamer - - 3 }
+    CRIT_2		  { IS.Flamer - - 3 }
+    CRIT_3		  { IS.MachineGun - - 3 }
+Right_Side
+  Armor            { 38 }
+  Internals        { 10 }
+    CRIT_1		  { IS.Flamer - - 3 }
+    CRIT_2		  { IS.Flamer - - 3 }
+    CRIT_3		  { IS.MachineGun - - 3 }
+Front_Side
+  Armor            { 46 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LRM-5 - - 3 }
+    CRIT_2		  { IS.LRM-5 - - 3 }
+    CRIT_3		  { IS.LRM-5 - - 3 }
+    CRIT_4		  { IS.LRM-5 - - 3 }
+    CRIT_5		  { IS.Flamer - - 3 }
+    CRIT_6		  { IS.Flamer - - 3 }
+    CRIT_7		  { IS.MachineGun - - 3 }
+    CRIT_8		  { IS.MachineGun - - 3 }
+    CRIT_9-10		  { Ammo_IS.LRM-5 24 - - }
+    CRIT_11		  { Ammo_IS.MachineGun 200 - - }
+Aft_Side
+  Armor            { 40 }
+  Internals        { 10 }
+Turret
+  Armor            { 46 }
+  Internals        { 10 }
+    CRIT_1		  { IS.AC/10 - - 3 }
+    CRIT_2		  { IS.AC/10 - - 3 }
+    CRIT_3		  { IS.SRM-6 - - 3 }
+    CRIT_4		  { IS.SRM-6 - - 3 }
+    CRIT_5-6		  { Ammo_IS.AC/10 10 - - }
+    CRIT_7-8		  { Ammo_IS.SRM-6 15 - - }

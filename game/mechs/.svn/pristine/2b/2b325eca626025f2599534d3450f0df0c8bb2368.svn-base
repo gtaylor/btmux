@@ -1,0 +1,41 @@
+Name             { Jengiz }
+Reference        { Jengiz-A }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 80 }
+Heat_Sinks       { 54 }
+Fuel             { 600 }
+Max_Speed        { 86.00 }
+Specials	 { Clan CargoTech FerroFibrous_Tech }
+Nose
+  Armor            { 65 }
+  Internals        { 8 }
+    CRIT_1		  { CL.ERPPC - - }
+    CRIT_2		  { CL.ERPPC - - }
+Left_Wing
+  Armor            { 47 }
+  Internals        { 8 }
+    CRIT_1		  { CL.LargePulseLaser - - }
+    CRIT_2		  { CL.LargePulseLaser - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Wing
+  Armor            { 47 }
+  Internals        { 8 }
+    CRIT_1		  { CL.LargePulseLaser - - }
+    CRIT_2		  { CL.LargePulseLaser - - }
+    CRIT_6-12		  { FerroFibrous - - }
+Fuselage
+  Armor            { 62 }
+  Internals        { 8 }
+Cockpit
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 32 }
+  Internals        { 8 }
+    CRIT_1		  { CL.ERSmallLaser - - }

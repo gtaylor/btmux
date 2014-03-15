@@ -1,0 +1,68 @@
+Name             { Wasp }
+Reference        { WSP-1A }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 20 }
+Mech_BV          { 336 }
+Max_Speed        { 96.75 }
+Jump_Speed       { 64.50 }
+Left_Arm
+  Armor            { 4 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Arm
+  Armor            { 4 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { IS.MediumLaser - - }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 5 }
+  Rear             { 2 }
+    CRIT_1		  { Ammo_IS.SRM-2 50 - }
+    CRIT_2-4		  { HeatSink - - }
+    CRIT_5		  { JumpJet - - }
+Right_Torso
+  Armor            { 6 }
+  Internals        { 5 }
+  Rear             { 2 }
+    CRIT_1-3		  { HeatSink - - }
+    CRIT_4		  { JumpJet - - }
+Center_Torso
+  Armor            { 6 }
+  Internals        { 6 }
+  Rear             { 4 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+    CRIT_11-12		  { JumpJet - - }
+Left_Leg
+  Armor            { 5 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { IS.SRM-2 - - }
+    CRIT_6		  { JumpJet - - }
+Right_Leg
+  Armor            { 5 }
+  Internals        { 4 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+    CRIT_5		  { JumpJet - - }
+Head
+  Armor            { 4 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

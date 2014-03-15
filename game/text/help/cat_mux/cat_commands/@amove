@@ -1,0 +1,18 @@
+ 
+& @amove
+ 
+  Syntax: @amove <object> = <command-list>
+  Attribute: Amove
+ 
+  Sets the action to be taken by an object whenever it moves from one
+  location to another, whether by using an exit, entering or leaving
+  an object, teleporting, or going home.
+ 
+  This attribute is meaningful for players, and things and will never
+  be automatically triggered on other object types.
+ 
+  Example:
+  @amove car = @vz me=[extract(%vz,1,19)] [loc(me)]
+ 
+  See also: @move, @omove
+ 

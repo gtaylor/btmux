@@ -1,0 +1,21 @@
+ 
+& @apay
+ 
+  Syntax: @apay <object> = <command-list>
+  Attribute: Apay
+ 
+  Sets the actions to be taken after the object is given the number of
+  coins specified in its Cost attribute.  If the giver tries to give
+  more than that number of coins, the excess is refunded, and if
+  less than the necessary  amount is given then it is all given back
+  and a snide message is sent to the giver.
+ 
+  This attribute is only meaningful for players and things, and will
+  never be automatically triggered on other object types.
+ 
+  Example:
+  @apay Coke machine = @clone Can of Coke; :drops a can on the
+  floor.
+ 
+  See also: give, @cost, @opay, @pay
+ 

@@ -1,0 +1,34 @@
+Name             { Patton }
+Reference        { Patton-Ultra }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 65 }
+Comment          { Saved by: Spectre(#4628) at Fri Jun 21 07:51:57 2002 }
+Computer         { 3 }
+Mech_BV          { 742 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 64.50 }
+Left_Side
+  Armor            { 46 }
+  Internals        { 7 }
+Right_Side
+  Armor            { 46 }
+  Internals        { 7 }
+Front_Side
+  Armor            { 52 }
+  Internals        { 7 }
+    CRIT_1		  { IS.MachineGun - - 0 }
+    CRIT_2		  { IS.MachineGun - - 0 }
+    CRIT_3		  { Ammo_IS.MachineGun 200 - - }
+Aft_Side
+  Armor            { 38 }
+  Internals        { 7 }
+    CRIT_1		  { FerroFibrous - - 0 }
+Turret
+  Armor            { 51 }
+  Internals        { 7 }
+    CRIT_1		  { IS.UltraAC/10 - - 0 }
+    CRIT_2		  { IS.MediumLaser - - 0 }
+    CRIT_3		  { IS.MediumLaser - - 0 }
+    CRIT_4-6		  { Ammo_IS.UltraAC/10 10 - - }

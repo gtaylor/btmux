@@ -1,0 +1,23 @@
+ 
+& btmapunits()
+ 
+  Syntax: btmapunits(<MapOBJ>,[<x>,<y>,<z>,<range>])
+ 
+  This function returns a space delimited list of the dbrefs of
+  objects of XTYPE:MECH on <MapOBJ>.
+ 
+  Arguments:
+  There are 3 valid forms:
+ 
+  * btmapunits(<MapOBJ>) - lists all appropriate units on the map
+  * btmapunits(<MapOBJ>,<x>,<y>,<range>) - lists all appropriate
+    units within <range> of <x>, <y>
+  * btmapunits(<MapOBJ>,<x>,<y>,<z>,<range>) - lists all appropriate
+    units within <range> of <x>,<y>,<z>
+ 
+  Note: The function does not take the altitude of a unit into
+  consideration when ascertaining if it is within range UNLESS the
+  third form is used (ie the <z> argument is included)
+ 
+  Continued in btmapunits()2
+ 

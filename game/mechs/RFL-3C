@@ -1,0 +1,63 @@
+Name             { Rifleman }
+Reference        { RFL-3C }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Mech_BV          { 860 }
+Computer	 { 5 }
+Radio		 { 4 }
+Max_Speed        { 64.50 }
+Specials         { FlipArms AntiAircraft Searchlight }
+Left_Arm
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-9		  { IS.AC/10 - - }
+Right_Arm
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3-9		  { IS.AC/10 - - }
+Left_Torso
+  Armor            { 15 }
+  Internals        { 14 }
+  Rear             { 4 }
+    CRIT_1		  { IS.MediumLaser - - 4 }
+    CRIT_2		  { HeatSink - - }
+Right_Torso
+  Armor            { 15 }
+  Internals        { 14 }
+  Rear             { 4 }
+    CRIT_1		  { IS.MediumLaser - - 4 }
+    CRIT_2-3		  { Ammo_IS.AC/10 10 - }
+Center_Torso
+  Armor            { 22 }
+  Internals        { 20 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - }
+    CRIT_4-7		  { Gyro - - }
+    CRIT_8-10		  { Engine - - }
+Left_Leg
+  Armor            { 15 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Right_Leg
+  Armor            { 15 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - }
+    CRIT_2		  { UpperActuator - - }
+    CRIT_3		  { LowerActuator - - }
+    CRIT_4		  { HandOrFootActuator - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_5		  { Sensors - - }
+    CRIT_6		  { LifeSupport - - }

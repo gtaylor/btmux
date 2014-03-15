@@ -1,0 +1,17 @@
+ 
+& setchanneltitle
+ 
+  RS Command: setchanneltitle <channel>=<title>
+  
+  This command sets the string which is prefixed to your transmissions 
+  on <channel>
+  
+  Example
+  
+  setchanneltitle a=Mechjock
+  
+  senchannel a=Can anyone hear me?
+  [A:180] <Mechjock> Can anyone hear me?
+ 
+  See Also: sendchannel, setchannelmode, setchannelfreq, listchannels
+ 

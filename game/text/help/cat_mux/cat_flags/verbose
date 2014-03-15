@@ -1,0 +1,10 @@
+ 
+& VERBOSE
+ 
+  Flag: VERBOSE (v)
+ 
+  This flag causes all commands executed by the object having
+  the flag to be echoed to the owner of the object.
+ 
+  See also: TRACE
+ 

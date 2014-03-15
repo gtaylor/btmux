@@ -1,0 +1,25 @@
+ 
+& addsp3
+ 
+  
+  Example:
+  To add a Targeting Computer to the RS Unit in the left torso at 
+  critslot 1
+  
+  >addsp targetingcomputer lt 1 
+  Critical slot filled.
+  
+  >critstatus lt
+-----------------------------------------------------------------------------
+                             Left Torso Criticals                             
+------------------------------------------------------------------------------
+ 1 TargetingComputer                    7 Empty                               
+ 2 Empty                                8 Empty                               
+ 3 Empty                                9 Empty                               
+ 4 Empty                               10 Empty                               
+ 5 Empty                               11 Empty                               
+ 6 Empty                               12 Empty                               
+------------------------------------------------------------------------------
+ 
+  See Also: attarget
+ 

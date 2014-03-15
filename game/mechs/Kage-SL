@@ -1,0 +1,28 @@
+Name             { Kage }
+Reference        { Kage-SL }
+Type             { Battlesuit }
+Move_Type        { Biped }
+Tons             { 1 }
+Mech_BV          { 88 }
+Max_Speed        { 32.50 }
+Max_Suits        { 4 }
+Jump_Speed       { 43.00 }
+InfantrySpecials { Swarm_Attack_Tech Mount_Friends_Tech AntiLeg_Attack_Tech DC_Kage_Stealth_Tech }
+Suit_1
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { KageStealthUnit - - }
+Suit_2
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { KageStealthUnit - - }
+Suit_3
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { KageStealthUnit - - }
+Suit_4
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { KageStealthUnit - - }
+

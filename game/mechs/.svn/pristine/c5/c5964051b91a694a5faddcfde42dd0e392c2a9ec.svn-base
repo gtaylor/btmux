@@ -1,0 +1,54 @@
+Name             { Excalibur }
+Reference        { DS.Excalibur }
+Type             { Spheroid_DropShip }
+Move_Type        { Fly }
+Tons             { 16000 }
+Tac_Range        { 50 }
+LRS_Range        { 100 }
+Scan_Range       { 50 }
+Heat_Sinks       { 127 }
+Max_Speed        { 53.00 }
+Front_Right_Side
+  Armor            { 120 }
+  Internals        { 127 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.LRM-10 - - }
+    CRIT_3		  { IS.LRM-10 - - }
+    CRIT_4-5		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_6		  { IS.MediumLaser - - }
+    CRIT_7		  { IS.MediumLaser - - }
+Front_Left_Side
+  Armor            { 120 }
+  Internals        { 127 }
+    CRIT_1		  { IS.PPC - - }
+    CRIT_2		  { IS.LRM-10 - - }
+    CRIT_3		  { IS.LRM-10 - - }
+    CRIT_4-5		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_6		  { IS.MediumLaser - - }
+    CRIT_7		  { IS.MediumLaser - - }
+    CRIT_8		  { DSMechDoor - - }
+Rear_Left_Side
+  Armor            { 120 }
+  Internals        { 127 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Rear_Right_Side
+  Armor            { 120 }
+  Internals        { 127 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+    CRIT_3		  { IS.MediumLaser - - }
+Aft
+  Armor            { 90 }
+  Internals        { 127 }
+    CRIT_1		  { IS.LargeLaser - - }
+    CRIT_2		  { IS.MediumLaser - - }
+Nose
+  Armor            { 127 }
+  Internals        { 127 }
+    CRIT_1		  { IS.AC/5 - - }
+    CRIT_2		  { Ammo_IS.AC/5 20 - - }
+    CRIT_3		  { IS.LRM-10 - - }
+    CRIT_4-5		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_6		  { IS.MediumLaser - - }

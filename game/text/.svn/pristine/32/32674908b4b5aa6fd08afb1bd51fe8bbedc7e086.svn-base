@@ -1,0 +1,13 @@
+ 
+& explode
+ 
+  RS Command: explode <ammo|reactor|stop>
+  
+  Arguments:
+  
+  * ammo - causes all the ammunition stored on your unit to be detonated.
+  
+  * reactor - causes the reactor to self destruct
+  
+  * stop - aborts the countdown (Disabled by default)
+  

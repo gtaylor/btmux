@@ -1,0 +1,13 @@
+ 
+& fire
+ 
+  RS Command: fire <weapnum> [<target-id> | <x> <y>]
+  
+  This command fires the specified weapon.
+  
+  Arguments:
+  none - if no argument is specified the weapon will fire at the 
+         locked target if there is one.
+  * ID - fires the weapon at the specified RS object.
+  * x y - fires the weapon at the specified hex.
+ 

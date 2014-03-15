@@ -1,0 +1,11 @@
+
+& gdbm_database
+
+  Config parameter: gdbm_database <path>
+  Default: none
+
+  Specifies the name of the file that stores the text portion of the
+  database.  The text strings are stored in a binary format optimized
+  for fast retrieval and storage rather than access with programs
+  such as more.
+ 

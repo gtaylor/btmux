@@ -1,0 +1,14 @@
+ 
+& inarc
+ 
+  RS Command: inarc <weapnum> <-|x|y|e>
+  
+  This command sets the type of pods to be fired by an INARC launcher.
+  
+  Arguments:
+  * - - use standard (homing beacon) ammunition
+  * e - use ECM ammunition
+  * y - use 'haywire' ammunition
+  * x - use explosive ammunition
+  * z - use nemesis ammunition
+ 

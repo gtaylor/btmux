@@ -1,0 +1,15 @@
+ 
+& ansi2
+ 
+  The percent substitution %c<color code> can be used instead of
+  ansi(), and is more efficient.
+ 
+  For example, the equivalent to [ansi(rBf,Color!)] would be:
+  %cr%cB%cfColor!%cn
+ 
+  The %cn (to return to normal) is not necessary, but if it is not
+  specified the ansi color codes will continue to the end of the
+  string.
+ 
+  See also: ANSI.
+ 

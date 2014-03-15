@@ -1,0 +1,30 @@
+Name             { Alacorn }
+Reference        { Alacorn-VII }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 95 }
+Comment          { Saved by: Tantrum(#4394) at Sun Jun 17 23:44:34 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 1719 }
+Cargo_Space      { 0 }
+Max_Speed        { 53.75 }
+Specials         { SearchLight XLEngine_Tech }
+Left_Side
+  Armor            { 75 }
+  Internals        { 10 }
+Right_Side
+  Armor            { 75 }
+  Internals        { 10 }
+Front_Side
+  Armor            { 112 }
+  Internals        { 10 }
+    CRIT_1		  { IS.HeavyGaussRifle - - 3 }
+    CRIT_2		  { IS.HeavyGaussRifle - - 3 }
+    CRIT_3-7		  { Ammo_IS.HeavyGaussRifle 4 - - }
+    CRIT_9-12		  { Ammo_IS.HeavyGaussRifle 4 - - }
+Aft_Side
+  Armor            { 50 }
+  Internals        { 10 }
+    CRIT_1-3		  { Ammo_IS.HeavyGaussRifle 4 - - }

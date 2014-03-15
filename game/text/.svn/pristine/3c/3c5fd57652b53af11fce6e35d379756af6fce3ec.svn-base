@@ -1,0 +1,16 @@
+
+& function_invocation_limit
+
+  Config parameter: function_invocation_limit <num>
+  Default: 2500
+
+  This directive sets the maximum number of times that a command may
+  make function calls.  If the invocation limit is exceeded, the
+  string '#-1 FUNCTION INVOCATION LIMIT EXCEEDED' is returned.  This
+  limit is  intended to prevent long hangs from creative uses of u()
+  and iter().
+
+  Note: @search is treated specially, each object examined with the
+  eval=<arg> parameter is treated as a separate command for the
+  purposes of the function invocation limit.
+ 

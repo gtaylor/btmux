@@ -1,0 +1,17 @@
+
+& @lock normal
+
+  NORMAL LOCKS:
+
+  Key: <object>
+
+  You pass a normal lock if you either are the named object or if you
+  carry the named object.  <object> may be the name or #number of a
+  thing, a playername prefixed by an asterisk (*<playername>), 'me',
+  or 'here'.
+
+  Examples:
+    > @lock treasure room = secret key
+    > @lock private area = me
+  See also: @lock is, @lock carry.
+ 

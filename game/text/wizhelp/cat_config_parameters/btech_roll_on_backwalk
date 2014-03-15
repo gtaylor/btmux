@@ -1,0 +1,9 @@
+ 
+& btech_roll_on_backwalk
+ 
+  Config parameter: btech_roll_on_backwalk <0/1>
+  Default: 1
+  
+  Determines if a piloting skill roll is made when a mech is walking 
+  backwards over a change in elevation.
+  

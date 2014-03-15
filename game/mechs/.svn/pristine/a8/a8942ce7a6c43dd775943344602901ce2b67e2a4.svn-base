@@ -1,0 +1,70 @@
+Name             { Barghest }
+Reference        { BGS-1T }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 70 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:59:33 2000 }
+Heat_Sinks       { 20 }
+Mech_BV          { 1205 }
+Max_Speed        { 86.00 }
+Specials         { DoubleHS }
+Front_Left_Leg
+  Armor            { 27 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Front_Right_Leg
+  Armor            { 27 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Left_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1-5		  { Engine - - 3 }
+    CRIT_6-7		  { IS.ERLargeLaser - - 3 }
+    CRIT_8-9		  { IS.ERLargeLaser - - 3 }
+Right_Torso
+  Armor            { 21 }
+  Internals        { 15 }
+  Rear             { 6 }
+    CRIT_1		  { Engine - - 3 }
+    CRIT_2-12		  { IS.LB20-XAC - - 3 }
+Center_Torso
+  Armor            { 30 }
+  Internals        { 22 }
+  Rear             { 9 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+Rear_Left_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { Ammo_IS.LB20-XAC 5 - - }
+    CRIT_6		  { Ammo_IS.LB20-XAC 5 LBX/Cluster - }
+Rear_Right_Leg
+  Armor            { 26 }
+  Internals        { 15 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { Ammo_IS.LB20-XAC 5 - - }
+    CRIT_6		  { Ammo_IS.LB20-XAC 5 LBX/Cluster - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

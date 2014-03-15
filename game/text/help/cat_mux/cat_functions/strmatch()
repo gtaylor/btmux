@@ -1,0 +1,24 @@
+ 
+& strmatch()
+ 
+  Syntax: strmatch(<string>,<pattern>)
+ 
+  This function matches <pattern> against the entire <string>,
+  returning 1 if it matches and 0 if it does not.  The case of the 
+  characters being matched is not significant.
+ 
+  The pattern may contain the wildcards '*' and '?'.  '?' matches any
+  one character, while '*' matches any number of characters, 
+  including none. So 's?x' would match 'sex' or 'six', but not to 
+  'socx', but 's*x' would match any of them.
+ 
+  Examples:
+    > say strmatch(This is a test,*Test)
+    You say "1"
+    > say strmatch(This is a test,*This)
+    You say "0"
+    > say strmatch(This is a test,*is*is*)
+    You say "1"
+ 
+  See also: match(), member(), regmatch().
+ 

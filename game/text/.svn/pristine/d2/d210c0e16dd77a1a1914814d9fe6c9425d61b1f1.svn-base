@@ -1,0 +1,11 @@
+ 
+& columns()
+ 
+  Syntax: columns(<list>, <width>[, <delim>])
+ 
+  This function displays <list> formatted into columns containing
+  <width> number of characters. As many columns as possible will be
+  fit onto the screen.
+ 
+  Columns takes an optional delimiter.
+ 

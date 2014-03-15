@@ -1,0 +1,25 @@
+
+& viewref
+  
+ >> Help: Viewref (Template Command)
+ -----------------------------------------------------------------------------
+ Syntax: Viewref <reference>
+ Syntax: Viewref/specs <reference>
+ Syntax: Viewref/weaponspecs <reference>
+ Syntax: Viewref/critstatus <reference> <section>
+ 
+ The first form of this command shows the unit's status display as if you were
+ in a mech of the specified type and hit 'status'.
+ 
+ The second form of the command shows pertinent information on the specified
+ ref.
+ 
+ The third form of this command shows the 'weaponspecs' display as if you were
+ in a mech of the specified type and hit 'weaponspecs'.
+ 
+ The fourth form of this command displays the 'critstatus' display for the
+ specified reference. This is useful for checking weapon/ammo/crit locations
+ in each section of a unit.
+ 
+ See also: listrefs, listeras
+ 

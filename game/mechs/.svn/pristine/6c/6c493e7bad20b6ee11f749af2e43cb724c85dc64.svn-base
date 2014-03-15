@@ -1,0 +1,79 @@
+Name             { Anubis }
+Reference        { ABS-3T }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 30 }
+Heat_Sinks       { 24 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 822 }
+Max_Speed        { 129.00 }
+Specials         { DoubleHS StealthArmor_Tech EndoSteel_Tech XLEngine_Tech ECM }
+Left_Arm
+  Armor          { 8 }
+  Internals      { 5 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { IS.ERMediumLaser - - }
+    CRIT_5       { IS.ERSmallLaser - - }
+    CRIT_6-7     { StealthArmor - - }
+    CRIT_8-11    { EndoSteel - - }
+Right_Arm
+  Armor          { 8 }
+  Internals      { 5 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-4     { IS.ERLargeLaser - - }
+    CRIT_5       { IS.ERMediumLaser - - }
+    CRIT_6-7     { StealthArmor - - }
+    CRIT_8-12    { EndoSteel - - }
+Left_Torso
+  Armor          { 9 }
+  Internals      { 7 }
+  Rear           { 3 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-6     { HeatSink - - }
+    CRIT_7-8     { StealthArmor - - }
+    CRIT_9-11    { EndoSteel - - }
+Right_Torso
+  Armor          { 9 }
+  Internals      { 7 }
+  Rear           { 3 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-9     { HeatSink - - }
+    CRIT_10-11   { StealthArmor - - }
+    CRIT_12      { EndoSteel - - }
+Center_Torso
+  Armor          { 11 }
+  Internals      { 10 }
+  Rear           { 4 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11-12   { Ecm - - }
+Left_Leg
+  Armor          { 12 }
+  Internals      { 7 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { StealthArmor - - }
+Right_Leg
+  Armor          { 12 }
+  Internals      { 7 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5-6     { StealthArmor - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { EndoSteel - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

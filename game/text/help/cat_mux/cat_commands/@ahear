@@ -1,0 +1,16 @@
+ 
+& @ahear
+ 
+  Syntax: @ahear <object> = <command-list>
+  Attribute: Ahear
+ 
+  Sets the actions to be taken after the object hears a string that
+  matches the pattern in the Listen attribute which was not produced
+  by the object itself.  Messages that are produced by the object
+  itself are ignored.
+ 
+  Example:
+  @ahear clock = "The time is now [time()].  >> BONNNNGGGGG <<
+ 
+  See also: @aahear, @amhear, @listen
+ 

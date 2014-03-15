@@ -1,0 +1,35 @@
+ 
+& addstuff
+ 
+  RS Command: addstuff <name> <num>
+  
+  This command permits you to add <num> of <name> to the manifest 
+  of an RS Unit or the stores of a bay.
+  
+  Arguments:
+  <name> This argument can be either a specifie name or alternatively 
+         the command accepts the use of wildcards.
+  
+  NOTE - Only the God character (#1) can add more than 20 items (using 
+  wildcarding) at a time.
+  
+  Errors:
+  * if arguments < 2 the command returns "Invalid number of 
+    arguments!"
+  * if <num> is <=0 the command returns "Invalid amount!"
+  * if <name> is not a valid partname the command returns "Nothing 
+    matches <name>!"
+  * if the location is not an RS Unit or hangar/bay the command 
+    returns "You ain't in your 'mech!" or "You ain't in hangar!"
+  * if the <name> argument uses wildcards and resolves to > 20 
+    different parts and/or commodities the command returns "Wizards 
+    can't add more than 20 different objtypes at a time."
+  
+  Example:
+  >addstuff se* 10
+  You add 10 SearchLights.
+  You add 10 Seedss.
+  You add 10 Sensorss.
+  
+  See Also: removestuff, clearstuff, stores, manifest
+ 

@@ -1,0 +1,13 @@
+ 
+& safety
+ 
+  RS Command: saftey <on|off>
+  
+  This command controls the ability of your unit to fire on 
+  Mechwarriors on the map.
+  
+  Arguments:
+  * on - enables firing on Mechwarriors
+  * off - disable firing on Mechwarriors
+  
+  See Also: mechprefs

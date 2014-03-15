@@ -1,0 +1,84 @@
+Name             { Goliath }
+Reference        { GOL-2H }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 80 }
+Heat_Sinks       { 17 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1128 }
+Max_Speed        { 64.50 }
+Specials         { FerroFibrous_Tech }
+Front_Left_Leg
+  Armor          { 28 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { HeatSink - - }
+    CRIT_6       { FerroFibrous - - }
+Front_Right_Leg
+  Armor          { 28 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { HeatSink - - }
+    CRIT_6       { FerroFibrous - - }
+Left_Torso
+  Armor          { 20 }
+  Internals      { 17 }
+  Rear           { 13 }
+    CRIT_1-2     { IS.LRM-10 - - }
+    CRIT_3       { IS.RL-10 - OneShot }
+    CRIT_4       { IS.RL-10 - OneShot }
+    CRIT_5       { IS.RL-10 - OneShot }
+    CRIT_6-11    { FerroFibrous - - }
+Right_Torso
+  Armor          { 20 }
+  Internals      { 17 }
+  Rear           { 13 }
+    CRIT_1-3     { IS.PPC - - }
+    CRIT_4-5     { IS.LRM-10 - - }
+    CRIT_6       { IS.RL-10 - OneShot }
+    CRIT_7       { IS.RL-10 - OneShot }
+    CRIT_8       { IS.RL-10 - OneShot }
+    CRIT_9-12    { FerroFibrous - - }
+Center_Torso
+  Armor          { 30 }
+  Internals      { 25 }
+  Rear           { 20 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { Ammo_IS.LRM-10 12 - }
+    CRIT_12      { Ammo_IS.LRM-10 12 - }
+Rear_Left_Leg
+  Armor          { 30 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { HeatSink - - }
+    CRIT_6       { FerroFibrous - - }
+Rear_Right_Leg
+  Armor          { 30 }
+  Internals      { 17 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { HeatSink - - }
+    CRIT_6       { FerroFibrous - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { HeatSink - - }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

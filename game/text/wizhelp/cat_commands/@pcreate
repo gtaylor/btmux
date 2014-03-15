@@ -1,0 +1,10 @@
+ 
+& @pcreate
+ 
+  Syntax: @pcreate <player>=<password>
+  
+  This command creates a new player with the indicated password.  This 
+  command is equivalent to typing 'create <player> <password>' from 
+  the connection screen, and is normally only used when registration 
+  is enabled.
+ 

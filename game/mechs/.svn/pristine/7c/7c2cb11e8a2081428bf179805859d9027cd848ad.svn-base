@@ -1,0 +1,29 @@
+Name             { MASH Truck }
+Reference        { MASH_Truck }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 35 }
+Comment          { Saved by: Stringfellow Hawke(#988) at Fri Nov 11 14:36:32 2005 }
+Mech_BV          { 176 }
+Cargo_Space      { 10000 }
+Max_Ton          { 100 }
+Max_Suits        { 0 }
+Max_Speed        { 86.00 }
+Specials         { Carrier_Tech }
+Left_Side
+  Armor            { 16 }
+  Internals        { 4 }
+Right_Side
+  Armor            { 16 }
+  Internals        { 4 }
+Front_Side
+  Armor            { 12 }
+  Internals        { 4 }
+Aft_Side
+  Armor            { 10 }
+  Internals        { 4 }
+Turret
+  Armor            { 10 }
+  Internals        { 4 }
+    CRIT_1		  { IS.SmallLaser - - }
+    CRIT_2		  { IS.SmallLaser - - }

@@ -1,0 +1,77 @@
+Name             { Sagittaire }
+Reference        { SGT-8R }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 95 }
+Heat_Sinks       { 34 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 1740 }
+Max_Speed        { 53.75 }
+Jump_Speed       { 32.25 }
+Specials         { DoubleHS FlipArms XLEngine_Tech }
+Left_Arm
+  Armor          { 31 }
+  Internals      { 16 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-8     { HeatSink - - }
+    CRIT_9-10    { IS.LargePulseLaser - OnTC }
+    CRIT_11      { IS.MediumPulseLaser - OnTC }
+Right_Arm
+  Armor          { 31 }
+  Internals      { 16 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3-8     { HeatSink - - }
+    CRIT_9-10    { IS.LargePulseLaser - OnTC }
+    CRIT_11      { IS.MediumPulseLaser - OnTC }
+    CRIT_12      { IS.SmallPulseLaser - OnTC }
+Left_Torso
+  Armor          { 30 }
+  Internals      { 20 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-9     { HeatSink - - }
+    CRIT_10-12   { IS.ERPPC - OnTC }
+Right_Torso
+  Armor          { 30 }
+  Internals      { 20 }
+  Rear           { 10 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-11    { TargetingComputer - - }
+    CRIT_12      { IS.MediumPulseLaser - OnTC }
+Center_Torso
+  Armor          { 44 }
+  Internals      { 30 }
+  Rear           { 15 }
+    CRIT_1-3     { Engine - - }
+    CRIT_4-7     { Gyro - - }
+    CRIT_8-10    { Engine - - }
+    CRIT_11      { JumpJet - - }
+    CRIT_12      { IS.MediumPulseLaser - RearMount OnTC }
+Left_Leg
+  Armor          { 39 }
+  Internals      { 20 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+Right_Leg
+  Armor          { 39 }
+  Internals      { 20 }
+    CRIT_1       { ShoulderOrHip - - }
+    CRIT_2       { UpperActuator - - }
+    CRIT_3       { LowerActuator - - }
+    CRIT_4       { HandOrFootActuator - - }
+    CRIT_5       { JumpJet - - }
+Head
+  Armor          { 9 }
+  Internals      { 3 }
+    CRIT_1       { LifeSupport - - }
+    CRIT_2       { Sensors - - }
+    CRIT_3       { Cockpit - - }
+    CRIT_4       { IS.MediumPulseLaser - RearMount OnTC }
+    CRIT_5       { Sensors - - }
+    CRIT_6       { LifeSupport - - }

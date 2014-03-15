@@ -1,0 +1,13 @@
+ 
+& hasattrp()
+ 
+  Syntax: hasattrp(<object>, <attribute name>)
+ 
+  Returns 1 if the object or its parent has the named attribute, and 0
+  if it does not. If the object does not exist or the player does not
+  have the ability to examine the object, #-1 will be returned.
+  hasattr() can be used to just check objects for an attribute without
+  checking their parent.
+ 
+  See Also: hasattr()
+ 

@@ -1,0 +1,38 @@
+Name             { Kage }
+Reference        { Kage-MG }
+Type             { Battlesuit }
+Move_Type        { Biped }
+Tons             { 1 }
+Comment          { Saved by: Captain QB(#198) at Wed Nov 30 17:33:24 2005 }
+Tac_Range        { 12 }
+LRS_Range        { 20 }
+Scan_Range       { 8 }
+Radio            { 2 }
+Heat_Sinks       { 15 }
+Mech_BV          { 45 }
+Cargo_Space      { 0 }
+Max_Suits        { 4 }
+Max_Speed        { 33.00 }
+Jump_Speed       { 44.00 }
+InfantrySpecials { Swarm_Attack_Tech Mount_Friends_Tech AntiLeg_Attack_Tech DC_Kage_Stealth_Tech }
+Suit_1
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { IS.MachineGun - - }
+    CRIT_2		  { Ammo_IS.MachineGun 200 - - }
+    CRIT_12		  { KageStealthUnit - - }
+Suit_2
+  Armor            { 5 }
+  Internals        { 1 }
+    CRIT_1		  { TAG - - }
+    CRIT_12		  { KageStealthUnit - - }
+Suit_3
+  Armor            { 5 }
+  Internals        { 1 }
+  Rear             { 10 }
+    CRIT_12		  { KageStealthUnit - - }
+Suit_4
+  Armor            { 5 }
+  Internals        { 1 }
+  Rear             { 10 }
+    CRIT_12		  { KageStealthUnit - - }

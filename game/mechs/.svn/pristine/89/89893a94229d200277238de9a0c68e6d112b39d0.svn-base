@@ -1,0 +1,29 @@
+Name             { Partisan }
+Reference        { Partisan-LRM }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 80 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 07:58:37 2000 }
+Mech_BV          { 768 }
+Max_Speed        { 53.75 }
+Specials         { AntiAircraft ICEEngine_Tech }
+Left_Side
+  Armor            { 18 }
+  Internals        { 8 }
+Right_Side
+  Armor            { 18 }
+  Internals        { 8 }
+Front_Side
+  Armor            { 22 }
+  Internals        { 8 }
+Aft_Side
+  Armor            { 16 }
+  Internals        { 8 }
+Turret
+  Armor            { 22 }
+  Internals        { 8 }
+    CRIT_1		  { IS.LRM-15 - - 3 }
+    CRIT_2		  { IS.LRM-15 - - 3 }
+    CRIT_3		  { IS.LRM-15 - - 3 }
+    CRIT_4		  { IS.LRM-15 - - 3 }
+    CRIT_5-10		  { Ammo_IS.LRM-15 8 - - }

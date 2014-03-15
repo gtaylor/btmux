@@ -1,0 +1,34 @@
+Name             { Ontos }
+Reference        { Ontos-LGR }
+Type             { Vehicle }
+Move_Type        { Track }
+Tons             { 95 }
+Comment          { Saved by: Genitrix(#1511) at Thu Feb  8 15:42:00 2001 }
+Tac_Range        { 30 }
+LRS_Range        { 60 }
+Scan_Range       { 30 }
+Mech_BV          { 0 }
+Max_Speed        { 53.75 }
+Left_Side
+  Armor            { 32 }
+  Internals        { 10 }
+    CRIT_6-12		  { FerroFibrous - - }
+Right_Side
+  Armor            { 32 }
+  Internals        { 10 }
+    CRIT_6-12		  { FerroFibrous - - }
+Front_Side
+  Armor            { 40 }
+  Internals        { 10 }
+Aft_Side
+  Armor            { 30 }
+  Internals        { 10 }
+Turret
+  Armor            { 36 }
+  Internals        { 10 }
+    CRIT_1		  { IS.LightGaussRifle - - }
+    CRIT_2		  { IS.LightGaussRifle - - }
+    CRIT_3		  { IS.LightGaussRifle - - }
+    CRIT_4		  { IS.ERMediumLaser - - }
+    CRIT_5		  { IS.ERMediumLaser - - }
+    CRIT_6-9		  { Ammo_IS.LightGaussRifle 16 - - }

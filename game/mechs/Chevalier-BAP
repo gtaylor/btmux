@@ -1,0 +1,33 @@
+Name             { Chevalier }
+Reference        { Chevalier-BAP }
+Type             { Vehicle }
+Move_Type        { Wheel }
+Tons             { 35 }
+Comment          { Saved by: Spectre(#4628) at Fri Jun 21 07:45:57 2002 }
+Heat_Sinks       { 12 }
+Mech_BV          { 431 }
+Cargo_Space      { 0 }
+Max_Suits        { 0 }
+Max_Speed        { 96.75 }
+Left_Side
+  Armor            { 12 }
+  Internals        { 4 }
+Right_Side
+  Armor            { 12 }
+  Internals        { 4 }
+Front_Side
+  Armor            { 16 }
+  Internals        { 4 }
+    CRIT_1		  { IS.StreakSRM-2 - - 3 }
+    CRIT_2		  { IS.StreakSRM-2 - - 3 }
+    CRIT_3		  { Ammo_IS.StreakSRM-2 50 - - }
+    CRIT_4                { IS.MachineGun - - 3 }
+    CRIT_5		  { Ammo_IS.MachineGun 100 - - }
+    CRIT_6		  { BeagleProbe - - 0 }
+Aft_Side
+  Armor            { 10 }
+  Internals        { 4 }
+Turret
+  Armor            { 14 }
+  Internals        { 4 }
+    CRIT_1		  { IS.ERLargeLaser - - 3 }

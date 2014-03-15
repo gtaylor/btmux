@@ -1,0 +1,78 @@
+Name             { Quickdraw }
+Reference        { QKD-5M }
+Type             { Mech }
+Move_Type        { Biped }
+Tons             { 60 }
+Comment          { Saved by: Charlemagne(#4624) at Wed Feb 16 08:04:08 2000 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 26 }
+Mech_BV          { 1142 }
+Max_Speed        { 86.00 }
+Jump_Speed       { 53.75 }
+Specials         { DoubleHS }
+Left_Arm
+  Armor            { 13 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Right_Arm
+  Armor            { 13 }
+  Internals        { 10 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { IS.MediumLaser - - 3 }
+    CRIT_6-12		  { FerroFibrous - - 3 }
+Left_Torso
+  Armor            { 17 }
+  Internals        { 14 }
+  Rear             { 8 }
+    CRIT_1-3		  { HeatSink - - 3 }
+    CRIT_4-5		  { JumpJet - - 3 }
+    CRIT_6-7		  { IS.LRM-10 - - 3 }
+    CRIT_8		  { Ammo_IS.LRM-10 12 - - }
+    CRIT_9		  { Case - - 3 }
+Right_Torso
+  Armor            { 17 }
+  Internals        { 14 }
+  Rear             { 8 }
+    CRIT_1-2		  { JumpJet - - 3 }
+    CRIT_3		  { IS.MediumLaser - RearMount 3 }
+    CRIT_4		  { IS.MediumLaser - RearMount 3 }
+Center_Torso
+  Armor            { 18 }
+  Internals        { 20 }
+  Rear             { 8 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { JumpJet - - 3 }
+    CRIT_12		  { IS.SRM-4 - OneShot 4 }
+Left_Leg
+  Armor            { 16 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Right_Leg
+  Armor            { 16 }
+  Internals        { 14 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

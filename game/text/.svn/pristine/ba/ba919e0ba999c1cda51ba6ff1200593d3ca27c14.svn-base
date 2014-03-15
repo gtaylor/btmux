@@ -1,0 +1,26 @@
+ 
+& addinftech
+ 
+  Mechrep Command: addinftech <tech>
+  
+  This command adds the specified advanced infantry technology to the 
+  targetted RS Unit.
+  
+  NOTE - the command currently does not check to verify that the 
+  targetted unit is a bsuit.
+  
+  Arguments:
+  * tech - Valid infantry technologies are:
+        Swarm_Attack_Tech
+        Mount_Friends_Tech
+        AntiLeg_Attack_Tech
+        CS_Purifier_Stealth_Tech
+        DC_Kage_Stealth_Tech
+        FWL_Achileus_Stealth_Tech
+        FC_Infiltrator_Stealth_Tech
+        FC_InfiltratorII_Stealth_Tech
+        Must_Jettison_Pack_Tech
+        Can_Jettison_Pack_Tech
+  
+  See Also: settarget
+ 

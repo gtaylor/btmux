@@ -1,0 +1,10 @@
+ 
+& tons
+ 
+  xcodevalue: tons <int>
+  XTYPE: MECH
+  
+  This xcode value stores the tonnage of the RS Unit.
+  
+  See Also: @viewxcode
+ 

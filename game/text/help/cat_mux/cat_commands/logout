@@ -1,0 +1,11 @@
+ 
+& LOGOUT
+ 
+  Syntax: LOGOUT
+ 
+  Disconnects you from your character without breaking the network
+  connection to the game.  You may then log in to another character.
+  The LOGOUT command must be entered in all capitals.
+ 
+  See also: QUIT
+ 

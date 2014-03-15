@@ -1,0 +1,27 @@
+ 
+& deltic2
+ 
+  Example:
+  Given an EXT-4D there are 3 ways to remove the 4 mediumlasers to one 
+  TIC.
+  
+  Individually:
+  >deltic 0 0
+  Weapon #0 removed from TIC 0!
+  >deltic 0 1
+  Weapon #1 removed from TIC 0!
+  <etc>
+  
+  Individually in one command:
+  >deltic 0 0,1,2,3
+  Weapon #0 removed from TIC 0!
+  Weapon #1 removed from TIC 0!
+  Weapon #2 removed from TIC 0!
+  Weapon #3 removed from TIC 0!
+  
+  Inclusively:
+  >deltic 0 0-3
+  Weapons #0 - #3 removed from TIC 0!
+  
+  See Also: addtic, listic, cleartic
+ 

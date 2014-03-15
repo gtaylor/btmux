@@ -1,0 +1,12 @@
+ 
+& PARENT2
+ 
+  Topic: PARENT OBJECTS (continued)
+ 
+  A parent object may itself have a parent, up to a configurable limit
+  (usually 10 levels).  The parent need not be the same type as its
+  children, and flags and locks are not inherited from parent 
+  objects.  You may not create parent loops.
+ 
+  See also: @parent, parent()
+ 

@@ -1,0 +1,27 @@
+ 
+& btaddstores()
+ 
+  Syntax: btaddstores(<ObjectDB>,<partname>,<quantity>)
+ 
+  This function adds <quantity> of part <partname> to the unit or
+  hangar specifed in <ObjectDB>.
+ 
+  The function returns the amount of <partname> in the object at the
+  completion of the event.
+ 
+  Error Messages:
+ 
+  * If <ObjectDB> is not a valid unit or hangar the function returns
+    #-1
+  * If <quantity> is a null string or not numerical the function
+    returns #-2 Illegal Value
+  * If <partname> is not a valid partname or commodity the function
+    returns #-1 INVALID PART NAME
+ 
+  Example:
+  Given that #dbref 62 is a valid bay with 1000 units of armor in
+  store:
+ 
+  > think btaddstores(#62,armor,1000)
+  2000
+ 

@@ -1,0 +1,36 @@
+Name             { Seydlitz }
+Reference        { SYD-Z4 }
+Type             { AeroFighter }
+Move_Type        { Fly }
+Tons             { 20 }
+Comment          { Saved by: Celebrimbor(#319) at Tue Jun  3 17:31:58 1997 }
+Computer         { 3 }
+Fuel             { 450 }
+Max_Speed        { 215.00 }
+Nose
+  Armor            { 16 }
+  Internals        { 10 }
+    CRIT_1		  { IS.ERLargeLaser - - }
+Left_Wing
+  Armor            { 8 }
+  Internals        { 10 }
+Right_Wing
+  Armor            { 8 }
+  Internals        { 10 }
+Fuselage
+  Armor            { 16 }
+  Internals        { 10 }
+Cockpit
+  Armor            { 10 }
+  Internals        { 10 }
+    CRIT_1		  { LifeSupport - - }
+    CRIT_2		  { Sensors - - }
+    CRIT_3		  { Cockpit - - }
+    CRIT_4		  { Sensors - - }
+    CRIT_5		  { LifeSupport - - }
+Engine
+  Armor            { 15 }
+  Internals        { 10 }
+    CRIT_1-2		  { HeatSink - - }
+    CRIT_4-10		  { HeatSink - - }
+    CRIT_12		  { HeatSink - - }

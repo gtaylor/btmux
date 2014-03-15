@@ -1,0 +1,11 @@
+ 
+& pereccm
+ 
+  RS Command: pereccm
+  
+  The command puts your personal ECM suite into ECCM mode, which 
+  enables it to counteract enemy ECM.
+  
+  This command is only available to units equipped with 
+  InfiltatrorII_Stealth_Tech
+ 
