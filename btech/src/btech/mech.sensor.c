@@ -219,7 +219,7 @@ int Sensor_Sees(MECH * mech, MECH * target, int f, int arc, float range,
 		return 0;
 	if(target && IsDS(target))
 		chance = chance * 4;
-	if(target && MechCritStatus(target) & HIDDEN &&
+	if(target && (MechCritStatus(target) & HIDDEN) &&
 	   MechTeam(mech) != MechTeam(target)) {
 
 		if(sensors[snum].matchletter[0] == 'B' &&
@@ -511,8 +511,8 @@ void update_LOSinfo(dbref obj, MAP * map)
 			}
 	}
 	for(i = 1; i < map->first_free; i++) {
-		if(map->mechsOnMap[i] > 0);
-		mech = getMech(map->mechsOnMap[i]);
+		if(map->mechsOnMap[i] > 0)
+			mech = getMech(map->mechsOnMap[i]);
 		if(!mech)
 			continue;
 		if(!Started(mech))
@@ -532,27 +532,7 @@ void update_LOSinfo(dbref obj, MAP * map)
 				if(MechStatus2(mech) & SLITE_ON)
 					if(range < LITE_RANGE)
 						cause_lite(mech, target);
-/* for now, commenting out this if(Started... section 
- * it was causing problems with bap. so we update los a bit more often now
- */
-/*				if(Started(target))
-					if(map->LOSinfo[j][i] & MECHLOSFLAG_BLOCK) {
-						wlf = !(map->LOSinfo[i][j] & MECHLOSFLAG_BLOCK) &&
-							((map->LOSinfo[i][j] & MECHLOSFLAG_SEESP) ||
-							 (map->LOSinfo[i][j] & MECHLOSFLAG_SEESS));
-						map->LOSinfo[i][j] =
-							MECHLOSFLAG_BLOCK | (map->LOSinfo[i][j] &
-												 (MECHLOSFLAG_SEEN |
-												  MECHLOSFLAG_SEEC2));
 
-#ifdef ADVANCED_LOS
-						Sensor_DoWeSeeNow(mech, &map->LOSinfo[i][j], range,
-										  -1, -1, target, mapvis, maplight,
-										  map->cloudbase, 0, wlf);
-#endif
-						continue;
-					}
-*/
 				if(range > map->maxvis && MechZ(target) < 11 &&
 				   MechZ(mech) < 11) {
 					map->LOSinfo[i][j] = MECHLOSFLAG_BLOCK;
