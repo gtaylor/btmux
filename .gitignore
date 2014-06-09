@@ -63,3 +63,5 @@
 /src/version.h
 /src/netmux
 /src/mkindx
+
+.DS_Store
