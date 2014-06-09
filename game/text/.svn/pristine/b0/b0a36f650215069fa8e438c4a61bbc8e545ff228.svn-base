@@ -1,8 +1,0 @@
- 
-& btech_inferno_penalty
- 
-  Config parameter: btech_inferno_penalty <0/1>
-  Default: 1
-  
-  Apply the FASA Inferno Ammo penalty (+30 heat and ammo explodes)
- 

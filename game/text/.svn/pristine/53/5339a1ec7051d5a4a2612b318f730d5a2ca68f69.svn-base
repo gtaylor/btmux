@@ -1,9 +1,0 @@
- 
-& disable
- 
-  RS Command: disable <weapnum>
-  
-  This command disables the specified weapon.
-  
-  The command only works on gauss rifles.
- 

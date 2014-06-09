@@ -1,9 +1,0 @@
- 
-& @cchown
- 
-  Syntax: @cchown <channel>=<player>
- 
-  Changes ownership of <channel> to <player>.
- 
-  See also: @clist, @cwho.
- 

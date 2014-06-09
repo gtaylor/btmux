@@ -1,7 +1,0 @@
- 
-& @password
- 
-  Syntax: @password <old password> = <new password>
- 
-  This command changes your password.
- 

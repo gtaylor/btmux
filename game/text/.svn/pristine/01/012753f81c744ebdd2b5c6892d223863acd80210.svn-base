@@ -1,8 +1,0 @@
- 
-& cwho()
- 
-  Syntax: cwho(<channel>)
- 
-  Returns a list of dbrefs who are connected, and on that channel.
-  This is limited to wizards and channel owners.
- 

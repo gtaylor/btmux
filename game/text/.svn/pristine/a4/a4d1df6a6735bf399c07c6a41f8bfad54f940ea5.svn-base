@@ -1,9 +1,0 @@
- 
-& btech_nofusionvtolfuel
- 
-  Config parameter: btech_nofusionvtolfuel <0/1>
-  Default: 0
-  
-  When true, units of mechtype:VTOL which are not equipped with 
-  ICE_TECH are exempted from the impact of fuel calculations.
- 

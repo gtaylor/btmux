@@ -1,9 +1,0 @@
- 
-& @admin
- 
-  Syntax: @admin <config param> <value>
-  
-  This command permits you to set config parameters at runtime.
-  
-  See also: config_parameters
- 

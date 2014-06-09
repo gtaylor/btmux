@@ -1,9 +1,0 @@
- 
-& bt-mechfreqs
-
-  Compile option: --disable-bt-mwfreqs
-  Default: enabled
- 
-  Disabled the code which copies a units frequencies to a disembarking
-  player.
- 

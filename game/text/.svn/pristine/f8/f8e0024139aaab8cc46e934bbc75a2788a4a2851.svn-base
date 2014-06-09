@@ -1,7 +1,0 @@
-
-& attr_alias
-
-  Config parameter: attr_alias <alias> <attr>
-
-  Makes <alias> an alias for the attribute <attr>.
- 

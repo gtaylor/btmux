@@ -1,8 +1,0 @@
- 
-& btech_xp_usepilotbvmod
- 
-  Config parameter: btech_xp_usePilotBVmod <0/1>
-  Default: 1
-  
-  Use the pilot's skills to modify the BV of the RS unit.
- 

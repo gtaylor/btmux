@@ -1,8 +1,0 @@
- 
-& btech_mw_losmap
- 
-  Config parameter: btech_mw_losmap <0/1>
-  Default: 1
-  
-  Determines if MechWarriors always get a LOS map.
- 

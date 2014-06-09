@@ -1,8 +1,0 @@
-
-& btech_fasaadvvtolcrit
-
-  Config parameter: btech_fasaadvvtolcrit <0/1>
-  Default: 0
-
-  Enable FASA Level 3 rules for VTOL crits and hit locations.
- 

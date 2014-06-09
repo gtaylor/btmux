@@ -1,8 +1,0 @@
-
-& btech_tankfriendly
-
-  Config paramater: btech_tankfriendly <>
-  Default: 0
-
-  Reduces speed rather than immobilising the vehicle for most crits.
- 

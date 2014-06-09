@@ -1,9 +1,0 @@
- 
-& KEY
- 
-  Flag: KEY (K)
- 
-  When set on an object prevents puppets from picking it up.
- 
-  See also: puppets
- 

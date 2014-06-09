@@ -1,7 +1,0 @@
- 
-& faction
- 
-  Attribute: faction
-  
-  This attribute is set on a player to store the faction he is in.
- 

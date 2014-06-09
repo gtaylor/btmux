@@ -1,8 +1,0 @@
- 
-& expanded_who
- 
-  This power permits the player to see the additional information that 
-  a wizard can see using the WHO command.
- 
-  See Also: @power, @list powers, who
- 

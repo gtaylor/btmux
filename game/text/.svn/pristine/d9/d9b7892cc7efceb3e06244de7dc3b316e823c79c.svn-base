@@ -1,9 +1,0 @@
- 
-& guest
- 
-  Power: guest
-  
-  This power indicates that the player is a guest.
-  
-  See Also: @power, @list powers
- 

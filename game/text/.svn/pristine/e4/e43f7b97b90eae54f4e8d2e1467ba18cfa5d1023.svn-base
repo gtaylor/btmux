@@ -1,9 +1,0 @@
- 
-& steal_money
- 
-  Power: steal_money
-  
-  This permits the player to give negative amounts of money.
-  
-  See Also: @power, @list powers
- 

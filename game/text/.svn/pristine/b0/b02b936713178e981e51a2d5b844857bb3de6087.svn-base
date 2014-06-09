@@ -1,7 +1,0 @@
- 
-& firetic
- 
-  RS Command: firetic <num> [<target> or <x y>]
-  
-  This command instructs the weapons in the specified TIC to fire.
- 

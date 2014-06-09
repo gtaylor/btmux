@@ -1,8 +1,0 @@
- 
-& btech_vcrit
- 
-  Config parameter: btech_vcrit <num>
-  Default: 2
-  
-  If btech_vcrit is <=1 then vehicles will not suffer critical damage.
- 

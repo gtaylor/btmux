@@ -1,8 +1,0 @@
- 
-& checkstatus
- 
-  RS Command: checkstatus
-  
-  This command checks the RS unit and ascertains the amount of time 
-  before repairs currently underway (if any) will be complete.
- 

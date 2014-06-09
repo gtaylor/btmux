@@ -1,8 +1,0 @@
- 
-& bt-mw3stats
-
-  Compile option: --disable-mw3-stats
-  Default: enabled
- 
-  Disables the use of a MUX implementation of MW3 stats
- 

@@ -1,8 +1,0 @@
-
-& pilot
- 
-  Attribute: pilot <dbref>
-  
-  This attribute contains the dbref of the player permitted to pilot 
-  the RS Unit
- 

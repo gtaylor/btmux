@@ -1,9 +1,0 @@
- 
-& monitor
- 
-  Power: monitor
-  
-  This power permits the player to set or clear the MONITOR flag
-  
-  See Also: @power, @list powers, monitor
- 

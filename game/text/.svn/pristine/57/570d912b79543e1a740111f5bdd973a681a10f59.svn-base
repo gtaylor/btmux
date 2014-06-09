@@ -1,9 +1,0 @@
- 
-& bt-overspeeding
-
-  Compile option: --enable-bt-overspeeding
-  Default: disabled
- 
-  Enables units to exceed than their max speed as they lose armor and
-  expend ammunition and thereby lose weight.
- 

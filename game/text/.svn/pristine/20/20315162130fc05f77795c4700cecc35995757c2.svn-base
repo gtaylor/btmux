@@ -1,8 +1,0 @@
- 
-& firesmoke
- 
-  RS Command: firesmoke <weapnum>
-  
-  This command toggles artillery weapons between firing smoke rounds 
-  and normal ammunition.
- 

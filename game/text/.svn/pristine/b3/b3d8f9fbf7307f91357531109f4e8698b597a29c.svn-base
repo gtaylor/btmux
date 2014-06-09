@@ -1,9 +1,0 @@
-
-& hostnames
-
-  Config parameter: hostnames <yes/no>
-  Default: yes
-
-  Indicates whether or not IP addresses should be replaced with host
-  names where possible in the log file and wizard WHO report.
- 

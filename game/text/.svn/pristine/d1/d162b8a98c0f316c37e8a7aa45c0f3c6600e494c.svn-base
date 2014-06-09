@@ -1,9 +1,0 @@
-
-& t()
-& true()
-
-  FUNCTION: t(<boolean>) OR true(<boolean>)
-
-  Takes a boolean value, and returns 1 if it's true, and 0 if it's false.
-
-  Related Topics: BOOLEAN VALUES, and(), not(), or(), xor().

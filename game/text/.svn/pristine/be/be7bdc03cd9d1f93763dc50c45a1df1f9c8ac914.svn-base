@@ -1,9 +1,0 @@
- 
-& GOING
- 
-  Flag: GOING
- 
-  Used internally for the @destroy command, it is set on rooms that
-  are about to be destroyed. In the event that a player decides they 
-  don't want to destroy the room after all, they can unset it.
-.

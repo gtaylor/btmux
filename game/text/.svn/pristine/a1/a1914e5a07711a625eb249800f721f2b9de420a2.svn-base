@@ -1,9 +1,0 @@
- 
-& btech_extendedmovemod
- 
-  Config parameter: btech_extendedmovemod <0/1>
-  Default: 1
-  
-  Determines whether to use the Maxtech extended target movement 
-  modifiers.
- 

@@ -1,9 +1,0 @@
- 
-& setr()
- 
-  Syntax: setr(<number>,<string>)
- 
-  This function is identical to setq(), but returns <string>.
- 
-  See Also: setq(), r()
- 

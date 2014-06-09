@@ -1,9 +1,0 @@
- 
-& eccm
- 
-  RS Command: eccm
-  
-  The command puts your ECM suite into ECCM mode, which enables it to 
-  counteract enemy ECM.
- 
-  See Also: ecm

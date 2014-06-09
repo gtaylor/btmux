@@ -1,9 +1,0 @@
- 
-& chown_anything
- 
-  Power: chown_anything
-  
-  This power permits the player to @chown anything to anyone.
-  
-  See Also: @power, @list powers, @chown
- 

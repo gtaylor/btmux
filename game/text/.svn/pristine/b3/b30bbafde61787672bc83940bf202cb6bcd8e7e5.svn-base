@@ -1,8 +1,0 @@
- 
-& enhanced-logging
-
-  Compile option: --disable-enhanced-logging
-  Default: enabled
- 
-  Disables support for arbitrary server logs
- 

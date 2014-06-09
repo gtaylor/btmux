@@ -1,8 +1,0 @@
- 
-& btech_seismic_see_stopped
- 
-  Config parameter: btech_seismic_see_stopped
-  Default: 0
-  
-  Determines if seismic sensors can detect a unit which is not moving.
-  

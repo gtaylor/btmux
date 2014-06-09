@@ -1,9 +1,0 @@
- 
-& replacepart
- 
-  RS Command: replacepart <loc> <pos>
-  
-  This command installs a new part in <loc> <pos> 
-  
-  Use critstatus to determine the <pos> for the part.
- 

@@ -1,9 +1,0 @@
- 
-& btech_newterrain
- 
-  Config parameter: btech_newterrain <0/1>
-  Default: 0
-  
-  When true, wheeled and tracked vehicles are required to perform a 
-  piloting skill roll when entering a hex with Heavy Forrest.
- 

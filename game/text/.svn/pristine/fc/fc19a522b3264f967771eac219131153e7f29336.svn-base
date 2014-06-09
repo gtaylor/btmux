@@ -1,9 +1,0 @@
- 
-& repairpart
- 
-  RS Command: repairpart <loc> <pos>
-  
-  This command a repairs damaged part in <loc> <pos>.
-  
-  Use critstatus to determine the <pos> for the part.
- 

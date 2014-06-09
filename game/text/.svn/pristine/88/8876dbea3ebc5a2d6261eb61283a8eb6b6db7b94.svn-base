@@ -1,9 +1,0 @@
-
-& quiet_look
-
-  Config parameter: quiet_look <yes/no>
-  Default: yes
-
-  Indicates whether or not players are shown the attributes set on an
-  object when they look at it.  Not recommended.
- 

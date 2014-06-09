@@ -1,8 +1,0 @@
- 
- & findcenter
- 
-  RS Command: findcenter
- 
-  This command returns the range and bearing to the center of the hex
-  the unit is currently in.
- 

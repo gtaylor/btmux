@@ -1,9 +1,0 @@
-
-& site_chars
-
-  Config parameter: site_chars <number>
-  Default: 25.
-
-  Specifies the length of the hostname that is shown in a wizard WHO
-  listing. If <number> is 0, then the hostname will be shown in full.
- 

@@ -1,8 +1,0 @@
-
-& port
-
-  Config parameter: port <port>
-  Default: 6250
-
-  Specifies the IP port on which the game listens for new connections.
- 

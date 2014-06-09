@@ -1,8 +1,0 @@
- 
-& pass_locks
- 
-  Power: pass_locks
-  
-  This power permits the player to pass any lock.
-  
-  See Also: @power, @list powers, @lock

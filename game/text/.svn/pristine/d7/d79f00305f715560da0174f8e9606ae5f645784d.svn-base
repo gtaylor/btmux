@@ -1,8 +1,0 @@
- 
-& c3targets
- 
-  RS Command: c3targets
-  
-  This command displays targetting information on all units 'viewable' 
-  by the sensors of all the units within the C3 Network.
- 

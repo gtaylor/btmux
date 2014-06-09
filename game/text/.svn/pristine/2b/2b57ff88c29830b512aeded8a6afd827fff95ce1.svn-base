@@ -1,9 +1,0 @@
- 
-& VACATION
- 
-  Flag: VACATION(|)
- 
-  This flag can only be set by wizards. It is usually used to
-  mark players who will be inactive for a long period of time. It is
-  automatically cleared when the character logs on.
- 

@@ -1,9 +1,0 @@
- 
-& bt-freetechtime
-
-  Compile option: --enable-bt-freetechtime
-  Default: disabled
- 
-  Enables carrying out of repairs and tech activities virtually
-  instantly.
- 

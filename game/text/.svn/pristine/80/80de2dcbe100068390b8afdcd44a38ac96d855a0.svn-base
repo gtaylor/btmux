@@ -1,8 +1,0 @@
-
-& btech_stackpole
-
-  Config parameter: btech_stackpole <0/1>
-  Default: 1
- 
-  Determines if a unit will explode on triple engine crits
- 

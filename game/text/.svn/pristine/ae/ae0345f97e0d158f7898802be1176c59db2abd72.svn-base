@@ -1,9 +1,0 @@
-
-& output_limit
-
-  Config parameter: output_limit <amount>
-  Default: 16384
-
-  Specifies how many bytes should be output before the output is
-  flushed, and characters are lost.
- 

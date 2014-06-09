@@ -1,9 +1,0 @@
- 
-& poll
- 
-  Power: poll
-  
-  This power permits the player to set the Doing poll.
-  
-  See Also: @power, @list powers, poll()
- 

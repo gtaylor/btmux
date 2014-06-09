@@ -1,9 +1,0 @@
- 
-& control_all
- 
-  Power: control_all
-  
-  This power permits the player to modify any object in the database.
-  
-  See Also: @power, @list powers
- 

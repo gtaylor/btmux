@@ -1,9 +1,0 @@
-
-& zone_recursion_limit
-
-  Config parameter: zone_recursion_limit <num>
-  Default: 20
-
-  This directive specifies how far back to check a zone tree for
-  control and commands.
- 

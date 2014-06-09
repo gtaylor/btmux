@@ -1,8 +1,0 @@
- 
-& elock()
- 
-  Syntax: elock(<object>[/<whichlock>],<victim>)
- 
-  Checks if <victim> would pass the named lock on <object>. Only the
-  object's owner may test locks other than the default lock.
- 

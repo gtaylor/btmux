@@ -1,8 +1,0 @@
-
-& btech_fasaadvvhlfire
-
-  Config parameter: btech_fasaadvvhlfire <0/1>
-  Default: 0
-
-  Enables FASA Level 3 ground vehicle fire rules
- 

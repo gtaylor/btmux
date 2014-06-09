@@ -1,9 +1,0 @@
-
-& btech_defaultweapbv
-
-  Config parameter: btech_defaultweapbv <num>
-  Default: 120
-
-  Weapons with a BV higher than the specified figure give less XP than
-  those weapons with a BV which is lower.
- 

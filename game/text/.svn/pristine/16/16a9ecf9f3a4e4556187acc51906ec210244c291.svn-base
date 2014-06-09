@@ -1,9 +1,0 @@
- 
-& @npemit
- 
-  Syntax: @npemit[/switches] <what>=<message>
-  No parse @pemit. Exactly like @pemit, takes the same switches,
-  except it does not evaluate <message>.
- 
-  See also: page, @pemit, @remit, @emit, @oemit, SPOOFING
- 

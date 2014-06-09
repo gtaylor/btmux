@@ -1,9 +1,0 @@
- 
-& halt
- 
-  Power: halt
-  
-  This power permits a player to @halt objects he does not own.
-  
-  See Also: @power, @list powers, @halt
- 

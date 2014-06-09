@@ -1,9 +1,0 @@
-
-& btech_divrotordamage
-
-  Config parameter: btech_divrotordamage <num>
-  Default: 0
-
-  Provides an amount to divide damage to vtol rotors by, should it be
-  desired.
- 

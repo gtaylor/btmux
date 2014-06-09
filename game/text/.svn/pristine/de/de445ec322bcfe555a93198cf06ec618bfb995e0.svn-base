@@ -1,8 +1,0 @@
- 
-& lvplayers()
-
-  FUNCTION: lvplayers(<object>)
-
-  Returns a space-separated list of connected players inside <object>.
-
-  See Also: lcon(), lplayers()

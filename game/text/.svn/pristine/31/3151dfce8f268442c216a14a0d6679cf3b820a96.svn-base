@@ -1,7 +1,0 @@
- 
-& startup
- 
-  RS Command: startup [override]
-  
-  This command commences the startup cycle for an RS Unit.
- 

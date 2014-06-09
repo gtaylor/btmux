@@ -1,8 +1,0 @@
-
-& @power
-
-  COMMAND: @power <object>=[!]<power> [[!]<power> [...]]
-
-  This command allows the granting of special powers to objects of any type.
-
-  Related Topics: powers list

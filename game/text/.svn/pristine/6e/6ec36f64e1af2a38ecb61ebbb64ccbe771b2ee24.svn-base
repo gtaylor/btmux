@@ -1,9 +1,0 @@
- 
-& hastype()
- 
-  Syntax: hastype(<object>, <type>)
- 
-  Returns 1 if the object is of the named type, otherwise 0. Valid
-  types are: ROOM, EXIT, PLAYER, THING. If an invalid type is given,
-  #-1 is returned.
- 

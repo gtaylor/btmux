@@ -1,7 +1,0 @@
-
-& flag_alias
-
-  Config parameter: flag_alias <alias> <flagname>
-
-  Defines <alias> as a synonym for the flag <flagname>.
- 

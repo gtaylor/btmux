@@ -1,9 +1,0 @@
- 
-& free_quota
- 
-  Power: free_quota
-  
-  This power gives the player infinite quota
-  
-  See Also: @power, @list powers
- 

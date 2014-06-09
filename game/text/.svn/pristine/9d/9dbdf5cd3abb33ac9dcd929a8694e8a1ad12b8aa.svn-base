@@ -1,9 +1,0 @@
-
-& indent_desc
-
-  Config parameter: indent_desc <yes/no>
-  Default: no
-
-  Places a blank row before and after every room, object, and exit
-  description when looked at.
- 

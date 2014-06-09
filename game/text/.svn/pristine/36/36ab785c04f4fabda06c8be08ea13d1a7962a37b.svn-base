@@ -1,9 +1,0 @@
-
-& allow_chanlurking
-
-  Config parameter: allow_chanlurking <on/off>
-  Default: off
-
-  Permits use of the 'who' and 'last' commands on a channel that you
-  currently do not have 'on'
- 

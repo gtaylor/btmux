@@ -1,8 +1,0 @@
- 
-& navigate
- 
-  RS Command: navigate
- 
-  This command returns a graphical representation of the hex your unit
-  is located in, and the surrounding hexes.
- 

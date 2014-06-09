@@ -1,8 +1,0 @@
-
-& btech_xp_missilemod
-
-  Config parameter: bt_xp_missilemod <>
-  Default: 100
-  
-  Modifies the XP gained from missile based weapons.
-   

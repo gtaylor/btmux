@@ -1,8 +1,0 @@
- 
-& HALTED
- 
-  Flag: HALTED (h)
- 
-  While this flag is set, the object cannot perform any MUX
-  actions, listen, be triggered, etc.
-.

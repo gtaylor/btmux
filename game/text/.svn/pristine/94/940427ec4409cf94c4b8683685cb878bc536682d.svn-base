@@ -1,8 +1,0 @@
- 
-& firemine
- 
-  RS Command: firemine <weapnum>
-  
-  This command toggles artillery weapons between firing mine rounds 
-  and normal ammuntion.
- 

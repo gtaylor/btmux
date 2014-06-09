@@ -1,9 +1,0 @@
- 
-& OPAQUE
- 
-  Flag: OPAQUE (O)
- 
-  When set on a player, it prevents other players from seeing what you
-  are carrying in your inventory.  The only exception is when the
-  object you are carrying belongs to the player looking at you.
- 
