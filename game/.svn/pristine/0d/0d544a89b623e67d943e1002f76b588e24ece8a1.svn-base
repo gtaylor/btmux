@@ -1,6 +1,0 @@
-This directory is used to hold files appended by the @log command. This is 
-very useful for logging econ transactions, staff commands, registrations,
-or anything else really.
-
-NOTE:
-You will need to 'touch' the logfile before you may write to it using @log.
