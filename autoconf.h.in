@@ -161,7 +161,7 @@
 /* Define to 1 if you have the `sigaction' function. */
 #undef HAVE_SIGACTION
 
-/* Define to 1 if `si_fd' is member of `siginfo_t'. */
+/* Define to 1 if `si_fd' is a member of `siginfo_t'. */
 #undef HAVE_SIGINFO_T_SI_FD
 
 /* Define to 1 if you have the `socket' function. */
@@ -234,7 +234,7 @@
 /* Define to 1 if you have the `strtol' function. */
 #undef HAVE_STRTOL
 
-/* Define to 1 if `tm_zone' is member of `struct tm'. */
+/* Define to 1 if `tm_zone' is a member of `struct tm'. */
 #undef HAVE_STRUCT_TM_TM_ZONE
 
 /* Define to 1 if you have the <sys/dir.h> header file, and it defines `DIR'.
@@ -334,6 +334,9 @@
 
 /* Define to the one symbol short name of this package. */
 #undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
 
 /* Define to the version of this package. */
 #undef PACKAGE_VERSION
