@@ -60,9 +60,6 @@ char *mux_version = PACKAGE_STRING "." MINOR_REVNUM
 #ifdef HUDINFO_SUPPORT
     "+HUD"
 #endif
-#ifdef HAG_WAS_HERE
-    "+HAG"
-#endif
 #ifdef SQL_SUPPORT
     "+SQL"
 #endif
