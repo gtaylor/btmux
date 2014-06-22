@@ -640,7 +640,7 @@ const char radio_colorstr[] = "xrgybmcwXRGYBMCW";
 static char *ccode(MECH * m, int i, int obs, int team)
 {
 	int t = m->freqmodes[i] / FREQ_REST;
-	static char buf[6];
+	static char buf[7];
 	int ii;
 
 	if(!obs) {
@@ -654,6 +654,7 @@ static char *ccode(MECH * m, int i, int obs, int team)
 		}
 		sprintf(buf, "%%ch%%c%c", ToLower(radio_colorstr[t - 1]));
 	} else {
+		// Observation lounges colorize based on team number.
 		if (team > 15)
 			team = team % 15;
 		for(ii = 0; ii < 15; ii++) {
