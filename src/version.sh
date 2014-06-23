@@ -25,7 +25,7 @@ cat <<EOF > version.h
 EOF
 
 # Write definitions.
-echo "#define SVN_REVISION \"`svnversion ..`\"" >> version.h
+echo "#define SVN_REVISION \"`git rev-parse HEAD`\"" >> version.h
 echo "#define MUX_BUILD_DATE \"`date`\"" >> version.h
 echo "#define MUX_BUILD_NUM \"${build_num}\"" >> version.h
 echo >> version.h
