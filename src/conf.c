@@ -161,6 +161,7 @@ void cf_init(void)
 	mudconf.btech_variable_techtime = 0;
 	mudconf.btech_techtime_mod = 0;
 	mudconf.btech_statengine_obj = -1;
+        mudconf.btech_ecm_scrambles_radio = 0;
 #ifdef BT_FREETECHTIME
 	mudconf.btech_freetechtime = 0;
 #endif
