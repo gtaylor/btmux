@@ -5,6 +5,7 @@
 *.lo
 *.la
 *~
+*.swp
 
 # /
 /autom4te.cache
