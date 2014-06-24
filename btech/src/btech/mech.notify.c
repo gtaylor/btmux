@@ -685,39 +685,18 @@ void mech_set_channelmode(dbref player, void *data, char *buffer)
 	skipws(buffer);
 	if(!buffer || !*buffer) {
 		mech->freqmodes[chn] = 0;
-		notify_printf(player, "Channel %c <send> mode set to analog.",
-					  'A' + chn);
+		notify_printf(player, "Channel %c <send> flags cleared.", 'A' + chn);
 		return;
 	}
 	while (buffer && *buffer) {
 		switch (*buffer) {
-		case 'D':
 		case 'd':
-			DOCHECK(MechRadioInfo(mech) & RADIO_NODIGITAL,
-					"Your radio can't handle digital frequencies!");
-			nm |= FREQ_DIGITAL;
-			break;
-		case 'I':
-		case 'i':
-			DOCHECK(!(MechRadioInfo(mech) & RADIO_INFO),
-					"This unit is unable to use info functionality.");
-			nm |= FREQ_INFO;
+		case 'D':
+			// This used to be the digital flag, but it's always digital now.
 			break;
 		case 'U':
 		case 'u':
 			nm |= FREQ_MUTE;
-			break;
-		case 'E':
-		case 'e':
-			DOCHECK(!(MechRadioInfo(mech) & RADIO_RELAY),
-					"This unit is unable to relay.");
-			nm |= FREQ_RELAY;
-			break;
-		case 'S':
-		case 's':
-			DOCHECK(!(MechRadioInfo(mech) & RADIO_SCAN),
-					"This unit is unable to scan.");
-			nm |= FREQ_SCAN;
 			break;
 		default:
 			for(i = 0; radio_colorstr[i]; i++)
@@ -732,12 +711,7 @@ void mech_set_channelmode(dbref player, void *data, char *buffer)
 		if(buffer)
 			buffer++;
 	}
-	DOCHECK(!(nm & FREQ_DIGITAL) &&
-			(nm & FREQ_RELAY),
-			"Error: Need digital transfer for relay to work.");
-	DOCHECK(!(nm & FREQ_DIGITAL) &&
-			(nm & FREQ_INFO),
-			"Error: Need digital transfer for transfer info to work.");
+
 	mech->freqmodes[chn] = nm;
 	i = 0;
 
@@ -745,10 +719,6 @@ void mech_set_channelmode(dbref player, void *data, char *buffer)
 		buf[i++] = 'I';
 	if(nm & FREQ_MUTE)
 		buf[i++] = 'U';
-	if(nm & FREQ_RELAY)
-		buf[i++] = 'E';
-	if(nm & FREQ_SCAN)
-		buf[i++] = 'S';
 	if(!i)
 		buf[i++] = '-';
 	if(nm / FREQ_REST) {
@@ -756,8 +726,8 @@ void mech_set_channelmode(dbref player, void *data, char *buffer)
 		i = strlen(buf);
 	}
 	buf[i] = 0;
-	notify_printf(player, "Channel %c <send> mode set to %s (flags:%s).",
-				  'A' + chn, nm & FREQ_DIGITAL ? "digital" : "analog", buf);
+	notify_printf(
+		player, "Channel %c <send> flags set (%s).", 'A' + chn, buf);
 }
 
 void mech_list_freqs(dbref player, void *data, char *buffer)
@@ -769,13 +739,14 @@ void mech_list_freqs(dbref player, void *data, char *buffer)
 	notify(player, "# -- Mode -- Frequency -- Comtitle");
 	for(i = 0; i < MFreqs(mech); i++)
 		notify_printf(player, "%c    %c%c%c%c    %-9d    %s", 'A' + i,
-					  mech->freqmodes[i] & FREQ_DIGITAL ? 'D' : 'A',
-					  mech->freqmodes[i] & FREQ_RELAY ? 'R' : '-',
+					  // used to be digital bit
+					  'D',
+					  // used to be relay bit
+					  '-',
 					  mech->freqmodes[i] & FREQ_MUTE ? 'M' : '-',
-					  mech->freqmodes[i] & FREQ_SCAN ? 'S' : mech->
-					  freqmodes[i] >= FREQ_REST ?
+					  mech->freqmodes[i] >= FREQ_REST ?
 					  radio_colorstr[mech->freqmodes[i] / FREQ_REST - 1] :
-					  mech->freqmodes[i] & FREQ_INFO ? 'I' : '-',
+					  '-',
 					  mech->freq[i], mech->chantitle[i]);
 }
 
@@ -841,61 +812,16 @@ void mech_sendchannel(dbref player, void *data, char *buffer)
 	explode_mines(mech, mech->freq[chn]);
 }
 
-static void do_scramble(char *buffo, int ch, int bth)
-{
-	int i;
 
-	for(i = 0; buffo[i]; i++) {
-		if(Number(1, 100) > ch && Roll() < (bth + 5)) {
-			if(Number(1, 2) == 1)
-				buffo[i] -= Number(1, 10);
-			else
-				buffo[i] += Number(1, 10);
-		}
-		buffo[i] = (unsigned char) BOUNDED(33, buffo[i], 255);
-	}
-}
-
-#define my_modify(n,fact) (100 - (100 - (n)) / (fact))
-
-static int comm_num_to_conn;
-static int comm_is[MAX_MECHS_PER_MAP][MAX_MECHS_PER_MAP];
-static int comm_done[MAX_MECHS_PER_MAP];
-static MECH *comm_mech[MAX_MECHS_PER_MAP];
-static int comm_best;
-static int comm_best_path[MAX_MECHS_PER_MAP];
-static int comm_path[MAX_MECHS_PER_MAP];
-
-void ScrambleMessage(char *buffo, int range, int sendrange, int recvrrange,
-					 char *handle, char *msg, int bth, int *isxp,
-					 int under_ecm, int digmode)
+/*
+ * This doesn't actually scramble anymore, but it did a bit more than just
+ * scrambling before. We'll leave it here since I can't be arsed to clean this.
+ */
+void set_radio_message_prefix(char *buffo, char *handle, char *msg)
 {
 
-	int mr, i;
 	char *header = NULL;
 	char buf[LBUF_SIZE];
-
-	*isxp = 0;
-
-	if(digmode > 1 && comm_best > 1) {
-		int bearing;
-
-		strncpy(buf, "{R-path:", LBUF_SIZE);
-		for(i = 1; i < comm_best; i++) {
-			if(i > 1)
-				strcat(buf, "/");
-			bearing =
-				FindBearing(MechFX(comm_mech[comm_best_path[i]]),
-							MechFY(comm_mech[comm_best_path[i]]),
-							MechFX(comm_mech[comm_best_path[i - 1]]),
-							MechFY(comm_mech[comm_best_path[i - 1]]));
-			snprintf(buf + strlen(buf), LBUF_SIZE, "[%c%c]-h:%.3d",
-					 MechID(comm_mech[comm_best_path[i]])[0],
-					 MechID(comm_mech[comm_best_path[i]])[1], bearing);
-		}
-		strcat(buf, "} ");
-		header = buf;
-	}
 
 	if(handle && *handle)
 		snprintf(buffo, LBUF_SIZE, "%s<%s> %s", header ? header : "", handle,
@@ -903,27 +829,6 @@ void ScrambleMessage(char *buffo, int range, int sendrange, int recvrrange,
 	else
 		snprintf(buffo, LBUF_SIZE, "%s%s", header ? header : "", msg);
 
-	if((!digmode && (range >= sendrange || range >= recvrrange)) || under_ecm) {
-		if(!digmode) {
-
-			mr = MAX(recvrrange, (sendrange + recvrrange) / 2);
-			if(sendrange < range) {
-				do_scramble(buffo, (100 * sendrange) / MAX(1, range), bth);
-				*isxp = 1;
-			}
-
-			if(mr < range) {
-				do_scramble(buffo, my_modify((100 * mr) / MAX(1, range), 2),
-							bth);
-				*isxp = 1;
-			}
-		}
-
-		if(under_ecm && range >= 1) {
-			do_scramble(buffo, Number(30, 50), bth);
-			*isxp = 1;
-		}
-	}
 }
 
 int common_checks(dbref player, MECH * mech, int flag)
@@ -936,23 +841,6 @@ int common_checks(dbref player, MECH * mech, int flag)
 	if((flag & MECH_CONSISTENT) && !CheckData(player, mech))
 		return 0;
 
-	if(!Wizard(player)) {
-		/* ----------------------------- */
-		/* INSERT UNSUPPORTED TYPES HERE */
-		/* ----------------------------- */
-
-/*
-  		if(MechType(mech) == CLASS_AERO)
-			return 0;
-*/
-		/* ----------------------------- */
-	}
-
-/*
-    if (MechAuto(mech) > 0)
-	if (isPlayer(MechPilot(mech)))
-	    MechAuto(mech) = -1;
-*/
 	MechLastUse(mech) = 0;
 
 	if(flag & MECH_STARTED) {
@@ -987,133 +875,6 @@ int common_checks(dbref player, MECH * mech, int flag)
 	return 1;
 }
 
-static int iter_prevent;
-
-void recursive_commlink(int i, int dep)
-{
-	int j;
-
-	if(iter_prevent++ >= 10000)
-		return;
-	if(dep >= comm_best)
-		return;
-	comm_path[dep] = i;
-	for(j = 1; j < comm_num_to_conn; j++)
-		if(comm_is[i][j] && !comm_done[j]) {
-			if(j == (comm_num_to_conn - 1)) {
-				int k;
-
-				comm_best = dep;
-				for(k = 0; k < comm_best; k++)
-					comm_best_path[k] = comm_path[k];
-			} else {
-				comm_done[j] = 1;
-				recursive_commlink(j, dep + 1);
-				comm_done[j] = 0;
-			}
-		}
-}
-
-void nonrecursive_commlink(int i)
-{
-	int dep = 0, j;
-	int comm_loop[MAX_MECHS_PER_MAP];
-	int iter_c = 0;
-	int maxdepth = 0;
-
-	/* May _still_ contain fatal bug ; Ghod knows (I don't) */
-	comm_loop[0] = 1;
-	comm_path[0] = i;
-
-	while (dep >= 0) {
-		i = comm_path[dep];
-		for(j = comm_loop[dep]; j < comm_num_to_conn; j++)
-			if(comm_is[i][j] && !comm_done[j]) {
-				if(j == (comm_num_to_conn - 1)) {
-					int k;
-
-					comm_best = dep + 1;
-					for(k = 0; k < comm_best; k++)
-						comm_best_path[k] = comm_path[k];
-					j = comm_num_to_conn;
-					break;
-				} else if((dep + 1) < comm_best) {
-					comm_done[j] = 1;
-					comm_loop[dep++] = j + 1;
-					comm_loop[dep] = 1;
-					comm_path[dep] = j;
-					if(dep > maxdepth)
-						maxdepth = dep;
-					break;
-				}
-			}
-		if(j == comm_num_to_conn) {
-			if(dep > 0)
-				comm_done[comm_loop[--dep] - 1] = 0;
-			else
-				dep--;			/* We're finished! */
-		}
-		if(iter_c++ == 100000) {
-/* Lets not spam MechErrors with this.. */
-/* 
-			SendError(tprintf
-					  ("#%d: Infinite loop in relay code (?) ; using backup recursive code (num_mechs:%d, maxdepth:%d, nowdepth:%d)",
-					   comm_mech[0]->mynum, comm_num_to_conn, maxdepth, dep));
-*/
-			comm_best = 9999;
-			for(i = 0; i < comm_num_to_conn; i++)
-				comm_done[i] = 0;
-			iter_prevent = 0;
-			recursive_commlink(0, 0);
-			return;
-		}
-	}
-}
-
-int findCommLink(MAP * map, MECH * from, MECH * to, int freq)
-{
-	int i, j;
-	MECH *t;
-
-	comm_num_to_conn = 0;
-	comm_mech[comm_num_to_conn++] = from;
-	for(i = 0; i < map->first_free; i++) {
-		if(!(t = FindObjectsData(map->mechsOnMap[i])))
-			continue;
-		if(t == from || t == to)
-			continue;
-		if(MechTeam(from) != MechTeam(t))
-			continue;
-		if((MechMove(t) != MOVE_NONE && !Started(t)) ||
-		   (MechMove(t) == MOVE_NONE && Destroyed(t)))
-			continue;
-		if(!(MechRadioInfo(t) & RADIO_RELAY))
-			continue;
-		for(j = 0; j < MFreqs(t); j++)
-			if(t->freq[j] == freq)
-				if(t->freqmodes[j] & FREQ_RELAY) {
-					comm_mech[comm_num_to_conn++] = t;
-					continue;
-				}
-	}
-	comm_mech[comm_num_to_conn++] = to;
-	if(comm_num_to_conn == 2)
-		return 0;				/* Quickie kludge for the 'standard' case */
-	for(i = 0; i < comm_num_to_conn; i++) {
-		comm_done[i] = 0;
-		comm_is[i][i] = 0;
-		for(j = i + 1; j < comm_num_to_conn; j++) {
-			float range = FlMechRange(map, comm_mech[i], comm_mech[j]);
-
-			comm_is[i][j] = (range <= MechRadioRange(comm_mech[i]));
-			comm_is[j][i] = (range <= MechRadioRange(comm_mech[j]));
-		}
-	}
-	comm_best = 9999;
-	/*  recursive_commlink(0, 0);  */
-	nonrecursive_commlink(0);	/* better _pray_ this works */
-	return comm_best != 9999;
-}
 
 /* The code that does the actual sending of radio messages whenever
  * someone speaks on a given frequency */
@@ -1152,65 +913,19 @@ void sendchannelstuff(MECH * mech, int freq, char *msg)
 				continue;
 			obs = (MechCritStatus(tempMech) & OBSERVATORIC);
 			range = FaMechRange(mech, tempMech);
-			bearing = FindBearing(MechFX(tempMech), MechFY(tempMech),
-								  MechFX(mech), MechFY(mech));
+			bearing = FindBearing(
+				MechFX(tempMech), MechFY(tempMech),
+				MechFX(mech), MechFY(mech)
+			);
+
+			// Make sure the mech has a freq match.
 			for(i = 0; i < MFreqs(tempMech); i++) {
 				if(tempMech->freq[i] == mech->freq[freq] || obs) {
-					if((tempMech->freqmodes[i] & FREQ_MUTE) ||
-					   ((mech->freqmodes[freq] & FREQ_DIGITAL) &&
-						(MechRadioInfo(tempMech) & RADIO_NODIGITAL)))
+					if(tempMech->freqmodes[i] & FREQ_MUTE)
+						// Mute mode on, this channel should be ignored.
 						continue;
 					break;
 				}
-			}
-			if(i >= MFreqs(tempMech)) {
-				/* Possible scanner check */
-				if(!(mech->freqmodes[freq] & FREQ_DIGITAL))
-					if((MechRadioInfo(tempMech) & RADIO_SCAN) &&
-					   mech->freq[freq]) {
-						int tnc = 0;
-
-						for(i = 0; i < MFreqs(tempMech); i++)
-							if(tempMech->freqmodes[i] & FREQ_SCAN) {
-								int l = strlen(msg), t;
-								int mod, diff;
-								int pr;
-
-								/* Possible skill check here? Nah. */
-
-								/* Chance of detection: 1 in MIN(80,l) out of 100 */
-								if(Number(1, 100) > MIN(80, l))
-									continue;
-
-								if(!tnc++)
-									mech_notify(tempMech, MECHALL,
-												"You notice a "
-												"unknown transmission your scanner.. ");
-								if(tempMech->freq[i] < mech->freq[freq]) {
-									diff =
-										mech->freq[freq] - tempMech->freq[i];
-									mod = 1;
-								} else {
-									diff =
-										tempMech->freq[i] - mech->freq[freq];
-									mod = -1;
-								}
-
-								t = MAX(1,
-										Number(1, MIN(99, l)) * diff / 100);
-								pr = t * 100 / diff;
-								mech_printf(tempMech, MECHALL, "Your systems "
-											"manage to zero on it %s on channel %c.",
-											pr < 30 ? "somewhat" : pr < 60 ?
-											"fairly well" : pr < 95 ?
-											"precisely" : "exactly", i + 'A');
-								tempMech->freq[i] += mod * t;
-							}
-
-					}
-
-				continue;
-
 			}
 
 			strncpy(buf2, msg, LBUF_SIZE);
@@ -1220,19 +935,11 @@ void sendchannelstuff(MECH * mech, int freq, char *msg)
 			 * it should technically hear everything */
 
 			if(obs) {
-				if(mech->freqmodes[freq] & FREQ_DIGITAL) {
-					snprintf(buf, LBUF_SIZE, "%s[%c:%d] <%s:%s:%d> <%s> %s%%c",
-							 ccode(tempMech, i, obs, MechTeam(mech)),
-							 (char) ('A' + i), bearing,
-							 silly_atr_get(mech->mynum, A_FACTION),
-							 MechIDS(mech, 0), mech->freq[freq], mech->chantitle[freq],buf2);
-				} else {
-					snprintf(buf, LBUF_SIZE, "%s(%c:%d) <%s:%s:%d> <%s> %s%%c",
-							 ccode(tempMech, i, obs, MechTeam(mech)),
-							 (char) ('A' + i), bearing,
-							 silly_atr_get(mech->mynum, A_FACTION),
-							 MechIDS(mech, 0), mech->freq[freq], mech->chantitle[freq],buf2);
-				}
+				snprintf(buf, LBUF_SIZE, "%s[%c:%d] <%s:%s:%d> <%s> %s%%c",
+						 ccode(tempMech, i, obs, MechTeam(mech)),
+						 (char) ('A' + i), bearing,
+						 silly_atr_get(mech->mynum, A_FACTION),
+						 MechIDS(mech, 0), mech->freq[freq], mech->chantitle[freq],buf2);
 				mech_notify(tempMech, MECHALL, buf);
 			}
 
@@ -1252,82 +959,32 @@ void sendchannelstuff(MECH * mech, int freq, char *msg)
 							 "reported on Mech #%ld but not in the proper location",
 							 a->mynum, Location(a->mynum), tempMech->mynum);
 					SendAI(ai_buf);
-				} else if(a && !ECMDisturbed(tempMech)) {
-					/* Ok send the command to the AI provided its not ECM'd */
+				} else if(a) {
+					/* Ok send the command to the AI, even if ECM'd */
 					strncpy(buf3, msg, LBUF_SIZE);
 					auto_parse_command(a, tempMech, i, buf3);
 				}
 			}
-			/* Removed the Radio fail stuff because it annoys me - Dany
-			   CheckGenericFail(tempMech, -2, &rfail_type, &rfail_mod);
-			 */
+
 			if(!MechRadioRange(tempMech))
 				continue;
-			if(mech->freqmodes[freq] & FREQ_DIGITAL) {
-				if(range > MechRadioRange(mech)) {
-					if(!findCommLink
-					   (mech_map, mech, tempMech, mech->freq[freq]))
-						continue;
-				} else
-					comm_best = 1;
 
-				if(tempMech != mech) {
-					if(AnyECMDisturbed(mech))
-						continue;
-					else if(AnyECMDisturbed(tempMech))
-						continue;
-				}
+			set_radio_message_prefix(buf3, mech->chantitle[freq], buf2);
 
-				ScrambleMessage(buf3, range, MechRadioRange(mech),
-								MechRadioRange(mech), mech->chantitle[freq],
-								buf2, MechComm(tempMech), &isxp, 0,
-								(tempMech->freqmodes[i] & FREQ_INFO) ? 2 : 1);
-
-				if(comm_best >= 2)
-					bearing = FindBearing(MechFX(tempMech), MechFY(tempMech),
-										  MechFX(comm_mech
-												 [comm_best_path
-												  [comm_best - 1]]),
-										  MechFY(comm_mech
-												 [comm_best_path
-												  [comm_best - 1]]));
-				if(!obs)
-					snprintf(buf, LBUF_SIZE, "%s[%c:%.3d] %s%%c",
-							 ccode(tempMech, i, obs, MechTeam(mech)),
-							 (char) ('A' + i), bearing, buf3);
-
-			} else {
-
-				ScrambleMessage(buf3, range, MechRadioRange(mech),
-								MechRadioRange(tempMech),
-								mech->chantitle[freq], buf2,
-								MechComm(tempMech), &isxp,
-								(AnyECMDisturbed(mech)
-								 || AnyECMDisturbed(tempMech)
-								 /*
-								    || sfail_type == FAIL_STATIC ||
-								    rfail_type == FAIL_STATIC
-								  */
-								) && mech != tempMech, 0);
-				if(!obs)
-					snprintf(buf, LBUF_SIZE, "%s(%c:%.3d) %s%%c",
-							 ccode(tempMech, i, obs, MechTeam(mech)),
-							 (char) ('A' + i), bearing, buf3);
-
+			if(!obs) {
+				snprintf(buf, LBUF_SIZE, "%s[%c:%.3d] %s%%c",
+						 ccode(tempMech, i, obs, MechTeam(mech)),
+						 (char) ('A' + i), bearing, buf3);
+				mech_notify(tempMech, MECHALL, buf);
 			}
 
-			if(!obs)
-				mech_notify(tempMech, MECHALL, buf);
-			if(isxp && In_Character(tempMech->mynum))
-				if((MechCommLast(tempMech) + 60) < muxevent_tick) {
-					AccumulateCommXP(MechPilot(tempMech), tempMech);
-					MechCommLast(tempMech) = muxevent_tick;
-				}
-
 		}
-	}							/* End of looping through all the units on the map */
+	} /* End of looping through all the units on the map */
 }
 
+/*
+ * Sends a LoS radio message via laser comms.
+ */
 void mech_radio(dbref player, void *data, char *buffer)
 {
 	int argc;

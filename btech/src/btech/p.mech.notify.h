@@ -29,13 +29,8 @@ void mech_set_channeltitle(dbref player, void *data, char *buffer);
 void mech_set_channelmode(dbref player, void *data, char *buffer);
 void mech_list_freqs(dbref player, void *data, char *buffer);
 void mech_sendchannel(dbref player, void *data, char *buffer);
-void ScrambleMessage(char *buffo, int range, int sendrange, int recvrrange,
-    char *handle, char *msg, int bth, int *isxp, int under_ecm,
-    int digmode);
+void set_radio_message_prefix(char *buffo, char *handle, char *msg);
 int common_checks(dbref player, MECH * mech, int flag);
-void recursive_commlink(int i, int dep);
-void nonrecursive_commlink(int i);
-int findCommLink(MAP * map, MECH * from, MECH * to, int freq);
 void sendchannelstuff(MECH * mech, int freq, char *msg);
 void mech_radio(dbref player, void *data, char *buffer);
 void MechBroadcast(MECH * mech, MECH * target, MAP * mech_map,

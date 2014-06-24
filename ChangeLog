@@ -1,3 +1,23 @@
+sos-fork 1.0:
+	
+	Radio simplification
+	--------------------
+	With SoS having entirely OOC comms, ECM'd players tended to
+	just use comsys channels. Rather than present this ergonimical
+	issue, we've gutted the fancyness out of the radio system. It's
+	just a flat check based on frequencies with no other considerations.
+
+	* Analog radio mode no longer exists. Everything is digital.
+	* Radio ranges are no taken into account at all.
+	* ECM no longer scrambles radio.
+	* Relay, Info, and Scan modes have been removed.
+
+	Assorted
+	--------
+	* AI now startup immediately (startup override).
+	* AI sensor changes don't break locks. Sensor switching logic
+	  was causing constant lock breaks.
+
 btonline-btechmux 0.6:
 	- Changes
 	* Replaced the muxevent event queue's with evtimer callbacks.

@@ -248,7 +248,8 @@ void mech_startup(dbref player, void *data, char *buffer)
 			 player), "This isn't your mech!");
 	n = 0;
 	if(*buffer && !strncasecmp(buffer, "override", strlen(buffer))) {
-		DOCHECK(!WizP(player), "Insufficient access!");
+		if(MechAuto(mech) <= 0)
+			DOCHECK(!WizP(player), "Insufficient access!");
 		n = BOOTCOUNT - 1;
 	}
 	MechPilot(mech) = player;
