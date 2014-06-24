@@ -928,6 +928,11 @@ void sendchannelstuff(MECH * mech, int freq, char *msg)
 				}
 			}
 
+			if(i >= MFreqs(tempMech)) {
+				// No freq match. Skip this unit.
+				continue;
+			}
+
 			strncpy(buf2, msg, LBUF_SIZE);
 
 			/* Let's just do the OBSERVERIC Stuff here. No sense checking
