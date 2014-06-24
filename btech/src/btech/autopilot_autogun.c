@@ -70,7 +70,7 @@ int SearchLightInRange(MECH * mech, MAP * map)
 
 		/* The unit doesn't have slite on */
 		if(!(MechSpecials(target) & SLITE_TECH)
-		   || MechCritStatus(mech) & SLITE_DEST)
+		   || (MechCritStatus(mech) & SLITE_DEST))
 			continue;
 
 		/* Is the mech close enough to be affected by the slite */
@@ -78,7 +78,7 @@ int SearchLightInRange(MECH * mech, MAP * map)
 
 			/* Returning true, but let's differentiate also between being in-arc. */
 			if((MechStatus(target) & SLITE_ON) &&
-			   InWeaponArc(target, MechFX(mech), MechFY(mech)) & FORWARDARC) {
+			   (InWeaponArc(target, MechFX(mech), MechFY(mech)) & FORWARDARC)) {
 
 				/* Make sure its in los */
 				if(!
@@ -93,9 +93,9 @@ int SearchLightInRange(MECH * mech, MAP * map)
 					/* Slite on, arced, but LoS blocked */
 					return 4;
 
-			} else if(!MechStatus(target) & SLITE_ON &&
-					  InWeaponArc(target, MechFX(mech),
-								  MechFY(mech)) & FORWARDARC) {
+			} else if(!(MechStatus(target) & SLITE_ON) &&
+					  (InWeaponArc(target, MechFX(mech),
+								  MechFY(mech)) & FORWARDARC)) {
 
 				if(!
 				   (map->
@@ -129,11 +129,11 @@ int PrefVisSens(MECH * mech, MAP * map, int slite, MECH * target)
 		return SENSOR_VIS;
 
 	/* Ok the AI is lit or using slite so use V */
-	if(MechStatus(mech) & SLITE_ON || MechCritStatus(mech) & SLITE_LIT)
+	if((MechStatus(mech) & SLITE_ON) || (MechCritStatus(mech) & SLITE_LIT))
 		return SENSOR_VIS;
 
 	/* The target is lit so use V */
-	if(target && MechCritStatus(target) & SLITE_LIT)
+	if(target && (MechCritStatus(target) & SLITE_LIT))
 		return SENSOR_VIS;
 
 	/* Ok if its night/dawn/dusk and theres no slite use L */
@@ -251,7 +251,7 @@ void auto_sensor_event(AUTO *autopilot)
 		}
 
 		/* If the target is really close and the unit has BAP, use it */
-		if(!set && (int) trng <= 4 && MechSpecials(mech) & BEAGLE_PROBE_TECH
+		if(!set && (int) trng <= 4 && (MechSpecials(mech) & BEAGLE_PROBE_TECH)
 		   && !(MechCritStatus(mech) & BEAGLE_DESTROYED)) {
 			wanted_s[0] = SENSOR_BAP;
 			wanted_s[1] = SENSOR_BAP;
@@ -260,7 +260,7 @@ void auto_sensor_event(AUTO *autopilot)
 
 		/* If the target is really close and the unit has Bloodhound, use it */
 		if(!set && (int) trng <= 8
-		   && MechSpecials2(mech) & BLOODHOUND_PROBE_TECH
+		   && (MechSpecials2(mech) & BLOODHOUND_PROBE_TECH)
 		   && !(MechCritStatus(mech) & BLOODHOUND_DESTROYED)) {
 			wanted_s[0] = SENSOR_BHAP;
 			wanted_s[1] = SENSOR_BHAP;
@@ -298,10 +298,15 @@ void auto_sensor_event(AUTO *autopilot)
 		wanted_s[0] = BOUNDED(SENSOR_VIS, wanted_s[0], SENSOR_BHAP);
 		wanted_s[1] = BOUNDED(SENSOR_VIS, wanted_s[1], SENSOR_BHAP);
 
+		// Auto sensor changes happen instantly, unlike the commanded sensor
+		// changes or the player sensor changes.
 		MechSensor(mech)[0] = wanted_s[0];
 		MechSensor(mech)[1] = wanted_s[1];
-		mech_notify(mech, MECHALL, "As your sensors change, your lock clears.");
-		MechTarget(mech) = -1;
+		mech_notify(mech, MECHALL, "Autopilot has automatically changed sensors.");
+		// The sensor update logic is pretty skeevy. The constant sensor changes
+		// were hurting their combat effectiveness quite a bit. Don't clear
+		// targets so they can keep on going.
+		//MechTarget(mech) = -1;
 		MarkForLOSUpdate(mech);
 	}
 }
