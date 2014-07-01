@@ -17,6 +17,9 @@ sos-fork 1.0:
 	* AI now startup immediately (startup override).
 	* AI sensor changes don't break locks. Sensor switching logic
 	  was causing constant lock breaks.
+    * @chzone no longer resets flags/powers. While this makes sense for a
+      game with player building, it's mostly annoying given that SoS has
+      no player building.
 
 btonline-btechmux 0.6:
 	- Changes

@@ -138,22 +138,6 @@ void do_chzone(dbref player, dbref cause, int key, char *name, char *newobj)
 	 * everything is okay, do the change 
 	 */
 	db[thing].zone = zone;
-	if(Typeof(thing) != TYPE_PLAYER) {
-		/*
-		 * if the object is a player, resetting these flags is rather
-		 * * * * * inconvenient -- although this may pose a bit of a * 
-		 * *  * security * risk. Be careful when @chzone'ing wizard or 
-		 * * * * royal players. 
-		 */
-		Flags(thing) &= ~WIZARD;
-		Flags(thing) &= ~ROYALTY;
-		Flags(thing) &= ~INHERIT;
-#ifdef USE_POWERS
-		Powers(thing) = 0;		/*
-								 * wipe out all powers 
-								 */
-#endif
-	}
 	notify(player, "Zone changed.");
 }
 
