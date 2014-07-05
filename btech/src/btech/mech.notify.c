@@ -694,6 +694,10 @@ void mech_set_channelmode(dbref player, void *data, char *buffer)
 		case 'D':
 			// This used to be the digital flag, but it's always digital now.
 			break;
+		case 'e':
+		case 'E':
+			// Former relay flag
+			break;
 		case 'U':
 		case 'u':
 			nm |= FREQ_MUTE;
