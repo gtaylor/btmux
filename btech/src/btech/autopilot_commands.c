@@ -119,7 +119,7 @@ void auto_command_startup(AUTO * autopilot, MECH * mech)
 
 	if(!Starting(mech)) {
 		// Autopilots get to startup immediately.
-		mech_startup(autopilot->mynum, mech, "override");
+		mech_startup(autopilot->mynum, mech, "");
 		auto_goto_next_command(autopilot, AUTOPILOT_STARTUP_TICK);
 	}
 
