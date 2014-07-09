@@ -240,18 +240,16 @@ struct {
 	1, "%cw"}, {
 	2, "%cc"}, {
 	3, "%cm"}, {
-	4, "%cb"}, {
-	5, "%cy"}, {
-	6, "%cg"}, {
-	7, "%cr"}, {
-	8, "%ch%cx"}, {
-	9, "%ch%cw"}, {
-	10, "%ch%cc"}, {
-	11, "%ch%cm"}, {
-	12, "%ch%cb"}, {
-	13, "%ch%cy"}, {
-	14, "%ch%cg"}, {
-	15, "%ch%cr"}, {
+	4, "%cy"}, {
+	5, "%cg"}, {
+	6, "%cr"}, {
+	7, "%ch%cx"}, {
+	8, "%ch%cw"}, {
+	9, "%ch%cc"}, {
+	10, "%ch%cm"}, {
+	11, "%ch%cy"}, {
+	12, "%ch%cg"}, {
+	13, "%ch%cr"}, {
 	0, "%ch%cw"}
 };
 
@@ -655,9 +653,9 @@ static char *ccode(MECH * m, int i, int obs, int team)
 		sprintf(buf, "%%ch%%c%c", ToLower(radio_colorstr[t - 1]));
 	} else {
 		// Observation lounges colorize based on team number.
-		if (team > 15)
-			team = team % 15;
-		for(ii = 0; ii < 15; ii++) {
+		if (team > 13)
+			team = team % 13;
+		for(ii = 0; ii < 13; ii++) {
 			if(team == obs_team_color[ii].team)
 				sprintf(buf, "%s", obs_team_color[ii].ccode);
 		}
