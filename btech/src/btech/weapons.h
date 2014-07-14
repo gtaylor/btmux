@@ -72,13 +72,13 @@ struct weapon_struct MechWeapons[] = {
 /* TacMunch stuff */
 
     {"IS.ELRM-5", VRT_IS_ELRM5, TMISSILE, 3, 1, 10, 12, 24, 36, 0, -1, -1,
-	-1, 1, 18, 600, -1, IDF | ELRM | NOSPA, 1000},
+	-1, 1, 18, 600, -1, IDF | ELRM | NOSPA, 67, 60000, 8, 35000},
     {"IS.ELRM-10", VRT_IS_ELRM10, TMISSILE, 6, 1, 10, 12, 24, 36, 0, -1,
-	-1, -1, 4, 9, 800, -1, IDF | ELRM | NOSPA, 1000},
+	-1, -1, 4, 9, 800, -1, IDF | ELRM | NOSPA, 133, 200000, 17, 35000},
     {"IS.ELRM-15", VRT_IS_ELRM15, TMISSILE, 8, 1, 10, 12, 24, 36, 0, -1,
-	-1, -1, 6, 6, 1200, -1, IDF | ELRM | NOSPA, 1000},
+	-1, -1, 6, 6, 1200, -1, IDF | ELRM | NOSPA, 200, 350000, 25, 35000},
     {"IS.ELRM-20", VRT_IS_ELRM20, TMISSILE, 10, 1, 10, 12, 24, 36, 0, -1,
-	-1, -1, 8, 4, 1800, -1, IDF | ELRM | NOSPA, 1000},
+	-1, -1, 8, 4, 1800, -1, IDF | ELRM | NOSPA, 268, 500000, 34, 35000},
     {"IS.LR_DFM-5", VRT_IS_LR_DFM5, TMISSILE, 2, 2, 4, 6, 12, 18, 0, -1,
 	-1, -1, 1, 24, 200, -1, IDF | DFM | NOSPA, 1000},
     {"IS.LR_DFM-10", VRT_IS_LR_DFM10, TMISSILE, 4, 2, 4, 6, 12, 18, 0, -1,

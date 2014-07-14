@@ -6,6 +6,9 @@
 *.la
 *~
 *.swp
+cscope.out
+
+/backups
 
 # I'm not sure what this is
 /Debug
