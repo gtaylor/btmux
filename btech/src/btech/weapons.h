@@ -106,11 +106,11 @@ struct weapon_struct MechWeapons[] = {
 /* End Caseless */
 
     {"IS.HyperAC/2", VRT_IS_HAC2, TAMMO, 1, 2, 3, 10, 20, 35, 0, -1, -1,
-	-1, 4, 30, 800, -1, NOSPA | HYPER, 1000},
+	-1, 4, 30, 800, -1, NOSPA | HYPER, 53, 100000, 7, 3000},
     {"IS.HyperAC/5", VRT_IS_HAC5, TAMMO, 3, 5, 0, 8, 16, 28, 0, -1, -1, -1,
-	5, 15, 1200, -1, NOSPA | HYPER, 1000},
+	5, 15, 1200, -1, NOSPA | HYPER, 109, 160000, 14, 10000},
     {"IS.HyperAC/10", VRT_IS_HAC10, TAMMO, 7, 10, 0, 6, 12, 20, 0, -1, -1,
-	-1, 6, 8, 1400, -1, NOSPA | HYPER, 1000},
+	-1, 6, 8, 1400, -1, NOSPA | HYPER, 158, 230000, 20, 20000},
 
 /* .. normal cont'd ; energy weapons .. */
 
