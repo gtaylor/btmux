@@ -214,7 +214,6 @@ struct weapon_struct MechWeapons[] = {
     {"CL.SRM-6", VRT_CL_SRM6, TMISSILE, 4, 2, 0, 3, 6, 9, 0, -1, -1, -1, 1,
             15, 150, -1, CLAT, 59, 80000, 7, 27000},
 
-
 /* Don't know why we have clan versions of these. Not used */
 //    {"CL.LargeLaser", VRT_CL_LL, TBEAM, 8, 8, 0, 5, 10, 15, 0, 3, 6, 9, 1,
 //          0, 400, -1, CLAT, 124},
@@ -229,7 +228,7 @@ struct weapon_struct MechWeapons[] = {
     {"IS.PPC", VRT_IS_PPC, TBEAM, 10, 10, 3, 6, 12, 18, 3, 4, 7, 10, 3, 0,
         700, -1, NONE, 176, 200000, 0, 0},
     {"IS.LargeLaser", VRT_IS_LL, TBEAM, 8, 8, 0, 5, 10, 15, 0, 3, 6, 9, 2,
-        0, 500, -1, NONE, 124, 100000, 0, 0},
+        0, 500, -1, NONE, 123, 100000, 0, 0},
     {"IS.MediumLaser", VRT_IS_ML, TBEAM, 3, 5, 0, 3, 6, 9, 0, 2, 4, 6, 1,
         0, 100, -1, NONE, 46, 40000, 0, 0},
     {"IS.SmallLaser", VRT_IS_SL, TBEAM, 1, 3, 0, 1, 2, 3, 0, 1, 2, -1, 1,
