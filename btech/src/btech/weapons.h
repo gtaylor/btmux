@@ -282,6 +282,8 @@ struct weapon_struct MechWeapons[] = {
         20, 50, -1, CHEAT, 5, 7500, 1, 1000},
     {"IS.MachineGun", VRT_IS_MG, TAMMO, 0, 2, 0, 1, 2, 3, 0, -1, -1, -1, 1,
         200, 50, -1, GMG, 5, 5000, 1, 1000},
+    {"IS.LightMachineGun", VRT_IS_MG, TAMMO, 0, 1, 0, 2, 4, 6, 0, -1, -1, -1, 1,
+        200, 50, -1, GMG, 5, 5000, 1, 500},
 
 /* IS Level 2 Ballistic Weapons -- Verified 02/13/07 -- Power_Shaper */
     {"IS.Anti-MissileSystem", VRT_IS_AMS, TMISSILE, 1, 2, 0, 1, 1, 1, 0,
