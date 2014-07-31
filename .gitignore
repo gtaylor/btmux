@@ -1,4 +1,5 @@
 \[autoconf.h\].in
+.settings
 .project
 .cproject
 *.o
