@@ -1131,11 +1131,7 @@ char *critslot_func(MECH * mech, char *buf_section, char *buf_critnum,
 	if(type == EMPTY || IsCrap(type))
 		return "Empty";
 	if(flag == 0)
-#ifndef BT_COMPLEXREPAIRS
 		type = alias_part(mech, type);
-#else
-		type = alias_part(mech, type, index);
-#endif
 	snprintf(buffer, MBUF_SIZE, "%s",
 			 get_parts_vlong_name(type, GetPartBrand(mech, index, crit)));
 	return buffer;

@@ -20,6 +20,8 @@ sos-fork 1.0:
     * @chzone no longer resets flags/powers. While this makes sense for a
       game with player building, it's mostly annoying given that SoS has
       no player building.
+    * Complete removal of BT_COMPLEXREPAIRS.
+    * Improved accuracy of btunitpartslist().
 
 btonline-btechmux 0.6:
 	- Changes

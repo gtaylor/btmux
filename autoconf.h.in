@@ -6,9 +6,6 @@
 /* Should the advanced econ system be enabled */
 #undef BT_ADVANCED_ECON
 
-/* Should complex repairs be enabled */
-#undef BT_COMPLEXREPAIRS
-
 /* Should the freetechtime code be enabled */
 #undef BT_FREETECHTIME
 

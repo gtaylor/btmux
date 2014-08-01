@@ -167,30 +167,6 @@ AC_ARG_ENABLE([bt-scaled-infrared],
     ]
 )
 
-AC_MSG_CHECKING([whether to enable complex repairs])
-AC_ARG_ENABLE([bt-complexrepairs],
-    AS_HELP_STRING([--enable-bt-complexrepairs],
-                   [Enable code for complex repairs [[default=disabled]]])
-    AS_HELP_STRING([ ], [ ]),
-    [
-        case "${enableval}" in
-            yes) 
-                AC_DEFINE([BT_COMPLEXREPAIRS], [1], [Should complex repairs be enabled])
-                AC_MSG_RESULT([yes])
-                ;;
-            no)
-                AC_MSG_RESULT([no])
-                ;;
-            *)
-                AC_MSG_ERROR(bad value "${enableval}" for bt-complexrepairs option)
-                ;;
-        esac
-    ],
-    [
-        AC_MSG_RESULT([no])
-    ]
-)
-
 AC_MSG_CHECKING([whether to allow mech overspeeding])
 AC_ARG_ENABLE([bt-overspeeding],
     AS_HELP_STRING([--enable-bt-overspeeding],

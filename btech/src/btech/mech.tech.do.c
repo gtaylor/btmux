@@ -24,13 +24,8 @@
 AVCHECKM(m,a,b,c); \
 GrabPartsM(m,a,b,c);
 
-#ifndef BT_COMPLEXREPAIRS
 #define PARTCHECK(m,a,b,c) \
 { PARTCHECK_SUB(m, alias_part(m, a), b, c); }
-#else
-#define PARTCHECK(m,a,b,c) \
-{ PARTCHECK_SUB(m, alias_part(m, a, loc), b, c); }
-#endif
 
 #define PARTCHECKTWO(m,a,b,c,d,e,f) \
 AVCHECKM(m,a,b,c); \
@@ -334,22 +329,8 @@ TFUNC_LOCPOS(repairenhcrit_econ)
 
 TFUNC_LOC(reattach_econ)
 {
-#ifndef BT_COMPLEXREPAIRS
 	PARTCHECKTWO(mech, ProperInternal(mech), 0, GetSectOInt(mech, loc),
 				 Cargo(S_ELECTRONIC), 0, GetSectOInt(mech, loc));
-#else
-	if(mudconf.btech_complexrepair) {
-		if(MechType(mech) == CLASS_MECH) {
-			PARTCHECKTWO(mech, ProperInternal(mech), 0,
-						 GetSectOInt(mech, loc), ProperMyomer(mech), 0, 1);
-		} else {
-			PARTCHECK(mech, ProperInternal(mech), 0, GetSectOInt(mech, loc));
-		}
-	} else {
-		PARTCHECKTWO(mech, ProperInternal(mech), 0, GetSectOInt(mech, loc),
-					 Cargo(S_ELECTRONIC), 0, GetSectOInt(mech, loc));
-	}
-#endif
 	return 0;
 }
 
@@ -416,13 +397,8 @@ TFUNC_LOCPOS(replaceg_fail)
 	notify_printf(player,
 				  "Despite messing the repair, you manage not to waste the %s.",
 				  w ? "weapon" : "part");
-#ifndef BT_COMPLEXREPAIRS
 	AddPartsM(mech, FindAmmoType(mech, loc, part), GetPartBrand(mech, loc,
 																part), 1);
-#else
-	AddPartsM(mech, loc, FindAmmoType(mech, loc, part),
-			  GetPartBrand(mech, loc, part), 1);
-#endif
 	return -1;
 }
 
@@ -528,15 +504,8 @@ TFUNC_LOC(reattach_fail)
 		tot = 1;
 	if(tot == GetSectOInt(mech, loc))
 		tot = GetSectOInt(mech, loc) - 1;
-#ifndef BT_COMPLEXREPAIRS
 	AddPartsM(mech, Cargo(S_ELECTRONIC), 0, tot);
 	AddPartsM(mech, ProperInternal(mech), 0, tot);
-#else
-	AddPartsM(mech, loc, Cargo(S_ELECTRONIC), 0, tot);
-	AddPartsM(mech, loc, ProperInternal(mech), 0, tot);
-	if(mudconf.btech_complexrepair && MechType(mech) == CLASS_MECH)
-		AddPartsM(mech, loc, ProperMyomer(mech), 0, 1);
-#endif
 	return -1;
 }
 
@@ -551,7 +520,6 @@ TFUNC_LOC(replacesuit_fail)
 	notify_printf(player,
 				  "Despite your disastrous failure, you recover %d%% of the materials.",
 				  wRand);
-#ifndef BT_COMPLEXREPAIRS
 	AddPartsM(mech, Cargo(BSUIT_SENSOR), 0,
 			  MAX(((BSUIT_REPAIR_SENSORS_NEEDED * wRand) / 100), 1));
 	AddPartsM(mech, Cargo(BSUIT_LIFESUPPORT), 0,
@@ -560,16 +528,6 @@ TFUNC_LOC(replacesuit_fail)
 			  ((BSUIT_REPAIR_ELECTRONICS_NEEDED * wRand) / 100));
 	AddPartsM(mech, ProperInternal(mech), 0,
 			  MAX(((BSUIT_REPAIR_INTERNAL_NEEDED * wRand) / 100), 1));
-#else
-	AddPartsM(mech, loc, Cargo(BSUIT_SENSOR), 0,
-			  MAX(((BSUIT_REPAIR_SENSORS_NEEDED * wRand) / 100), 1));
-	AddPartsM(mech, loc, Cargo(BSUIT_LIFESUPPORT), 0,
-			  ((BSUIT_REPAIR_LIFESUPPORT_NEEDED * wRand) / 100));
-	AddPartsM(mech, loc, Cargo(BSUIT_ELECTRONIC), 0,
-			  ((BSUIT_REPAIR_ELECTRONICS_NEEDED * wRand) / 100));
-	AddPartsM(mech, loc, ProperInternal(mech), 0,
-			  MAX(((BSUIT_REPAIR_INTERNAL_NEEDED * wRand) / 100), 1));
-#endif
 	return -1;
 }
 
@@ -593,12 +551,7 @@ TFUNC_LOC_RESEAL(reseal_fail)
 		tot = 1;
 	if(tot == GetSectOInt(mech, loc))
 		tot = GetSectOInt(mech, loc) - 1;
-#ifndef BT_COMPLEXREPAIRS
 	AddPartsM(mech, Cargo(S_ELECTRONIC), 0, tot);
 	AddPartsM(mech, ProperInternal(mech), 0, tot);
-#else
-	AddPartsM(mech, loc, Cargo(S_ELECTRONIC), 0, tot);
-	AddPartsM(mech, loc, ProperInternal(mech), 0, tot);
-#endif
 	return -1;
 }

@@ -90,7 +90,6 @@
   * ARBITRARY_LOGFILES_MODE changes to use '2' as settings.
   * BT_ADVANCED_ECON 
   * BT_FREETECHTIME
-  * BT_COMPLEXREPAIRS
   * BT_MECHDEST_TRIGGER
   *
   * Under the /hcode, /hcode/btech, and hcode/btech/include tree all code
@@ -107,5 +106,4 @@
   * BT_FREETECHTIME
   * BT_MOVEMENT_MODES
   * BT_CARRIERS
-  * BT_COMPLEXREPAIRS
   */

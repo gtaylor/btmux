@@ -95,30 +95,6 @@ AC_ARG_ENABLE([enhanced-logging],
 
 AM_CONDITIONAL([MUX_LOGCACHE], [test x"${enable_enhanced_logging}" = x"yes"])
 
-AC_MSG_CHECKING([Should we enable the code for complex repairs [[default=no]]])
-AC_ARG_ENABLE([bt-complexrepairs],
-    AS_HELP_STRING([--enable-bt-complexrepairs],
-                   [Enable code for complex repairs [[default=disabled]]])
-    AS_HELP_STRING([ ], [ ]),
-    [
-        case "${enableval}" in
-            yes) 
-                AC_DEFINE([BT_COMPLEXREPAIRS], [1], [Should complex repairs be enabled])
-                AC_MSG_RESULT([yes])
-                ;;
-            no)
-                AC_MSG_RESULT([no])
-                ;;
-            *)
-                AC_MSG_ERROR(bad value "${enableval}" for bt-complexrepairs option)
-                ;;
-        esac
-    ],
-    [
-        AC_MSG_RESULT([no])
-    ]
-)
-
 AC_MSG_CHECKING([Should we enable the code for freetechtime [[default=no]]])
 AC_ARG_ENABLE([bt-freetechtime],
     AS_HELP_STRING([--enable-bt-freetechtime],

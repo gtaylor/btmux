@@ -2578,13 +2578,6 @@ void fun_btparttype(char *buff, char **bufc, dbref player, dbref cause,
 	} else if(IsSpecial(p)) {
 		safe_tprintf_str(buff, bufc, "PART");
 		return;
-#ifdef BT_COMPLEXREPAIRS
-	} else if(mudconf.btech_complexrepair && IsCargo(p)
-			  && Cargo2I(p) >= TON_SENSORS_FIRST
-			  && Cargo2I(p) <= TON_ENGINE_COMP_LAST) {
-		safe_tprintf_str(buff, bufc, "PART");
-		return;
-#endif
 	} else if(IsCargo(p)) {
 		safe_tprintf_str(buff, bufc, "CARG");
 		return;

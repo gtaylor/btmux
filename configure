@@ -3338,37 +3338,6 @@ else
 fi
 
 
-{ $as_echo "$as_me:${as_lineno-$LINENO}: checking Should we enable the code for complex repairs [default=no]" >&5
-$as_echo_n "checking Should we enable the code for complex repairs [default=no]... " >&6; }
-# Check whether --enable-bt-complexrepairs was given.
-if test "${enable_bt_complexrepairs+set}" = set; then :
-  enableval=$enable_bt_complexrepairs;
-        case "${enableval}" in
-            yes)
-
-$as_echo "#define BT_COMPLEXREPAIRS 1" >>confdefs.h
-
-                { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
-$as_echo "yes" >&6; }
-                ;;
-            no)
-                { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-                ;;
-            *)
-                as_fn_error $? "bad value \"${enableval}\" for bt-complexrepairs option" "$LINENO" 5
-                ;;
-        esac
-
-else
-
-        { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
-$as_echo "no" >&6; }
-
-
-fi
-
-
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking Should we enable the code for freetechtime [default=no]" >&5
 $as_echo_n "checking Should we enable the code for freetechtime [default=no]... " >&6; }
 # Check whether --enable-bt-freetechtime was given.

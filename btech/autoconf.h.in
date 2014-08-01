@@ -15,9 +15,6 @@
 /* Should the cargo commands be enabled */
 #undef BT_CARGO_COMMANDS
 
-/* Should complex repairs be enabled */
-#undef BT_COMPLEXREPAIRS
-
 /* Should MW3-like stats and skills be enabled */
 #undef BT_EXILE_MW3STATS
 

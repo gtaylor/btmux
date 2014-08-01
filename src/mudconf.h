@@ -177,9 +177,6 @@ struct confdata {
 #ifdef BT_FREETECHTIME
     int btech_freetechtime;	/* Near instant repair times */
 #endif
-#ifdef BT_COMPLEXREPAIRS
-    int btech_complexrepair;
-#endif
 #ifdef HUDINFO_SUPPORT
     int hudinfo_show_mapinfo;	/* What kind of info we are willing to give */
     int hudinfo_enabled;	/* At runtime turn HUD on and off */

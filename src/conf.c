@@ -165,9 +165,6 @@ void cf_init(void)
 #ifdef BT_FREETECHTIME
 	mudconf.btech_freetechtime = 0;
 #endif
-#ifdef BT_COMPLEXREPAIRS
-	mudconf.btech_complexrepair = 1;
-#endif
 #ifdef HUDINFO_SUPPORT
 	mudconf.hudinfo_show_mapinfo = 0;
 	mudconf.hudinfo_enabled;
@@ -1199,10 +1196,6 @@ CONF conftable[] = {
 #ifdef BT_FREETECHTIME
 	{(char *) "btech_freetechtime",
 	 cf_int, CA_GOD, &mudconf.btech_freetechtime, 0},
-#endif
-#ifdef BT_COMPLEXREPAIRS
-	{(char *) "btech_complexrepair",
-	 cf_int, CA_GOD, &mudconf.btech_complexrepair, 0},
 #endif
 #ifdef HUDINFO_SUPPORT
 	{(char *) "hudinfo_show_mapinfo",

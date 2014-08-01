@@ -209,7 +209,6 @@ ECMD(tech_fix);
 #define UNPACK_LOCPOS(var,loc,pos)  loc = (var % LOCMAX);pos = (var / LOCMAX) % POSMAX
 #define UNPACK_LOCPOS_E(var,loc,pos,extra) UNPACK_LOCPOS(var,loc,pos);extra = var / (LOCMAX * POSMAX)
 
-#ifndef BT_COMPLEXREPAIRS
 #define ProperArmor(mech) \
 (Cargo(\
        (MechSpecials(mech) & FF_TECH) ? FF_ARMOR : \
@@ -226,18 +225,12 @@ ECMD(tech_fix);
        (MechSpecials(mech) & REINFI_TECH) ? RE_INTERNAL : \
        (MechSpecials(mech) & COMPI_TECH) ? CO_INTERNAL : \
        S_INTERNAL))
-#endif
 
 #define GrabPartsM(m,a,b,c) econ_change_items(IsDS(m) ? AeroBay(m,0) : Location(m->mynum),a,b,0-c)
 #define PartAvailM(m,a,b,c) (econ_find_items(IsDS(m) ? AeroBay(m,0) : Location(m->mynum),a,b)>=c)
-#ifndef BT_COMPLEXREPAIRS
 #define AddPartsM(m,a,b,c) econ_change_items(IsDS(m) ? AeroBay(m,0) : Location(m->mynum), alias_part(m, a) , b, c)
-#else
-#define AddPartsM(m,l,a,b,c) econ_change_items(IsDS(m) ? AeroBay(m,0) : Location(m->mynum), alias_part(m, a, l) , b, c)
-#endif
 #define AVCHECKM(m,a,b,c)    DOCHECK1(!PartAvailM(m,a,b,c), tprintf("Not enough units of %s in store! You need to have at least %d.",part_name(a,b),c));
 
-#ifndef BT_COMPLEXREPAIRS
 #define alias_part(m,t) \
   (IsActuator(t) ? Cargo(S_ACTUATOR) : \
    (t == Special(ENGINE) ? \
@@ -247,7 +240,6 @@ ECMD(tech_fix);
      (MechSpecials(m) & CE_TECH) ? Cargo(COMP_ENGINE) : \
      (MechSpecials(m) & LE_TECH) ? Cargo(LIGHT_ENGINE) : t) : \
    (t == Special(HEAT_SINK) && MechHasDHS(m) ? Cargo(DOUBLE_HEAT_SINK) : t)))
-#endif
 
 ETECHEVENT(muxevent_tickmech_reattach);
 ETECHEVENT(muxevent_tickmech_reseal);

@@ -164,11 +164,4 @@ int FindAverageGunnery(MECH * mech);
 int CalculateBV(MECH *mech, int gunstat, int pilstat);
 #endif
 int MechFullNoRecycle(MECH * mech, int num);
-#ifdef BT_COMPLEXREPAIRS
-int GetPartMod(MECH * mech, int t);
-int ProperArmor(MECH* mech);
-int ProperInternal(MECH * mech);
-int alias_part(MECH * mech, int t, int loc);
-int ProperMyomer(MECH * mech);
-#endif
 #endif				/* _P_MECH_UTILS_H */
