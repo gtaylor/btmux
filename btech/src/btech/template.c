@@ -2504,6 +2504,7 @@ char *partlist_func(MECH * mech)
 				case LT_FERRO_FIBROUS:
 				case HVY_FERRO_FIBROUS:
 				case FERRO_FIBROUS:
+				case COCKPIT:
 					continue;
 				default:
 					break;

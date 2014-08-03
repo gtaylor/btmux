@@ -4334,15 +4334,18 @@ char *UnitPartsList(MECH * mech, int mode)
 
 	memset(sbuff, '\0', sizeof(sbuff));
 
-	strncat(sbuff, tprintf("%s:%d|",MechSpecials2(mech) & STEALTH_ARMOR_TECH ? "STH_Armor"
+	strncat(sbuff, tprintf("%s:%d|", MechSpecials2(mech) & STEALTH_ARMOR_TECH ? "STH_Armor"
 					: MechSpecials2(mech) & HVY_FF_ARMOR_TECH ? "HVY_FF_Armor"
 					: MechSpecials2(mech) & LT_FF_ARMOR_TECH ? "LT_FF_Armor"
 					: MechSpecials(mech) & HARDA_TECH ? "HD_Armor"
 					: MechSpecials(mech) & FF_TECH ? "FF_Armor" : "Armor", mech_armorpoints(mech)), LBUF_SIZE);
 
-	strncat(sbuff, tprintf("%s:%d|",MechSpecials(mech) & REINFI_TECH ? "RE_Internals"
+	strncat(sbuff, tprintf("%s:%d|", MechSpecials(mech) & REINFI_TECH ? "RE_Internals"
 					: MechSpecials(mech) & COMPI_TECH ? "CO_Internals"
 					: MechSpecials(mech) & ES_TECH ? "ES_Internal" : "Internal", mech_intpoints(mech)), LBUF_SIZE);
+
+	strncat(sbuff, tprintf("%s:%d|", MechSpecials2(mech) & SMALLCOCKPIT_TECH ? "Small_Cockpit" : "Cockpit", 1), LBUF_SIZE);
+
 
 	strncat(sbuff,tprintf("%s|", payloadlist_func(mech)), LBUF_SIZE);
 
