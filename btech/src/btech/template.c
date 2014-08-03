@@ -326,6 +326,7 @@ char *cargo[] = {
 	"Ammo_ATM12_ER",
 	"Ammo_ATM12_HE",
 	"SearchLight",
+	"Small_Cockpit",
 	NULL
 };
 
@@ -480,7 +481,6 @@ int cargoweight[] = {
 	1024,						/* Ammo_LAC2_Caseless */
 	1024,						/* Ammo_LAC5_Caseless */
 	1024,						/* Ammo_LRM_Sguided */
-	204,						/* SearchLight */
 	1024,						/* ATM3 ER*/
 	1024,						/* ATM3 HE */
 	1024,						/* ATM6 ER */
@@ -489,6 +489,8 @@ int cargoweight[] = {
 	1024,						/* ATM9 HE */
 	1024,						/* ATM12 HE */
 	1024,						/* ATM12 ER */
+	204,						/* SearchLight */
+	2048,						/* Small_Cockpit */
 };
 #endif /* BT_PART_WEIGHTS */
 
