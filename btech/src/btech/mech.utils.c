@@ -4344,7 +4344,8 @@ char *UnitPartsList(MECH * mech, int mode)
 					: MechSpecials(mech) & COMPI_TECH ? "CO_Internals"
 					: MechSpecials(mech) & ES_TECH ? "ES_Internal" : "Internal", mech_intpoints(mech)), LBUF_SIZE);
 
-	strncat(sbuff, tprintf("%s:%d|", MechSpecials2(mech) & SMALLCOCKPIT_TECH ? "Small_Cockpit" : "Cockpit", 1), LBUF_SIZE);
+	if (MechSpecials(mech) & SLITE_TECH)
+		strncat(sbuff, tprintf("%s:%d|", "SearchLight", 1), LBUF_SIZE);
 
 
 	strncat(sbuff,tprintf("%s|", payloadlist_func(mech)), LBUF_SIZE);

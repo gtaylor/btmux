@@ -1952,10 +1952,6 @@ int load_template(dbref player, MECH * mech, char *filename)
 				line2 = one_arg(line2, buf);	/* Don't need the '-' */
 				line2 = one_arg(line2, buf);
 
-/*              wFireModes = BuildBitVector(crit_fire_modes, buf); */
-
-/*              wAmmoModes = BuildBitVector(crit_ammo_modes, buf); */
-
 				wFireModes = BuildBitVectorWithDelim(crit_fire_modes, buf);
 				wAmmoModes = BuildBitVectorWithDelim(crit_ammo_modes, buf);
 
@@ -1981,10 +1977,6 @@ int load_template(dbref player, MECH * mech, char *filename)
 				line2 = one_arg(line2, buf);
 				GetPartData(mech, section, critical) = atoi(buf);
 				line2 = one_arg(line2, buf);
-
-/*              wFireModes = BuildBitVector(crit_fire_modes, buf); */
-
-/*              wAmmoModes = BuildBitVector(crit_ammo_modes, buf); */
 
 				wFireModes = BuildBitVectorWithDelim(crit_fire_modes, buf);
 				wAmmoModes = BuildBitVectorWithDelim(crit_ammo_modes, buf);
@@ -2177,7 +2169,6 @@ int load_template(dbref player, MECH * mech, char *filename)
 		Set(MechRadioRange(mech), MechComputersRadioRange(mech));
 		Set(MechTacRange(mech), MechComputersTacRange(mech));
 	}
-#if 1							/* Don't know if we're ready for this yet - aw, what the hell :) */
 	MechSpecials(mech) &= ~FLIPABLE_ARMS;
 	if(MechType(mech) == CLASS_MECH)
 		if((GetPartType(mech, LARM, 2) != Special(LOWER_ACTUATOR)) &&
@@ -2185,7 +2176,7 @@ int load_template(dbref player, MECH * mech, char *filename)
 		   (GetPartType(mech, LARM, 3) != Special(HAND_OR_FOOT_ACTUATOR))
 		   && (GetPartType(mech, RARM, 3) != Special(HAND_OR_FOOT_ACTUATOR)))
 			MechSpecials(mech) |= FLIPABLE_ARMS;
-#endif
+
 	update_specials(mech);
 	MechXPMod(mech) = 1.0; /* Default it to 1 (no mod effect at all) */
 	MechUnitsKilled(mech) = 0; /* Clear the mechs killed */
@@ -2504,8 +2495,6 @@ char *partlist_func(MECH * mech)
 				case LT_FERRO_FIBROUS:
 				case HVY_FERRO_FIBROUS:
 				case FERRO_FIBROUS:
-				case COCKPIT:
-					continue;
 				default:
 					break;
 			}
@@ -2542,9 +2531,17 @@ char *partlist_func(MECH * mech)
 				act_count = act_count + partlist_count[put_loop];
 				break;
 			case COCKPIT:
-				sprintf(partlistbuff, "%s:%d", MechSpecials2(mech) & SMALLCOCKPIT_TECH ? "Small_Cockpit" : "Cockpit",
+                sprintf(partlistbuff, "%s:%d", MechSpecials2(mech) & SMALLCOCKPIT_TECH ? "Small_Cockpit" : "Cockpit",
 					partlist_count[put_loop]);
-				break;
+				
+                /* If we are not at the end, then put a | as a spacer */
+                if(put_loop < (part_count - 1)) {
+                	strncat(partlistbuff, "|", sizeof(buffer) - strlen(buffer) - 1);
+                }
+
+                /* Adding it to the main buffer */
+                strncat(buffer, partlistbuff, sizeof(buffer) - strlen(buffer) - 1);
+                break;
 			case ENGINE:
 				sprintf(partlistbuff, "%s:%d", MechSpecials(mech) & LE_TECH ? "Light_Engine" :
 							MechSpecials(mech) & CE_TECH ? "Compact_Engine" :
@@ -2555,7 +2552,7 @@ char *partlist_func(MECH * mech)
 			
 				/* If we are not at the end, then put a | as a spacer */
 				if(put_loop < (part_count - 1)) {
-				strncat(partlistbuff, "|", sizeof(buffer) - strlen(buffer) - 1);
+					strncat(partlistbuff, "|", sizeof(buffer) - strlen(buffer) - 1);
 				}
 
 				/* Adding it to the main buffer */
