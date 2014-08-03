@@ -2541,6 +2541,10 @@ char *partlist_func(MECH * mech)
 			case HAND_OR_FOOT_ACTUATOR:
 				act_count = act_count + partlist_count[put_loop];
 				break;
+			case COCKPIT:
+				sprintf(partlistbuff, "%s:%d", MechSpecials2(mech) & SMALLCOCKPIT_TECH ? "Small_Cockpit" : "Cockpit",
+					partlist_count[put_loop]);
+				break;
 			case ENGINE:
 				sprintf(partlistbuff, "%s:%d", MechSpecials(mech) & LE_TECH ? "Light_Engine" :
 							MechSpecials(mech) & CE_TECH ? "Compact_Engine" :
