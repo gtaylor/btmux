@@ -4337,7 +4337,7 @@ char *UnitPartsList(MECH * mech, int mode)
 	strncat(sbuff, tprintf("%s:%d|",MechSpecials2(mech) & STEALTH_ARMOR_TECH ? "STH_Armor"
 					: MechSpecials2(mech) & HVY_FF_ARMOR_TECH ? "HVY_FF_Armor"
 					: MechSpecials2(mech) & LT_FF_ARMOR_TECH ? "LT_FF_Armor"
-					: MechSpecials(mech) & HARDA_TECH ? "HD_ARMOR"
+					: MechSpecials(mech) & HARDA_TECH ? "HD_Armor"
 					: MechSpecials(mech) & FF_TECH ? "FF_Armor" : "Armor", mech_armorpoints(mech)), LBUF_SIZE);
 
 	strncat(sbuff, tprintf("%s:%d|",MechSpecials(mech) & REINFI_TECH ? "RE_Internals"
