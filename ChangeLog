@@ -17,11 +17,16 @@ sos-fork 1.0:
 	* AI now startup immediately (startup override).
 	* AI sensor changes don't break locks. Sensor switching logic
 	  was causing constant lock breaks.
-    * @chzone no longer resets flags/powers. While this makes sense for a
-      game with player building, it's mostly annoying given that SoS has
-      no player building.
-    * Complete removal of BT_COMPLEXREPAIRS.
-    * Improved accuracy of btunitpartslist().
+	* @chzone no longer resets flags/powers. While this makes sense for a
+	  game with player building, it's mostly annoying given that SoS has
+	  no player building.
+	* Complete removal of BT_COMPLEXREPAIRS.
+	* Improved accuracy of btunitpartslist().
+	* SearchLights and ATM ammo weights were transposed.
+	* Added IS.LightMachineGun.
+	* Added BV2/Cost values for Hyper ACs.
+	* Added BV2/Cost values for ELRMs.
+	* Observatoric radios no longer use dark blue, as it's hard to see.
 
 btonline-btechmux 0.6:
 	- Changes
