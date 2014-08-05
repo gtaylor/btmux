@@ -2492,6 +2492,7 @@ char *partlist_func(MECH * mech)
 
 			/* We have ES_Internal and FF_Internal. Avoid duplication. */
 			switch(Special2I(temp_crit)) {
+				case STEALTH_ARMOR:
 				case ENDO_STEEL:
 				case LT_FERRO_FIBROUS:
 				case HVY_FERRO_FIBROUS:
