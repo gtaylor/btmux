@@ -234,7 +234,7 @@ struct weapon_struct MechWeapons[] = {
     {"IS.SmallLaser", VRT_IS_SL, TBEAM, 1, 3, 0, 1, 2, 3, 0, 1, 2, -1, 1,
         0, 50, -1, NONE, 9, 11250, 0, 0},
     {"IS.Flamer", VRT_IS_FLAMER, TBEAM, 3, 2, 0, 1, 2, 3, 0, -1, -1, -1, 1,
-    	0, 100, -1, CHEAT, 6, 7500, 0},
+    	0, 100, -1, CHEAT, 6, 7500, 0, 0},
 
 /* IS Level 2 Energy Weapons -- Verified 02/13/07 -- Power_Shaper */
     {"IS.ERPPC", VRT_IS_ERPPC, TBEAM, 15, 10, 0, 7, 14, 23, 0, 4, 10, 16,
@@ -251,6 +251,11 @@ struct weapon_struct MechWeapons[] = {
         4, 1, 0, 200, -1, PULSE, 48, 60000, 0, 0},
     {"IS.SmallPulseLaser", VRT_IS_SPL, TBEAM, 2, 3, 0, 1, 2, 3, 0, 1, 2,
         -1, 1, 0, 100, -1, PULSE, 12, 16000, 0, 0},
+/* ERFlamer does half heat. Figure that out then add it here. */
+/*
+    {"IS.ERFlamer", VRT_IS_FLAMER, TBEAM, 4, 2, 0, 3, 5, 7, 0, -1, -1, -1, 1,
+    	0, 100, -1, CHEAT, 16, 15000, 0, 0},
+*/
 
 /* IS Level 3 Energy Weapons -- Verified 02/13/07 -- Power_Shaper */
     {"IS.X-LargePulseLaser", VRT_IS_XLPL, TBEAM, 14, 9, 0, 5, 10, 15, 0, 3,
