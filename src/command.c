@@ -634,7 +634,7 @@ CMDENT command_table[] = {
 #else
 	{(char *) "help", NULL, 0, HELP_HELP, CS_ONE_ARG, do_help},
 #endif
-	{(char *) "inventory", NULL, 0, LOOK_INVENTORY, CS_NO_ARGS, do_inventory},
+	{(char *) "muxinventory", NULL, 0, LOOK_INVENTORY, CS_NO_ARGS, do_inventory},
 	{(char *) "leave", leave_sw, CA_LOCATION, 0, CS_NO_ARGS | CS_INTERP,
 	 do_leave},
 	{(char *) "look", look_sw, CA_LOCATION, LOOK_LOOK, CS_ONE_ARG | CS_INTERP, do_look},
