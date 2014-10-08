@@ -1594,6 +1594,41 @@ void fun_btloadmap(char *buff, char **bufc, dbref player, dbref cause,
 	safe_str("1", buff, bufc);
 }
 
+void fun_btsetmaphex(char *buff, char **bufc, dbref player, dbref cause,
+        char *fargs[], int nfargs, char *cargs[], int ncargs)
+{
+    /* fargs[0] = mapobject
+       fargs[1] = x
+       fargs[2] = y
+       fargs[3] = Terrain symbol
+       fargs[4] = Elevation
+     */
+    int mapdbref, x, y;
+    char elev;
+    MAP *map;
+
+    FUNCHECK(nfargs != 5,
+            "#-1 BTSETMAPHEX TAKES 5 ARGUMENTS");
+    FUNCHECK(!WizR(player), "#-1 PERMISSION DENIED");
+    mapdbref = match_thing(player, fargs[0]);
+    FUNCHECK(!Good_obj(mapdbref), "#-1 INVALID TARGET");
+    map = getMap(mapdbref);
+    FUNCHECK(!map, "#-1 INVALID TARGET");
+    x = atoi(fargs[1]);
+    y = atoi(fargs[2]);
+    elev = abs(atoi(fargs[4]));
+
+    FUNCHECK(!((x >= 0) && (x < map->map_width) && (y >= 0) &&
+            (y < map->map_height)), "X,Y out of range!");
+
+    if(*fargs[3] == '.')
+        SetTerrain(map, x, y, ' ');
+    else
+        SetTerrain(map, x, y, *fargs[3]);
+    SetElevation(map, x, y, (elev <= MAX_ELEV) ? elev : MAX_ELEV);
+    safe_str("1", buff, bufc);
+}
+
 void fun_btloadmech(char *buff, char **bufc, dbref player, dbref cause,
 					char *fargs[], int nfargs, char *cargs[], int ncargs)
 {

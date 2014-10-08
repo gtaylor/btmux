@@ -1,6 +1,8 @@
 \[autoconf.h\].in
 .settings
+.idea
 .project
+CMakeLists.txt
 .cproject
 *.o
 *.lo
