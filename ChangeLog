@@ -27,6 +27,7 @@ sos-fork 1.0:
 	* Added BV2/Cost values for Hyper ACs.
 	* Added BV2/Cost values for ELRMs.
 	* Observatoric radios no longer use dark blue, as it's hard to see.
+	* Added btsetmaphex(), which acts like ADDHEX.
 
 btonline-btechmux 0.6:
 	- Changes
