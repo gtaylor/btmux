@@ -15,8 +15,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#undef FILES_COMPRESSED_BY_DEFAULT
-
 FILE *my_open_file(char *name, char *mode, int *openway)
 {
 	FILE *f;
@@ -24,20 +22,10 @@ FILE *my_open_file(char *name, char *mode, int *openway)
 	char buf2[512];
 
 	if(!strcmp(mode, "w")) {
-#ifdef FILES_COMPRESSED_BY_DEFAULT
-
-/*       dup2(2, 1); */
-		sprintf(buf, "nice gzip -c > %s.gz", name);
-		if(!(f = popen(buf, mode)))
-			return NULL;
-		*openway = 1;
-		return f;
-#else
 		if(!(f = fopen(name, mode)))
 			return NULL;
 		*openway = 0;
 		return f;
-#endif
 	}
 	if((f = fopen(name, mode))) {
 		*openway = 0;
