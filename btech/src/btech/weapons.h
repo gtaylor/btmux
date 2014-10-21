@@ -340,7 +340,7 @@ struct weapon_struct MechWeapons[] = {
         10, 10, 1500, -1, IDF | DAR, 115, 475000, 16, 15000},
     {"IS.ThumperCannon", VRT_IS_THUMPERC, TARTILLERY, 6, 5, 3, 4, 9, 14, 0, -1, -1, -1,
         7, 20, 1000, -1, IDF | DAR, 58, 200000, 7, 10000},
-    {"IS.HeavyMachineGun", VRT_IS_HMG, TAMMO, 0, 2, 0, 2, 4, 6, 0, -1, -1,
+    {"IS.HeavyMachineGun", VRT_IS_HMG, TAMMO, 0, 3, 0, 1, 2, 3, 0, -1, -1,
             -1, 1, 100, 100, -1, GMG, 6, 7500, 1, 1000},
 
 
