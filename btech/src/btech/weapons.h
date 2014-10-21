@@ -1,16 +1,8 @@
 /*
- * $Id: weapons.h,v 1.1.1.1 2005/01/11 21:18:33 kstevens Exp $
- *
- * Last modified: $Date: 2005/01/11 21:18:33 $
- *
  * Header file for weapons, includes specific featured lists.
  */
 
-#ifdef BT_USE_VRT
 #include "weapons.vrt.h"
-#else
-#include "weapons.fasa.h"
-#endif
 
 struct weapon_struct MechWeapons[] = {
 

@@ -22,9 +22,6 @@
  */
 #define BT_ADVANCED_ECON_INIT
 
-/* Define if you want Variable Recycle Times for weapons */
-#define BT_USE_VRT
-
 /* Define if you want part-specific weights for cargo */
 #define BT_PART_WEIGHTS
 

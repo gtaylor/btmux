@@ -10,6 +10,7 @@ CMakeLists.txt
 *~
 *.swp
 cscope.out
+btmux.xcodeproj
 
 /backups
 
