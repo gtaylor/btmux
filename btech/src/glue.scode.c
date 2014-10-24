@@ -1476,6 +1476,46 @@ void fun_btlosm2m(char *buff, char **bufc, dbref player, dbref cause,
 }
 
 /*
+ * Returns a list of mech DBrefs that the given mech has LOS on.
+ */
+void fun_btmechloslist(char *buff, char **bufc, dbref player, dbref cause,
+                       char *fargs[], int nfargs, char *cargs[], int ncargs)
+{
+    /*
+     * fargs[0] = mech
+     * */
+
+    int mechnum, i;
+    MECH *mech, *tempMech;
+    MAP *mech_map;
+    char buf[LBUF_SIZE], bufa[SBUF_SIZE];
+
+    FUNCHECK(!WizR(player), "#-1 PERMISSION DENIED");
+    mechnum = match_thing(player, fargs[0]);
+    FUNCHECK(mechnum == NOTHING || !Examinable(player, mechnum),
+             "#-1 INVALID MECH");
+    FUNCHECK(!IsMech(mechnum), "#-1 INVALID MECH");
+    FUNCHECK(!(mech = getMech(mechnum)), "#-1 INVALID MECH");
+
+    mech_map = getMap(mech->mapindex);
+    // We're going to be spamming the hell out of this. Let's just try
+    // using what we have already for now.
+    // possibly_see_mech(mech);
+
+    for(i = 0; i < mech_map->first_free; i++)
+        if(mech_map->mechsOnMap[i] != -1 &&
+           mech_map->mechsOnMap[i] != mech->mynum)
+            if((tempMech = getMech(mech_map->mechsOnMap[i])))
+                if(InLineOfSight(mech, tempMech, MechX(tempMech), MechY(tempMech),
+                                 FlMechRange(mech_map, mech, tempMech))) {
+                    sprintf(bufa, "#%d ", (int) mech_map->mechsOnMap[i]);
+                    strcat(buf, bufa);
+                }
+
+    safe_tprintf_str(buff, bufc, buf);
+}
+
+/*
  * btaddstores(<MapDB>, <PartName>, <Amount>)
  *
  * Adds the specified parts/commodities to a map. The maximum value for <PartName> is the define, ADDSTORES_MAX.
