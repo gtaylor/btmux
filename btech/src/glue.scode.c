@@ -1476,7 +1476,12 @@ void fun_btlosm2m(char *buff, char **bufc, dbref player, dbref cause,
 }
 
 /*
- * Returns a list of mech DBrefs that the given mech has LOS on.
+ * Returns a space-delimited list of mech DBrefs that the given mech has LOS on.
+ *
+ * Each entry in the list is in the following format:
+ *
+ * <ID>:<DBref>:<Bearing>:<range>
+ *
  */
 void fun_btmechloslist(char *buff, char **bufc, dbref player, dbref cause,
                        char *fargs[], int nfargs, char *cargs[], int ncargs)
@@ -1508,7 +1513,13 @@ void fun_btmechloslist(char *buff, char **bufc, dbref player, dbref cause,
             if((tempMech = getMech(mech_map->mechsOnMap[i])))
                 if(InLineOfSight(mech, tempMech, MechX(tempMech), MechY(tempMech),
                                  FlMechRange(mech_map, mech, tempMech))) {
-                    sprintf(bufa, "#%d ", (int) mech_map->mechsOnMap[i]);
+                    sprintf(bufa, "%s:#%d:%d:%.2f ",
+                            MechIDS(tempMech, 0),
+                            (int) mech_map->mechsOnMap[i],
+                            FindBearing(
+                                    MechFX(mech), MechFY(mech),
+                                    MechFX(tempMech), MechFY(tempMech)),
+                            FlMechRange(mech_map, mech, tempMech));
                     strcat(buf, bufa);
                 }
 
