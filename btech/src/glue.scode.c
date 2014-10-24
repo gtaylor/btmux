@@ -1506,6 +1506,7 @@ void fun_btmechloslist(char *buff, char **bufc, dbref player, dbref cause,
     // We're going to be spamming the hell out of this. Let's just try
     // using what we have already for now.
     // possibly_see_mech(mech);
+    FUNCHECK(!mech_map, "#-1 UNIT NOT ON A MAP");
 
     for(i = 0; i < mech_map->first_free; i++)
         if(mech_map->mechsOnMap[i] != -1 &&
