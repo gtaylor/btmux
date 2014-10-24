@@ -28,6 +28,7 @@ sos-fork 1.0:
 	* Added BV2/Cost values for ELRMs.
 	* Observatoric radios no longer use dark blue, as it's hard to see.
 	* Added btsetmaphex(), which acts like ADDHEX.
+	* Newly created non-robot players auto-add macro set 0.
 
 btonline-btechmux 0.6:
 	- Changes

@@ -15,6 +15,7 @@
 #include "attrs.h"
 #include "powers.h"
 #include "command.h"
+#include "commac.h"
 
 #define	NUM_GOOD	4			/*
 								 * # of successful logins to save data for 
@@ -274,6 +275,7 @@ dbref create_player(char *name, char *password, dbref creator, int isrobot,
 {
 	dbref player;
 	char *pbuf;
+	struct commac *c;
 
 	/*
 	 * Make sure the password is OK.  Name is checked in create_obj 
@@ -302,6 +304,15 @@ dbref create_player(char *name, char *password, dbref creator, int isrobot,
 	} else {
 		if(*mudconf.public_channel)
 			do_addcom(player, player, 0, "pub", mudconf.public_channel);
+	}
+
+	if(!isrobot) {
+	    /*
+	     * Auto-add macro set 0 so they don't have to. Didn't seem to want to
+	     * work when we were trying to @fo them, so we do it here.
+	     */
+	    c = get_commac(player);
+	    c->macros[0] = 0;
 	}
 
 	s_Pass(player, crypt(pbuf, "XX"));
