@@ -228,8 +228,6 @@ void mech_jump_event(MUXEVENT * e)
 		StopJump(mech);
 }
 
-extern int PilotStatusRollNeeded[];
-
 void mech_recovery_event(MUXEVENT * e)
 {
 	MECH *mech = (MECH *) e->data;
