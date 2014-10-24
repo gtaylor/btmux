@@ -117,6 +117,7 @@ extern void fun_btunitpartslist_ref();
 extern void fun_btlistblz();
 extern void fun_bthexinblz();
 extern void fun_btcharlist();
+extern void fun_btflushtemplatecache();
 extern void fun_cobj();
 extern void fun_config();
 
@@ -5814,6 +5815,7 @@ FUN flist[] = {
 	{"BTWEAPONSTATUS", fun_btweaponstatus, 0, FN_VARARGS, CA_WIZARD},
 	{"BTWEAPONSTATUS_REF", fun_btweaponstatus_ref, 0, FN_VARARGS, CA_WIZARD},
 	{"BTWEAPSTAT", fun_btweapstat, 2, 0, CA_WIZARD},
+	{"BTFLUSHTEMPLATECACHE", fun_btflushtemplatecache, 0, 0, CA_WIZARD},
 	{"CAPSTR", fun_capstr, -1, 0, CA_PUBLIC},
 	{"CART2HEX", fun_cart2hex, 2, 0, CA_PUBLIC},
 	{"CASE", fun_case, 0, FN_VARARGS | FN_NO_EVAL, CA_PUBLIC},

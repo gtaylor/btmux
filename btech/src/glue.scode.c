@@ -2744,12 +2744,21 @@ void fun_bthexinblz(char *buff, char **bufc, dbref player, dbref cause,
 	safe_tprintf_str(buff, bufc, "%d", bl);
 }
 
-void
-fun_btlag(char *buff, char **bufc, dbref player, dbref cause,
-          char *fargs[], int nfargs, char *cargs[], int ncargs)
+void fun_btlag(char *buff, char **bufc, dbref player, dbref cause,
+               char *fargs[], int nfargs, char *cargs[], int ncargs)
 {
 	char buf[256];
 
 	sprintf(buf, "%d", game_lag());
 	safe_str(buf, buff, bufc);
+}
+
+/*
+ * Flushes the template cache. This was used to reduce disk IO, I guess.
+ */
+void fun_btflushtemplatecache(char *buff, char **bufc, dbref player, dbref cause,
+                              char *fargs[], int nfargs, char *cargs[], int ncargs)
+{
+    free_template_list();
+	safe_str("1", buff, bufc);
 }

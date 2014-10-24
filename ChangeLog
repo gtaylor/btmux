@@ -29,6 +29,8 @@ sos-fork 1.0:
 	* Observatoric radios no longer use dark blue, as it's hard to see.
 	* Added btsetmaphex(), which acts like ADDHEX.
 	* Newly created non-robot players auto-add macro set 0.
+	* Added btflushtemplatecache(). We generate template files externally. This
+	  lets us apply those changes without a @restart.
 
 btonline-btechmux 0.6:
 	- Changes

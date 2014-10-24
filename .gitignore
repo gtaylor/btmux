@@ -9,6 +9,7 @@ CMakeLists.txt
 *.la
 *~
 *.swp
+*.loT
 cscope.out
 btmux.xcodeproj
 

@@ -451,7 +451,7 @@ static int scan_templates(char const *dir)
  * Free all the memory used by the template cache.  Sets the cache to
  * the empty state.
  */
-static void free_template_list()
+void free_template_list()
 {
 	struct tmpldir *p;
 
@@ -472,27 +472,6 @@ static void free_template_list()
 
 	return;
 }
-
-char *subdirs[] = {
-	"3025",
-	"3050",
-	"3055",
-	"3058",
-	"3060",
-	"2750",
-	"Aero",
-	"MISC",
-	"Clan",
-	"ClanVehicles",
-	"Clan2nd",
-	"ClanAero",
-	"Custom",
-	"Solaris",
-	"Vehicles",
-	"MFNA",
-	"Infantry",
-	NULL
-};
 
 void mechrep_Rloadnew(dbref player, void *data, char *buffer)
 {
@@ -592,10 +571,6 @@ char *mechref_path(char *id)
 	 */
 	sprintf(openfile, "%s/%s", MECH_PATH, id);
 	fp = fopen(openfile, "r");
-	for(i = 0; !fp && subdirs[i]; i++) {
-		sprintf(openfile, "%s/%s/%s", MECH_PATH, subdirs[i], id);
-		fp = fopen(openfile, "r");
-	}
 	if(fp) {
 		fclose(fp);
 		return openfile;
@@ -734,9 +709,6 @@ int load_mechdata(MECH * mech, char *id)
 	return 1;
 }
 
-#undef  LOADNEW_LOADS_OLD_IF_FAIL
-#define LOADNEW_LOADS_MUSE_FORMAT
-
 int mech_loadnew(dbref player, MECH * mech, char *id)
 {
 	char mech_origid[100];
@@ -752,15 +724,8 @@ int mech_loadnew(dbref player, MECH * mech, char *id)
 	} else {
 		clear_mech(mech, 1);
 		if(load_mechdata2(player, mech, id) < 1)
-#ifdef LOADNEW_LOADS_MUSE_FORMAT
 			if(load_mechdata(mech, id) < 1)
-#endif
-#ifdef LOADNEW_LOADS_OLD_IF_FAIL
-				if(load_mechdata2(player, mech, mech_origid) < 1)
-#ifdef LOADNEW_LOADS_MUSE_FORMAT
-					if(load_mechdata(mech, mech_origid) < 1)
-#endif
-#endif
+				if(load_mechdata(mech, mech_origid) < 1)
 						return 0;
 	}
 	return 1;
