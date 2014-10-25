@@ -31,7 +31,8 @@ sos-fork 1.0:
 	* Newly created non-robot players auto-add macro set 0.
 	* Added btflushtemplatecache(). We generate template files externally. This
 	  lets us apply those changes without a @restart.
-        * Added btmechloslist(), which lists all units the given mech has LOS on.
+    * Added btmechloslist(), which lists all units the given mech has LOS on.
+    * Movement mode changes reduced to a half turn from a full turn.
 
 btonline-btechmux 0.6:
 	- Changes

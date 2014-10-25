@@ -1374,7 +1374,7 @@ void mech_sprint(dbref player, void *data, char *buffer)
 					"You begin the process of ceasing to sprint.");
 		MECHEVENT(mech, EVENT_MOVEMODE, mech_movemode_event,
 				  (MechType(mech) == CLASS_BSUIT
-				   || MechType(mech) == CLASS_MW) ? TURN / 2 : TURN, d);
+				   || MechType(mech) == CLASS_MW) ? TURN / 2 : TURN / 2, d);
 	}
 	return;
 }
