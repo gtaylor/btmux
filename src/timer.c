@@ -136,11 +136,6 @@ void dispatch()
 {
 	char *cmdsave;
 
-#ifdef USE_PYTHON
-	mudstate.debug_cmd = "< Python >";
-	updatePython();
-#endif
-
 	cmdsave = mudstate.debug_cmd;
 	DPSET("< dispatch >");
 	/*

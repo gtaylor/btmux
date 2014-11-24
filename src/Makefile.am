@@ -22,7 +22,7 @@ netmux_SOURCES = dummy.cc \
 	create.c db.c db_xml.c db_xdr.c db_rw.c dllist.c dnschild.c eval.c \
 	file_c.c flags.c funceval.c functions.c game.c help.c log.c look.c \
 	macro.c mail.c match.c mguests.c move.c mmdb.c nametab.c netcommon.c \
-	nrbtab.c object.c player.c player_c.c powers.c predicates.c python.c \
+	nrbtab.c object.c player.c player_c.c powers.c predicates.c \
 	rbtree.c rbtab.c rob.c set.c signal.c speech.c stringutil.c timer.c \
 	unparse.c vattr.c walkdb.c wild.c wiz.c $(netmux_OPTIONAL) \
 	version.c

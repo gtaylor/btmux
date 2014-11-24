@@ -559,10 +559,6 @@ CMDENT command_table[] = {
 	{(char *) "@power", NULL, 0, 0, CS_TWO_ARG, do_power},
 	{(char *) "@program", NULL, CA_PUBLIC, 0, CS_TWO_ARG | CS_INTERP,
 	 do_prog},
-#ifdef USE_PYTHON
-	{(char *) "@python", NULL, CA_WIZARD, 0, CS_INTERP | CS_ONE_ARG,
-	 do_python},
-#endif
 	{(char *) "@ps", ps_sw, 0, 0, CS_ONE_ARG | CS_INTERP, do_ps},
 	{(char *) "@quota", quota_sw, 0, 0, CS_TWO_ARG | CS_INTERP, do_quota},
 	{(char *) "@quitprogram", NULL, CA_PUBLIC, 0, CS_ONE_ARG | CS_INTERP,
@@ -667,10 +663,6 @@ CMDENT command_table[] = {
 	 CS_ONE_ARG | CS_INTERP | CS_LEADIN, do_say},
 	{(char *) ";", NULL, CA_LOCATION | CF_DARK, SAY_PREFIX,
 	 CS_ONE_ARG | CS_INTERP | CS_LEADIN, do_say},
-#ifdef USE_PYTHON
-	{(char *) ",", NULL, CA_WIZARD, 0, CS_ONE_ARG | CS_LEADIN | CS_INTERP,
-	 do_python},
-#endif
 	{(char *) "\"", NULL, CA_LOCATION | CF_DARK, SAY_PREFIX,
 	 CS_ONE_ARG | CS_INTERP | CS_LEADIN, do_say},
 	{(char *) "&", NULL, CA_NO_GUEST | CA_NO_SLAVE | CF_DARK, 0,
@@ -766,10 +758,6 @@ void set_prefix_cmds()
 		(CMDENT *) hashfind((char *) "-", &mudstate.command_htab);
 	prefix_cmds['~'] =
 		(CMDENT *) hashfind((char *) "~", &mudstate.command_htab);
-#ifdef USE_PYTHON
-	prefix_cmds[','] =
-		(CMDENT *) hashfind((char *) ",", &mudstate.command_htab);
-#endif
 }
 
 /* 

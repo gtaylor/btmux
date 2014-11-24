@@ -151,12 +151,6 @@ void do_show_stat(dbref, dbref, int);
 void fake_hudinfo(dbref, dbref, int, char *);
 #endif
 
-#ifdef USE_PYTHON
-
-/* From python.c */
-void do_python(dbref, dbref, int, char *);
-#endif
-
 typedef struct cmdentry CMDENT;
 struct cmdentry {
     char *cmdname;
