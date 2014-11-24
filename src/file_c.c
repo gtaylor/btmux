@@ -1,5 +1,9 @@
 /*
- * file_c.c -- File cache management 
+ * file_c.c -- File cache management
+ *
+ * The file cache contains things like the connection banner, MOTD,
+ * and etc. We cache the contents of various text files so we don't have to
+ * hit disk.
  */
 
 #include <dirent.h>
@@ -35,28 +39,17 @@ struct filecache_block {
 #define FBLOCK_SIZE (MBUF_SIZE - sizeof(FBLKHDR))
 
 FCACHE fcache[] = {
-	{mudconf.conn_file, NULL, "Conn"}
-	,
-	{mudconf.site_file, NULL, "Conn/Badsite"}
-	,
-	{mudconf.down_file, NULL, "Conn/Down"}
-	,
-	{mudconf.full_file, NULL, "Conn/Full"}
-	,
-	{mudconf.guest_file, NULL, "Conn/Guest"}
-	,
-	{mudconf.creg_file, NULL, "Conn/Reg"}
-	,
-	{mudconf.crea_file, NULL, "Crea/Newuser"}
-	,
-	{mudconf.regf_file, NULL, "Crea/RegFaill"}
-	,
-	{mudconf.motd_file, NULL, "Motd"}
-	,
-	{mudconf.wizmotd_file, NULL, "Wizmotd"}
-	,
-	{mudconf.quit_file, NULL, "Quit"}
-	,
+	{mudconf.conn_file, NULL, "Conn"},
+	{mudconf.site_file, NULL, "Conn/Badsite"},
+	{mudconf.down_file, NULL, "Conn/Down"},
+	{mudconf.full_file, NULL, "Conn/Full"},
+	{mudconf.guest_file, NULL, "Conn/Guest"},
+	{mudconf.creg_file, NULL, "Conn/Reg"},
+	{mudconf.crea_file, NULL, "Crea/Newuser"},
+	{mudconf.regf_file, NULL, "Crea/RegFaill"},
+	{mudconf.motd_file, NULL, "Motd"},
+	{mudconf.wizmotd_file, NULL, "Wizmotd"},
+	{mudconf.quit_file, NULL, "Quit"},
 	{NULL, NULL, NULL}
 };
 
@@ -97,11 +90,7 @@ static FBLOCK *fcache_fill(FBLOCK * fp, char ch)
 	FBLOCK *tfp;
 
 	if(fp->hdr.nchars >= (MBUF_SIZE - sizeof(FBLKHDR))) {
-
-		/*
-		 * We filled the current buffer.  Go get a new one. 
-		 */
-
+		// We filled the current buffer.  Go get a new one.
 		tfp = fp;
 		fp = (FBLOCK *) alloc_mbuf("fcache_fill");
 		fp->hdr.nxt = NULL;
@@ -200,7 +189,7 @@ void fcache_read_dir(char *dir, FCACHE foo[], int *cnt, int max)
 	struct dirent *de;
 	char buf[LBUF_SIZE];
 
-	bzero(&foo[0], sizeof(FCACHE) * max);
+	memset(&foo, 0, sizeof(FCACHE));
 	if(!(d = opendir(dir)))
 		return;
 	for(*cnt = 0; *cnt < max;) {

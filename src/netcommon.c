@@ -347,9 +347,8 @@ void clearstrings(DESC * d)
 	}
 }
 
-/*
- * ---------------------------------------------------------------------------
- * * queue_write: Add text to the output queue for the indicated descriptor.
+/** Adds text to the output queue for the indicated descriptor.
+ * \param d The descriptor to queue output to.
  */
 
 void queue_write(DESC * d, char *b, int n)
@@ -363,6 +362,9 @@ void queue_write(DESC * d, char *b, int n)
 	return;
 }
 
+/** Queues a string to go out to a descriptor.
+ * \param d The descriptor to queue output to.
+ */
 void queue_string(DESC * d, const char *s)
 {
 	char new[LBUF_SIZE];
@@ -371,7 +373,7 @@ void queue_string(DESC * d, const char *s)
 	new[LBUF_SIZE-1] = '\0';
 
 	if(!Ansi(d->player) && index(s, ESC_CHAR)) 
-	        strip_ansi_r(new, s, strlen(s));
+        strip_ansi_r(new, s, strlen(s));
     queue_write(d, new, strlen(new));
 }
 
@@ -382,8 +384,8 @@ void freeqs(DESC * d)
     d->input_tail = 0;
     memset(d->input, 0, sizeof(d->input));
 }
-extern int fcache_conn_c;
 
+extern int fcache_conn_c;
 void welcome_user(DESC * d)
 {
 	if(d->host_info & H_REGISTRATION)
