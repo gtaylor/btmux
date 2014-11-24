@@ -189,7 +189,7 @@ void fcache_read_dir(char *dir, FCACHE foo[], int *cnt, int max)
 	struct dirent *de;
 	char buf[LBUF_SIZE];
 
-	memset(&foo, 0, sizeof(FCACHE));
+	memset(&foo, 0, sizeof(FCACHE) * max);
 	if(!(d = opendir(dir)))
 		return;
 	for(*cnt = 0; *cnt < max;) {
